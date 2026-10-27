@@ -1,0 +1,96 @@
+Consulting Studio
+Copyright 2026 cogni-work contributors
+
+Consulting Studio modification, 2026-10-24: application colors, typography roles,
+compact brand treatment and triangle mark adapt the Cogni Work Design System at
+insight-wave commit fbce470260b9244b3a687bf1177a593f5f6600e3, Apache-2.0.
+The existing insight-wave copyright notice below applies. No external font service
+is used. See docs/architecture/cogni-work-app-design.md; no official brand
+certification is implied.
+
+Unmodified DM Sans and JetBrains Mono font binaries are extracted from the
+owner-supplied Cogni Work HTML template. Their full SIL Open Font License 1.1
+notices accompany the files under implementation/embedded-ui/src/assets/fonts/
+and are embedded in the standalone App HTML. Their independent OFL terms apply:
+Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts)
+Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)
+
+LICENSE Part A contains the owner-approved standard terms for separately
+identified future commercial deliveries, when incorporated into an agreement.
+Part B preserves the complete existing Apache License, Version 2.0 text.
+Existing recipient grants and independently licensed material remain preserved;
+no current or historical package is commercially relicensed by this source change.
+
+Product vision and business architecture are selectively adapted from
+cogni-work/cogni-consulting, commit
+651a17604ab3cb456010b804b334e9c504a3fad9, licensed under Apache-2.0.
+Applicable source notice:
+
+    cogni-consulting
+    Copyright 2026 Stephan de Haas / cogni-work.ai
+
+The problem-structuring and framework-selection vocabulary also derives through
+the prior Consulting Studio method references from insight-wave
+(https://github.com/cogni-work/insight-wave), recorded upstream commit
+fbce470260b9244b3a687bf1177a593f5f6600e3, licensed under Apache-2.0.
+Applicable incorporated-material notice:
+
+    insight-wave
+    Copyright 2026 Stephan de Haas / cogni-work.ai
+
+Consulting Studio modification, 2026-10-04: rewritten as a product-vision and
+business-architecture specification. Multi-host compatibility, plugin/skill
+packaging, implementation scaffolding and runtime/distribution procedures removed;
+shared-knowledge, human-decision and complete-engagement business requirements
+retained/adapted. No upstream code, fonts or renderer assets are included.
+Source scope, digests and deliberate adaptations are recorded in docs/provenance.md.
+
+Consulting Studio modification, 2026-10-05: proposed workspace-agent entry and
+canonical specification/implementation home. The exact Consulting Studio private
+pilot from cogni-work/consulting-studio-build, commit
+3770a48705246ee0425496f8cda3eb75b6810fef, is preserved under implementation/ with
+original Git history. That source contains no separate LICENSE/NOTICE or identified
+third-party package assets. Existing Consulting Studio terms and attribution remain.
+Import scope and path/commit mapping are recorded in docs/consolidation.md.
+
+Consulting Studio modification, 2026-10-09: independently written communication-craft
+requirements selectively adapt the audience/narrative vocabulary from cogni-publishing
+0.0.35 at insight-wave commit fbce470260b9244b3a687bf1177a593f5f6600e3
+(Apache-2.0; existing insight-wave copyright notice above applies).
+Theme-selection/application concepts are informed by Anthropic theme-factory at
+commit 683bc88e56f3e09ba94f7055977f3d3aa499f202, Apache-2.0:
+
+    Copyright 2026 Anthropic, PBC.
+
+Doc-coauthoring is credited as a conceptual workflow reference at the same revision.
+Bruce Mau's MC24, “Quantify and Visualize,” is credited as owner-supplied inspiration.
+No book pages/images, theme assets, fonts or upstream renderer code are redistributed.
+The precise source/adaptation boundaries are recorded in docs/provenance.md.
+
+Consulting Studio modification proposal, 2026-10-13: LICENSE now separates
+non-operative future commercial wording from the unchanged existing Apache text.
+No prior-release license, upstream attribution or third-party right is withdrawn.
+That draft's standing is superseded by the 2026-10-14 approval below. This notice
+is informational and supplies no clearance of all dependencies; actual delivery
+records and qualified legal review remain necessary for a customer agreement.
+The earlier no-import/redistribution statements describe the named upstream
+adaptations. Historical generated fixtures may contain embedded fonts; their
+provenance, license and notice basis require delivery-specific review.
+
+Owner rights confirmation, 2026-10-13: Stephan de Haas states that his own
+contributions were created independently of employer/client rights and that he
+has granted no exclusive use rights in them to others. The first-party
+scope uses that statement; it is not independent title certification and changes
+neither actual third-party terms/notices nor rights already granted to recipients.
+S44 identifies the natural-person licensor from the owner's supplied
+Impressum: Dipl.-Ing. Stephan Peter de Haas, trading as cogni-work.ai. A separately
+identified future commercial release/component list and customer order supply
+the actual delivery and update dates. The agreed use boundaries are not reopened
+and no current package is relicensed.
+
+Consulting Studio modification, 2026-10-14: S45 records the owner's explicit
+"License approved". LICENSE Part A is adopted as the standard for separately
+identified future commercial deliveries/orders. Existing Apache grants and actual
+third-party terms/notices remain in force. The released and installed 0.1.1 package,
+its archives and all historical evidence remain unchanged; future package/native
+adoption needs its own version. Owner approval does not establish legal review.

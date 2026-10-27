@@ -1,0 +1,606 @@
+{
+  "authority": "Current actor/context/policy and actual business deciders; draft preparation grants no write or state transition",
+  "categories": [
+    "personal",
+    "shared"
+  ],
+  "common_contract": "../workspace-bindings/contract.md",
+  "contract_version": "0.3.1",
+  "cross_cutting_entities": [
+    "Human Note / Dissent",
+    "Decision",
+    "Evidence Permission",
+    "Location Binding",
+    "Knowledge Contribution"
+  ],
+  "discovery": "personal-index only when useful; no mandatory read or full scan",
+  "distribution_modification_notice": "Consulting Studio modification, 2026-10-27: local resource locators were packaged; an explicit working-instruction read was added where applicable. Exact source identities and changes are recorded in the accompanying manifests.",
+  "entity_types": [
+    "Account / Relationship",
+    "Agreement Reference",
+    "Artifact",
+    "Baseline",
+    "Buyer Brief",
+    "Claim",
+    "Closure",
+    "Decision",
+    "Deliverable",
+    "Design Reference",
+    "Engagement",
+    "Evidence Permission",
+    "Follow-up",
+    "Handoff",
+    "Human Note / Dissent",
+    "Knowledge Contribution",
+    "Knowledge Question",
+    "Location Binding",
+    "Location Index / Catalog",
+    "Milestone",
+    "Need",
+    "Offering",
+    "Opportunity",
+    "Outcome",
+    "Party",
+    "Planning Assumption",
+    "Problem Structure",
+    "Proposal",
+    "Pursuit Strategy",
+    "Reservation",
+    "Result",
+    "Risk / Issue / Assumption / Dependency",
+    "Scope Change",
+    "Source",
+    "Stakeholder",
+    "Synthesis",
+    "Work Item"
+  ],
+  "output_rule": "Resolve delivery mode/home early from the explicit choice, current entity home and applicable adopted workflow instruction; chat-only/read-only scope causes no unsolicited write. Retained outputs require actual authority, save/readback and final link; saving grants no acceptance or release.",
+  "roles": {
+    "artifact-home": "Exact rendered outputs and inspection evidence",
+    "entity-home": "Current authoritative business records or selected home for new records",
+    "feedback-drafts": "Sanitized product proposals; no publication implied",
+    "knowledge-wiki": "Retained source/claim/synthesis and reviewed contribution home",
+    "method-settings": "Applicable methods/domain requirements/settings; separate from content",
+    "personal-index": "Optional acting-user discovery preferences and catalog references",
+    "research-sources": "Relevant permitted evidence search/read locations"
+  },
+  "semantic_contract": "entity-lineage.md",
+  "skills": [
+    {
+      "entities": [
+        "Need",
+        "Buyer Brief",
+        "Problem Structure"
+      ],
+      "family": "shared-craft",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "structure-problem",
+      "work_products": []
+    },
+    {
+      "contract_ref": "../../../../SKILL.md",
+      "entities": [
+        "Source",
+        "Claim",
+        "Planning Assumption",
+        "Knowledge Question",
+        "Synthesis",
+        "Knowledge Contribution"
+      ],
+      "family": "shared-craft",
+      "prepared_output_roles": [
+        "knowledge-wiki",
+        "entity-home"
+      ],
+      "read_roles": [
+        "knowledge-wiki",
+        "research-sources",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "evidence-research",
+      "work_products": []
+    },
+    {
+      "contract_ref": "../skills/evidence-ask/procedure.md",
+      "default_mode": "read-only; reply/view only, no entity/settings mutation",
+      "entities": [
+        "Source",
+        "Claim",
+        "Knowledge Question",
+        "Synthesis"
+      ],
+      "family": "shared-craft",
+      "prepared_output_roles": [],
+      "read_roles": [
+        "knowledge-wiki",
+        "research-sources",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "evidence-ask",
+      "source_read_mode": "Inspect retained supporting sources only; uncovered questions propose research, no new external search",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Party",
+        "Stakeholder",
+        "Account / Relationship",
+        "Need",
+        "Buyer Brief"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "sales-buyer-brief",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Offering",
+        "Source",
+        "Claim",
+        "Evidence Permission"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "knowledge-wiki"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "offering-proof",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Offering",
+        "Buyer Brief",
+        "Planning Assumption",
+        "Proposal"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "knowledge-wiki",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "sales-proposal",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Opportunity",
+        "Proposal",
+        "Decision",
+        "Agreement Reference"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "sales-pursuit-event",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Account / Relationship",
+        "Need",
+        "Follow-up"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "sales-followup",
+      "work_products": []
+    },
+    {
+      "default_mode": "read-only; reply/view only, no entity/settings mutation",
+      "entities": [
+        "Follow-up",
+        "Opportunity",
+        "Agreement Reference",
+        "Engagement",
+        "Work Item"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [],
+      "read_roles": [
+        "entity-home"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "sales-monday-review",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Agreement Reference",
+        "Handoff",
+        "Engagement",
+        "Baseline"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "consult-framing",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Engagement",
+        "Baseline",
+        "Work Item",
+        "Milestone",
+        "Outcome"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "consult-planning",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Problem Structure",
+        "Source",
+        "Claim",
+        "Result"
+      ],
+      "family": "shared-craft",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "knowledge-wiki",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "structure-apply",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Source",
+        "Claim",
+        "Result"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "knowledge-wiki",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "consult-results",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Result",
+        "Deliverable"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "knowledge-wiki",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "consult-deliverable",
+      "work_products": []
+    },
+    {
+      "default_mode": "read-only; reply/view only, no entity/settings mutation",
+      "entities": [
+        "Baseline",
+        "Work Item",
+        "Milestone",
+        "Risk / Issue / Assumption / Dependency",
+        "Reservation"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [],
+      "read_roles": [
+        "entity-home"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "consult-status",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Scope Change",
+        "Baseline",
+        "Decision",
+        "Agreement Reference"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "consult-change",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Closure",
+        "Reservation",
+        "Outcome",
+        "Evidence Permission",
+        "Follow-up"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "knowledge-wiki"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "consult-closure",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Offering",
+        "Closure",
+        "Outcome",
+        "Source",
+        "Claim",
+        "Evidence Permission"
+      ],
+      "family": "business-activity",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "knowledge-wiki",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "offering-develop",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Claim",
+        "Source",
+        "Proposal",
+        "Result",
+        "Deliverable"
+      ],
+      "family": "shared-craft",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "knowledge-wiki",
+        "research-sources"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "evidence-check",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Proposal",
+        "Deliverable",
+        "Human Note / Dissent"
+      ],
+      "family": "shared-craft",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "knowledge-wiki",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "review-challenge",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Deliverable",
+        "Artifact"
+      ],
+      "family": "production-coordination",
+      "prepared_output_roles": [
+        "artifact-home"
+      ],
+      "read_roles": [
+        "entity-home",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "publishing-render",
+      "work_products": []
+    },
+    {
+      "entities": [
+        "Artifact",
+        "Deliverable"
+      ],
+      "family": "production-coordination",
+      "prepared_output_roles": [
+        "entity-home"
+      ],
+      "read_roles": [
+        "artifact-home",
+        "entity-home",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "publishing-inspect",
+      "work_products": []
+    },
+    {
+      "content_boundary": "Prepare settings adoption; never rewrite wiki content or automatically adopt a baseline",
+      "entities": [
+        "Baseline"
+      ],
+      "family": "governance-improvement",
+      "prepared_output_roles": [
+        "method-settings"
+      ],
+      "read_roles": [
+        "method-settings",
+        "entity-home"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "org-specialize",
+      "work_products": [
+        "Domain Requirement",
+        "Method / Settings"
+      ]
+    },
+    {
+      "content_boundary": "Only selected sanitized feedback; no unrelated inventory. Configured authorized filing may use an actual supported issue tracker or explicit Page backlog; availability/preparation grants no implicit publication or GitHub fallback",
+      "entities": [],
+      "family": "governance-improvement",
+      "prepared_output_roles": [
+        "feedback-drafts"
+      ],
+      "read_roles": [
+        "entity-home",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "my-improvements",
+      "work_products": [
+        "Sanitized Feedback Proposal"
+      ]
+    },
+    {
+      "content_boundary": "Draft language and traceable application; exact owner adoption through org-specialize authority. No automatic library/settings update or wiki/issued-work rewrite.",
+      "entities": [
+        "Design Reference",
+        "Deliverable",
+        "Artifact"
+      ],
+      "family": "shared-craft",
+      "prepared_output_roles": [
+        "method-settings",
+        "artifact-home"
+      ],
+      "read_roles": [
+        "method-settings",
+        "entity-home"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "design-language",
+      "work_products": [
+        "Method / Settings"
+      ]
+    },
+    {
+      "content_boundary": "Prepare audience-specific argument, objections, reader-test findings and production handoff without changing support, dissent or release authority.",
+      "entities": [
+        "Source",
+        "Claim",
+        "Result",
+        "Deliverable"
+      ],
+      "family": "shared-craft",
+      "prepared_output_roles": [
+        "entity-home",
+        "artifact-home"
+      ],
+      "read_roles": [
+        "knowledge-wiki",
+        "entity-home",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "narrative-shape",
+      "work_products": [
+        "Audience Brief",
+        "Storyline"
+      ]
+    },
+    {
+      "content_boundary": "Prepare exploratory/explanatory graphics with exact values, transformations, encodings and uncertainty; no invented quantification, causal support, publication or acceptance.",
+      "entities": [
+        "Source",
+        "Claim",
+        "Result",
+        "Artifact"
+      ],
+      "family": "shared-craft",
+      "prepared_output_roles": [
+        "entity-home",
+        "artifact-home"
+      ],
+      "read_roles": [
+        "research-sources",
+        "knowledge-wiki",
+        "entity-home",
+        "method-settings"
+      ],
+      "reference_rule": "Exact permitted entity revisions or compatible supplied inputs; work products may remain sections",
+      "skill": "evidence-visualize",
+      "work_products": [
+        "Graphic Specification"
+      ]
+    }
+  ],
+  "standing": "Use the selected skill roles with current actor, purpose, owner policy and actual operation checks",
+  "work_product_rule": "Prepared briefs, storylines, specifications, settings and feedback are optional sections; separate identity only when versioning/correction/reuse requires it"
+}

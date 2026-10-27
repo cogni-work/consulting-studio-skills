@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "consulting-studio-private-creator-draft-0-1-1",
+  "version": "0.1.10",
+  "description": "Consulting methods for buyer understanding, proposals, delivery, evidence, communication and firm improvement, with an explicit Setup entry.",
+  "author": {
+    "name": "Stephan de Haas",
+    "email": "stephan@cogni-work.ai"
+  },
+  "license": "SEE LICENSE AND distribution.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Consulting Studio",
+        "shortDescription": "Consulting skills",
+        "longDescription": "Prepare useful consulting work from permitted evidence: understand buyers, shape proposals, frame and plan delivery, develop answers, communicate findings and maintain firm methods. Preserve evidence, client boundaries and human decisions.",
+        "developerName": "Stephan de Haas",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": "Use Consulting Studio for this task with the selected methods, permitted evidence and current instructions. Preserve source qualifications, confidential boundaries and human decisions."
+      },
+      "onboardingSkill": "./skills/setup/SKILL.md"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "canonical_to_emitted": {
+    "implementation/skills/studio-resume/SKILL.md": "SKILL.md",
+    "implementation/skills/studio-resume/references/resume-contract.md": "references/source/implementation/skills/studio-resume/references/resume-contract.md"
+  },
+  "dependency_edges": [
+    {
+      "classification": "bundled governing/resource read",
+      "fragment": "",
+      "location": "markdown",
+      "locator": "references/resume-contract.md",
+      "origin": "implementation/skills/studio-resume/SKILL.md",
+      "target": "implementation/skills/studio-resume/references/resume-contract.md"
+    }
+  ],
+  "display_name": "Resume",
+  "distribution_modification_notice": "Consulting Studio modification, 2026-10-27: local resource locators were packaged; an explicit working-instruction read was added where applicable. Exact source identities and changes are recorded in the accompanying manifests.",
+  "entry_version": "0.2.0",
+  "files": {
+    "SKILL.md": "81ec5ab40ff8b0144ea9f57db56c252598faad52b45de0ae892be3a0290c6035",
+    "references/source/implementation/skills/studio-resume/references/resume-contract.md": "2b41465792687ff28553a11c04b992ffd530d9beda46555f10fca6c43cd5d914"
+  },
+  "gates": {
+    "fresh_session_use": "NOT_RUN",
+    "native_import": "NOT_RUN",
+    "owner_acceptance": "NOT_RUN",
+    "resource_readback": "NOT_RUN"
+  },
+  "generator_inputs": {
+    "implementation/business-skills/check_packages.py": "34e029ad1cc6f2ae4efc7dcc940517d7b37fd8a931b7bc7d9de62eacc84818f6",
+    "implementation/business-skills/release.py": "25b27ef1416b17164daaa2366f906b7ffdd818eb3631d37678f1442c7ec04e89",
+    "implementation/plugin-distribution/plugin.json": "4a6d7c007663232cbb2ff7f63a3d1b200abd229afb9ed77873768c2d4004affb",
+    "implementation/plugin-distribution/release.py": "d6b57e160bc386df4519d1cfcca6756fa3d0354d2ba876016466c913688c798a",
+    "implementation/plugin-setup/package_update.py": "0e3c80d778e4c67508ca379badb3ca92f5703512830360c093fb08cc91976fd9",
+    "implementation/s-export/export.py": "1649a8783ff4190a80a0fc04bf1e8e9098cdca9a07dc78058c5180189d413116"
+  },
+  "name": "studio-resume",
+  "release_identity": {
+    "license": "Apache-2.0",
+    "name": "consulting-studio-skills",
+    "version": "0.1.0"
+  },
+  "resources": [
+    {
+      "adaptations": [
+        {
+          "canonical_origin": "implementation/skills/studio-resume/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "references/resume-contract.md",
+          "result": "references/source/implementation/skills/studio-resume/references/resume-contract.md"
+        }
+      ],
+      "canonical_path": "implementation/skills/studio-resume/SKILL.md",
+      "canonical_sha256": "8f56d56b916faa0bd9e5bb94296a35c263bcdb663843f96b98876585acc99581",
+      "emitted_path": "SKILL.md",
+      "emitted_sha256": "81ec5ab40ff8b0144ea9f57db56c252598faad52b45de0ae892be3a0290c6035",
+      "role": "open auxiliary entry or governing resource"
+    },
+    {
+      "adaptations": [],
+      "canonical_path": "implementation/skills/studio-resume/references/resume-contract.md",
+      "canonical_sha256": "2b41465792687ff28553a11c04b992ffd530d9beda46555f10fca6c43cd5d914",
+      "emitted_path": "references/source/implementation/skills/studio-resume/references/resume-contract.md",
+      "emitted_sha256": "2b41465792687ff28553a11c04b992ffd530d9beda46555f10fca6c43cd5d914",
+      "role": "open auxiliary entry or governing resource"
+    }
+  ],
+  "schema": "consulting-studio/s-auxiliary-entry@1",
+  "source_commit": "a4dcc88932e81b5f9901d57b1051eb8dbc9324d1",
+  "source_tree": "d90da533c691b09b0873feed0f3fe1caabfe9d8c",
+  "standing": "RELEASE PREPARED, UNPUBLISHED; exact S grant approved; host installation and native behavior NOT_RUN"
+}

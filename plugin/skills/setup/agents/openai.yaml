@@ -1,0 +1,5 @@
+interface:
+  display_name: "Set up Consulting Studio"
+  short_description: "Reuse your environment with an optional workflow check"
+policy:
+  allow_implicit_invocation: false

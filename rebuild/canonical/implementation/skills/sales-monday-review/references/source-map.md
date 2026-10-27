@@ -1,0 +1,16 @@
+# Weekly-review requirements
+
+Use this map with the [read-time contract](view-contract.md).
+
+| Requirement | Operational application |
+| --- | --- |
+| [Journey](../../../../docs/architecture/journey.md) | Review pre-deal follow-ups, possible versus confirmed staffing, exact submitted versions, pending orders and useful next actions without changing facts. |
+| [Business objects and record discipline](../../../../docs/architecture/business-objects.md) | Keep one home per fact, exact identity, human originals and last meaningful business event. Read time never refreshes a business fact. |
+| [Business decisions](../../../../docs/architecture/decisions.md) | Keep proposal, buyer, agreement and work-authority decisions distinct. Preserve unknowns and conflicting evidence for their human owner. |
+| [Knowledge boundaries](../../../../docs/architecture/knowledge.md), [bindings](../../../workspace-bindings/contract.md) | Read only permitted exact revisions for the particular actor, audience and purpose; denial permits no fallback disclosure or private inventory. |
+| [Follow-up contract](../../sales-followup/references/followup-contract.md), [pursuit contract](../../sales-pursuit-event/references/event-contract.md) | Consume compatible supplied semantic records without requiring upstream invocation. Verify actual passages rather than trusting typed fields alone. |
+| [Entity lineage](../../../contracts/entity-lineage.md) | Preserve prior facts and views, human edits and issued work. Identify corrected conclusions and proposed rechecks; claim no persisted stale flag or global propagation. |
+
+Keep supplied organizational levels, measures, populations, units and periods distinct. A proposed next
+action is no commitment, a staffing overlap is no utilization measure, and a local
+view proves no complete portfolio coverage, actual navigation or acceptance.

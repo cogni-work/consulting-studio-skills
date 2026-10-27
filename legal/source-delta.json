@@ -1,0 +1,332 @@
+{
+  "aggregate_open_source_count": 33,
+  "owner_approval": {
+    "approved_at": "2026-10-27T14:59:59Z",
+    "approved_base": "dba54c6644d58cd0ff31177f59e4691bd4343631",
+    "approved_scope_sha256": "6248cbe9957b91b65e10413abb934b3ac33111f1e542fdd6419732ac6693f4b0",
+    "approved_source_delta_sha256": "19b525f388c8fd3f14d4fbb245cadc549cc7ae022c9729c0e49cb49cf25be2b4",
+    "approved_tree": "a91be25ea522564a506ea0914ca013bf50e3527e",
+    "meaning": "31 exact S own sources plus two separate App adapter instruction sources; release-specific legal copies, public identity and consequent hash regeneration only",
+    "source": "Product owner directly approved the exact expanded scope on 2026-10-27, following the 13:50 UTC initial grant/publication approval and 13:52 UTC timing instruction",
+    "status": "APPROVED_RELEASE_SPECIFIC"
+  },
+  "prior_baseline": "689f566c62e62c08b2259fc8268d51755bc46f99",
+  "prior_recorded_normalized_29_sha256": "5edc01d67c17a9a61b869db87dc5a0d9e59167605438d94e01e0ac7a8ff61540",
+  "prior_scope_sha256": "95c788fd8b59720f82828ad7b8f8985be53c756c875dfd39025dda0a023428cd",
+  "prior_source_count": 29,
+  "prior_source_map_encoding": "Sorted path-to-SHA256 JSON map; distinct from historical normalized component-set serialization",
+  "prior_source_map_sha256": "7b5843ff4f3d8ca614110db65ad2055ff5558c9f952b1b99c1045a77a6dde0d0",
+  "proposed_normalized_source_map_sha256": "bbb5103eb5427032eac96bc2f989db9d256f47b6a6713e3b4e3c0224c4b3dd6e",
+  "proposed_s_source_count": 31,
+  "publication_authority": {
+    "executed": false,
+    "local_time": "2026-10-27T17:00:00+01:00 Europe/Berlin",
+    "marketplace": "NOT_AUTHORIZED",
+    "not_before": "2026-10-27T16:00:00Z",
+    "parent_only": true,
+    "repository": "cogni-work/consulting-studio-skills",
+    "status": "AUTHORIZED_AFTER_FINAL_CHECKS_AND_PARENT_INSTRUCTION",
+    "workspace_installation": "NOT_AUTHORIZED"
+  },
+  "s_components": [
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "34e029ad1cc6f2ae4efc7dcc940517d7b37fd8a931b7bc7d9de62eacc84818f6",
+      "change": "unchanged",
+      "new_sha256": "34e029ad1cc6f2ae4efc7dcc940517d7b37fd8a931b7bc7d9de62eacc84818f6",
+      "old_sha256": "34e029ad1cc6f2ae4efc7dcc940517d7b37fd8a931b7bc7d9de62eacc84818f6",
+      "path": "implementation/business-skills/check_packages.py",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "changed",
+      "approved_source_sha256": "25b27ef1416b17164daaa2366f906b7ffdd818eb3631d37678f1442c7ec04e89",
+      "change": "changed",
+      "new_sha256": "25b27ef1416b17164daaa2366f906b7ffdd818eb3631d37678f1442c7ec04e89",
+      "old_sha256": "390d13c9bad337aa8bda6bc8520f96e8c7e153840d8391ca88b3dc3f408d8e8a",
+      "path": "implementation/business-skills/release.py",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "4a6d7c007663232cbb2ff7f63a3d1b200abd229afb9ed77873768c2d4004affb",
+      "change": "unchanged",
+      "new_sha256": "4a6d7c007663232cbb2ff7f63a3d1b200abd229afb9ed77873768c2d4004affb",
+      "old_sha256": "4a6d7c007663232cbb2ff7f63a3d1b200abd229afb9ed77873768c2d4004affb",
+      "path": "implementation/plugin-distribution/plugin.json",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "changed",
+      "approved_source_sha256": "d6b57e160bc386df4519d1cfcca6756fa3d0354d2ba876016466c913688c798a",
+      "change": "changed",
+      "new_sha256": "d6b57e160bc386df4519d1cfcca6756fa3d0354d2ba876016466c913688c798a",
+      "old_sha256": "eba742770d15e858381dfef25096a3c6baccd121f3f8cbf8c72abfdae4d73aed",
+      "path": "implementation/plugin-distribution/release.py",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "changed",
+      "approved_source_sha256": "a0cf4934f7182aa7f5a3e08ace681078979599d46b358f3d75550520f8d8f5c1",
+      "change": "changed",
+      "new_sha256": "a0cf4934f7182aa7f5a3e08ace681078979599d46b358f3d75550520f8d8f5c1",
+      "old_sha256": "9e540f820626e50e0544c05c1e1746dd5280325ef1636809cca6d6d848634ac4",
+      "path": "implementation/plugin-distribution/runtime-readme.md",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "0e3c80d778e4c67508ca379badb3ca92f5703512830360c093fb08cc91976fd9",
+      "change": "unchanged",
+      "new_sha256": "0e3c80d778e4c67508ca379badb3ca92f5703512830360c093fb08cc91976fd9",
+      "old_sha256": "0e3c80d778e4c67508ca379badb3ca92f5703512830360c093fb08cc91976fd9",
+      "path": "implementation/plugin-setup/package_update.py",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "51d1452fa11d899ab479e15ce7e37aea2d797d97fe9644637954d43e38d7edd9",
+      "change": "unchanged",
+      "new_sha256": "51d1452fa11d899ab479e15ce7e37aea2d797d97fe9644637954d43e38d7edd9",
+      "old_sha256": "51d1452fa11d899ab479e15ce7e37aea2d797d97fe9644637954d43e38d7edd9",
+      "path": "implementation/plugin-setup/skills/setup/SKILL.md",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "ab0f6232a7d85b3b0ab26e248e2515db90491eb801b0685f40d5f6fe7263eeae",
+      "change": "unchanged",
+      "new_sha256": "ab0f6232a7d85b3b0ab26e248e2515db90491eb801b0685f40d5f6fe7263eeae",
+      "old_sha256": "ab0f6232a7d85b3b0ab26e248e2515db90491eb801b0685f40d5f6fe7263eeae",
+      "path": "implementation/plugin-setup/skills/setup/agents/openai.yaml",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "6cfa51ab5c0e2eca886de9cc295761a3162f589aec9c770e849682ca65b709ad",
+      "change": "unchanged",
+      "new_sha256": "6cfa51ab5c0e2eca886de9cc295761a3162f589aec9c770e849682ca65b709ad",
+      "old_sha256": "6cfa51ab5c0e2eca886de9cc295761a3162f589aec9c770e849682ca65b709ad",
+      "path": "implementation/plugin-setup/skills/setup/references/optional-synthetic-example.md",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "01c0934af1cf438c0b70efbe6520f1bf3bd4ed3cbd51f4aa0a280f74672dfe84",
+      "change": "unchanged",
+      "new_sha256": "01c0934af1cf438c0b70efbe6520f1bf3bd4ed3cbd51f4aa0a280f74672dfe84",
+      "old_sha256": "01c0934af1cf438c0b70efbe6520f1bf3bd4ed3cbd51f4aa0a280f74672dfe84",
+      "path": "implementation/plugin-setup/skills/setup/references/pages-setup.md",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "d49b54b2de35cdbfd7cebd1652605d1d6d3874901832879e2668cba718e63ddf",
+      "change": "unchanged",
+      "new_sha256": "d49b54b2de35cdbfd7cebd1652605d1d6d3874901832879e2668cba718e63ddf",
+      "old_sha256": "d49b54b2de35cdbfd7cebd1652605d1d6d3874901832879e2668cba718e63ddf",
+      "path": "implementation/runtime/binding-catalog.json",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "b28c8e7334832eb74a34f516cb10f589c822aca7debb11bd1c73be51970a5060",
+      "change": "unchanged",
+      "new_sha256": "b28c8e7334832eb74a34f516cb10f589c822aca7debb11bd1c73be51970a5060",
+      "old_sha256": "b28c8e7334832eb74a34f516cb10f589c822aca7debb11bd1c73be51970a5060",
+      "path": "implementation/runtime/entity-lineage.md",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "ab091c43ff0808411017878411edac3bd51c02844b138c0861a8257097de97d3",
+      "change": "unchanged",
+      "new_sha256": "ab091c43ff0808411017878411edac3bd51c02844b138c0861a8257097de97d3",
+      "old_sha256": "ab091c43ff0808411017878411edac3bd51c02844b138c0861a8257097de97d3",
+      "path": "implementation/runtime/method-catalog.json",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "ad4bdd895c553223337d4c0719b363df9c6a39c4e6ad01e601795c029c5e1094",
+      "change": "unchanged",
+      "new_sha256": "ad4bdd895c553223337d4c0719b363df9c6a39c4e6ad01e601795c029c5e1094",
+      "old_sha256": "ad4bdd895c553223337d4c0719b363df9c6a39c4e6ad01e601795c029c5e1094",
+      "path": "implementation/runtime/requirements.md",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "cf6a451cd2b50fea805a6e4f34549978865e795c36b7e631847756d03dd47dae",
+      "change": "unchanged",
+      "new_sha256": "cf6a451cd2b50fea805a6e4f34549978865e795c36b7e631847756d03dd47dae",
+      "old_sha256": "cf6a451cd2b50fea805a6e4f34549978865e795c36b7e631847756d03dd47dae",
+      "path": "implementation/runtime/storage-lifecycle.md",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "changed",
+      "approved_source_sha256": "ca801e9a1aaee1e2933cc8fa50a84c94c18e6b0da3f1f621f9a4b41c360c7292",
+      "change": "changed",
+      "new_sha256": "0f9fc1a7275d3840d8741c8ed09080eb2f40f47eaaa7037669d415654675735d",
+      "old_sha256": "ddab72c797f6e3330ce80ec42db42546c2962b57c1a2f1fa34119916f22d0a33",
+      "path": "implementation/s-distribution/AUDIT.md",
+      "release_application": "legal/identity/release-metadata-only"
+    },
+    {
+      "approved_change": "changed",
+      "approved_source_sha256": "30534fe99ed340c2d4ea4f90d5b74cc5541d668f313c3f37be5ada96c51bc7ed",
+      "change": "changed",
+      "new_sha256": "db94407aec2a6b26a22dfa59c67171c18852c4da8182661f3e18f05aad6c572c",
+      "old_sha256": "091beb0e1521334fc01549773cb86a0fd6dd9ceeae18c16f2c5385ca005b0cef",
+      "path": "implementation/s-distribution/CHANGELOG.md",
+      "release_application": "legal/identity/release-metadata-only"
+    },
+    {
+      "approved_change": "changed",
+      "approved_source_sha256": "f8861921ae3e19370946079124c5bf0c6f29702dc927963adf1192b41ebdae61",
+      "change": "changed",
+      "new_sha256": "30985cabb9bc3f35dd5067aee087cdf6185ba185b3ef6cb4de1a9ac1b7d1dea6",
+      "old_sha256": "5135e4565fb218b2ce27c931b7ae5cc6fb024e79510199951f22c45cd5ed631f",
+      "path": "implementation/s-distribution/INSTALL-TEST-PLAN.md",
+      "release_application": "legal/identity/release-metadata-only"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "3d7da914424924eeaeda6a17740e380c7d9c3a734575e26ad149e860d86dc4eb",
+      "change": "changed",
+      "new_sha256": "75c949b25c8b320f0222e3a124a69c464da5f82d10e3c44e5490427d12036bb5",
+      "old_sha256": "3d7da914424924eeaeda6a17740e380c7d9c3a734575e26ad149e860d86dc4eb",
+      "path": "implementation/s-distribution/KNOWN-LIMITS.md",
+      "release_application": "legal/identity/release-metadata-only"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+      "change": "unchanged",
+      "new_sha256": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+      "old_sha256": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+      "path": "implementation/s-distribution/NOTICE-S.proposed.txt",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "changed",
+      "approved_source_sha256": "a64d5924f0e842e0edd90ecc0aab53cd8ef818d332d72d0bea0623026c8cc4bc",
+      "change": "changed",
+      "new_sha256": "5f56f839040524e5c13a9983521ed934165569052414bcd1ce1ce59267e2432e",
+      "old_sha256": "316485fbdf1cfdc836377e4afd69351288c1ef05a3e907b33f1b04450d8b2520",
+      "path": "implementation/s-distribution/OWNER-DECISIONS.md",
+      "release_application": "legal/identity/release-metadata-only"
+    },
+    {
+      "approved_change": "changed",
+      "approved_source_sha256": "3e96372645978a2c74836dd79631bb6410e9ecf163b5b0c69f6723272e74f407",
+      "change": "changed",
+      "new_sha256": "bd546b38c5c0d27f644e9169632eaab7812b703471a56f2a18df7255de661e8e",
+      "old_sha256": "4e61138bdd8465cf149dafa917bb6a967b6e1f6d6267f6deed71c054c7cbfc99",
+      "path": "implementation/s-distribution/README.md",
+      "release_application": "legal/identity/release-metadata-only"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "607c4d282feb842ac9ba8ce1fc100af3a68882c5e4205589b7f5667956022cd8",
+      "change": "changed",
+      "new_sha256": "80d76089775f21a4c1ac1950be5c96df8512e641862f46a828d514d4ee2b38f4",
+      "old_sha256": "607c4d282feb842ac9ba8ce1fc100af3a68882c5e4205589b7f5667956022cd8",
+      "path": "implementation/s-distribution/SECURITY.md",
+      "release_application": "legal/identity/release-metadata-only"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "f7780284fa9ead5e5c89fa86465b40f784535f698c9be6d39dc83d6ce7ff77d5",
+      "change": "changed",
+      "new_sha256": "98ccd11f5469a2b1ddd167fa85dbf0a1c74050c3af9978c92f9edf5bfa045d79",
+      "old_sha256": "f7780284fa9ead5e5c89fa86465b40f784535f698c9be6d39dc83d6ce7ff77d5",
+      "path": "implementation/s-distribution/SUPPORT.md",
+      "release_application": "legal/identity/release-metadata-only"
+    },
+    {
+      "approved_change": "changed",
+      "approved_source_sha256": "aafe65001dfc8c8d3dd56ce89a5eeb3347915b8527748aa61a6e4d48a8449cd1",
+      "change": "changed",
+      "new_sha256": "4939cf2a5c0e4fd76b6bd8fba9484c601532f646381d816402bc867101dea628",
+      "old_sha256": "1d607df5cae4dd2aaf4200b5297a0d61307f39acdb6b360f622630389999159f",
+      "path": "implementation/s-distribution/prepare.py",
+      "release_application": "legal/identity/release-metadata-only"
+    },
+    {
+      "approved_change": "changed",
+      "approved_source_sha256": "1649a8783ff4190a80a0fc04bf1e8e9098cdca9a07dc78058c5180189d413116",
+      "change": "changed",
+      "new_sha256": "1649a8783ff4190a80a0fc04bf1e8e9098cdca9a07dc78058c5180189d413116",
+      "old_sha256": "f904dfd06f4ec8582e2a2a9c17962c675722fa7602f1ee073c71bedf3b1eb330",
+      "path": "implementation/s-export/export.py",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "added",
+      "approved_source_sha256": "8f56d56b916faa0bd9e5bb94296a35c263bcdb663843f96b98876585acc99581",
+      "change": "added",
+      "new_sha256": "8f56d56b916faa0bd9e5bb94296a35c263bcdb663843f96b98876585acc99581",
+      "old_sha256": null,
+      "path": "implementation/skills/studio-resume/SKILL.md",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "added",
+      "approved_source_sha256": "2b41465792687ff28553a11c04b992ffd530d9beda46555f10fca6c43cd5d914",
+      "change": "added",
+      "new_sha256": "2b41465792687ff28553a11c04b992ffd530d9beda46555f10fca6c43cd5d914",
+      "old_sha256": null,
+      "path": "implementation/skills/studio-resume/references/resume-contract.md",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "3615768cb46db36a5bb362f77db7f8a67450f2cfb6f5508a094a569fb36df788",
+      "change": "unchanged",
+      "new_sha256": "3615768cb46db36a5bb362f77db7f8a67450f2cfb6f5508a094a569fb36df788",
+      "old_sha256": "3615768cb46db36a5bb362f77db7f8a67450f2cfb6f5508a094a569fb36df788",
+      "path": "implementation/working-character/instructions.md",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "0de6465aa39a4f07bdec2a37b49d090a9960daef67db872b493e5dd7d1adb413",
+      "change": "unchanged",
+      "new_sha256": "0de6465aa39a4f07bdec2a37b49d090a9960daef67db872b493e5dd7d1adb413",
+      "old_sha256": "0de6465aa39a4f07bdec2a37b49d090a9960daef67db872b493e5dd7d1adb413",
+      "path": "implementation/workspace-bindings/architecture.md",
+      "release_application": "exact approved bytes"
+    },
+    {
+      "approved_change": "unchanged",
+      "approved_source_sha256": "d4bb8aaaea4e3955834057fa65f80192e9f20861abb8a7606442ef7dfd2ee718",
+      "change": "unchanged",
+      "new_sha256": "d4bb8aaaea4e3955834057fa65f80192e9f20861abb8a7606442ef7dfd2ee718",
+      "old_sha256": "d4bb8aaaea4e3955834057fa65f80192e9f20861abb8a7606442ef7dfd2ee718",
+      "path": "implementation/workspace-bindings/contract.md",
+      "release_application": "exact approved bytes"
+    }
+  ],
+  "schema": "consulting-studio/open-source-scope-delta@1",
+  "separate_adapter_source_count": 2,
+  "separate_open_m_adapter_components": [
+    {
+      "bytes": 5776,
+      "path": "implementation/embedded-ui/skills/studio-resume/SKILL.md",
+      "placement": "M",
+      "rights_profile": "cb3ae79f076dff2a9dd39e43d19b25c7ce1e42d2215410a0ba4e3e1050e88ba5",
+      "sha256": "d1ebf6ac96f1da9be6c6079dd08c321f6bb4c0dd7c881a71b3e987c2741fbe6e"
+    },
+    {
+      "bytes": 8708,
+      "path": "implementation/embedded-ui/skills/studio-resume/references/runtime-contract.md",
+      "placement": "M",
+      "rights_profile": "cb3ae79f076dff2a9dd39e43d19b25c7ce1e42d2215410a0ba4e3e1050e88ba5",
+      "sha256": "bf25474ba0962815ec7bb89f7e22960b0ba007f97d80b70509c39ab4aaa0abda"
+    }
+  ],
+  "standing": "Exact expanded scope approved; only release legal/identity/approval metadata and consequent hashes are applied",
+  "status": "APPROVED_RELEASE_SPECIFIC"
+}

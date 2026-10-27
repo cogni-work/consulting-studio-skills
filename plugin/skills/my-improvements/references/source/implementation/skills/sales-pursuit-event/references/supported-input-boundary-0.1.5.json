@@ -1,0 +1,26 @@
+{
+  "actual_fact_invariant": "Every recognized actual act, knowledge or measurement must be no later than each evidenced original issuance, original communication and authenticated preservation time. Missing optional issuance is not inferred.",
+  "distribution_modification_notice": "Consulting Studio modification, 2026-10-27: local resource locators were packaged; an explicit working-instruction read was added where applicable. Exact source identities and changes are recorded in the accompanying manifests.",
+  "modes": [
+    "proposal-event",
+    "direct-award",
+    "internal-work"
+  ],
+  "native": "not_run",
+  "profile_version": "0.1.5",
+  "required": [
+    "whole permitted source",
+    "exact actor, subject and original identities",
+    "current read scope and rights",
+    "independently proved business assessments"
+  ],
+  "schema": "pursuit-event-supported-input-boundary/1",
+  "separate_dates": [
+    "effective interval",
+    "expiry",
+    "deadline",
+    "evaluation"
+  ],
+  "unproved_work": "blocked with explicit unresolved proof, human review before work, a settling question and exact originals; independently proved historical facts remain",
+  "unsupported_context": "no inferred work authorization; unresolved human review or hard input rejection when fidelity cannot be established"
+}

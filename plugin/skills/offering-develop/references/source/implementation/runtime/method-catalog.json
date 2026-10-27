@@ -1,0 +1,619 @@
+{
+  "distribution_modification_notice": "Consulting Studio modification, 2026-10-27: local resource locators were packaged; an explicit working-instruction read was added where applicable. Exact source identities and changes are recorded in the accompanying manifests.",
+  "input_rule": "Compatible supplied inputs satisfy a handoff without requiring another skill invocation. Before production, ask and wait for the current request's explicit narrative choice; yes requires narrative-shape before rendering. Read exact inputs and preserve entity/evidence lineage. For substantive report/presentation workflows explicitly apply evidence-visualize before production, validating reusable figures or recording a justified text/table-only outcome; integrate and inspect selected figures in every requested final format. Preserve the request-bound narrative answer, consultant direction and shared delivery mode/home.",
+  "schema_version": 1,
+  "skills": [
+    {
+      "contract_ref": "../skills/structure-problem/procedure.md",
+      "human_decisions": [],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "name": "structure-problem"
+    },
+    {
+      "contract_ref": "../skills/evidence-research/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "incorporate_synthesis"
+          ],
+          "gate": "curator-acceptance"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "structure-problem"
+          ],
+          "mode": null
+        }
+      ],
+      "method_version": "0.2.2",
+      "modes": [
+        null
+      ],
+      "name": "evidence-research"
+    },
+    {
+      "contract_ref": "../skills/evidence-ask/procedure.md",
+      "human_decisions": [],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "evidence-research"
+          ],
+          "mode": null
+        }
+      ],
+      "method_version": "0.2.0",
+      "modes": [
+        null
+      ],
+      "name": "evidence-ask"
+    },
+    {
+      "contract_ref": "../skills/sales-buyer-brief/procedure.md",
+      "human_decisions": [],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "name": "sales-buyer-brief"
+    },
+    {
+      "contract_ref": "../skills/offering-proof/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "transfer_knowledge"
+          ],
+          "gate": "proof-use-permission"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "name": "offering-proof"
+    },
+    {
+      "contract_ref": "../skills/sales-proposal/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "submit_offer"
+          ],
+          "gate": "offer-approval"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "sales-buyer-brief",
+            "offering-proof"
+          ],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "name": "sales-proposal"
+    },
+    {
+      "contract_ref": "../skills/sales-pursuit-event/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "record_decision"
+          ],
+          "gate": "pursuit-state-decision"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "sales-proposal"
+          ],
+          "mode": "proposal-event"
+        },
+        {
+          "compatible_inputs_from": [],
+          "mode": "direct-award"
+        },
+        {
+          "compatible_inputs_from": [],
+          "mode": "internal-work"
+        }
+      ],
+      "method_version": "0.1.5",
+      "modes": [
+        "proposal-event",
+        "direct-award",
+        "internal-work"
+      ],
+      "name": "sales-pursuit-event"
+    },
+    {
+      "contract_ref": "../skills/sales-followup/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "record_decision"
+          ],
+          "gate": "followup-state-decision"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "name": "sales-followup"
+    },
+    {
+      "contract_ref": "../skills/sales-monday-review/procedure.md",
+      "human_decisions": [],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "sales-followup",
+            "sales-pursuit-event"
+          ],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.1",
+      "modes": [
+        null
+      ],
+      "name": "sales-monday-review"
+    },
+    {
+      "contract_ref": "../skills/consult-framing/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "authorize_work"
+          ],
+          "gate": "work-authorization"
+        },
+        {
+          "actions": [
+            "record_decision"
+          ],
+          "gate": "framing-state-decision"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "sales-pursuit-event"
+          ],
+          "mode": "sale-handover"
+        },
+        {
+          "compatible_inputs_from": [],
+          "mode": "existing-framing"
+        },
+        {
+          "compatible_inputs_from": [],
+          "mode": "internal-work"
+        }
+      ],
+      "method_version": "0.1.0",
+      "modes": [
+        "sale-handover",
+        "existing-framing",
+        "internal-work"
+      ],
+      "name": "consult-framing"
+    },
+    {
+      "contract_ref": "../skills/consult-planning/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "approve_plan"
+          ],
+          "gate": "plan-approval"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "consult-framing"
+          ],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.1",
+      "modes": [
+        null
+      ],
+      "name": "consult-planning"
+    },
+    {
+      "contract_ref": "../skills/structure-apply/procedure.md",
+      "human_decisions": [],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "structure-problem"
+          ],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "name": "structure-apply"
+    },
+    {
+      "contract_ref": "../skills/consult-results/procedure.md",
+      "human_decisions": [],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "evidence-research"
+          ],
+          "mode": "evidence-synthesis"
+        },
+        {
+          "compatible_inputs_from": [
+            "evidence-research",
+            "structure-apply"
+          ],
+          "mode": "chosen-method"
+        }
+      ],
+      "method_version": "0.1.6",
+      "modes": [
+        "evidence-synthesis",
+        "chosen-method"
+      ],
+      "name": "consult-results"
+    },
+    {
+      "contract_ref": "../skills/consult-deliverable/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "release_deliverable"
+          ],
+          "gate": "deliverable-release"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "consult-results"
+          ],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.3",
+      "modes": [
+        null
+      ],
+      "name": "consult-deliverable"
+    },
+    {
+      "contract_ref": "../skills/consult-status/procedure.md",
+      "human_decisions": [],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "consult-planning"
+          ],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "name": "consult-status"
+    },
+    {
+      "contract_ref": "../skills/consult-change/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "activate_change"
+          ],
+          "gate": "change-approval"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "consult-framing"
+          ],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.1",
+      "modes": [
+        null
+      ],
+      "name": "consult-change"
+    },
+    {
+      "contract_ref": "../skills/consult-closure/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "record_acceptance"
+          ],
+          "gate": "client-acceptance"
+        },
+        {
+          "actions": [
+            "transfer_knowledge"
+          ],
+          "gate": "reuse-permission"
+        },
+        {
+          "actions": [
+            "record_closure"
+          ],
+          "gate": "closure-state-decision"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "consult-deliverable"
+          ],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "name": "consult-closure"
+    },
+    {
+      "contract_ref": "../../../../SKILL.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "adopt_offering",
+            "execute_market_test"
+          ],
+          "gate": "offering-owner-decision"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "offering-proof"
+          ],
+          "mode": "initial-offering"
+        },
+        {
+          "compatible_inputs_from": [
+            "offering-proof",
+            "consult-closure"
+          ],
+          "mode": "delivery-learning"
+        }
+      ],
+      "method_version": "0.1.1",
+      "modes": [
+        "initial-offering",
+        "delivery-learning"
+      ],
+      "name": "offering-develop"
+    },
+    {
+      "contract_ref": "../skills/evidence-check/procedure.md",
+      "human_decisions": [],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "name": "evidence-check"
+    },
+    {
+      "contract_ref": "../skills/review-challenge/procedure.md",
+      "human_decisions": [],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [
+            "evidence-check"
+          ],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "name": "review-challenge"
+    },
+    {
+      "contract_ref": "../skills/publishing-render/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "publish"
+          ],
+          "gate": "publication-authority"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [],
+          "mode": "supplied-content"
+        },
+        {
+          "compatible_inputs_from": [
+            "consult-deliverable"
+          ],
+          "mode": "delivery-content"
+        }
+      ],
+      "method_version": "0.1.8",
+      "modes": [
+        "supplied-content",
+        "delivery-content"
+      ],
+      "name": "publishing-render"
+    },
+    {
+      "contract_ref": "../skills/publishing-inspect/procedure.md",
+      "human_decisions": [],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [],
+          "mode": "supplied-artifact"
+        },
+        {
+          "compatible_inputs_from": [
+            "publishing-render"
+          ],
+          "mode": "generated-artifact"
+        }
+      ],
+      "method_version": "0.1.1",
+      "modes": [
+        "supplied-artifact",
+        "generated-artifact"
+      ],
+      "name": "publishing-inspect"
+    },
+    {
+      "contract_ref": "../skills/org-specialize/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "adopt_settings"
+          ],
+          "gate": "firm-settings-adoption"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.2",
+      "modes": [
+        null
+      ],
+      "name": "org-specialize"
+    },
+    {
+      "contract_ref": "../skills/my-improvements/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "adopt_source"
+          ],
+          "gate": "source-adoption"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.4",
+      "modes": [
+        null
+      ],
+      "name": "my-improvements"
+    },
+    {
+      "contract_ref": "../skills/design-language/procedure.md",
+      "human_decisions": [
+        {
+          "actions": [
+            "adopt_settings"
+          ],
+          "gate": "firm-settings-adoption"
+        }
+      ],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.4",
+      "modes": [
+        null
+      ],
+      "name": "design-language"
+    },
+    {
+      "contract_ref": "../skills/narrative-shape/procedure.md",
+      "human_decisions": [],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [],
+          "mode": null
+        }
+      ],
+      "method_version": "0.2.5",
+      "modes": [
+        null
+      ],
+      "name": "narrative-shape"
+    },
+    {
+      "contract_ref": "../skills/evidence-visualize/procedure.md",
+      "human_decisions": [],
+      "input_dependencies": [
+        {
+          "compatible_inputs_from": [],
+          "mode": null
+        }
+      ],
+      "method_version": "0.1.4",
+      "modes": [
+        null
+      ],
+      "name": "evidence-visualize"
+    }
+  ],
+  "version": "1.3.1"
+}

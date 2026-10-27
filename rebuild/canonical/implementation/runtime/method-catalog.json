@@ -1,0 +1,618 @@
+{
+  "schema_version": 1,
+  "version": "1.3.1",
+  "input_rule": "Compatible supplied inputs satisfy a handoff without requiring another skill invocation. Before production, ask and wait for the current request's explicit narrative choice; yes requires narrative-shape before rendering. Read exact inputs and preserve entity/evidence lineage. For substantive report/presentation workflows explicitly apply evidence-visualize before production, validating reusable figures or recording a justified text/table-only outcome; integrate and inspect selected figures in every requested final format. Preserve the request-bound narrative answer, consultant direction and shared delivery mode/home.",
+  "skills": [
+    {
+      "name": "structure-problem",
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/structure-problem/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": []
+        }
+      ],
+      "human_decisions": []
+    },
+    {
+      "name": "evidence-research",
+      "method_version": "0.2.2",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/evidence-research/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": [
+            "structure-problem"
+          ]
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "curator-acceptance",
+          "actions": [
+            "incorporate_synthesis"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "evidence-ask",
+      "method_version": "0.2.0",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/evidence-ask/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": [
+            "evidence-research"
+          ]
+        }
+      ],
+      "human_decisions": []
+    },
+    {
+      "name": "sales-buyer-brief",
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/sales-buyer-brief/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": []
+        }
+      ],
+      "human_decisions": []
+    },
+    {
+      "name": "offering-proof",
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/offering-proof/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": []
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "proof-use-permission",
+          "actions": [
+            "transfer_knowledge"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sales-proposal",
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/sales-proposal/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": [
+            "sales-buyer-brief",
+            "offering-proof"
+          ]
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "offer-approval",
+          "actions": [
+            "submit_offer"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sales-pursuit-event",
+      "method_version": "0.1.5",
+      "modes": [
+        "proposal-event",
+        "direct-award",
+        "internal-work"
+      ],
+      "contract_ref": "implementation/skills/sales-pursuit-event/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": "proposal-event",
+          "compatible_inputs_from": [
+            "sales-proposal"
+          ]
+        },
+        {
+          "mode": "direct-award",
+          "compatible_inputs_from": []
+        },
+        {
+          "mode": "internal-work",
+          "compatible_inputs_from": []
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "pursuit-state-decision",
+          "actions": [
+            "record_decision"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sales-followup",
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/sales-followup/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": []
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "followup-state-decision",
+          "actions": [
+            "record_decision"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sales-monday-review",
+      "method_version": "0.1.1",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/sales-monday-review/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": [
+            "sales-followup",
+            "sales-pursuit-event"
+          ]
+        }
+      ],
+      "human_decisions": []
+    },
+    {
+      "name": "consult-framing",
+      "method_version": "0.1.0",
+      "modes": [
+        "sale-handover",
+        "existing-framing",
+        "internal-work"
+      ],
+      "contract_ref": "implementation/skills/consult-framing/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": "sale-handover",
+          "compatible_inputs_from": [
+            "sales-pursuit-event"
+          ]
+        },
+        {
+          "mode": "existing-framing",
+          "compatible_inputs_from": []
+        },
+        {
+          "mode": "internal-work",
+          "compatible_inputs_from": []
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "work-authorization",
+          "actions": [
+            "authorize_work"
+          ]
+        },
+        {
+          "gate": "framing-state-decision",
+          "actions": [
+            "record_decision"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "consult-planning",
+      "method_version": "0.1.1",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/consult-planning/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": [
+            "consult-framing"
+          ]
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "plan-approval",
+          "actions": [
+            "approve_plan"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "structure-apply",
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/structure-apply/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": [
+            "structure-problem"
+          ]
+        }
+      ],
+      "human_decisions": []
+    },
+    {
+      "name": "consult-results",
+      "method_version": "0.1.6",
+      "modes": [
+        "evidence-synthesis",
+        "chosen-method"
+      ],
+      "contract_ref": "implementation/skills/consult-results/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": "evidence-synthesis",
+          "compatible_inputs_from": [
+            "evidence-research"
+          ]
+        },
+        {
+          "mode": "chosen-method",
+          "compatible_inputs_from": [
+            "evidence-research",
+            "structure-apply"
+          ]
+        }
+      ],
+      "human_decisions": []
+    },
+    {
+      "name": "consult-deliverable",
+      "method_version": "0.1.3",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/consult-deliverable/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": [
+            "consult-results"
+          ]
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "deliverable-release",
+          "actions": [
+            "release_deliverable"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "consult-status",
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/consult-status/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": [
+            "consult-planning"
+          ]
+        }
+      ],
+      "human_decisions": []
+    },
+    {
+      "name": "consult-change",
+      "method_version": "0.1.1",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/consult-change/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": [
+            "consult-framing"
+          ]
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "change-approval",
+          "actions": [
+            "activate_change"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "consult-closure",
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/consult-closure/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": [
+            "consult-deliverable"
+          ]
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "client-acceptance",
+          "actions": [
+            "record_acceptance"
+          ]
+        },
+        {
+          "gate": "reuse-permission",
+          "actions": [
+            "transfer_knowledge"
+          ]
+        },
+        {
+          "gate": "closure-state-decision",
+          "actions": [
+            "record_closure"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "offering-develop",
+      "method_version": "0.1.1",
+      "modes": [
+        "initial-offering",
+        "delivery-learning"
+      ],
+      "contract_ref": "implementation/skills/offering-develop/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": "initial-offering",
+          "compatible_inputs_from": [
+            "offering-proof"
+          ]
+        },
+        {
+          "mode": "delivery-learning",
+          "compatible_inputs_from": [
+            "offering-proof",
+            "consult-closure"
+          ]
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "offering-owner-decision",
+          "actions": [
+            "adopt_offering",
+            "execute_market_test"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "evidence-check",
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/evidence-check/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": []
+        }
+      ],
+      "human_decisions": []
+    },
+    {
+      "name": "review-challenge",
+      "method_version": "0.1.0",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/review-challenge/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": [
+            "evidence-check"
+          ]
+        }
+      ],
+      "human_decisions": []
+    },
+    {
+      "name": "publishing-render",
+      "method_version": "0.1.8",
+      "modes": [
+        "supplied-content",
+        "delivery-content"
+      ],
+      "contract_ref": "implementation/skills/publishing-render/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": "supplied-content",
+          "compatible_inputs_from": []
+        },
+        {
+          "mode": "delivery-content",
+          "compatible_inputs_from": [
+            "consult-deliverable"
+          ]
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "publication-authority",
+          "actions": [
+            "publish"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "publishing-inspect",
+      "method_version": "0.1.1",
+      "modes": [
+        "supplied-artifact",
+        "generated-artifact"
+      ],
+      "contract_ref": "implementation/skills/publishing-inspect/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": "supplied-artifact",
+          "compatible_inputs_from": []
+        },
+        {
+          "mode": "generated-artifact",
+          "compatible_inputs_from": [
+            "publishing-render"
+          ]
+        }
+      ],
+      "human_decisions": []
+    },
+    {
+      "name": "org-specialize",
+      "method_version": "0.1.2",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/org-specialize/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": []
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "firm-settings-adoption",
+          "actions": [
+            "adopt_settings"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "my-improvements",
+      "method_version": "0.1.4",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/my-improvements/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": []
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "source-adoption",
+          "actions": [
+            "adopt_source"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "design-language",
+      "method_version": "0.1.4",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/design-language/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": []
+        }
+      ],
+      "human_decisions": [
+        {
+          "gate": "firm-settings-adoption",
+          "actions": [
+            "adopt_settings"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "narrative-shape",
+      "method_version": "0.2.5",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/narrative-shape/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": []
+        }
+      ],
+      "human_decisions": []
+    },
+    {
+      "name": "evidence-visualize",
+      "method_version": "0.1.4",
+      "modes": [
+        null
+      ],
+      "contract_ref": "implementation/skills/evidence-visualize/SKILL.md",
+      "input_dependencies": [
+        {
+          "mode": null,
+          "compatible_inputs_from": []
+        }
+      ],
+      "human_decisions": []
+    }
+  ]
+}

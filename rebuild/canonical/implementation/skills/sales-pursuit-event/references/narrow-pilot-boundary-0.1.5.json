@@ -1,0 +1,25 @@
+{
+  "schema": "pursuit-event-supported-input-boundary/1",
+  "profile_version": "0.1.5",
+  "modes": [
+    "proposal-event",
+    "direct-award",
+    "internal-work"
+  ],
+  "required": [
+    "whole permitted source",
+    "exact actor, subject and original identities",
+    "current read scope and rights",
+    "independently proved business assessments"
+  ],
+  "actual_fact_invariant": "Every recognized actual act, knowledge or measurement must be no later than each evidenced original issuance, original communication and authenticated preservation time. Missing optional issuance is not inferred.",
+  "separate_dates": [
+    "effective interval",
+    "expiry",
+    "deadline",
+    "evaluation"
+  ],
+  "unproved_work": "blocked with explicit unresolved proof, human review before work, a settling question and exact originals; independently proved historical facts remain",
+  "unsupported_context": "no inferred work authorization; unresolved human review or hard input rejection when fidelity cannot be established",
+  "native": "not_run"
+}
