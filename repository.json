@@ -21,6 +21,20 @@
     "plugin_files": 2432,
     "rebuild_inputs": 101
   },
+  "documentation_correction": {
+    "base_commit": "45727da5437658d76195567a52ae3bf709141e81",
+    "date": "2026-10-27",
+    "immutable_release_tag": "v0.1.0",
+    "meaning": "User documentation correction only; source snapshots, license scope and plugin bytes retain their release identities. Rebuild the original release from its tag, not the edited main tree.",
+    "paths": [
+      "README.md",
+      "AUDIT.md"
+    ],
+    "released_archive_sha256": {
+      "consulting-studio-skills-0.1.0-plugin.zip": "aed27324d5a21fe66d8cbf93850b6bcdd8f9672aa3113142d49db0a68f00dfce",
+      "consulting-studio-skills-0.1.0-repository.zip": "05e69a4ff32e870e2631989dba384f947fa53aae164c7068f0ffab9b338a0b7e"
+    }
+  },
   "exporter_artifacts": {
     "consulting-studio-S-local-candidate.zip": {
       "bytes": 8693908,
@@ -49,8 +63,8 @@
   },
   "files": {
     "AUDIT.md": {
-      "bytes": 3965,
-      "sha256": "0f9fc1a7275d3840d8741c8ed09080eb2f40f47eaaa7037669d415654675735d"
+      "bytes": 6057,
+      "sha256": "5d412b2fa042f9943128113301904363de430bc45eba3e7f21b6fb91e591017a"
     },
     "CHANGELOG.md": {
       "bytes": 2221,
@@ -77,8 +91,8 @@
       "sha256": "5f56f839040524e5c13a9983521ed934165569052414bcd1ce1ce59267e2432e"
     },
     "README.md": {
-      "bytes": 8047,
-      "sha256": "bd546b38c5c0d27f644e9169632eaab7812b703471a56f2a18df7255de661e8e"
+      "bytes": 6383,
+      "sha256": "fd7ec861593147bfc18670484eaa62a2c35ed1df71d7fbe10b1589138eb9aaeb"
     },
     "SECURITY.md": {
       "bytes": 1142,

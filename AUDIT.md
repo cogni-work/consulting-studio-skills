@@ -1,4 +1,42 @@
-# Finite S release audit boundary, 2026-10-27
+# Technical notes and release history
+
+## Package and rebuild
+
+`plugin/` contains the 27 methods and the separate Setup, Workspace Librarian and
+Resume entries, including their required local resources. `rebuild/` contains
+101 finite inputs: 93 canonical files, six build-tool/metadata files, rebuild.json
+and REBUILD.md. The source package includes the assembly code under
+`implementation/s-distribution/`. Python 3's standard library is sufficient;
+no private Git history, constructor, M software or network is needed to rebuild
+from the supplied inputs.
+
+From an extracted repository, write to a new local output directory:
+
+```sh
+python3 -B implementation/s-distribution/prepare.py --rebuild-from rebuild --output /tmp/consulting-studio-S-rebuilt
+python3 -B implementation/s-distribution/prepare.py --rebuild-from rebuild --check /tmp/consulting-studio-S-rebuilt
+```
+
+The output contains the plugin ZIP, repository ZIP, extracted `repo/`, current
+`repository.json` and checksum files. Historical exporter artifacts are separate
+rebuild evidence, outside the plugin and public release asset selection. From the
+canonical authoring checkout, omit `--rebuild-from rebuild`. Generated snapshots
+are outputs; make source changes in the canonical authoring repository.
+
+The `v0.1.0` tag and its two released ZIPs are immutable. For an exact 0.1.0 rebuild,
+use that tag or its repository ZIP and its original checksums. A later main-branch
+documentation correction is not a replacement 0.1.0 archive. Its `repository.json`
+file inventory must describe the edited tree; historical approval evidence,
+source snapshots, plugin bytes and released archive identities stay unchanged.
+Such a correction does not make main byte-identical to the original release or
+make the original generator reproduce later documentation edits. Rebuild the
+release from its tag; use the current canonical generator for future packages.
+
+## Preserved 0.1.0 preparation record, 2026-10-27
+
+The following record describes the original preparation checkpoint. Its pending
+publication statements are historical. Current user instructions are in
+[README.md](README.md).
 
 Release-specific preparation follows reviewed source
 `dba54c6644d58cd0ff31177f59e4691bd4343631`, tree
