@@ -24,6 +24,17 @@
   "documentation_correction": {
     "base_commit": "45727da5437658d76195567a52ae3bf709141e81",
     "date": "2026-10-27",
+    "followups": [
+      {
+        "base_commit": "f80972262618f7a3ff6bc4b2a79a31b4a3b58e91",
+        "date": "2026-10-27",
+        "meaning": "Present the testing-phase notice near the top of the README and retain exact installation and compatibility limitations in linked technical notes; no qualification or compatibility claim.",
+        "paths": [
+          "README.md",
+          "AUDIT.md"
+        ]
+      }
+    ],
     "immutable_release_tag": "v0.1.0",
     "meaning": "User documentation correction only; source snapshots, license scope and plugin bytes retain their release identities. Rebuild the original release from its tag, not the edited main tree.",
     "paths": [
@@ -63,8 +74,8 @@
   },
   "files": {
     "AUDIT.md": {
-      "bytes": 6057,
-      "sha256": "5d412b2fa042f9943128113301904363de430bc45eba3e7f21b6fb91e591017a"
+      "bytes": 6390,
+      "sha256": "18a4c915e6937218c28df4b446aabca1428ed2be764ebb2566492c477a8a8e3d"
     },
     "CHANGELOG.md": {
       "bytes": 2221,
@@ -91,8 +102,8 @@
       "sha256": "5f56f839040524e5c13a9983521ed934165569052414bcd1ce1ce59267e2432e"
     },
     "README.md": {
-      "bytes": 6573,
-      "sha256": "6efc660fddcad4b34e4b26b301a9c42aefcef974bef83028bf67f27c82c9d6be"
+      "bytes": 6715,
+      "sha256": "4f129cd683ceca4aba38487d834616df667d189782ef383013221827ac7e5cb9"
     },
     "SECURITY.md": {
       "bytes": 1142,

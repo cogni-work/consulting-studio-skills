@@ -1,5 +1,12 @@
 # Technical notes and release history
 
+## Testing status and limitations
+
+The testing phase has started. The exact 0.1.0 package has not yet been tested
+through a fresh ChatGPT installation and ordinary use. Compatibility with Codex,
+Desktop and mobile is also unverified. Local documentation, archive and rebuild
+checks do not establish installation or native behavior.
+
 ## Package and rebuild
 
 `plugin/` contains the 27 methods and the separate Setup, Workspace Librarian and

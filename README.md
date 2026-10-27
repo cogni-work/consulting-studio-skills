@@ -1,5 +1,11 @@
 # Consulting Studio Skills
 
+> **🧪 Testing phase has started**
+>
+> Try a small task with fictional or sanitized material and tell us what works or
+> needs improvement in [GitHub issues](https://github.com/cogni-work/consulting-studio-skills/issues).
+> See the [testing status and limitations](AUDIT.md#testing-status-and-limitations).
+
 Consulting Studio helps consultants turn a client need into a clear proposal,
 an evidence-based answer and a useful deliverable. It provides reusable methods
 for understanding buyers, planning engagements, researching questions, checking
@@ -55,8 +61,6 @@ availability and access. A GitHub download alone does not install the plugin.
 This repository distributes a plugin package; it is not a listing in OpenAI's
 public plugin directory. It contains no marketplace catalog, so importing this
 repository as a GitHub marketplace is not the installation route for this release.
-The exact 0.1.0 package has not yet been tested through a fresh ChatGPT installation
-and ordinary use. Compatibility with Codex, Desktop and mobile is also unverified.
 
 ## Try it
 
