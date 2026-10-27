@@ -19,8 +19,6 @@ exercising judgement and helping people make sound decisions.
 
 This free, open-source **skills-only plugin** includes **27 consulting methods**
 and three supporting entries: **Setup**, **Workspace Librarian** and **Resume**.
-It does not require a paid Consulting Studio package, Studio GUI, MCP server or
-Workspace Agent.
 
 ## Who it is for
 
