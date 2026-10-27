@@ -42,7 +42,11 @@ web**, when the upload option is available:
 1. Open **Admin console**, select the intended workspace and open **Plugins**.
 2. Select **Add**, then **Upload plugin**, and upload the plugin ZIP.
 3. Make the plugin available to its intended users under your workspace's plugin
-   policy, then select Consulting Studio in a conversation.
+   policy.
+4. In ChatGPT's **Plugins** directory, open your workspace's Consulting Studio
+   entry and select **Install plugin** if shown.
+5. Select Consulting Studio in a conversation using an **@ mention** or the
+   composer's **Plugins** control.
 
 See OpenAI's [plugin upload and workspace instructions](https://help.openai.com/en/articles/20001256-plugins-in-chatgpt).
 If the upload option is missing, ask your workspace administrator about
