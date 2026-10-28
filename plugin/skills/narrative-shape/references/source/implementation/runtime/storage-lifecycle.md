@@ -1,5 +1,5 @@
 
-<!-- Consulting Studio modification, 2026-10-27: local resource locators were packaged; an explicit working-instruction read was added where applicable. Exact source identities and changes are recorded in the accompanying manifests. -->
+<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
 # Storage provisioning and lifecycle
 
 Apply this guide when selected work needs retention, shared use, setup, transition

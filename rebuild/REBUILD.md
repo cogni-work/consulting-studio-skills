@@ -1,19 +1,21 @@
-# Local S candidate rebuild
+# Finite Skills rebuild inputs
 
-This is a generated, read-only input snapshot, not another editable method source.
-Change the canonical repository, revise and review the inventory, then regenerate.
+Inspect the complete input inventory and extract into an empty directory.
+Python3 standard library only; no Git, constructor, network or App required.
 
-After inspecting the archive inventory, extract it into an empty local directory.
-From that directory, run (Python 3 standard library only):
+For the retained local technical view:
 
-    python3 -B implementation/s-export/export.py --rebuild-from . --output /tmp/s-rebuilt
+    python3 -B implementation/aligned-release/prepare.py --rebuild-from . --output ../aligned-technical
 
-No Git checkout/history, constructor, M purchase, npm, Studio MCP server or network
-is needed. The resulting archive hashes must match the originating evidence.
-The operational ZIP contains skills/resources only; packaging Python is separate.
-The supplied tooling itself has pending distribution rights and export authority.
-Local reproducibility establishes no public release, grant, installation or host
-qualification. LICENSE/NOTICE are the exact inherited inventory payload; no new
-S grant or delivery-specific notice subset has been activated. All delivery stops
-until the actual owner/legal/export decisions and review cover these exact bytes.
-The source Git commit/tree and inventory are provenance, not available public URLs.
+For the owner-approved public1.1.0 legal overlay:
+
+    python3 -B implementation/aligned-release/prepare.py --rebuild-from . --public-release --output ../s-1.1.0-rebuilt
+
+Use a new output outside the input tree, with no symlink ancestors. Compare the
+four selected-route S artifacts and SKILLS-SHA256SUMS with the reviewed original.
+The technical route retains canonical legal evidence; the public route applies
+the exact approved Apache/NOTICE copies and current five-path owner approval.
+A combined private App/S SHA256SUMS contains additional private files and differs
+from the standalone S checksum list. No App inputs or archives are included here.
+These commands build files only; publication, plugin update, installation and
+actual host/customer acceptance remain separate operations and evidence.

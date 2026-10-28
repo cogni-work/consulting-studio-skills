@@ -6,7 +6,28 @@ It is optional: skipping it leaves normal projects empty and permits ordinary us
 with user-provided or authorized content. Never automatically populate a normal
 project, home, settings record or knowledge base from this file.
 
-## Selected request
+## Source-free S installation check
+
+Choose this separate small workflow for S-SESSION when no external/source retrieval
+is in scope. Invoke the installed `structure-problem` method with its actual
+required resource reads, rather than answering from this example alone:
+
+> Synthetic example — unaccepted. A fictional consulting team wants to reduce
+> weekly workshop preparation from three hours to two within four weeks. The
+> cause of the current effort is unknown. Frame an answerable diagnostic question,
+> a small set of distinct enquiry parts and the next evidence needed. Chat-only;
+> no research, external sources, saved record or business decision is requested.
+
+Success means a versioned scoping draft keeps these figures as fictional input,
+uses stable question/part references and a named cutting principle, preserves the
+unknown cause, proposes scope and settling tests with owners/dates unknown where
+unsupplied, and identifies the next human decision. Inspect its actual output;
+this prompt contains no expected answer. It proves no measured saving, retention,
+client admission or human acceptance. Record input as synthetic user instructions,
+with no documentary source test. This is separate from the two-passage source-test
+example below and from repository simulations; it requires no connector or storage.
+
+## Two-passage source-test request
 
 Using only the two passages below, prepare a short coordination brief for the
 fictional project lead: what do we know about the weekly handover, what remains

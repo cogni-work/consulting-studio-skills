@@ -5,7 +5,7 @@ metadata:
   version: "0.2.0"
 ---
 
-<!-- Consulting Studio modification, 2026-10-27: local resource locators were packaged; an explicit working-instruction read was added where applicable. Exact source identities and changes are recorded in the accompanying manifests. -->
+<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
 # Resume saved work
 
 Read the [shared resume contract](references/source/implementation/skills/studio-resume/references/resume-contract.md). Apply it to the

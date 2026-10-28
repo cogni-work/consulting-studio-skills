@@ -14,10 +14,10 @@
     }
   ],
   "display_name": "Resume",
-  "distribution_modification_notice": "Consulting Studio modification, 2026-10-27: local resource locators were packaged; an explicit working-instruction read was added where applicable. Exact source identities and changes are recorded in the accompanying manifests.",
+  "distribution_modification_notice": "Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained.",
   "entry_version": "0.2.0",
   "files": {
-    "SKILL.md": "81ec5ab40ff8b0144ea9f57db56c252598faad52b45de0ae892be3a0290c6035",
+    "SKILL.md": "1b113326dc418a7af13c98896a92d43e24fa36d74e6de7a20c31f82c8b191f1a",
     "references/source/implementation/skills/studio-resume/references/resume-contract.md": "2b41465792687ff28553a11c04b992ffd530d9beda46555f10fca6c43cd5d914"
   },
   "gates": {
@@ -27,6 +27,8 @@
     "resource_readback": "NOT_RUN"
   },
   "generator_inputs": {
+    "implementation/aligned-release/prepare.py": "9aa9832afb534947fc69e4b2c438646741c488f4ba316991e4bf00fc5c133e51",
+    "implementation/aligned-release/selection.json": "321b4458231fc8afaa8b976c26e32f4704bd1bccefd8ef951dbad01d52230a86",
     "implementation/business-skills/check_packages.py": "34e029ad1cc6f2ae4efc7dcc940517d7b37fd8a931b7bc7d9de62eacc84818f6",
     "implementation/business-skills/release.py": "25b27ef1416b17164daaa2366f906b7ffdd818eb3631d37678f1442c7ec04e89",
     "implementation/plugin-distribution/plugin.json": "4a6d7c007663232cbb2ff7f63a3d1b200abd229afb9ed77873768c2d4004affb",
@@ -38,7 +40,7 @@
   "release_identity": {
     "license": "Apache-2.0",
     "name": "consulting-studio-skills",
-    "version": "0.1.0"
+    "version": "1.1.0"
   },
   "resources": [
     {
@@ -54,7 +56,7 @@
       "canonical_path": "implementation/skills/studio-resume/SKILL.md",
       "canonical_sha256": "8f56d56b916faa0bd9e5bb94296a35c263bcdb663843f96b98876585acc99581",
       "emitted_path": "SKILL.md",
-      "emitted_sha256": "81ec5ab40ff8b0144ea9f57db56c252598faad52b45de0ae892be3a0290c6035",
+      "emitted_sha256": "1b113326dc418a7af13c98896a92d43e24fa36d74e6de7a20c31f82c8b191f1a",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -67,7 +69,8 @@
     }
   ],
   "schema": "consulting-studio/s-auxiliary-entry@1",
-  "source_commit": "a4dcc88932e81b5f9901d57b1051eb8dbc9324d1",
-  "source_tree": "d90da533c691b09b0873feed0f3fe1caabfe9d8c",
-  "standing": "RELEASE PREPARED, UNPUBLISHED; exact S grant approved; host installation and native behavior NOT_RUN"
+  "shared_skills_release": "1.1.0",
+  "source_commit": "d673a8d1f2c22bbf07ef66bc29fe07e452526d19",
+  "source_tree": "14d0d32312eff656a1ff14e9beb2db4c9701c3a1",
+  "standing": "OWNER-APPROVED S1.1.0 RELEASE PREPARED; publication separately recorded; installation and acceptance NOT_RUN"
 }

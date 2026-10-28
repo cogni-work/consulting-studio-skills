@@ -1,5 +1,5 @@
 {
-  "distribution_modification_notice": "Consulting Studio modification, 2026-10-27: local resource locators were packaged; an explicit working-instruction read was added where applicable. Exact source identities and changes are recorded in the accompanying manifests.",
+  "distribution_modification_notice": "Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained.",
   "input_rule": "Compatible supplied inputs satisfy a handoff without requiring another skill invocation. Before production, ask and wait for the current request's explicit narrative choice; yes requires narrative-shape before rendering. Read exact inputs and preserve entity/evidence lineage. For substantive report/presentation workflows explicitly apply evidence-visualize before production, validating reusable figures or recording a justified text/table-only outcome; integrate and inspect selected figures in every requested final format. Preserve the request-bound narrative answer, consultant direction and shared delivery mode/home.",
   "schema_version": 1,
   "skills": [

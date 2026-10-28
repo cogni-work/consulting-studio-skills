@@ -35,8 +35,8 @@ must be able to read each selected skill's bundled instructions and resources.
 
 ## Download and install
 
-**[Download the 0.1.0 plugin ZIP](https://github.com/cogni-work/consulting-studio-skills/releases/download/v0.1.0/consulting-studio-skills-0.1.0-plugin.zip)**
-or browse the [release and source packages](https://github.com/cogni-work/consulting-studio-skills/releases/tag/v0.1.0).
+**[Download the 1.1.0 plugin ZIP](https://github.com/cogni-work/consulting-studio-skills/releases/download/v1.1.0/consulting-studio-skills-1.1.0-plugin.zip)**
+or browse the [release and source packages](https://github.com/cogni-work/consulting-studio-skills/releases/tag/v1.1.0).
 Use the plugin ZIP for upload; the repository ZIP contains source and rebuild
 material.
 

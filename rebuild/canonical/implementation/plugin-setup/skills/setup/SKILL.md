@@ -1,11 +1,16 @@
 ---
 name: setup
-description: Set up Consulting Studio when the user runs the plugin's Setup entry or explicitly asks for its initial setup or resumption. Discover the bounded current environment, agree the selected target and changes, and offer an optional workflow check.
+description: Set up Consulting Studio, or check an existing S installation when explicitly asked to run Installation prüfen. Agree scope, inspect actual readers/resources/settings and run one bounded synthetic workflow with an evidence-backed report; no App or MCP required for S.
 metadata:
-  version: 0.1.6
+  version: 0.1.7
 ---
 
 # Set up Consulting Studio
+
+For **Installation prüfen** (also `$setup Installation prüfen`), go directly to
+**Check an S installation** below. Offer this entry at the end of
+Setup and after an update; a later invocation does not repeat onboarding. It checks
+the selected installation, not the source repository or an unrelated plugin.
 
 Use Setup for the **Make it ours** job. Installation does not run Setup automatically.
 Use the user's language and reuse readable choices and specific applicable authority
@@ -327,3 +332,110 @@ owner adoption and acceptance separate. A blocked save remains blocked; continue
 independent permitted preparation without claiming completion. Use the existing private
 installation record, not a parallel tracker. Stop after this agreed onboarding scope;
 other workflows, WA adoption and real-client admission need their own applicable checks.
+
+## Check an S installation
+
+Procedure **S-SESSION 0.1.0** is a customer-invoked, selected-workflow check. S needs
+no Studio App, MCP, GUI, D1, WA, Pages tree or persisted Settings. Run through the
+actually available skill/resource readers and ordinary skill use; no Python helper
+or developer fixture is a customer prerequisite. Use the report contract below in
+the existing private installation/settings record. Without authorized storage,
+deliver it unsaved in chat. Reading this procedure authorizes no live write.
+
+1. **Agree scope before checks.** Reuse the current request and readable installation
+   record; ask only for missing consequential choices. Record scope ID/revision,
+   agreement/actor/time, acting user, account/workspace, execution surface/session,
+   expected plugin/release/configuration identities (or unknown), intended workflow,
+   exact expected skills and task-required resource sections, useful-result criteria,
+   and chat-only versus a selected retained-storage leg. Use current supported
+   metadata/read routes; distinguish an owner-reported identity from an observation.
+   Select these required checks: `context`, `identity`, `resources`,
+   `settings_inspection`, `workflow`; add `retained_storage` only when selected.
+   Record applicability and exclusions now. Preserve this scope with the report;
+   a later changed scope needs a new revision/agreement, never a green rewrite of
+   the old run. An unknown expected or observed installation identity blocks
+   installation confirmation; a useful workflow may still pass on its own.
+2. **Inspect this surface.** Inspect the actual exposed reader/tool schemas and
+   supported skill discovery/catalog where available. Compare expected and observed
+   skill/resource identities and coverage. There is no assumed skill-enumeration
+   API. A visible label, manifest/version declaration, tool listing, source hash or
+   import receipt proves neither freshly loaded instructions nor executed behavior.
+   Keep unknown package identity and partial catalog coverage explicit. Name each
+   selected resource/section, supported reader request, returned identity/revision,
+   output evidence/ranges and truncation/continuation gaps. Read required sections
+   before dependent use. Unavailable readers are BLOCKED; attempted wrong/stale
+   content is FAIL; unattempted reads are NOT_RUN. Do not silently replace an
+   unread method with remembered instructions or a generic answer. Selected-section
+   coverage establishes no full-catalog or all-35-mode pass.
+3. **Inspect existing Settings without forcing setup.** Use the packaged Librarian
+   discovery contract in the permitted context, reusing its existing record and
+   current access checks. Read an applicable existing Settings original and revision;
+   distinguish adopted choices from proposals. A bounded adequately inspected and
+   owner-confirmed absence can pass `settings_inspection` for neutral chat-only
+   use: record **unconfigured**, with no configuration-persistence claim. Limited
+   search, ambiguity, denial or an unreadable current record stays BLOCKED for this
+   check; it is not evidence of absence and permits no substitute record. Independent
+   neutral preparation can continue. Do not create Settings, register an index,
+   adopt a configuration or require Pages merely to make this check green.
+4. **Run one useful synthetic workflow.** Agree a small chat-only task, its selected
+   method and criteria; use the source-free option in the already packaged
+   [synthetic example](references/optional-synthetic-example.md) if useful. This is
+   actual ordinary method use on the selected installed surface, not replay of a
+   repository test. Read its required instructions/resources through current readers,
+   then execute and inspect the exact versioned output against the agreed criteria.
+   Retain output and inspection evidence separately. A source-test simulation stays
+   labelled as such and cannot confirm an installation. A skipped task is NOT_RUN
+   and leaves this verification incomplete, while ordinary use remains possible.
+5. **Optional retained-storage leg.** Before any save, use the existing Librarian/
+   deliverable-home conventions to inspect the exact synthetic content/version,
+   destination/provider/parent, owner/audience/context, effective principal, current
+   authority and supported save/reopen operations. Present that exact effect and
+   obtain its applicable confirmation. A chosen retention mode alone is no consent.
+   Save once; separately reopen the returned exact identity and compare meaningful
+   content, identity and actual revision where exposed. If revision is not exposed,
+   state that limit; do not invent it or pass a criterion that requires revision.
+   A create echo or local bytes are not independent readback. Missing consent or
+   operation is BLOCKED, mismatch is FAIL, and a save with no readback is incomplete.
+   For an uncertain outcome, inspect the same attempt by returned identity or bounded
+   exact-reference reconciliation before any retry; unresolved effects prohibit
+   another save. No automatic cleanup/deletion, permission change, repair, new home
+   or forced storage setup. Saving this report is a separate authorized effect,
+   never a second test save or an automatic side effect of the check.
+6. **Return the report and next action.** Each included check is PASS, FAIL, BLOCKED
+   or NOT_RUN with expected/observed result and actual evidence. Excluded checks
+   retain a reason and NOT_RUN; they do not count as passes. Missing required evidence,
+   stale/mismatched identities, incomplete reads and uncertain effects prevent scope
+   PASS. Report FAIL for a demonstrated mismatch, otherwise BLOCKED for a required
+   unavailable prerequisite/evidence, otherwise NOT_RUN for unfinished required work.
+   Only all required PASS with actual native observations permits **Installation
+   verified for [exact scope/version/user/environment]**. Report base workflow
+   usability separately from configured retention, and expose unverified identities.
+   Keep customer acceptance **pending** until an actual attributed decision:
+   accepted, accepted with reservations, or correction requested, bound to this exact
+   report/scope/version/actor/date. Acceptance never changes technical statuses.
+
+### Versioned verification report
+
+Keep each run/revision and earlier failures/notes in the same existing record;
+reruns reference the previous report and newly observed evidence. An unavailable
+record blocks dependent resumption, not authority to create a parallel registry.
+No authorized report save means **unsaved delivery** with an owner-retained handoff.
+
+| Report field | Required meaning |
+| --- | --- |
+| Identity and time | Report ID/revision, procedure S-SESSION 0.1.0, previous-report reference or first run, scope ID/revision/agreement established before checks, start/completion time |
+| Context and pins | Acting user, account/workspace, surface/session; expected and observed plugin/release/resource/configuration identities, unknowns, attributable evidence and freshness |
+| Coverage | Exact selected skills/required sections and actual reader/tool coverage; full catalog partial/unknown; Settings read/unconfigured/unresolved and applicability |
+| Check rows | ID, required/applicable or excluded with reason, expected, observed, PASS/FAIL/BLOCKED/NOT_RUN, evidence references, gap owner and smallest next action |
+| Output and effects | Synthetic request/result version, criteria/inspection; chat-only or exact confirmed destination/save/separate readback, revisions and uncertain effects |
+| Technical result | Scope status and confirmation only under step 6; base usability and configured retention separately; actual observations versus source simulations |
+| Decision and delivery | Separate attributed customer acceptance or pending; report saved/read-back versus unsaved, with actual locator only when observed |
+
+Always exclude from S-SESSION with explicit reasons: M App/MCP and M-HOST/M-DIST
+qualification; independent S-DIST fresh installation, update and recovery; full
+catalog/standard-mode coverage; fresh-session continuity; colleague access; general
+real-client readiness and unresolved platform export/restore/retention contracts.
+These remain NOT_RUN under issue 228's separate profiles; this first slice closes
+none of them. A selected required retention capability cannot later be relabelled
+excluded because it failed. One scoped session proves no broader installation or
+customer acceptance.

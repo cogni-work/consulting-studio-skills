@@ -1,3 +1,11 @@
+# 1.1.0 - 2026-10-28
+
+- Setup0.1.7 exposes Installation prüfen for a bounded, evidence-backed session check.
+- Same27 business methods/35 modes, Librarian0.2.1 and neutral Resume0.2.0.
+- Unified future public/test Skills train; App versions remain separate.
+- Five-path open source extension and exact Apache/NOTICE overlay adopted by the owner.
+- Installation, runtime qualification and acceptance remain separate and NOT_RUN.
+
 # Changelog
 
 ## 0.1.0 — 2026-10-27, prepared locally; publication pending

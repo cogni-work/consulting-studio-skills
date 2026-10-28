@@ -5,7 +5,7 @@ metadata:
   version: "0.1.1"
 ---
 
-<!-- Consulting Studio modification, 2026-10-27: local resource locators were packaged; an explicit working-instruction read was added where applicable. Exact source identities and changes are recorded in the accompanying manifests. -->
+<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
 # Develop an offer people can judge
 
 Read and apply the [common working instructions](../../working-character/instructions.md)

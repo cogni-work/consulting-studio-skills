@@ -3,7 +3,7 @@ name: workspace-bindings
 description: Workspace Librarian — find and verify authoritative Personal or Shared homes for the acting user, context and purpose; reuse or prepare authorized missing homes; maintain references, ownership and lifecycle handoffs. Use when a home or mapping needs attention, including engagement setup, persisted destination reuse or closure.
 ---
 
-<!-- Consulting Studio modification, 2026-10-27: local resource locators were packaged; an explicit working-instruction read was added where applicable. Exact source identities and changes are recorded in the accompanying manifests. -->
+<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
 
 # Workspace Librarian 0.2.1
 

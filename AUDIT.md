@@ -1,3 +1,24 @@
+# Current S release 1.1.0, 2026-10-28
+
+Setup0.1.7 adds Installation prüfen; the27 business methods and Librarian0.2.1
+retain their canonical sources. The owner approved the three changed Setup inputs
+and two new packaging inputs under Apache-2.0 on2026-10-28 at11:30UTC.
+The exact current scope and generated legal overlay are recorded in legal/scope.json.
+Public0.1.0 and its tag/assets remain immutable historical evidence.
+
+Rebuild the current plugin without Git, network, private history or an App:
+
+    python3 -B rebuild/implementation/aligned-release/prepare.py --rebuild-from rebuild --public-release --output ../s-1.1.0-rebuilt
+
+Compare the four S artifacts with SKILLS-SHA256SUMS at this repository's root.
+The repository ZIP separately preserves current public documentation and unchanged
+historical public source/history; two builds from the pinned public base reproduce
+its bytes. The old implementation/s-distribution generator below describes0.1.0.
+No installation, native qualification, update/recovery or customer acceptance is
+established by source/package checks or publication. Issue228 remains open.
+
+---
+
 # Technical notes and release history
 
 ## Testing status and limitations

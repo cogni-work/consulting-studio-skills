@@ -1,11 +1,9 @@
-# Exact release-specific S grant
+# Current release scope
 
-
-The owner approved the exact expanded 31-source S scope and two separately
-identified open App adapter instruction sources on 2026-10-27 at 14:59:59 UTC.
-The full approved Apache text and S NOTICE are operative. The exact NOTICE bytes
-retain historical proposal-status wording; explicit owner adoption in scope.json
-supersedes that status wording without changing attribution or legal text.
-Historical proposal scope/delta/notice bytes are preserved under history.
-Canonical rebuild LICENSE/NOTICE retain their original evidence meaning.
-This grant does not license excluded M software or authorize marketplace/host work.
+The current1.1.0 overlay applies the complete Apache text and unchanged S NOTICE.
+The new owner adoption at2026-10-28 11:30UTC covers exactly the five canonical
+paths in scope.json. Existing grants and attribution remain preserved.
+The exact2026-10-27 approval evidence under history retains its original meaning;
+it is not rewritten into approval of new bytes. Canonical LICENSE/NOTICE in rebuild
+are exact historical evidence, not the operative public legal copies.
+No App/GUI/MCP/server software or private material is licensed or shipped here.

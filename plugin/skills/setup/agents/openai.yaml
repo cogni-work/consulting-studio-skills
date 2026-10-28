@@ -1,5 +1,5 @@
 interface:
-  display_name: "Set up Consulting Studio"
-  short_description: "Reuse your environment with an optional workflow check"
+  display_name: "Setup / Installation prüfen"
+  short_description: "Set up Studio or check a selected S workflow"
 policy:
   allow_implicit_invocation: false

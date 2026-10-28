@@ -1,0 +1,2986 @@
+{
+  "auxiliary_entries": [
+    {
+      "decision": "proposed; updated exact owner approval required",
+      "dependency_edges": [
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/workspace-bindings/SKILL.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../business-skills/installation-storage-lifecycle.md",
+          "origin": "implementation/skills/workspace-bindings/SKILL.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/record-format.md",
+          "origin": "implementation/skills/workspace-bindings/SKILL.md",
+          "target": "implementation/skills/workspace-bindings/references/record-format.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/provider-routes.md",
+          "origin": "implementation/skills/workspace-bindings/SKILL.md",
+          "target": "implementation/skills/workspace-bindings/references/provider-routes.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "verification",
+          "location": "markdown",
+          "locator": "requirements.md#verification",
+          "origin": "implementation/runtime/storage-lifecycle.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "five-logical-information-areas",
+          "location": "markdown",
+          "locator": "#five-logical-information-areas",
+          "origin": "implementation/runtime/storage-lifecycle.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "ordinary-location-examples",
+          "location": "markdown",
+          "locator": "#ordinary-location-examples",
+          "origin": "implementation/runtime/storage-lifecycle.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "references-and-skill-handoffs",
+          "location": "markdown",
+          "locator": "entity-lineage.md#references-and-skill-handoffs",
+          "origin": "implementation/runtime/storage-lifecycle.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "evidence-and-knowledge",
+          "location": "markdown",
+          "locator": "requirements.md#evidence-and-knowledge",
+          "origin": "implementation/runtime/storage-lifecycle.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "transition-closure-and-retention-handoff",
+          "location": "markdown",
+          "locator": "#transition-closure-and-retention-handoff",
+          "origin": "implementation/runtime/storage-lifecycle.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "reuse-revocation-and-exit",
+          "location": "markdown",
+          "locator": "#reuse-revocation-and-exit",
+          "origin": "implementation/runtime/storage-lifecycle.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "resolve-and-provision-the-exact-physical-home",
+          "location": "markdown",
+          "locator": "#resolve-and-provision-the-exact-physical-home",
+          "origin": "implementation/runtime/storage-lifecycle.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../workspace-bindings/contract.md",
+          "origin": "implementation/runtime/storage-lifecycle.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "permissions-and-adoption",
+          "location": "markdown",
+          "locator": "requirements.md#permissions-and-adoption",
+          "origin": "implementation/runtime/storage-lifecycle.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "permissions-and-adoption",
+          "location": "markdown",
+          "locator": "requirements.md#permissions-and-adoption",
+          "origin": "implementation/runtime/storage-lifecycle.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "reuse-revocation-and-exit",
+          "location": "markdown",
+          "locator": "#reuse-revocation-and-exit",
+          "origin": "implementation/runtime/storage-lifecycle.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "business-records",
+          "location": "markdown",
+          "locator": "requirements.md#business-records",
+          "origin": "implementation/runtime/entity-lineage.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/runtime/entity-lineage.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../workspace-bindings/contract.md",
+          "origin": "implementation/runtime/entity-lineage.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/runtime/requirements.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "entity-lineage.md",
+          "origin": "implementation/runtime/requirements.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../working-character/instructions.md",
+          "origin": "implementation/runtime/requirements.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../skills/narrative-shape/SKILL.md",
+          "origin": "implementation/runtime/requirements.md",
+          "target": "implementation/skills/narrative-shape/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "narrative-choice-before-production",
+          "location": "markdown",
+          "locator": "../skills/publishing-render/SKILL.md#narrative-choice-before-production",
+          "origin": "implementation/runtime/requirements.md",
+          "target": "implementation/skills/publishing-render/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../skills/evidence-visualize/SKILL.md",
+          "origin": "implementation/runtime/requirements.md",
+          "target": "implementation/skills/evidence-visualize/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../workspace-bindings/contract.md",
+          "origin": "implementation/runtime/requirements.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "storage-lifecycle.md",
+          "origin": "implementation/runtime/requirements.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../working-character/instructions.md",
+          "origin": "implementation/skills/evidence-visualize/SKILL.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/output-contract.md",
+          "origin": "implementation/skills/evidence-visualize/SKILL.md",
+          "target": "implementation/skills/evidence-visualize/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/source-map.md",
+          "origin": "implementation/skills/evidence-visualize/SKILL.md",
+          "target": "implementation/skills/evidence-visualize/references/source-map.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "report-and-presentation-graphics",
+          "location": "markdown",
+          "locator": "../../runtime/requirements.md#report-and-presentation-graphics",
+          "origin": "implementation/skills/evidence-visualize/SKILL.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "delivery-and-structured-handoff",
+          "location": "markdown",
+          "locator": "references/output-contract.md#delivery-and-structured-handoff",
+          "origin": "implementation/skills/evidence-visualize/SKILL.md",
+          "target": "implementation/skills/evidence-visualize/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/evidence-visualize/references/output-contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "report-and-presentation-graphics",
+          "location": "markdown",
+          "locator": "../../../runtime/requirements.md#report-and-presentation-graphics",
+          "origin": "implementation/skills/evidence-visualize/references/output-contract.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/evidence-visualize/references/output-contract.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../runtime/entity-lineage.md",
+          "origin": "implementation/skills/evidence-visualize/references/output-contract.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../runtime/requirements.md",
+          "origin": "implementation/skills/evidence-visualize/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "output-contract.md",
+          "origin": "implementation/skills/evidence-visualize/references/source-map.md",
+          "target": "implementation/skills/evidence-visualize/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/evidence-visualize/references/source-map.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../runtime/binding-catalog.json",
+          "origin": "implementation/skills/evidence-visualize/references/source-map.md",
+          "target": "implementation/runtime/binding-catalog.json"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../runtime/entity-lineage.md",
+          "origin": "implementation/skills/evidence-visualize/references/source-map.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../working-character/instructions.md",
+          "origin": "implementation/skills/evidence-visualize/references/source-map.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../design-language/SKILL.md",
+          "origin": "implementation/skills/evidence-visualize/references/source-map.md",
+          "target": "implementation/skills/design-language/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../narrative-shape/SKILL.md",
+          "origin": "implementation/skills/evidence-visualize/references/source-map.md",
+          "target": "implementation/skills/narrative-shape/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../evidence-check/SKILL.md",
+          "origin": "implementation/skills/evidence-visualize/references/source-map.md",
+          "target": "implementation/skills/evidence-check/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "/common_contract",
+          "locator": "implementation/workspace-bindings/contract.md",
+          "origin": "implementation/runtime/binding-catalog.json",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "/skills/1/contract_ref",
+          "locator": "implementation/skills/evidence-research/SKILL.md",
+          "origin": "implementation/runtime/binding-catalog.json",
+          "target": "implementation/skills/evidence-research/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "/skills/2/contract_ref",
+          "locator": "implementation/skills/evidence-ask/SKILL.md",
+          "origin": "implementation/runtime/binding-catalog.json",
+          "target": "implementation/skills/evidence-ask/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "/semantic_contract",
+          "locator": "implementation/runtime/entity-lineage.md",
+          "origin": "implementation/runtime/binding-catalog.json",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../working-character/instructions.md",
+          "origin": "implementation/skills/design-language/SKILL.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/output-contract.md",
+          "origin": "implementation/skills/design-language/SKILL.md",
+          "target": "implementation/skills/design-language/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/source-map.md",
+          "origin": "implementation/skills/design-language/SKILL.md",
+          "target": "implementation/skills/design-language/references/source-map.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/design-language/references/output-contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/design-language/references/output-contract.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../runtime/binding-catalog.json",
+          "origin": "implementation/skills/design-language/references/output-contract.md",
+          "target": "implementation/runtime/binding-catalog.json"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../runtime/requirements.md",
+          "origin": "implementation/skills/design-language/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "output-contract.md",
+          "origin": "implementation/skills/design-language/references/source-map.md",
+          "target": "implementation/skills/design-language/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/design-language/references/source-map.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../runtime/binding-catalog.json",
+          "origin": "implementation/skills/design-language/references/source-map.md",
+          "target": "implementation/runtime/binding-catalog.json"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../runtime/entity-lineage.md",
+          "origin": "implementation/skills/design-language/references/source-map.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../working-character/instructions.md",
+          "origin": "implementation/skills/design-language/references/source-map.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../narrative-shape/SKILL.md",
+          "origin": "implementation/skills/design-language/references/source-map.md",
+          "target": "implementation/skills/narrative-shape/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../structure-apply/SKILL.md",
+          "origin": "implementation/skills/design-language/references/source-map.md",
+          "target": "implementation/skills/structure-apply/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../org-specialize/SKILL.md",
+          "origin": "implementation/skills/design-language/references/source-map.md",
+          "target": "implementation/skills/org-specialize/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../working-character/instructions.md",
+          "origin": "implementation/skills/evidence-ask/SKILL.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/evidence-ask/SKILL.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../runtime/binding-catalog.json",
+          "origin": "implementation/skills/evidence-ask/SKILL.md",
+          "target": "implementation/runtime/binding-catalog.json"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/answer-contract.md",
+          "origin": "implementation/skills/evidence-ask/SKILL.md",
+          "target": "implementation/skills/evidence-ask/references/answer-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/evidence-ask/references/answer-contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../working-character/instructions.md",
+          "origin": "implementation/skills/evidence-check/SKILL.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/check-contract.md",
+          "origin": "implementation/skills/evidence-check/SKILL.md",
+          "target": "implementation/skills/evidence-check/references/check-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/evidence-check/SKILL.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../runtime/binding-catalog.json",
+          "origin": "implementation/skills/evidence-check/SKILL.md",
+          "target": "implementation/runtime/binding-catalog.json"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/evidence-check/references/check-contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../working-character/instructions.md",
+          "origin": "implementation/skills/evidence-research/SKILL.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/output-contract.md",
+          "origin": "implementation/skills/evidence-research/SKILL.md",
+          "target": "implementation/skills/evidence-research/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/evidence-research/SKILL.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../runtime/binding-catalog.json",
+          "origin": "implementation/skills/evidence-research/SKILL.md",
+          "target": "implementation/runtime/binding-catalog.json"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/evidence-research/SKILL.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../evidence-visualize/SKILL.md",
+          "origin": "implementation/skills/evidence-research/SKILL.md",
+          "target": "implementation/skills/evidence-visualize/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/evidence-research/references/output-contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "report-and-presentation-graphics",
+          "location": "markdown",
+          "locator": "../../../runtime/requirements.md#report-and-presentation-graphics",
+          "origin": "implementation/skills/evidence-research/references/output-contract.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../working-character/instructions.md",
+          "origin": "implementation/skills/narrative-shape/SKILL.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/output-contract.md",
+          "origin": "implementation/skills/narrative-shape/SKILL.md",
+          "target": "implementation/skills/narrative-shape/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../runtime/requirements.md",
+          "origin": "implementation/skills/narrative-shape/SKILL.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/narrative-shape/SKILL.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../runtime/entity-lineage.md",
+          "origin": "implementation/skills/narrative-shape/SKILL.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "narrative-choice-before-production",
+          "location": "markdown",
+          "locator": "../publishing-render/SKILL.md#narrative-choice-before-production",
+          "origin": "implementation/skills/narrative-shape/SKILL.md",
+          "target": "implementation/skills/publishing-render/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../evidence-visualize/SKILL.md",
+          "origin": "implementation/skills/narrative-shape/SKILL.md",
+          "target": "implementation/skills/evidence-visualize/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/narrative-shape/references/output-contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "report-and-presentation-graphics",
+          "location": "markdown",
+          "locator": "../../../runtime/requirements.md#report-and-presentation-graphics",
+          "origin": "implementation/skills/narrative-shape/references/output-contract.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../working-character/instructions.md",
+          "origin": "implementation/skills/org-specialize/SKILL.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "selected-domain-requirements",
+          "location": "markdown",
+          "locator": "../../runtime/requirements.md#selected-domain-requirements",
+          "origin": "implementation/skills/org-specialize/SKILL.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/output-contract.md",
+          "origin": "implementation/skills/org-specialize/SKILL.md",
+          "target": "implementation/skills/org-specialize/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/source-map.md",
+          "origin": "implementation/skills/org-specialize/SKILL.md",
+          "target": "implementation/skills/org-specialize/references/source-map.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/org-specialize/references/output-contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/org-specialize/references/output-contract.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../workspace-bindings/skill-contracts.json",
+          "origin": "implementation/skills/org-specialize/references/output-contract.md",
+          "target": "implementation/runtime/binding-catalog.json"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "output-contract.md",
+          "origin": "implementation/skills/org-specialize/references/source-map.md",
+          "target": "implementation/skills/org-specialize/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "selected-domain-requirements",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/knowledge.md#market-and-firm-domain-requirements",
+          "origin": "implementation/skills/org-specialize/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "evidence-and-knowledge",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/knowledge.md#personal-and-shared-homes",
+          "origin": "implementation/skills/org-specialize/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/org-specialize/references/source-map.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "communication",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/communication.md",
+          "origin": "implementation/skills/org-specialize/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "responsibility-and-authorized-correction",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/knowledge.md#correction-and-dependent-uses",
+          "origin": "implementation/skills/org-specialize/references/source-map.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../contracts/entity-lineage.md",
+          "origin": "implementation/skills/org-specialize/references/source-map.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "permissions-and-adoption",
+          "location": "markdown",
+          "locator": "../../../../docs/product/deployment-service.md#core-adaptation-and-live-instance",
+          "origin": "implementation/skills/org-specialize/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../working-character/instructions.md",
+          "origin": "implementation/skills/publishing-render/SKILL.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "selected-domain-requirements",
+          "location": "markdown",
+          "locator": "../../runtime/requirements.md#selected-domain-requirements",
+          "origin": "implementation/skills/publishing-render/SKILL.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/output-contract.md",
+          "origin": "implementation/skills/publishing-render/SKILL.md",
+          "target": "implementation/skills/publishing-render/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/source-map.md",
+          "origin": "implementation/skills/publishing-render/SKILL.md",
+          "target": "implementation/skills/publishing-render/references/source-map.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../contracts/entity-lineage.md",
+          "origin": "implementation/skills/publishing-render/SKILL.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/publishing-render/SKILL.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../narrative-shape/SKILL.md",
+          "origin": "implementation/skills/publishing-render/SKILL.md",
+          "target": "implementation/skills/narrative-shape/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../publishing-inspect/SKILL.md",
+          "origin": "implementation/skills/publishing-render/SKILL.md",
+          "target": "implementation/skills/publishing-inspect/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../evidence-visualize/SKILL.md",
+          "origin": "implementation/skills/publishing-render/SKILL.md",
+          "target": "implementation/skills/evidence-visualize/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "report-and-presentation-graphics",
+          "location": "markdown",
+          "locator": "../../runtime/requirements.md#report-and-presentation-graphics",
+          "origin": "implementation/skills/publishing-render/SKILL.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/publishing-render/SKILL.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "structured-handoff",
+          "location": "markdown",
+          "locator": "references/output-contract.md#structured-handoff",
+          "origin": "implementation/skills/publishing-render/SKILL.md",
+          "target": "implementation/skills/publishing-render/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../working-character/instructions.md",
+          "origin": "implementation/skills/publishing-inspect/SKILL.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "selected-domain-requirements",
+          "location": "markdown",
+          "locator": "../../../docs/architecture/knowledge.md#market-and-firm-domain-requirements",
+          "origin": "implementation/skills/publishing-inspect/SKILL.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/output-contract.md",
+          "origin": "implementation/skills/publishing-inspect/SKILL.md",
+          "target": "implementation/skills/publishing-inspect/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/source-map.md",
+          "origin": "implementation/skills/publishing-inspect/SKILL.md",
+          "target": "implementation/skills/publishing-inspect/references/source-map.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../contracts/entity-lineage.md",
+          "origin": "implementation/skills/publishing-inspect/SKILL.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/publishing-inspect/SKILL.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../publishing-render/references/output-contract.md",
+          "origin": "implementation/skills/publishing-inspect/SKILL.md",
+          "target": "implementation/skills/publishing-render/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/publishing-inspect/references/output-contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "report-and-presentation-graphics",
+          "location": "markdown",
+          "locator": "../../../runtime/requirements.md#report-and-presentation-graphics",
+          "origin": "implementation/skills/publishing-inspect/references/output-contract.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/publishing-inspect/references/output-contract.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../contracts/entity-lineage.md",
+          "origin": "implementation/skills/publishing-inspect/references/output-contract.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "communication",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/communication.md",
+          "origin": "implementation/skills/publishing-inspect/references/output-contract.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../publishing-render/references/output-contract.md",
+          "origin": "implementation/skills/publishing-inspect/references/output-contract.md",
+          "target": "implementation/skills/publishing-render/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../publishing-render/references/output-contract.md",
+          "origin": "implementation/skills/publishing-inspect/references/source-map.md",
+          "target": "implementation/skills/publishing-render/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "communication",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/communication.md#production-handoff-and-inspection",
+          "origin": "implementation/skills/publishing-inspect/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "business-records",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/business-objects.md#delivery-objects",
+          "origin": "implementation/skills/publishing-inspect/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "evidence-and-knowledge",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/knowledge.md#evidence-that-can-be-defended",
+          "origin": "implementation/skills/publishing-inspect/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../consult-deliverable/references/output-contract.md",
+          "origin": "implementation/skills/publishing-inspect/references/source-map.md",
+          "target": "implementation/skills/consult-deliverable/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../design-language/references/output-contract.md",
+          "origin": "implementation/skills/publishing-inspect/references/source-map.md",
+          "target": "implementation/skills/design-language/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../narrative-shape/references/output-contract.md",
+          "origin": "implementation/skills/publishing-inspect/references/source-map.md",
+          "target": "implementation/skills/narrative-shape/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../evidence-visualize/references/output-contract.md",
+          "origin": "implementation/skills/publishing-inspect/references/source-map.md",
+          "target": "implementation/skills/evidence-visualize/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/publishing-inspect/references/source-map.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../contracts/entity-lineage.md",
+          "origin": "implementation/skills/publishing-inspect/references/source-map.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/consult-deliverable/references/output-contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "report-and-presentation-graphics",
+          "location": "markdown",
+          "locator": "../../../runtime/requirements.md#report-and-presentation-graphics",
+          "origin": "implementation/skills/consult-deliverable/references/output-contract.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/publishing-render/references/output-contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "structured-handoff",
+          "location": "markdown",
+          "locator": "#structured-handoff",
+          "origin": "implementation/skills/publishing-render/references/output-contract.md",
+          "target": "implementation/skills/publishing-render/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "report-and-presentation-graphics",
+          "location": "markdown",
+          "locator": "../../../runtime/requirements.md#report-and-presentation-graphics",
+          "origin": "implementation/skills/publishing-render/references/output-contract.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/publishing-render/references/output-contract.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../contracts/entity-lineage.md",
+          "origin": "implementation/skills/publishing-render/references/output-contract.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "communication",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/communication.md",
+          "origin": "implementation/skills/publishing-render/references/output-contract.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../narrative-shape/SKILL.md",
+          "origin": "implementation/skills/publishing-render/references/output-contract.md",
+          "target": "implementation/skills/narrative-shape/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "library-saving-and-document-handoff",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#library-saving-and-document-handoff",
+          "origin": "implementation/skills/publishing-render/references/output-contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "output-contract.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/skills/publishing-render/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "business-lifecycle",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/journey.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "communication",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/communication.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "business-records",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/business-objects.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "evidence-and-knowledge",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/knowledge.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "human-decisions",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/decisions.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../workspace-bindings/skill-contracts.json",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/runtime/binding-catalog.json"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../contracts/entity-lineage.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../consult-deliverable/SKILL.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/skills/consult-deliverable/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../consult-deliverable/references/output-contract.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/skills/consult-deliverable/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../design-language/SKILL.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/skills/design-language/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../narrative-shape/SKILL.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/skills/narrative-shape/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../evidence-visualize/SKILL.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/skills/evidence-visualize/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../publishing-inspect/SKILL.md",
+          "origin": "implementation/skills/publishing-render/references/source-map.md",
+          "target": "implementation/skills/publishing-inspect/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../working-character/instructions.md",
+          "origin": "implementation/skills/consult-deliverable/SKILL.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "selected-domain-requirements",
+          "location": "markdown",
+          "locator": "../../../docs/architecture/knowledge.md#market-and-firm-domain-requirements",
+          "origin": "implementation/skills/consult-deliverable/SKILL.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/output-contract.md",
+          "origin": "implementation/skills/consult-deliverable/SKILL.md",
+          "target": "implementation/skills/consult-deliverable/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/source-map.md",
+          "origin": "implementation/skills/consult-deliverable/SKILL.md",
+          "target": "implementation/skills/consult-deliverable/references/source-map.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../contracts/entity-lineage.md",
+          "origin": "implementation/skills/consult-deliverable/SKILL.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/consult-deliverable/SKILL.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../evidence-visualize/SKILL.md",
+          "origin": "implementation/skills/consult-deliverable/SKILL.md",
+          "target": "implementation/skills/evidence-visualize/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../consult-results/references/output-contract.md",
+          "origin": "implementation/skills/consult-deliverable/references/source-map.md",
+          "target": "implementation/skills/consult-results/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "business-lifecycle",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/journey.md#7-review-submit-accept-and-close",
+          "origin": "implementation/skills/consult-deliverable/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "business-records",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/business-objects.md#delivery-objects",
+          "origin": "implementation/skills/consult-deliverable/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "evidence-and-knowledge",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/knowledge.md#evidence-that-can-be-defended",
+          "origin": "implementation/skills/consult-deliverable/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "communication",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/communication.md#communication-craft-from-evidence-to-understanding",
+          "origin": "implementation/skills/consult-deliverable/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "human-decisions",
+          "location": "markdown",
+          "locator": "../../../../docs/architecture/decisions.md#decisions-at-their-actual-triggers",
+          "origin": "implementation/skills/consult-deliverable/references/source-map.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../publishing-render/references/output-contract.md",
+          "origin": "implementation/skills/consult-deliverable/references/source-map.md",
+          "target": "implementation/skills/publishing-render/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../publishing-inspect/references/output-contract.md",
+          "origin": "implementation/skills/consult-deliverable/references/source-map.md",
+          "target": "implementation/skills/publishing-inspect/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../../contracts/entity-lineage.md",
+          "origin": "implementation/skills/consult-deliverable/references/source-map.md",
+          "target": "implementation/runtime/entity-lineage.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/consult-results/references/output-contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "report-and-presentation-graphics",
+          "location": "markdown",
+          "locator": "../../../runtime/requirements.md#report-and-presentation-graphics",
+          "origin": "implementation/skills/consult-results/references/output-contract.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../working-character/instructions.md",
+          "origin": "implementation/skills/structure-apply/SKILL.md",
+          "target": "implementation/working-character/instructions.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/output-contract.md",
+          "origin": "implementation/skills/structure-apply/SKILL.md",
+          "target": "implementation/skills/structure-apply/references/output-contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../workspace-bindings/contract.md",
+          "origin": "implementation/skills/structure-apply/SKILL.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../../runtime/binding-catalog.json",
+          "origin": "implementation/skills/structure-apply/SKILL.md",
+          "target": "implementation/runtime/binding-catalog.json"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/skills/structure-apply/references/output-contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "library-saving-and-document-handoff",
+          "location": "markdown",
+          "locator": "../../../runtime/storage-lifecycle.md#library-saving-and-document-handoff",
+          "origin": "implementation/skills/workspace-bindings/references/provider-routes.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../skills/workspace-bindings/SKILL.md",
+          "origin": "implementation/working-character/instructions.md",
+          "target": "implementation/skills/workspace-bindings/SKILL.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/working-character/instructions.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "library-saving-and-document-handoff",
+          "location": "markdown",
+          "locator": "../runtime/storage-lifecycle.md#library-saving-and-document-handoff",
+          "origin": "implementation/working-character/instructions.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "report-and-presentation-graphics",
+          "location": "markdown",
+          "locator": "../runtime/requirements.md#report-and-presentation-graphics",
+          "origin": "implementation/working-character/instructions.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "architecture.md",
+          "origin": "implementation/workspace-bindings/contract.md",
+          "target": "implementation/workspace-bindings/architecture.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "evidence-and-knowledge",
+          "location": "markdown",
+          "locator": "../runtime/requirements.md#evidence-and-knowledge",
+          "origin": "implementation/workspace-bindings/contract.md",
+          "target": "implementation/runtime/requirements.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "skill-contracts.json",
+          "origin": "implementation/workspace-bindings/contract.md",
+          "target": "implementation/runtime/binding-catalog.json"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "deliverable-mode-and-home",
+          "location": "markdown",
+          "locator": "../runtime/storage-lifecycle.md#deliverable-mode-and-home",
+          "origin": "implementation/workspace-bindings/contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "library-saving-and-document-handoff",
+          "location": "markdown",
+          "locator": "../runtime/storage-lifecycle.md#library-saving-and-document-handoff",
+          "origin": "implementation/workspace-bindings/contract.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "contract.md",
+          "origin": "implementation/workspace-bindings/architecture.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "skill-contracts.json",
+          "origin": "implementation/workspace-bindings/architecture.md",
+          "target": "implementation/runtime/binding-catalog.json"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../runtime/storage-lifecycle.md",
+          "origin": "implementation/workspace-bindings/architecture.md",
+          "target": "implementation/runtime/storage-lifecycle.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "contract.md",
+          "origin": "implementation/workspace-bindings/architecture.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "contract.md",
+          "origin": "implementation/workspace-bindings/architecture.md",
+          "target": "implementation/workspace-bindings/contract.md"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "skill-contracts.json",
+          "origin": "implementation/workspace-bindings/architecture.md",
+          "target": "implementation/runtime/binding-catalog.json"
+        },
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "../skills/workspace-bindings/references/provider-routes.md",
+          "origin": "implementation/workspace-bindings/architecture.md",
+          "target": "implementation/skills/workspace-bindings/references/provider-routes.md"
+        }
+      ],
+      "display_name": "Workspace Librarian",
+      "entry": "implementation/skills/workspace-bindings/SKILL.md",
+      "name": "workspace-bindings",
+      "placement": "S",
+      "required_paths": [
+        "implementation/runtime/binding-catalog.json",
+        "implementation/runtime/entity-lineage.md",
+        "implementation/runtime/requirements.md",
+        "implementation/runtime/storage-lifecycle.md",
+        "implementation/skills/consult-deliverable/SKILL.md",
+        "implementation/skills/consult-deliverable/references/output-contract.md",
+        "implementation/skills/consult-deliverable/references/source-map.md",
+        "implementation/skills/consult-results/references/output-contract.md",
+        "implementation/skills/design-language/SKILL.md",
+        "implementation/skills/design-language/references/output-contract.md",
+        "implementation/skills/design-language/references/source-map.md",
+        "implementation/skills/evidence-ask/SKILL.md",
+        "implementation/skills/evidence-ask/references/answer-contract.md",
+        "implementation/skills/evidence-check/SKILL.md",
+        "implementation/skills/evidence-check/references/check-contract.md",
+        "implementation/skills/evidence-research/SKILL.md",
+        "implementation/skills/evidence-research/references/output-contract.md",
+        "implementation/skills/evidence-visualize/SKILL.md",
+        "implementation/skills/evidence-visualize/references/output-contract.md",
+        "implementation/skills/evidence-visualize/references/source-map.md",
+        "implementation/skills/narrative-shape/SKILL.md",
+        "implementation/skills/narrative-shape/references/output-contract.md",
+        "implementation/skills/org-specialize/SKILL.md",
+        "implementation/skills/org-specialize/references/output-contract.md",
+        "implementation/skills/org-specialize/references/source-map.md",
+        "implementation/skills/publishing-inspect/SKILL.md",
+        "implementation/skills/publishing-inspect/references/output-contract.md",
+        "implementation/skills/publishing-inspect/references/source-map.md",
+        "implementation/skills/publishing-render/SKILL.md",
+        "implementation/skills/publishing-render/references/output-contract.md",
+        "implementation/skills/publishing-render/references/source-map.md",
+        "implementation/skills/structure-apply/SKILL.md",
+        "implementation/skills/structure-apply/references/output-contract.md",
+        "implementation/skills/workspace-bindings/SKILL.md",
+        "implementation/skills/workspace-bindings/references/provider-routes.md",
+        "implementation/skills/workspace-bindings/references/record-format.md",
+        "implementation/working-character/instructions.md",
+        "implementation/workspace-bindings/architecture.md",
+        "implementation/workspace-bindings/contract.md"
+      ],
+      "resources": [
+        "implementation/skills/workspace-bindings/SKILL.md",
+        "implementation/skills/workspace-bindings/references/provider-routes.md",
+        "implementation/skills/workspace-bindings/references/record-format.md"
+      ]
+    },
+    {
+      "decision": "proposed; updated exact owner approval required",
+      "dependency_edges": [
+        {
+          "classification": "bundled governing/resource read",
+          "fragment": "",
+          "location": "markdown",
+          "locator": "references/resume-contract.md",
+          "origin": "implementation/skills/studio-resume/SKILL.md",
+          "target": "implementation/skills/studio-resume/references/resume-contract.md"
+        }
+      ],
+      "display_name": "Resume",
+      "entry": "implementation/skills/studio-resume/SKILL.md",
+      "name": "studio-resume",
+      "placement": "S",
+      "required_paths": [
+        "implementation/skills/studio-resume/SKILL.md",
+        "implementation/skills/studio-resume/references/resume-contract.md"
+      ],
+      "resources": [
+        "implementation/skills/studio-resume/SKILL.md",
+        "implementation/skills/studio-resume/references/resume-contract.md"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "bytes": 18068,
+      "path": "LICENSE",
+      "placement": "S",
+      "rights_profile": "492e3418abd451cb8a9416266add29787169facac64ff66bebb5716ebf069b82",
+      "sha256": "3cb1239ecc37fbf7c805fb291fc04aecb07cfbddb2ec914ccf4d1d3bec04a140"
+    },
+    {
+      "bytes": 5805,
+      "path": "NOTICE",
+      "placement": "S",
+      "rights_profile": "492e3418abd451cb8a9416266add29787169facac64ff66bebb5716ebf069b82",
+      "sha256": "138e17d36c90e940d9cb564fd5d9ae6dd558a8b52945ef5237de28de8bdb4d79"
+    },
+    {
+      "bytes": 2376,
+      "path": "implementation/plugin-distribution/runtime-readme.md",
+      "placement": "S",
+      "rights_profile": "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95",
+      "sha256": "a0cf4934f7182aa7f5a3e08ace681078979599d46b358f3d75550520f8d8f5c1"
+    },
+    {
+      "bytes": 33471,
+      "path": "implementation/plugin-setup/skills/setup/SKILL.md",
+      "placement": "S",
+      "rights_profile": "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95",
+      "sha256": "9b1a4b7dd36224781e0240daf436f10cb720faf4f913d181cdbfb9a84f80b4ee"
+    },
+    {
+      "bytes": 169,
+      "path": "implementation/plugin-setup/skills/setup/agents/openai.yaml",
+      "placement": "S",
+      "rights_profile": "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95",
+      "sha256": "3eced2c23534247d7cc835152ae92290557442f6a4abe747a0781c5aeae1a69a"
+    },
+    {
+      "bytes": 3828,
+      "path": "implementation/plugin-setup/skills/setup/references/optional-synthetic-example.md",
+      "placement": "S",
+      "rights_profile": "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95",
+      "sha256": "e5a560ee75cae89a2457ee1f385bbeb664456b8785db4d0ec4d376898ea180e7"
+    },
+    {
+      "bytes": 9285,
+      "path": "implementation/plugin-setup/skills/setup/references/pages-setup.md",
+      "placement": "S",
+      "rights_profile": "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95",
+      "sha256": "01c0934af1cf438c0b70efbe6520f1bf3bd4ed3cbd51f4aa0a280f74672dfe84"
+    },
+    {
+      "bytes": 17791,
+      "path": "implementation/runtime/binding-catalog.json",
+      "placement": "S",
+      "rights_profile": "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95",
+      "sha256": "d49b54b2de35cdbfd7cebd1652605d1d6d3874901832879e2668cba718e63ddf"
+    },
+    {
+      "bytes": 3789,
+      "path": "implementation/runtime/entity-lineage.md",
+      "placement": "S",
+      "rights_profile": "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95",
+      "sha256": "b28c8e7334832eb74a34f516cb10f589c822aca7debb11bd1c73be51970a5060"
+    },
+    {
+      "bytes": 14415,
+      "path": "implementation/runtime/method-catalog.json",
+      "placement": "S",
+      "rights_profile": "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95",
+      "sha256": "ab091c43ff0808411017878411edac3bd51c02844b138c0861a8257097de97d3"
+    },
+    {
+      "bytes": 19977,
+      "path": "implementation/runtime/requirements.md",
+      "placement": "S",
+      "rights_profile": "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95",
+      "sha256": "ad4bdd895c553223337d4c0719b363df9c6a39c4e6ad01e601795c029c5e1094"
+    },
+    {
+      "bytes": 33605,
+      "path": "implementation/runtime/storage-lifecycle.md",
+      "placement": "S",
+      "rights_profile": "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95",
+      "sha256": "cf6a451cd2b50fea805a6e4f34549978865e795c36b7e631847756d03dd47dae"
+    },
+    {
+      "bytes": 6128,
+      "path": "implementation/skills/consult-change/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "a81972481ed1ddfb62218481f5d34a7fcfabeaadfafc8d0bc6cb3645ee55e6f7"
+    },
+    {
+      "bytes": 6083,
+      "path": "implementation/skills/consult-change/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "2e601c427591e3c9a265f19d7074600d131c5c65ece8ebcc59b42e9c179a819a"
+    },
+    {
+      "bytes": 2308,
+      "path": "implementation/skills/consult-change/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "4de913aa04f94d7b16505611fba56d07a8449a5255083f46c596f583e7f2b911"
+    },
+    {
+      "bytes": 5572,
+      "path": "implementation/skills/consult-closure/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "09d35b45e3b3d16a2cf239b23449a8392d225dd6c835fdba99eeaaab537e76da"
+    },
+    {
+      "bytes": 5922,
+      "path": "implementation/skills/consult-closure/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "61f8c54d7b6e0fb2eb58e210ddb7f20d1fd776282c80774f1643188034ee424b"
+    },
+    {
+      "bytes": 2734,
+      "path": "implementation/skills/consult-closure/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "2982efb6544b3ad87b8faeefc56c4b6f888c1520694727635d5429a9b2646c9c"
+    },
+    {
+      "bytes": 7934,
+      "path": "implementation/skills/consult-deliverable/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "31031235cf6e55733256b27225ee5ff5f9bc55bfd790e28a9b3d03b2cf51f49b"
+    },
+    {
+      "bytes": 9449,
+      "path": "implementation/skills/consult-deliverable/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "d7cfefb69c71a6ac19e22a158c78a7a96aadf378a45496b6b84488e31df376a3"
+    },
+    {
+      "bytes": 2660,
+      "path": "implementation/skills/consult-deliverable/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "5ad7f34716fe5050077b586b58b8324f5d6801dc7476779c8e98b04e23d614e4"
+    },
+    {
+      "bytes": 7325,
+      "path": "implementation/skills/consult-framing/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "734af75b9abb4376847b3d7df5085333ff1a7b97869f0f08b75ee335fcdf2ef5"
+    },
+    {
+      "bytes": 6579,
+      "path": "implementation/skills/consult-framing/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "375ecbfd1983feff938919fd585434320e54a8019c00dac958c423a540de161c"
+    },
+    {
+      "bytes": 2827,
+      "path": "implementation/skills/consult-framing/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "ae74986a328e50c16046bf7c793269d24b246270b65498ceeb33fb677405ca38"
+    },
+    {
+      "bytes": 5846,
+      "path": "implementation/skills/consult-planning/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "fcd9da52ddc398b722ad7da84b9c47aa3d4c297efe8944b4ea59b9e580f4c459"
+    },
+    {
+      "bytes": 5407,
+      "path": "implementation/skills/consult-planning/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "71e85ed3fb71b5b736ffeb5127ad31c777b3876fbd79117c520b4c713233dde1"
+    },
+    {
+      "bytes": 2577,
+      "path": "implementation/skills/consult-planning/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "8d5f56f817e8907a886e30997d9011aff429b4f275e192b0760bded1d42292c4"
+    },
+    {
+      "bytes": 10579,
+      "path": "implementation/skills/consult-results/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "734d29c3ae550d42d280952e27b4c5ee6d935f7db0738575be6508fb8f514820"
+    },
+    {
+      "bytes": 11278,
+      "path": "implementation/skills/consult-results/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "7e30ecfdcbb6aea81ec9b72c29943e27df415eb2efeafb2a36bfd8ebd991b93f"
+    },
+    {
+      "bytes": 2650,
+      "path": "implementation/skills/consult-results/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "5c4fde3b2c4afc3d28a5c7d5955aeb2a3f413ff321c37a61495103464229780b"
+    },
+    {
+      "bytes": 4657,
+      "path": "implementation/skills/consult-status/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "b8107120f572e7221848991ebf65cad35d2aa9a2c6e96b3f90f23f5a996d494c"
+    },
+    {
+      "bytes": 4146,
+      "path": "implementation/skills/consult-status/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "bc8c822552072c85db2a8a1d316c2c1885276a3cf627f1bad899c9cf99e6f9a9"
+    },
+    {
+      "bytes": 2498,
+      "path": "implementation/skills/consult-status/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "cbdda8e2b70b5968d0ce1bfc67bb783eeffea12769a09a1ea9bb74ae913f6d07"
+    },
+    {
+      "bytes": 7164,
+      "path": "implementation/skills/design-language/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "56e4ea163466a10a8914c7ab4928f72ef56f9d1eaef29e16875f2612af63970f"
+    },
+    {
+      "bytes": 8336,
+      "path": "implementation/skills/design-language/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "cbb9816523a907bc8568b5526bb3d594e4cb5fb1922fe1eda2f553721cdf597a"
+    },
+    {
+      "bytes": 2534,
+      "path": "implementation/skills/design-language/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "3797790c0afcc699459d2df7c85a773de3032f2f3af123176826783d912354f3"
+    },
+    {
+      "bytes": 4047,
+      "path": "implementation/skills/evidence-ask/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "931b16a8635d2a891d122ba5539005b5a7cea2eb9bec1743efc5a2a8c9fc3fb6"
+    },
+    {
+      "bytes": 3773,
+      "path": "implementation/skills/evidence-ask/references/answer-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "1716e5867535fd02ec4d393049c703f5dfc6e3196d8e216416082dffacec98c3"
+    },
+    {
+      "bytes": 4047,
+      "path": "implementation/skills/evidence-check/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "b92078a0d34bd27e178ee17e5b36deed9d7794145d1215a33876f0e280a18832"
+    },
+    {
+      "bytes": 3972,
+      "path": "implementation/skills/evidence-check/references/check-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "c45c2701be618ec6a33bdb9a5a0e4ef8fcf7cf7b7f4d1e2084a4b8a9b454ce88"
+    },
+    {
+      "bytes": 8623,
+      "path": "implementation/skills/evidence-research/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "95a683536f3193c4e1eb1c7a9b0f18843f53c109050670fb60a2da677af0c410"
+    },
+    {
+      "bytes": 7880,
+      "path": "implementation/skills/evidence-research/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "e15150c364c7bfcbd120db228ca78aa8de4231ddd8ab27a267f02b4232104944"
+    },
+    {
+      "bytes": 9796,
+      "path": "implementation/skills/evidence-visualize/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "95613ade6fed86dbbc77402a28e4aef9bfded894aba1b4c57f8532a40f68e636"
+    },
+    {
+      "bytes": 10438,
+      "path": "implementation/skills/evidence-visualize/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "f80080e8d0b14c188adb313a7262e9313b46d647d9e63e5bd2cf0f8599b0098b"
+    },
+    {
+      "bytes": 3201,
+      "path": "implementation/skills/evidence-visualize/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "0195e183b9edf60a3605594f4ff8785a5caaa346aa4e091d47a6326e8deca083"
+    },
+    {
+      "bytes": 9501,
+      "path": "implementation/skills/my-improvements/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "cd459115dc96dcbb0cdded2f865cef50126de2720015ee833ad256dde06430ab"
+    },
+    {
+      "bytes": 8853,
+      "path": "implementation/skills/my-improvements/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "e4871d9811573089fac278035ceacb9de5f74cb8aa57e4675d9320f12df90908"
+    },
+    {
+      "bytes": 2596,
+      "path": "implementation/skills/my-improvements/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "03a6221a25def2fe7aa949d529f0baf5b794131ec78cc0ae1ba73b6bff320f98"
+    },
+    {
+      "bytes": 14338,
+      "path": "implementation/skills/narrative-shape/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "b5ae7b937e9696d602129abe3552f6bef79fe93e15414a2ce1fd18db00ee0205"
+    },
+    {
+      "bytes": 15928,
+      "path": "implementation/skills/narrative-shape/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "f31ada6269246325818ece329e832af2b1422a9192f0795ab90f6483369dc053"
+    },
+    {
+      "bytes": 6129,
+      "path": "implementation/skills/offering-develop/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "ebb16b3ade6a25034bd9bcb6f321f1e4e887c782473925146c01277366384d61"
+    },
+    {
+      "bytes": 7344,
+      "path": "implementation/skills/offering-develop/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "e4e779bb19dfd073c4462f733b9afec403fff81ce8356c09de344d53fc374d3d"
+    },
+    {
+      "bytes": 1846,
+      "path": "implementation/skills/offering-develop/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "c1a01476d1fd2154e8e7b5e596684e40ec4ece58b9e594e44834b11ab1142b2c"
+    },
+    {
+      "bytes": 5208,
+      "path": "implementation/skills/offering-proof/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "3f33bb5c7ca8a2686d211cf43c07e64d9b7bccb5a899fdf0e2827bb5c3b6e64d"
+    },
+    {
+      "bytes": 6360,
+      "path": "implementation/skills/offering-proof/references/proof-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "e960e458a474309586b0170114e01390d5a5a4dd5bbb331a51dd70bd4508daa3"
+    },
+    {
+      "bytes": 5781,
+      "path": "implementation/skills/org-specialize/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "06d6b42ac0ee001c6d6b36b1191bfd95b31269053244e08903c064d23ac7d148"
+    },
+    {
+      "bytes": 17889,
+      "path": "implementation/skills/org-specialize/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "54355103d7ef03a1a04c76dfe84eed890a7dc7d6fb3ba7566a1ab3a29bb947b6"
+    },
+    {
+      "bytes": 1988,
+      "path": "implementation/skills/org-specialize/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "734cff170807d9186c4a1706da95cb82fda7cbb5a3596ed6702847e3e0617152"
+    },
+    {
+      "bytes": 8599,
+      "path": "implementation/skills/publishing-inspect/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "e5b6ccd631242c811338d261e31b7f56ee4a9f73b5b9336e95e5105a2ed44fac"
+    },
+    {
+      "bytes": 8280,
+      "path": "implementation/skills/publishing-inspect/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "79fe379fbf294ed059e407a3ba7c5a3ef27682587d0dafd148510a64f0cf9056"
+    },
+    {
+      "bytes": 3066,
+      "path": "implementation/skills/publishing-inspect/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "4c2f8b51e45236c1656495e8a348bb7e058d08e5ef99a795fc22e7c747ef0f94"
+    },
+    {
+      "bytes": 16724,
+      "path": "implementation/skills/publishing-render/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "44ccd5a4f46bda3570e8fe89bcb3cbf25280d51512270eb0fafa6f341ef1b5ba"
+    },
+    {
+      "bytes": 20415,
+      "path": "implementation/skills/publishing-render/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "7e068792558bfa8760d90f0b11ff0604a3a50c27fda2aaa7182383e42e3d544e"
+    },
+    {
+      "bytes": 2748,
+      "path": "implementation/skills/publishing-render/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "5b136276065f1080fc833c93f504c6e451ecf3e524536c54094a0e438aacfce0"
+    },
+    {
+      "bytes": 5078,
+      "path": "implementation/skills/review-challenge/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "f06404ca1634c6cc169accd004885e8f7256d41ff24a05c1a99ba2811eb0dc26"
+    },
+    {
+      "bytes": 4380,
+      "path": "implementation/skills/review-challenge/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "11092a495fabe7ebbf1be3883331dd200bc33d1bd8607fe81bbb85a4a25d80d9"
+    },
+    {
+      "bytes": 2353,
+      "path": "implementation/skills/review-challenge/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "05a7226f06b5e024dded2efdccb63f92af580ab59a262ca2786476f5f8c1b628"
+    },
+    {
+      "bytes": 4750,
+      "path": "implementation/skills/sales-buyer-brief/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "c1e73e6c4dda7f7a698f417ad466ab94ac6180f7fc3a4d3750b5b8054c2b9a98"
+    },
+    {
+      "bytes": 7498,
+      "path": "implementation/skills/sales-buyer-brief/references/brief-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "3be82af4b4890b3b4136e47a42fde01b193d48dda4a1a31306103e23bbbb3f0e"
+    },
+    {
+      "bytes": 4577,
+      "path": "implementation/skills/sales-followup/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "fff36490600833e0fe200e75df14406d8e7f9fc4acf91765a81f3c09ff60da1d"
+    },
+    {
+      "bytes": 5847,
+      "path": "implementation/skills/sales-followup/references/followup-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "a075ce9702e62c9a13200cb0d372ae1b1f1a30be0d92e71e90bc607daa7525b9"
+    },
+    {
+      "bytes": 5904,
+      "path": "implementation/skills/sales-monday-review/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "f31f0a975ef1c723856227002a86aec80a44a0877b4c97b8fa7c99997a57a877"
+    },
+    {
+      "bytes": 1870,
+      "path": "implementation/skills/sales-monday-review/references/source-map.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "b86804c087334bf5e4e5bbc26f77d8a53ce432cfbde3942594e9da9388256a7a"
+    },
+    {
+      "bytes": 6412,
+      "path": "implementation/skills/sales-monday-review/references/view-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "1de1f5ce1998a1f87f90fa5db6fc0007921dfac13979ff37bc037bc1e12b81d2"
+    },
+    {
+      "bytes": 5918,
+      "path": "implementation/skills/sales-proposal/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "74cfbeeaf722b70d070b9eb296df98c2cd3a6721bcd45d03b7527671a415077d"
+    },
+    {
+      "bytes": 9743,
+      "path": "implementation/skills/sales-proposal/references/proposal-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "707d81a52405f528afeced3795dac3de21ac61333a7dfae4bb073623c909082f"
+    },
+    {
+      "bytes": 6225,
+      "path": "implementation/skills/sales-pursuit-event/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "b476c6d9fb7e4671668b48906aded431c51fdb04a24c3b744bfaeb946bbb1126"
+    },
+    {
+      "bytes": 16256,
+      "path": "implementation/skills/sales-pursuit-event/references/event-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "2b3b9b1237f193d6be3cb53cc557056be71d5ba3147eac98cd8eb51aff067512"
+    },
+    {
+      "bytes": 1041,
+      "path": "implementation/skills/sales-pursuit-event/references/narrow-pilot-boundary-0.1.5.json",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "c90760bada2b01c292ca8018ded098489cb13d35ec961fd1db97b35a9153005e"
+    },
+    {
+      "bytes": 2486,
+      "path": "implementation/skills/sales-pursuit-event/references/narrow-pilot-contract-0.1.5.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "219b4971bf9f80d441fc64da4144035057ba03da2d25b24eea8dc59638fcc353"
+    },
+    {
+      "bytes": 2772,
+      "path": "implementation/skills/sales-pursuit-event/references/time-authority-model-0.1.15.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "4b001d7564ef41909e264d68a5ac0059d0f3fef31d6c99028d8d3019448ff86f"
+    },
+    {
+      "bytes": 5031,
+      "path": "implementation/skills/structure-apply/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "d1ec8b3ed42492f181bc4f330f0d6901fbf77a887d7d9025b48a7e1d3782bf27"
+    },
+    {
+      "bytes": 3918,
+      "path": "implementation/skills/structure-apply/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "daac9cf6ef3d6f43ad916f739084465a795b51b163900af87975fb4398ba3030"
+    },
+    {
+      "bytes": 3605,
+      "path": "implementation/skills/structure-problem/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "791c72fe2c8f0baeb52334d2f77e8cebe5d0fd9d0e4c7a8a9ccef55367dedfc6"
+    },
+    {
+      "bytes": 2332,
+      "path": "implementation/skills/structure-problem/references/output-contract.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "7a3d28a0a9f71f7d202324678e8c3ac28501e01c877c1819518d1dd481af97d1"
+    },
+    {
+      "bytes": 2591,
+      "path": "implementation/skills/studio-resume/SKILL.md",
+      "placement": "S",
+      "rights_profile": "cb3ae79f076dff2a9dd39e43d19b25c7ce1e42d2215410a0ba4e3e1050e88ba5",
+      "sha256": "8f56d56b916faa0bd9e5bb94296a35c263bcdb663843f96b98876585acc99581"
+    },
+    {
+      "bytes": 5630,
+      "path": "implementation/skills/studio-resume/references/resume-contract.md",
+      "placement": "S",
+      "rights_profile": "cb3ae79f076dff2a9dd39e43d19b25c7ce1e42d2215410a0ba4e3e1050e88ba5",
+      "sha256": "2b41465792687ff28553a11c04b992ffd530d9beda46555f10fca6c43cd5d914"
+    },
+    {
+      "bytes": 14415,
+      "path": "implementation/skills/workspace-bindings/SKILL.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "8e0e0b7259ebdfcb6866925531c235ec076573be58e6e5de9724a4da6637c825"
+    },
+    {
+      "bytes": 5027,
+      "path": "implementation/skills/workspace-bindings/references/provider-routes.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "04b19a461de3320d3671936fbd791b08f6b2502262b1da95bec3162a30a5b382"
+    },
+    {
+      "bytes": 7822,
+      "path": "implementation/skills/workspace-bindings/references/record-format.md",
+      "placement": "S",
+      "rights_profile": "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9",
+      "sha256": "672d7ca113b52456b82737d328e9ac8f8c6d07bcf992b0296430fba058f1b9ab"
+    },
+    {
+      "bytes": 8897,
+      "path": "implementation/working-character/instructions.md",
+      "placement": "S",
+      "rights_profile": "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95",
+      "sha256": "3615768cb46db36a5bb362f77db7f8a67450f2cfb6f5508a094a569fb36df788"
+    },
+    {
+      "bytes": 6946,
+      "path": "implementation/workspace-bindings/architecture.md",
+      "placement": "S",
+      "rights_profile": "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95",
+      "sha256": "0de6465aa39a4f07bdec2a37b49d090a9960daef67db872b493e5dd7d1adb413"
+    },
+    {
+      "bytes": 9678,
+      "path": "implementation/workspace-bindings/contract.md",
+      "placement": "S",
+      "rights_profile": "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95",
+      "sha256": "d4bb8aaaea4e3955834057fa65f80192e9f20861abb8a7606442ef7dfd2ee718"
+    }
+  ],
+  "gates": [
+    {
+      "condition": "Adopt the exact new S grant and delivery-specific license/notice payload; preserve existing Apache recipient grants and S43's own-contribution confirmation; prior approval of 29 first-party S sources does not cover the neutral Resume sources or discoverable Librarian composition",
+      "id": "s-license",
+      "offers": [
+        "S",
+        "M"
+      ],
+      "owner": "Product owner with qualified legal review",
+      "status": "unapproved"
+    },
+    {
+      "condition": "Separately authorize actual export/distribution; this inventory creates no public export, customer delivery or rights change",
+      "id": "export-authority",
+      "offers": [
+        "S",
+        "M"
+      ],
+      "owner": "Product owner",
+      "status": "unapproved"
+    }
+  ],
+  "helper_adapter_boundary": {
+    "components": [
+      {
+        "bytes": 5776,
+        "path": "implementation/embedded-ui/skills/studio-resume/SKILL.md",
+        "placement": "M",
+        "rights_profile": "cb3ae79f076dff2a9dd39e43d19b25c7ce1e42d2215410a0ba4e3e1050e88ba5",
+        "sha256": "d1ebf6ac96f1da9be6c6079dd08c321f6bb4c0dd7c881a71b3e987c2741fbe6e"
+      },
+      {
+        "bytes": 8708,
+        "path": "implementation/embedded-ui/skills/studio-resume/references/runtime-contract.md",
+        "placement": "M",
+        "rights_profile": "cb3ae79f076dff2a9dd39e43d19b25c7ce1e42d2215410a0ba4e3e1050e88ba5",
+        "sha256": "bf25474ba0962815ec7bb89f7e22960b0ba007f97d80b70509c39ab4aaa0abda"
+      }
+    ],
+    "old_29_source_approval": "Does not cover neutral Resume, auxiliary entry compositions or separately identified adapter instructions",
+    "paths": [
+      "implementation/embedded-ui/skills/studio-resume/SKILL.md",
+      "implementation/embedded-ui/skills/studio-resume/references/runtime-contract.md"
+    ],
+    "placement": "M adapter packaging only; not a paid method boundary",
+    "proposed_rights": "Apache-2.0 open helper instructions; separate new scope, unapproved"
+  },
+  "historical_inventory": {
+    "inventory_commit": "af366eb93a8aaa06be220d67e1fdc9fd2c276bf6",
+    "inventory_sha256": "7a93d9f135d3729c11277378f3760bb6c3e13b5c03d819456bf307a3aca61964",
+    "inventory_tree": "f78e2cb6c31fec1ff35a0b8fb9f5c06a1f47d471"
+  },
+  "legacy_apache": {
+    "bytes": 11357,
+    "commit": "a80dfca5be47eeb3d00f769baa7af90d04b7e0c7",
+    "path": "LICENSE",
+    "relation": "Exact preserved suffix of current LICENSE; existing grants are not withdrawn",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "repository": "cogni-work/consulting-studio",
+  "resource_sets": {
+    "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9": [
+      "LICENSE",
+      "NOTICE",
+      "implementation/runtime/binding-catalog.json",
+      "implementation/runtime/entity-lineage.md",
+      "implementation/runtime/method-catalog.json",
+      "implementation/runtime/requirements.md",
+      "implementation/runtime/storage-lifecycle.md",
+      "implementation/skills/consult-change/SKILL.md",
+      "implementation/skills/consult-change/references/output-contract.md",
+      "implementation/skills/consult-change/references/source-map.md",
+      "implementation/skills/consult-closure/SKILL.md",
+      "implementation/skills/consult-closure/references/output-contract.md",
+      "implementation/skills/consult-closure/references/source-map.md",
+      "implementation/skills/consult-deliverable/SKILL.md",
+      "implementation/skills/consult-deliverable/references/output-contract.md",
+      "implementation/skills/consult-deliverable/references/source-map.md",
+      "implementation/skills/consult-framing/SKILL.md",
+      "implementation/skills/consult-framing/references/output-contract.md",
+      "implementation/skills/consult-framing/references/source-map.md",
+      "implementation/skills/consult-planning/SKILL.md",
+      "implementation/skills/consult-planning/references/output-contract.md",
+      "implementation/skills/consult-planning/references/source-map.md",
+      "implementation/skills/consult-results/SKILL.md",
+      "implementation/skills/consult-results/references/output-contract.md",
+      "implementation/skills/consult-results/references/source-map.md",
+      "implementation/skills/consult-status/SKILL.md",
+      "implementation/skills/consult-status/references/output-contract.md",
+      "implementation/skills/consult-status/references/source-map.md",
+      "implementation/skills/design-language/SKILL.md",
+      "implementation/skills/design-language/references/output-contract.md",
+      "implementation/skills/design-language/references/source-map.md",
+      "implementation/skills/evidence-ask/SKILL.md",
+      "implementation/skills/evidence-ask/references/answer-contract.md",
+      "implementation/skills/evidence-check/SKILL.md",
+      "implementation/skills/evidence-check/references/check-contract.md",
+      "implementation/skills/evidence-research/SKILL.md",
+      "implementation/skills/evidence-research/references/output-contract.md",
+      "implementation/skills/evidence-visualize/SKILL.md",
+      "implementation/skills/evidence-visualize/references/output-contract.md",
+      "implementation/skills/evidence-visualize/references/source-map.md",
+      "implementation/skills/my-improvements/SKILL.md",
+      "implementation/skills/my-improvements/references/output-contract.md",
+      "implementation/skills/my-improvements/references/source-map.md",
+      "implementation/skills/narrative-shape/SKILL.md",
+      "implementation/skills/narrative-shape/references/output-contract.md",
+      "implementation/skills/offering-develop/SKILL.md",
+      "implementation/skills/offering-develop/references/output-contract.md",
+      "implementation/skills/offering-develop/references/source-map.md",
+      "implementation/skills/offering-proof/SKILL.md",
+      "implementation/skills/offering-proof/references/proof-contract.md",
+      "implementation/skills/org-specialize/SKILL.md",
+      "implementation/skills/org-specialize/references/output-contract.md",
+      "implementation/skills/org-specialize/references/source-map.md",
+      "implementation/skills/publishing-inspect/SKILL.md",
+      "implementation/skills/publishing-inspect/references/output-contract.md",
+      "implementation/skills/publishing-inspect/references/source-map.md",
+      "implementation/skills/publishing-render/SKILL.md",
+      "implementation/skills/publishing-render/references/output-contract.md",
+      "implementation/skills/publishing-render/references/source-map.md",
+      "implementation/skills/review-challenge/SKILL.md",
+      "implementation/skills/review-challenge/references/output-contract.md",
+      "implementation/skills/review-challenge/references/source-map.md",
+      "implementation/skills/sales-buyer-brief/SKILL.md",
+      "implementation/skills/sales-buyer-brief/references/brief-contract.md",
+      "implementation/skills/sales-followup/SKILL.md",
+      "implementation/skills/sales-followup/references/followup-contract.md",
+      "implementation/skills/sales-monday-review/SKILL.md",
+      "implementation/skills/sales-monday-review/references/source-map.md",
+      "implementation/skills/sales-monday-review/references/view-contract.md",
+      "implementation/skills/sales-proposal/SKILL.md",
+      "implementation/skills/sales-proposal/references/proposal-contract.md",
+      "implementation/skills/sales-pursuit-event/SKILL.md",
+      "implementation/skills/sales-pursuit-event/references/event-contract.md",
+      "implementation/skills/sales-pursuit-event/references/narrow-pilot-boundary-0.1.5.json",
+      "implementation/skills/sales-pursuit-event/references/narrow-pilot-contract-0.1.5.md",
+      "implementation/skills/sales-pursuit-event/references/time-authority-model-0.1.15.md",
+      "implementation/skills/structure-apply/SKILL.md",
+      "implementation/skills/structure-apply/references/output-contract.md",
+      "implementation/skills/structure-problem/SKILL.md",
+      "implementation/skills/structure-problem/references/output-contract.md",
+      "implementation/skills/workspace-bindings/SKILL.md",
+      "implementation/skills/workspace-bindings/references/provider-routes.md",
+      "implementation/skills/workspace-bindings/references/record-format.md",
+      "implementation/working-character/instructions.md",
+      "implementation/workspace-bindings/architecture.md",
+      "implementation/workspace-bindings/contract.md"
+    ]
+  },
+  "rights_profiles": {
+    "198a155d6d67891c35e10eba2ae5114d7f927c3a0371266c341ef88c403313e9": {
+      "applicable_license": "Existing Apache-2.0 recipient grants for inherited methods; new S grant not activated",
+      "decision": "owner-license-decision-pending",
+      "evidence": [
+        "NOTICE",
+        "docs/provenance.md",
+        "docs/product/deployment-service.md",
+        "implementation/plugin-distribution/release.py"
+      ],
+      "existing_grants": "Preserve existing recipient grants; a commercial bundle never withdraws earlier Apache permissions",
+      "notice_paths": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "obligations": [
+        "Retain applicable copyright/attribution and complete license text",
+        "Include applicable NOTICE; mark changed Apache-derived files prominently",
+        "Resolve exact delivery/source obligations before distribution; no blanket repository license inference"
+      ],
+      "origin": "Canonical Consulting Studio source; inherited upstream scope is retained in NOTICE/docs/provenance.md",
+      "owner": "Product owner with qualified legal review",
+      "proposed_license": "Apache-2.0 S (proposed)",
+      "rights_holder": "Stephan de Haas / cogni-work.ai (S43 owner confirmation), plus actual upstream contributors within their scope",
+      "settling_condition": "Exact rights/notice payload and separate release authority required"
+    },
+    "492e3418abd451cb8a9416266add29787169facac64ff66bebb5716ebf069b82": {
+      "applicable_license": "Exact existing legal payload, including prospective Part A and preserved Part B",
+      "decision": "owner-license-decision-pending",
+      "evidence": [
+        "NOTICE",
+        "docs/provenance.md",
+        "docs/product/deployment-service.md",
+        "implementation/plugin-distribution/release.py"
+      ],
+      "existing_grants": "Preserve existing recipient grants; a commercial bundle never withdraws earlier Apache permissions",
+      "notice_paths": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "obligations": [
+        "Retain applicable copyright/attribution and complete license text",
+        "Include applicable NOTICE; mark changed Apache-derived files prominently",
+        "Resolve exact delivery/source obligations before distribution; no blanket repository license inference"
+      ],
+      "origin": "Canonical Consulting Studio source; inherited upstream scope is retained in NOTICE/docs/provenance.md",
+      "owner": "Product owner with qualified legal review",
+      "proposed_license": "Apache-2.0 S (proposed)",
+      "rights_holder": "Stephan de Haas / cogni-work.ai (S43 owner confirmation), plus actual upstream contributors within their scope",
+      "settling_condition": "Exact rights/notice payload and separate release authority required"
+    },
+    "8a4669891f3e61c1380804b5049c2ced56e377a908f7cbe21d782fdedb459e95": {
+      "applicable_license": "Unresolved delivery-specific scope; preserve applicable existing Apache and independent grants",
+      "decision": "owner-license-decision-pending",
+      "evidence": [
+        "NOTICE",
+        "docs/provenance.md",
+        "docs/product/deployment-service.md",
+        "implementation/plugin-distribution/release.py"
+      ],
+      "existing_grants": "Preserve existing recipient grants; a commercial bundle never withdraws earlier Apache permissions",
+      "notice_paths": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "obligations": [
+        "Retain applicable copyright/attribution and complete license text",
+        "Include applicable NOTICE; mark changed Apache-derived files prominently",
+        "Resolve exact delivery/source obligations before distribution; no blanket repository license inference"
+      ],
+      "origin": "Canonical Consulting Studio source; inherited upstream scope is retained in NOTICE/docs/provenance.md",
+      "owner": "Product owner with qualified legal review",
+      "proposed_license": "Apache-2.0 S (proposed)",
+      "rights_holder": "Stephan de Haas / cogni-work.ai (S43 owner confirmation), plus actual upstream contributors within their scope",
+      "settling_condition": "Exact rights/notice payload and separate release authority required"
+    },
+    "cb3ae79f076dff2a9dd39e43d19b25c7ce1e42d2215410a0ba4e3e1050e88ba5": {
+      "applicable_license": "Unresolved delivery-specific scope; preserve applicable existing Apache and independent grants",
+      "decision": "owner-license-decision-pending",
+      "evidence": [
+        "NOTICE",
+        "docs/provenance.md",
+        "docs/product/deployment-service.md",
+        "implementation/plugin-distribution/release.py"
+      ],
+      "existing_grants": "Preserve existing recipient grants; a commercial bundle never withdraws earlier Apache permissions",
+      "notice_paths": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "obligations": [
+        "Retain applicable copyright/attribution and complete license text",
+        "Include applicable NOTICE; mark changed Apache-derived files prominently",
+        "Resolve exact delivery/source obligations before distribution; no blanket repository license inference"
+      ],
+      "origin": "Canonical Consulting Studio source; inherited upstream scope is retained in NOTICE/docs/provenance.md",
+      "owner": "Product owner with qualified legal review",
+      "proposed_license": "Apache-2.0 open helper instructions (proposed; separate component from GUI/MCP software)",
+      "rights_holder": "Stephan de Haas / cogni-work.ai (S43 owner confirmation), plus actual upstream contributors within their scope",
+      "settling_condition": "Exact rights/notice payload and separate release authority required"
+    }
+  },
+  "schema": "consulting-studio/current-s-selection@1",
+  "skills": [
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/structure-problem/SKILL.md",
+        "implementation/skills/structure-problem/references/output-contract.md"
+      ],
+      "name": "structure-problem",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/evidence-research/SKILL.md",
+        "implementation/skills/evidence-research/references/output-contract.md"
+      ],
+      "name": "evidence-research",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/evidence-ask/SKILL.md",
+        "implementation/skills/evidence-ask/references/answer-contract.md"
+      ],
+      "name": "evidence-ask",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/sales-buyer-brief/SKILL.md",
+        "implementation/skills/sales-buyer-brief/references/brief-contract.md"
+      ],
+      "name": "sales-buyer-brief",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/offering-proof/SKILL.md",
+        "implementation/skills/offering-proof/references/proof-contract.md"
+      ],
+      "name": "offering-proof",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/sales-proposal/SKILL.md",
+        "implementation/skills/sales-proposal/references/proposal-contract.md"
+      ],
+      "name": "sales-proposal",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/sales-pursuit-event/SKILL.md",
+        "implementation/skills/sales-pursuit-event/references/event-contract.md",
+        "implementation/skills/sales-pursuit-event/references/narrow-pilot-boundary-0.1.5.json",
+        "implementation/skills/sales-pursuit-event/references/narrow-pilot-contract-0.1.5.md",
+        "implementation/skills/sales-pursuit-event/references/time-authority-model-0.1.15.md"
+      ],
+      "name": "sales-pursuit-event",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/sales-followup/SKILL.md",
+        "implementation/skills/sales-followup/references/followup-contract.md"
+      ],
+      "name": "sales-followup",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/sales-monday-review/SKILL.md",
+        "implementation/skills/sales-monday-review/references/source-map.md",
+        "implementation/skills/sales-monday-review/references/view-contract.md"
+      ],
+      "name": "sales-monday-review",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/consult-framing/SKILL.md",
+        "implementation/skills/consult-framing/references/output-contract.md",
+        "implementation/skills/consult-framing/references/source-map.md"
+      ],
+      "name": "consult-framing",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/consult-planning/SKILL.md",
+        "implementation/skills/consult-planning/references/output-contract.md",
+        "implementation/skills/consult-planning/references/source-map.md"
+      ],
+      "name": "consult-planning",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/structure-apply/SKILL.md",
+        "implementation/skills/structure-apply/references/output-contract.md"
+      ],
+      "name": "structure-apply",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/consult-results/SKILL.md",
+        "implementation/skills/consult-results/references/output-contract.md",
+        "implementation/skills/consult-results/references/source-map.md"
+      ],
+      "name": "consult-results",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/consult-deliverable/SKILL.md",
+        "implementation/skills/consult-deliverable/references/output-contract.md",
+        "implementation/skills/consult-deliverable/references/source-map.md"
+      ],
+      "name": "consult-deliverable",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/consult-status/SKILL.md",
+        "implementation/skills/consult-status/references/output-contract.md",
+        "implementation/skills/consult-status/references/source-map.md"
+      ],
+      "name": "consult-status",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/consult-change/SKILL.md",
+        "implementation/skills/consult-change/references/output-contract.md",
+        "implementation/skills/consult-change/references/source-map.md"
+      ],
+      "name": "consult-change",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/consult-closure/SKILL.md",
+        "implementation/skills/consult-closure/references/output-contract.md",
+        "implementation/skills/consult-closure/references/source-map.md"
+      ],
+      "name": "consult-closure",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/offering-develop/SKILL.md",
+        "implementation/skills/offering-develop/references/output-contract.md",
+        "implementation/skills/offering-develop/references/source-map.md"
+      ],
+      "name": "offering-develop",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/evidence-check/SKILL.md",
+        "implementation/skills/evidence-check/references/check-contract.md"
+      ],
+      "name": "evidence-check",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/review-challenge/SKILL.md",
+        "implementation/skills/review-challenge/references/output-contract.md",
+        "implementation/skills/review-challenge/references/source-map.md"
+      ],
+      "name": "review-challenge",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/publishing-render/SKILL.md",
+        "implementation/skills/publishing-render/references/output-contract.md",
+        "implementation/skills/publishing-render/references/source-map.md"
+      ],
+      "name": "publishing-render",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/publishing-inspect/SKILL.md",
+        "implementation/skills/publishing-inspect/references/output-contract.md",
+        "implementation/skills/publishing-inspect/references/source-map.md"
+      ],
+      "name": "publishing-inspect",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/org-specialize/SKILL.md",
+        "implementation/skills/org-specialize/references/output-contract.md",
+        "implementation/skills/org-specialize/references/source-map.md"
+      ],
+      "name": "org-specialize",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/my-improvements/SKILL.md",
+        "implementation/skills/my-improvements/references/output-contract.md",
+        "implementation/skills/my-improvements/references/source-map.md"
+      ],
+      "name": "my-improvements",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/design-language/SKILL.md",
+        "implementation/skills/design-language/references/output-contract.md",
+        "implementation/skills/design-language/references/source-map.md"
+      ],
+      "name": "design-language",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/narrative-shape/SKILL.md",
+        "implementation/skills/narrative-shape/references/output-contract.md"
+      ],
+      "name": "narrative-shape",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    },
+    {
+      "decision": "proposed; license/export gates open",
+      "method_resources": [
+        "implementation/skills/evidence-visualize/SKILL.md",
+        "implementation/skills/evidence-visualize/references/output-contract.md",
+        "implementation/skills/evidence-visualize/references/source-map.md"
+      ],
+      "name": "evidence-visualize",
+      "paid_m_dependency": false,
+      "placement": "S",
+      "required_set": "2396d8695f240d57e13acb834c96cca49cdee66f3905fba3b64a2d6c1468beb9",
+      "resource_map_sha256": "43c63973bd76e7046a0bd605a5cae3b700c00eabc7ccdfe0ebed6c4f640a923a"
+    }
+  ],
+  "source_commit": "d673a8d1f2c22bbf07ef66bc29fe07e452526d19",
+  "source_tree": "14d0d32312eff656a1ff14e9beb2db4c9701c3a1",
+  "standing": "LOCAL CURRENT-SOURCE CANDIDATE; historical approval is evidence only; current exact release/export approval PENDING"
+}
