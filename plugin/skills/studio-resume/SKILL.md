@@ -4,8 +4,6 @@ description: Resume or inspect specifically identified accessible saved work and
 metadata:
   version: "0.2.1"
 ---
-
-<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
 # Resume saved work
 
 Read the [shared resume contract](references/source/implementation/skills/studio-resume/references/resume-contract.md). Apply it to the

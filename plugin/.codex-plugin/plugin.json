@@ -18,8 +18,8 @@
     "longDescription": "Prepare useful consulting work from permitted evidence: understand buyers, shape proposals, frame and plan delivery, develop answers, communicate findings and maintain firm methods. Preserve evidence, client boundaries and human decisions.",
     "shortDescription": "Consulting skills"
   },
-  "license": "Apache-2.0",
+  "license": "SEE LICENSE AND legal/scope.json; current delta approval PENDING",
   "name": "consulting-studio-skills",
   "skills": "./skills",
-  "version": "1.2.1"
+  "version": "1.2.2"
 }

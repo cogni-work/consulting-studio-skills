@@ -1,3 +1,40 @@
+# Current S1.2.2 owner decision, 2026-10-29
+
+The owner accepted S as ready for use and authorized publication of the tested
+S1.2.2 candidate through the existing public GitHub distribution repository.
+The release is **owner-tested and accepted for the documented scope**, as detailed
+in [AUDIT.md](AUDIT.md#testing-status-and-limitations). This is an owner disposition,
+not independent certification or a whole-catalog, model, team, update/recovery
+qualification.
+
+The exact tested installer is `consulting-studio-skills.zip`, SHA-256
+`b929d367b7c1a9e96a9eaffbc6fbc2815d75bd488e581416873816219ae09ded`.
+Its candidate source is `2f24ecb713f696ccbc3b2ae4aaf827b7ec9d33a0`.
+Later S1.2.3 report-contract and work-location improvements are excluded. The
+installer is published unchanged; current release/acceptance documentation sits
+outside its retained build-time candidate records. Existing license and attribution
+records and prior tags/assets remain preserved. This decision continues the
+existing Apache-2.0 S distribution terms and includes no App/M software release,
+Marketplace submission, installation, credentials or permission changes.
+
+The owner requested a documentation review and practical guidance, with stale
+blanket test restrictions replaced by successful scoped results and honest remaining
+unknowns. Future S candidates are to be supplied separately as ZIPs in chat;
+future releases in this public repository require a deliberate owner decision.
+The current S1.2.2 publication remains authorized.
+
+Publication and remote readback are executed evidence separate from this decision;
+use the [versioned release](https://github.com/cogni-work/consulting-studio-skills/releases/tag/v1.2.2)
+and its checksums to inspect the published artifacts.
+
+---
+
+## Historical 0.1.0 decision and handoff (preserved)
+
+The following text records the 2026-10-27 preparation checkpoint. Its pending
+operations and installation statements describe that historical scope; they do not
+supersede the current S1.2.2 owner decision or observed tests.
+
 # S release decisions and publication handoff
 
 **Release 0.1.0 is prepared locally and unpublished at this preparation checkpoint.**

@@ -1,9 +1,9 @@
 # Security reporting and updates
 
-Release 0.1.0 is prepared locally; public publication/readback remains pending at
-this preparation checkpoint. No qualified host or installed release is claimed.
-No monitoring, emergency coverage, response deadline or remote customer access is
-promised.
+S1.2.2 is owner-tested and accepted for the documented scope described in
+[AUDIT.md](AUDIT.md#testing-status-and-limitations). This is separate from security
+certification. No monitoring, emergency coverage, response deadline or remote
+customer access is promised.
 
 The owner-approved private reporting contact is **stephan@cogni-work.ai**. Send
 suspected vulnerabilities privately rather than disclosing sensitive details in

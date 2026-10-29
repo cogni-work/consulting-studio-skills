@@ -1,238 +1,98 @@
 {
-  "canonical_inputs": 93,
-  "changed_runtime_inputs": 29,
-  "components": [
-    {
-      "bytes": 35202,
-      "change": "changed canonical runtime input",
-      "path": "implementation/plugin-setup/skills/setup/SKILL.md",
-      "previous_sha256": "9b1a4b7dd36224781e0240daf436f10cb720faf4f913d181cdbfb9a84f80b4ee",
-      "sha256": "5df028a1b26269b7cd2d0b6772c0e991e746028ee9173f332f0cc36f791d4933"
-    },
-    {
-      "bytes": 10350,
-      "change": "changed canonical runtime input",
-      "path": "implementation/plugin-setup/skills/setup/references/pages-setup.md",
-      "previous_sha256": "01c0934af1cf438c0b70efbe6520f1bf3bd4ed3cbd51f4aa0a280f74672dfe84",
-      "sha256": "e46af7006b6c5ffdc54d64040db96505f9866a979ca7cfef2c862e1f4c380a1e"
-    },
-    {
-      "bytes": 14415,
-      "change": "changed canonical runtime input",
-      "path": "implementation/runtime/method-catalog.json",
-      "previous_sha256": "ab091c43ff0808411017878411edac3bd51c02844b138c0861a8257097de97d3",
-      "sha256": "afb1943a7e455afd4a6443d2c7b5124a6c44f8e8c3ac7610556bbadeac5ff5b4"
-    },
-    {
-      "bytes": 6584,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-change/SKILL.md",
-      "previous_sha256": "a81972481ed1ddfb62218481f5d34a7fcfabeaadfafc8d0bc6cb3645ee55e6f7",
-      "sha256": "7e3f7bd1e0042d51dfc44a22bdc60ecf3b299cb747489f7468c6317411e97fda"
-    },
-    {
-      "bytes": 6682,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-change/references/output-contract.md",
-      "previous_sha256": "2e601c427591e3c9a265f19d7074600d131c5c65ece8ebcc59b42e9c179a819a",
-      "sha256": "9784bf2ca3b213ff51450f5576ed852eb0e0b2378aa7ff11f213acb9a47790fa"
-    },
-    {
-      "bytes": 6004,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-closure/SKILL.md",
-      "previous_sha256": "09d35b45e3b3d16a2cf239b23449a8392d225dd6c835fdba99eeaaab537e76da",
-      "sha256": "2983867b86e2b90bde2afca5a6bf82dd61c12a5db7360ef7a9f76997a312ae2d"
-    },
-    {
-      "bytes": 6521,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-closure/references/output-contract.md",
-      "previous_sha256": "61f8c54d7b6e0fb2eb58e210ddb7f20d1fd776282c80774f1643188034ee424b",
-      "sha256": "193939c0f7cb35e70ccc8606aba5fda8a8856727f3ce711eba8c895734767c05"
-    },
-    {
-      "bytes": 8361,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-deliverable/SKILL.md",
-      "previous_sha256": "31031235cf6e55733256b27225ee5ff5f9bc55bfd790e28a9b3d03b2cf51f49b",
-      "sha256": "7226000f75dcb663c6368772ddd574df87f88606a5828abc4a73186690358b00"
-    },
-    {
-      "bytes": 10048,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-deliverable/references/output-contract.md",
-      "previous_sha256": "d7cfefb69c71a6ac19e22a158c78a7a96aadf378a45496b6b84488e31df376a3",
-      "sha256": "8e0d9ab055d40c7ce501690a53cbe5840dd301ad26d4642ffcbcc3ce70078e43"
-    },
-    {
-      "bytes": 7860,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-framing/SKILL.md",
-      "previous_sha256": "734af75b9abb4376847b3d7df5085333ff1a7b97869f0f08b75ee335fcdf2ef5",
-      "sha256": "c41a5752a08a41964489edda7429cb621b425bc81bc6897cc5f548e4579f0740"
-    },
-    {
-      "bytes": 7330,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-framing/references/output-contract.md",
-      "previous_sha256": "375ecbfd1983feff938919fd585434320e54a8019c00dac958c423a540de161c",
-      "sha256": "0d247842701a60b39ba19823a3b0f1b4e4c70bf3f855aad282d80fe656941b5f"
-    },
-    {
-      "bytes": 6278,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-planning/SKILL.md",
-      "previous_sha256": "fcd9da52ddc398b722ad7da84b9c47aa3d4c297efe8944b4ea59b9e580f4c459",
-      "sha256": "4af31cef73dcfa14fa8cf050650195b4629643c6fc6ad4e94850a7b2adb378e0"
-    },
-    {
-      "bytes": 6006,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-planning/references/output-contract.md",
-      "previous_sha256": "71e85ed3fb71b5b736ffeb5127ad31c777b3876fbd79117c520b4c713233dde1",
-      "sha256": "0d2bda658ab09e3ff85cfb17975d7100bae5d25c00239dd7beaff6dc6a4eb75b"
-    },
-    {
-      "bytes": 11040,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-results/SKILL.md",
-      "previous_sha256": "734d29c3ae550d42d280952e27b4c5ee6d935f7db0738575be6508fb8f514820",
-      "sha256": "b68617b28ee64af57b7bae1f62d2c34a235ded670372dfe838a28c674fa8100d"
-    },
-    {
-      "bytes": 11877,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-results/references/output-contract.md",
-      "previous_sha256": "7e30ecfdcbb6aea81ec9b72c29943e27df415eb2efeafb2a36bfd8ebd991b93f",
-      "sha256": "f3b222f4c811bd100a18e4a6b774417308f53c9220dd90735babe3afc628c091"
-    },
-    {
-      "bytes": 5088,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-status/SKILL.md",
-      "previous_sha256": "b8107120f572e7221848991ebf65cad35d2aa9a2c6e96b3f90f23f5a996d494c",
-      "sha256": "176115830ea26af62ab9a3e29059135117817f4cd382bf74918eaa1534947287"
-    },
-    {
-      "bytes": 4749,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/consult-status/references/output-contract.md",
-      "previous_sha256": "bc8c822552072c85db2a8a1d316c2c1885276a3cf627f1bad899c9cf99e6f9a9",
-      "sha256": "ba8b8728e452dd3fa8a16fddd4296907602c3d0690b0916f868821ff74a93c49"
-    },
-    {
-      "bytes": 4526,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/evidence-ask/SKILL.md",
-      "previous_sha256": "931b16a8635d2a891d122ba5539005b5a7cea2eb9bec1743efc5a2a8c9fc3fb6",
-      "sha256": "725292924a49e549bc95e17f64a6bf509b1a9a21cb495d148c8f43a07887d5c5"
-    },
-    {
-      "bytes": 3773,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/evidence-ask/references/answer-contract.md",
-      "previous_sha256": "1716e5867535fd02ec4d393049c703f5dfc6e3196d8e216416082dffacec98c3",
-      "sha256": "96c663cb66b588401cb24d78ee06e6d2469aeff42aaa570dcf84fe09222276a7"
-    },
-    {
-      "bytes": 4520,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/evidence-check/SKILL.md",
-      "previous_sha256": "b92078a0d34bd27e178ee17e5b36deed9d7794145d1215a33876f0e280a18832",
-      "sha256": "342277cfdc97c6631c7fc209224c70b89712195e827a538f42a7d76e0f530480"
-    },
-    {
-      "bytes": 3972,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/evidence-check/references/check-contract.md",
-      "previous_sha256": "c45c2701be618ec6a33bdb9a5a0e4ef8fcf7cf7b7f4d1e2084a4b8a9b454ce88",
-      "sha256": "df3a90b10aa65e697983b0c3165a6947a7c1a86c4817772f35b46562cdeb6161"
-    },
-    {
-      "bytes": 9304,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/evidence-research/SKILL.md",
-      "previous_sha256": "95a683536f3193c4e1eb1c7a9b0f18843f53c109050670fb60a2da677af0c410",
-      "sha256": "ab3dfcc27efdec25e60a1e3b66a7c0d006602e6c0af91ed43aff2d6baa630ba0"
-    },
-    {
-      "bytes": 8820,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/evidence-research/references/output-contract.md",
-      "previous_sha256": "e15150c364c7bfcbd120db228ca78aa8de4231ddd8ab27a267f02b4232104944",
-      "sha256": "40bb6a8c3cc76b1756d2326b90ab17dd40cdc008f0c03659bf889d765e16cecf"
-    },
-    {
-      "bytes": 5290,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/sales-buyer-brief/SKILL.md",
-      "previous_sha256": "c1e73e6c4dda7f7a698f417ad466ab94ac6180f7fc3a4d3750b5b8054c2b9a98",
-      "sha256": "857a0f1854cdce102ee845b0d2a1c68245a6258e62616b34e0247de96aaa4572"
-    },
-    {
-      "bytes": 8101,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/sales-buyer-brief/references/brief-contract.md",
-      "previous_sha256": "3be82af4b4890b3b4136e47a42fde01b193d48dda4a1a31306103e23bbbb3f0e",
-      "sha256": "64696e1c46af6a57f80326acb32ff684d1e3dd2aa85fe42f9cbe27a7d420698c"
-    },
-    {
-      "bytes": 2591,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/studio-resume/SKILL.md",
-      "previous_sha256": "8f56d56b916faa0bd9e5bb94296a35c263bcdb663843f96b98876585acc99581",
-      "sha256": "1f3a17b8ee40a808072f9843b3177a880ae3076af48d5c850bdfd5501dcab4b1"
-    },
-    {
-      "bytes": 7114,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/studio-resume/references/resume-contract.md",
-      "previous_sha256": "2b41465792687ff28553a11c04b992ffd530d9beda46555f10fca6c43cd5d914",
-      "sha256": "cf67f9aa8abcf1cb59777377107a2d2bad7ac5869e6631a604511d99d2f03b26"
-    },
-    {
-      "bytes": 15002,
-      "change": "changed canonical runtime input",
-      "path": "implementation/skills/workspace-bindings/SKILL.md",
-      "previous_sha256": "8e0e0b7259ebdfcb6866925531c235ec076573be58e6e5de9724a4da6637c825",
-      "sha256": "b032b28b6c14b3c471885c9192830f290a7878150ded6a156e1b74e1b8a828ff"
-    },
-    {
-      "bytes": 19798,
-      "change": "changed canonical runtime input",
-      "path": "implementation/workspace-bindings/contract.md",
-      "previous_sha256": "d4bb8aaaea4e3955834057fa65f80192e9f20861abb8a7606442ef7dfd2ee718",
-      "sha256": "a97abe2c1bd2f291cb34f1e3f1bcb691c578d5050ad1aadb20e8cac6e81075da"
-    },
-    {
-      "change": "changed canonical packaging input; exact source retained at provenance/aligned-release-candidate-1.2.1.py",
-      "path": "implementation/aligned-release/prepare.py",
-      "sha256": "9c8f9de160a84490c9bcc20fd56642c68e70de59814b8a22d35fd5e62f7dbe3d"
-    },
-    {
-      "change": "changed packaging selection",
-      "path": "implementation/aligned-release/selection.json",
-      "sha256": "804ab14e5d72bf435c42bcab4e15d8490eeadb56c2f54c4d883c74be213aeb65"
-    }
-  ],
-  "exported_generator": {
-    "adaptations": "Release authority/legal/manifest/provenance/docs and S-only release CLI; canonical method selection and assembly preserved",
-    "canonical_source_sha256": "9c8f9de160a84490c9bcc20fd56642c68e70de59814b8a22d35fd5e62f7dbe3d",
-    "emitted_sha256": "852c2683b2a30b3a47b03e70db4251113b9c2e1ecb87c066db10631254767a46",
-    "path": "implementation/aligned-release/prepare.py",
-    "retained_source": "provenance/aligned-release-candidate-1.2.1.py"
+  "canonical_upstream": "The exact locally reviewed source snapshot is supplied in rebuild/. It is distinct from later canonical development. Publication does not merge or replace that later development.",
+  "changes": "Presentation cleanup only: technical/display name alignment, generated commentary removal, legal/manifest record relocation outside instructions. No later report-contract or work-location behavior is included.",
+  "displaced_history": {
+    "plugin/skills/consult-change/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/consult-change/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/consult-change/manifest.json": "7362b0f0a84ca5bfd842ee3becf9ad20d1477cdbcd134145658f58f146c246d5",
+    "plugin/skills/consult-closure/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/consult-closure/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/consult-closure/manifest.json": "2d3ddba3bb268075ade6f55b2274d96212e4c077665be1ffc7b611bf1b5332b5",
+    "plugin/skills/consult-deliverable/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/consult-deliverable/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/consult-deliverable/manifest.json": "c7299b7e8e5a7fcf3b6811801e842b3ee0b4706dea428139506d4a3ea37d1622",
+    "plugin/skills/consult-framing/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/consult-framing/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/consult-framing/manifest.json": "e1ff438313bc03954a8e5d48062d3eda98477de3594052e0645241451d62e3ac",
+    "plugin/skills/consult-planning/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/consult-planning/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/consult-planning/manifest.json": "8ace6870bbce9e2e78253f96a527c1948eb0e494bf28e9406b6895b56951a746",
+    "plugin/skills/consult-results/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/consult-results/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/consult-results/manifest.json": "eace48d35466198b4194bdcea20b17064c2dd0e9ce6ee9254422e8aa68f8a965",
+    "plugin/skills/consult-status/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/consult-status/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/consult-status/manifest.json": "4f21613268b7a946a42a2081383b3c3505a6c8365425f2c5e03b6d2080e0556d",
+    "plugin/skills/design-language/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/design-language/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/design-language/manifest.json": "b8f89449b8e20d6bba8414936acb8692d07b040145b58a8883d21f534f688b9e",
+    "plugin/skills/evidence-ask/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/evidence-ask/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/evidence-ask/manifest.json": "e836b8a1ab752d2ce54539c3156a1c2c28259c3e47a4b49ce253b6088c53d1d5",
+    "plugin/skills/evidence-check/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/evidence-check/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/evidence-check/manifest.json": "0a65a23833079106498ffe39d124afcf9ce2433ef61661daedefc27d6d0533df",
+    "plugin/skills/evidence-research/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/evidence-research/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/evidence-research/manifest.json": "d22bf44b2833a0c8a4e35207035af70db61b39a5f5b22ae7ad77241c96472449",
+    "plugin/skills/evidence-visualize/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/evidence-visualize/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/evidence-visualize/manifest.json": "6a0cf28d336741e87246300ac0dda5c19f45dcd53c6752c4d33b74180c5f4e6a",
+    "plugin/skills/my-improvements/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/my-improvements/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/my-improvements/manifest.json": "a7a0a2e15beb76bec7ac43b3ec9a958fb3875b2b681dba24c48a3721eb46b401",
+    "plugin/skills/narrative-shape/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/narrative-shape/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/narrative-shape/manifest.json": "0d71cdd8739fdb082f956942f41141d4b3a359bb2fa6a02683ff796d5d1e5bb7",
+    "plugin/skills/offering-develop/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/offering-develop/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/offering-develop/manifest.json": "da288a6701f65fd973b2be0c102262caa1ac5c744e823956cf7ae274350bd801",
+    "plugin/skills/offering-proof/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/offering-proof/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/offering-proof/manifest.json": "8a786c0aa225ed3baf3b236c4dfb4902b01c3539d82e7fdeee1426226232d772",
+    "plugin/skills/org-specialize/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/org-specialize/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/org-specialize/manifest.json": "20a834013cfeb9c3b5c6bd356e6998615fa90393b7f735a2e8f4f6d21be449ec",
+    "plugin/skills/publishing-inspect/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/publishing-inspect/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/publishing-inspect/manifest.json": "11089924fe60f6f370dff2e29f34d4a0aff6a4a11961a1f95de3314390e47c0a",
+    "plugin/skills/publishing-render/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/publishing-render/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/publishing-render/manifest.json": "0f5b7012066f2efecb7696535c00c96fd3edb73b350a2d90dc4cb81eb372f790",
+    "plugin/skills/review-challenge/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/review-challenge/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/review-challenge/manifest.json": "2421f92ae728883a78e5643b9cb3cdf59a27e5749c3bb9913702b9325bdf1d5a",
+    "plugin/skills/sales-buyer-brief/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/sales-buyer-brief/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/sales-buyer-brief/manifest.json": "95c52cda3552e27f535640d42e8bde21391be1f7e80d7562eb87278142d84be8",
+    "plugin/skills/sales-followup/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/sales-followup/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/sales-followup/manifest.json": "ff9e5c396de039becc3514e5854e7de5ce4221cdaa9658a97fecb4f11821e4e0",
+    "plugin/skills/sales-monday-review/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/sales-monday-review/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/sales-monday-review/manifest.json": "21e7c0dd193efcd05e3f9d5d36ac2e14e0a1f38dbdfed8b4a3d68c59f0440be4",
+    "plugin/skills/sales-proposal/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/sales-proposal/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/sales-proposal/manifest.json": "2988a4e995fc7894a190214eb66546a450db7d0aa9b696e5844ea2cc2589551f",
+    "plugin/skills/sales-pursuit-event/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/sales-pursuit-event/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/sales-pursuit-event/manifest.json": "f5a4a2532f761a716b0618246d59b4ade3840b800dbef2a2d60dcfad715ca737",
+    "plugin/skills/structure-apply/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/structure-apply/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/structure-apply/manifest.json": "83991b75be96d9a5dbe85ec01714b8f36abcae21b65d302e4368ac50361a5adf",
+    "plugin/skills/structure-problem/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "plugin/skills/structure-problem/NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
+    "plugin/skills/structure-problem/manifest.json": "53c56ca76d9d36da448e9f85da8e5aac74928962429a97b32ff175dafb95efda",
+    "plugin/skills/studio-resume/manifest.json": "ad65df1c4468d23a9560114b58261b1d052d4bd2f25ae0705043dac285255888",
+    "plugin/skills/workspace-bindings/manifest.json": "6e7a66d4449f52167f1e8520a0e19df9c2de4aca81aa1a5b885c56f283866110",
+    "rebuild/provenance/aligned-release-candidate-1.2.1.py": "9c8f9de160a84490c9bcc20fd56642c68e70de59814b8a22d35fd5e62f7dbe3d"
   },
-  "generated_outputs": "Exact source transformations, dependency graphs, manifests, prominent modification notices, current operative legal records and repository/rebuild metadata; no additional selected method source",
-  "previous_public_base": "fff65b7e5debd215f52bc9228d07bdee535dd762",
-  "release_authority": {
-    "authorized_at": "2026-10-29T05:41:49Z",
-    "excluded": "App/GUI/MCP/server rights or delivery; private identities/history; customer data; installation and customer acceptance",
-    "existing_grants": "Preserved; previous release-specific approvals retain their original scope",
-    "scope": "Public S1.2.1 source, tag and release assets in cogni-work/consulting-studio-skills under its existing Apache-2.0 S terms",
-    "source": "Product owner directly authorized proceeding with public S1.2.1 delivery",
-    "status": "AUTHORIZED_PUBLIC_S_RELEASE"
-  },
+  "exact_plugin_sha256": "b929d367b7c1a9e96a9eaffbc6fbc2815d75bd488e581416873816219ae09ded",
+  "previous_public_commit": "a3bf76f9b157c0a4c080258253f16f5a855db39a",
+  "runtime_source_changes": 0,
   "schema": "consulting-studio/s-release-source-delta@1",
-  "unchanged_runtime_inputs": 64
+  "selected_canonical_inputs": 93,
+  "tested_source_commit": "2f24ecb713f696ccbc3b2ae4aaf827b7ec9d33a0",
+  "tested_source_tree": "df3934d9365e97541a3fcf27fc45a13ac1266caf",
+  "version": "1.2.2"
 }

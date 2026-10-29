@@ -14,7 +14,6 @@
     "Knowledge Contribution"
   ],
   "discovery": "personal-index only when useful; no mandatory read or full scan",
-  "distribution_modification_notice": "Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained.",
   "entity_types": [
     "Account / Relationship",
     "Agreement Reference",

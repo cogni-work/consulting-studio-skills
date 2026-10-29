@@ -4,8 +4,6 @@ description: Turn permitted evidence and analysis into a versioned answer, suppo
 metadata:
   version: 0.1.7
 ---
-
-<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
 # Answer the question with defensible results
 
 Read and apply the [common working instructions](../../working-character/instructions.md)

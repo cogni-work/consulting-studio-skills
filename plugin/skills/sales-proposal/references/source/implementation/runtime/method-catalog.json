@@ -1,5 +1,4 @@
 {
-  "distribution_modification_notice": "Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained.",
   "input_rule": "Compatible supplied inputs satisfy a handoff without requiring another skill invocation. Before production, ask and wait for the current request's explicit narrative choice; yes requires narrative-shape before rendering. Read exact inputs and preserve entity/evidence lineage. For substantive report/presentation workflows explicitly apply evidence-visualize before production, validating reusable figures or recording a justified text/table-only outcome; integrate and inspect selected figures in every requested final format. Preserve the request-bound narrative answer, consultant direction and shared delivery mode/home.",
   "schema_version": 1,
   "skills": [

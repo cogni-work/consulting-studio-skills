@@ -19,7 +19,7 @@
       "onboardingSkill": "./skills/setup/SKILL.md"
     }
   },
-  "license": "Apache-2.0",
+  "license": "SEE LICENSE AND legal/scope.json; current delta approval PENDING",
   "name": "consulting-studio-skills",
-  "version": "1.2.1"
+  "version": "1.2.2"
 }

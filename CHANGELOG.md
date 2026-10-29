@@ -1,3 +1,21 @@
+# 1.2.2 - 2026-10-29
+
+- Publish the exact S1.2.2 installer, owner-tested and accepted for the documented
+  scope: Setup and a bounded problem-framing workflow with Astra, with fresh reads
+  of settings and required references. Later owner-reported work adds project
+  reuse and save/readback observations; its exact model/version is unconfirmed.
+- Use matching technical and display names for all 30 entries, keep Setup present,
+  and remove generated packaging commentary and nonfunctional origin breadcrumbs
+  from instructions and nested references. Preserve functional resource navigation
+  and exact license/attribution records outside the skills tree.
+- Improve installation, Setup, returning-to-work and update guidance. State the
+  successful scoped tests and remaining whole-catalog, model, team and
+  update/recovery unknowns separately.
+- Preserve the tested installer bytes, prior releases/assets and owner edits. Later
+  S1.2.3 report-contract and work-location improvements are outside this release.
+- Continue Apache-2.0 S distribution. Future public releases require a deliberate
+  maintainer decision; separately delivered candidate ZIPs do not auto-publish.
+
 # 1.2.1 - 2026-10-29
 
 - Apply existing project structure and maintain references to original sources.

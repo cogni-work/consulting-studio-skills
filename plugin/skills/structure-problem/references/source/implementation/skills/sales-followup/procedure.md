@@ -4,8 +4,6 @@ description: Keep consulting relationship, referral, renewal and delivery-origin
 metadata:
   version: "0.1.0"
 ---
-
-<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
 # Keep the next relationship action visible
 
 Read and apply the [common working instructions](../../working-character/instructions.md)

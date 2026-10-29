@@ -1,5 +1,5 @@
 interface:
-  display_name: "Setup / Installation prüfen"
+  display_name: "setup"
   short_description: "Set up Studio or check a selected S workflow"
 policy:
   allow_implicit_invocation: false

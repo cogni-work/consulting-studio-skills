@@ -1,0 +1,44 @@
+PROPOSED S NOTICE ONLY — not adopted; inherited operative NOTICE is unchanged.
+
+Consulting Studio
+Copyright 2026 cogni-work contributors
+
+Product vision and business architecture are selectively adapted from
+cogni-work/cogni-consulting, commit
+651a17604ab3cb456010b804b334e9c504a3fad9, Apache-2.0.
+
+    cogni-consulting
+    Copyright 2026 Stephan de Haas / cogni-work.ai
+
+Problem-structuring/framework-selection and communication-craft vocabulary derives
+through prior method references from insight-wave, commit
+fbce470260b9244b3a687bf1177a593f5f6600e3, including cogni-publishing 0.0.35,
+Apache-2.0.
+
+    insight-wave
+    Copyright 2026 Stephan de Haas / cogni-work.ai
+
+Theme-selection/application concepts are informed by Anthropic theme-factory,
+commit 683bc88e56f3e09ba94f7055977f3d3aa499f202, Apache-2.0.
+
+    Copyright 2026 Anthropic, PBC.
+
+Doc-coauthoring is credited as a conceptual workflow reference at that revision.
+Bruce Mau's MC24, "Quantify and Visualize," is credited as owner-supplied inspiration.
+No book pages/images, theme assets, fonts or upstream renderer code are redistributed
+in S. The optional Setup example is labelled fictional; historical rendered
+fixtures/evaluation adapters are excluded.
+
+Consulting Studio modifications, 2026-10-04 and 2026-10-09: independently rewritten
+product/business and communication requirements selectively retain the above
+vocabulary, evidence qualifications, human decisions and consulting scope.
+
+Consulting Studio modification, 2026-10-27: S source packaging rewrites required
+resource locators to complete local resources, composes working instructions,
+adds explicit working-instruction reads where applicable and per-file change
+notices. Canonical source bytes, inherited grants and historical distributions
+remain unchanged. Exact source hashes and transformations accompany the package.
+
+This proposed notice supplies attribution, not a new grant or approval. Actual
+third-party rights and existing recipient grants remain preserved. The new
+S-wide first-party Apache proposal requires exact owner adoption separately.

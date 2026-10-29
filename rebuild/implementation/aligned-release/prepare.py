@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
-"""Build S1.2.1 public-release assets locally from finite reviewed inputs.
+"""Prepare local aligned Skills/App candidates; never publish or install.
 
-This S-only CLI applies current public-release records and existing operative
-Apache-2.0 S terms. Canonical methods, exact selection and six reused packaging
-inputs remain unchanged. Historical technical composition functions and the exact
-original candidate generator retain preparation-time provenance meaning.
-This command does not publish, install, deploy or operate an App.
+The frozen exporter and historical release approval remain unchanged. This new
+revision consumes a separately pinned, S-only current-source selection. Prior grants/legal bytes remain evidence. The current proposed legal overlay
+keeps exact source/license/export approval pending and performs no external write.
 """
 import argparse
 import copy
@@ -62,16 +60,11 @@ PUBLIC_NOTICE = b'PROPOSED S NOTICE ONLY \xe2\x80\x94 not adopted; inherited ope
 APACHE_SHA256 = 'c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4'
 NOTICE_SHA256 = '4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df'
 OPEN_DELTA = tuple(r['path'] for r in json.loads((ROOT / SELECTION).read_bytes())['current_source_delta']) + (SELF, SELECTION)
-PUBLIC_STANDING = 'PUBLIC S1.2.1 RELEASE PREPARED under existing Apache-2.0 terms; publication separately verified; installation and acceptance NOT_RUN'
-PUBLIC_MODIFICATION = ('Consulting Studio packaging modification, 2026-10-29: local resource locators '
-    'and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. '
-    'S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained.')
-CANDIDATE_GENERATOR = 'provenance/aligned-release-candidate-1.2.1.py'
-CANDIDATE_GENERATOR_SHA256 = '9c8f9de160a84490c9bcc20fd56642c68e70de59814b8a22d35fd5e62f7dbe3d'
-MERGED_CANONICAL_COMMIT = '1b207ee2d34620b44728522fe83023567a3ceedb'
-MERGED_CANONICAL_TREE = 'a41d142b556d2be59ba4574326a1d29610bfd9c5'
-REVIEWED_PACKAGING_COMMIT = '23ee5920912ccf15fcfd2ca3477d11c41fc97f3a'
-REBUILD = b'# Finite S1.2.1 release rebuild inputs\n\nPython 3 standard library only; no Git, network, constructor or App is required.\nInspect the finite input inventory, extract into an empty directory, then run:\n\n    python3 -B implementation/aligned-release/prepare.py --rebuild-from . --public-release --output ../s-1.2.1-rebuilt\n\nCompare plugin ZIP, rebuild ZIP, distribution.json and selection.json against\nSKILLS-SHA256SUMS. The supplied public generator is a recorded release adaptation\nof the byte-exact candidate generator under provenance/. The93 canonical inputs,\nselection and six reused packaging inputs remain exact. It applies existing\noperative Apache-2.0 S terms and current release authority, preserving historical\nlegal evidence. Publication and actual installation/native/customer acceptance\nare separately observed operations; issue228 remains open.\n'
+PUBLIC_STANDING = 'LOCAL PROPOSED S1.2.1 CANDIDATE; current exact scope/license/export approval PENDING; publication, installation and acceptance NOT_RUN'
+PUBLIC_MODIFICATION = ('Consulting Studio packaging modification, 2026-10-28: local resource locators '
+    'and explicit governing reads; exact canonical and emitted hashes retained. '
+    'Prior Apache/NOTICE copies retained; approval of the current delta remains PENDING.')
+REBUILD = b'# Finite candidate rebuild inputs\n\nPython3 standard library only; no Git, network, constructor or App required.\n\n    python3 -B implementation/aligned-release/prepare.py --rebuild-from . --public-candidate --output ../s-1.2.1-rebuilt\n\nCompare the four S artifacts and SKILLS-SHA256SUMS. Current scope/license/export\napproval remains PENDING. Prior grants and releases remain unchanged. For the\ncanonical legal-evidence view, omit --public-candidate. No publication, update,\ninstallation, native qualification or customer acceptance follows from a build.\n'
 
 
 def sha(data):
@@ -138,8 +131,7 @@ class Source(methods.RuntimeSource):
 
 def inputs(rebuild=None):
     selected = selection()
-    tools = {p: regular(ROOT / p) for p in (*DEPENDENCIES, SELF, SELECTION, CANDIDATE_GENERATOR)}
-    require(sha(tools[CANDIDATE_GENERATOR]) == CANDIDATE_GENERATOR_SHA256, 'Candidate generator provenance drift')
+    tools = {p: regular(ROOT / p) for p in (*DEPENDENCIES, SELF, SELECTION)}
     if rebuild:
         names = {'canonical/' + r['path'] for r in selected['files']} | set(tools) | {'REBUILD.md'}
         supplied = ex.read_exact_tree(rebuild, names)
@@ -360,65 +352,64 @@ def checksums(outputs):
     return ''.join(sha(d) + '  ' + p + '\n' for p, d in sorted(outputs.items())).encode()
 
 
-def release_authority():
-    return dict(status='AUTHORIZED_PUBLIC_S_RELEASE', authorized_at='2026-10-29T05:41:49Z',
-        source='Product owner directly authorized proceeding with public S1.2.1 delivery',
-        scope='Public S1.2.1 source, tag and release assets in cogni-work/consulting-studio-skills under its existing Apache-2.0 S terms',
-        excluded='App/GUI/MCP/server rights or delivery; private identities/history; customer data; installation and customer acceptance',
-        existing_grants='Preserved; previous release-specific approvals retain their original scope')
-
-
 def scope_request(selected, canonical, tools):
-    changed = [dict(row, change='changed canonical runtime input') for row in selected['current_source_delta']]
-    changed.extend([dict(path=SELF, sha256=CANDIDATE_GENERATOR_SHA256, change='changed canonical packaging input; exact source retained at ' + CANDIDATE_GENERATOR),
-                    dict(path=SELECTION, sha256=sha(tools[SELECTION]), change='changed packaging selection')])
-    return dict(status='CURRENT_RELEASE_SCOPE_RECORDED', authority=release_authority(),
-        version=SKILLS_VERSION, license='Apache-2.0', previous_release=selected['previous_release'], components=changed,
-        current_delta='29 runtime revisions and two packaging revisions at already public S paths; no new selected method or third-party source',
-        exported_generator=dict(path=SELF, canonical_source_sha256=CANDIDATE_GENERATOR_SHA256,
-            emitted_sha256=sha(tools[SELF]), retained_source=CANDIDATE_GENERATOR,
-            adaptations='Release authority/legal/manifest/provenance/docs and S-only release CLI; canonical method selection and assembly preserved'),
-        excluded='App/GUI/MCP/server rights or delivery; private history/data; installation and acceptance',
-        existing_grants='Preserved; current publication continues operative Apache-2.0 S terms')
+    changed = [dict(row, change='changed canonical runtime input')
+               for row in selected['current_source_delta']]
+    changed.extend(dict(path=p, sha256=sha(tools[p]), change='changed packaging input')
+                   for p in (SELF, SELECTION))
+    return dict(status='PENDING_CURRENT_EXACT_SCOPE', proposed_versions=dict(S=SKILLS_VERSION, App=APP_VERSION),
+        previous_release=selected['previous_release'], components=changed,
+        proposed_decision='Approve the exact listed revisions and their generated transformations under Apache-2.0 for S; separately authorize delivery of the reviewed S/App bytes',
+        excluded='GUI/MCP/server/App code, private identities/history, customer data, rights changes, installation, runtime qualification and acceptance',
+        existing_grants='Preserved; this candidate grants no new rights and withdraws none',
+        installation_and_acceptance='NOT_RUN; issue228 remains open')
 
 
 def public_plugin(selected, canonical, tools):
-    """Apply current release records and existing operative S legal terms."""
+    """Prepare a reviewable legal-overlay proposal; never claim owner approval."""
     files, info = build(selected, canonical, tools)
     files.pop('distribution.json')
     technical = dict(files)
     apache = canonical['LICENSE'].split(b'PART B: APACHE LICENSE, VERSION 2.0\n\n', 1)[1]
     require(sha(apache) == APACHE_SHA256 and sha(PUBLIC_NOTICE) == NOTICE_SHA256, 'Prior legal payload drift')
     scope = scope_request(selected, canonical, tools)
-    legal = dict(status='OPERATIVE_EXISTING_APACHE_S_TERMS', license='Apache-2.0',
-        license_sha256=APACHE_SHA256, notice_sha256=NOTICE_SHA256, authority=release_authority(),
-        meaning='Exact operative Apache and S NOTICE copies continue unchanged. Historical proposal wording in NOTICE and canonical rebuild inputs retains provenance meaning; this current S-only release record governs this delivery. No App/GUI/MCP/server grant follows.')
+    legal = dict(status='PENDING_CURRENT_EXACT_SCOPE', proposed_license='Apache-2.0',
+        license_sha256=APACHE_SHA256, notice_sha256=NOTICE_SHA256,
+        meaning='Prior Apache/NOTICE text retained as existing-grant evidence. Current changed inputs and generated transformations await exact owner approval; this local candidate activates no new grant.',
+        approval_request=scope)
     for path, before in list(files.items()):
-        if Path(path).name == 'LICENSE': files[path] = apache
-        elif Path(path).name == 'NOTICE': files[path] = PUBLIC_NOTICE
-        else: files[path] = before.replace(MODIFICATION.encode(), PUBLIC_MODIFICATION.encode())
+        if Path(path).name == 'LICENSE':
+            files[path] = apache
+        elif Path(path).name == 'NOTICE':
+            files[path] = PUBLIC_NOTICE
+        else:
+            files[path] = before.replace(MODIFICATION.encode(), PUBLIC_MODIFICATION.encode())
     for path in ('plugin.json', '.codex-plugin/plugin.json'):
-        manifest = decode(files[path]); manifest['license'] = 'Apache-2.0'; files[path] = encoded(manifest)
-    files['legal/scope.json'] = encoded(dict(legal, current_scope=scope))
+        manifest = decode(files[path]); manifest['license'] = 'SEE LICENSE AND legal/scope.json; current delta approval PENDING'
+        files[path] = encoded(manifest)
+    files['legal/scope.json'] = encoded(legal)
     for path in list(files):
         if path.startswith('skills/') and path.endswith('/manifest.json'):
             manifest = decode(files[path]); prefix = path.rsplit('/', 1)[0] + '/'
             manifest['standing'] = PUBLIC_STANDING
-            manifest['release_identity'] = dict(name=NAME, version=SKILLS_VERSION, license='Apache-2.0')
-            manifest['current_release_authority'] = 'AUTHORIZED_PUBLIC_S_RELEASE'
-            for row in manifest['resources']: row['emitted_sha256'] = sha(files[prefix + row['emitted_path']])
+            manifest['release_identity'] = dict(name=NAME, version=SKILLS_VERSION,
+                license='Prior Apache grants preserved; current delta approval PENDING')
+            manifest['current_exact_scope_approval'] = 'PENDING'
+            for row in manifest['resources']:
+                row['emitted_sha256'] = sha(files[prefix + row['emitted_path']])
             manifest['files'] = {p: sha(files[prefix + p]) for p in manifest['files']}
             files[path] = encoded(manifest)
     for row in info['canonical_to_emitted']:
-        path = row['output_path']; row['technical_emitted_sha256'] = row['emitted_sha256']; row['emitted_sha256'] = sha(files[path])
+        path = row['output_path']
+        row['technical_emitted_sha256'] = row['emitted_sha256']
+        row['emitted_sha256'] = sha(files[path])
         if Path(path).name in ('LICENSE', 'NOTICE'):
-            row['release_adaptations'] = ['Unchanged operative S legal copy; exact canonical input retained in rebuild evidence']
-    info.update(schema='consulting-studio/s-release-plugin@1', standing=PUBLIC_STANDING,
-        current_scope=scope, release_authority=release_authority(), legal=legal,
-        packaging_source=dict(reviewed_commit=REVIEWED_PACKAGING_COMMIT, merged_commit=MERGED_CANONICAL_COMMIT, tree=MERGED_CANONICAL_TREE),
-        delivery_gates=dict(public_release_authority='AUTHORIZED', operative_public_legal_overlay='APPLIED'),
+            row['release_adaptations'] = ['Prior operative legal text retained; current delta grant PENDING; exact canonical input retained in rebuild evidence']
+    info.update(schema='consulting-studio/proposed-s-candidate@1', standing=PUBLIC_STANDING,
+        approval_request=scope, legal=legal,
+        delivery_gates=dict(exact_owner_release_export_approval='PENDING', operative_public_legal_overlay='PROPOSED_ONLY'),
         release_adaptations=[dict(path=p, previous_sha256=sha(technical[p]), sha256=sha(d),
-            reason='Current release metadata, existing operative legal copy or prominent packaging modification notice')
+            reason='Proposed legal/manifest/notice copy; no new approval or grant')
             for p, d in sorted(files.items()) if p in technical and d != technical[p]],
         files={p: dict(sha256=sha(d), bytes=len(d)) for p, d in sorted(files.items())})
     files['distribution.json'] = encoded(info)
@@ -428,18 +419,21 @@ def public_plugin(selected, canonical, tools):
 
 
 def public_artifacts(selected, canonical, tools, base=None):
-    """Build S release files; repository assembly also checks the complete prior public base."""
+    """Build proposed S bytes and a preserved public-tree proposal locally."""
     plugin, info = public_plugin(selected, canonical, tools)
     rebuild = {**{'canonical/' + p: d for p, d in canonical.items()}, **tools, 'REBUILD.md': REBUILD}
     outputs = {NAME + '-' + SKILLS_VERSION + '-plugin.zip': pack.zip_bytes(plugin),
         NAME + '-' + SKILLS_VERSION + '-rebuild.zip': pack.zip_bytes(rebuild),
         'distribution.json': encoded(info), 'selection.json': encoded(selected)}
     outputs['SKILLS-SHA256SUMS'] = checksums(outputs)
-    if base is None: return outputs
+    if base is None:
+        return outputs
     base = Path(base)
-    names = {p.relative_to(base).as_posix() for p in base.rglob('*') if '.git' not in p.relative_to(base).parts and not p.is_dir()}
+    names = {p.relative_to(base).as_posix() for p in base.rglob('*')
+             if '.git' not in p.relative_to(base).parts and not p.is_dir()}
     previous = ex.read_exact_tree(base, names)
-    require(sha(encoded({p: sha(d) for p, d in sorted(previous.items())})) == PUBLIC_BASE_ALL_SHA256, 'Public base changed; reconcile owner edits before release')
+    require(sha(encoded({p: sha(d) for p, d in sorted(previous.items())})) == PUBLIC_BASE_ALL_SHA256,
+            'Public base changed; reconcile remote owner edits before preparing another tree')
     require(all(sha(previous[p]) == h for p, h in PUBLIC_BASE_FILES.items()), 'Public retained source drift')
     old_owned = {p for p in previous if p.startswith(('plugin/', 'rebuild/'))}
     current_owned = {'plugin/' + p for p in plugin} | {'rebuild/' + p for p in rebuild}
@@ -447,114 +441,132 @@ def public_artifacts(selected, canonical, tools, base=None):
     repo = dict(previous)
     repo['legal/history/s-1.1.0-scope.json'] = previous['legal/scope.json']
     repo['legal/history/s-1.1.0-source-delta.json'] = previous['legal/source-delta.json']
-    repo['README.md'] = previous['README.md'].replace(b'/v1.1.0/', b'/v1.2.1/').replace(b'/tag/v1.1.0', b'/tag/v1.2.1').replace(b'1.1.0-plugin.zip', b'1.2.1-plugin.zip').replace(b'Download the 1.1.0 plugin ZIP', b'Download the 1.2.1 plugin ZIP')
-    repo['AUDIT.md'] = ("""# Current S release 1.2.1, 2026-10-29
+    # Preserve all owner prose; only exact current release links are proposed.
+    repo['README.md'] = previous['README.md'].replace(b'/v1.1.0/', b'/v1.2.1/').replace(
+        b'/tag/v1.1.0', b'/tag/v1.2.1').replace(b'1.1.0-plugin.zip', b'1.2.1-plugin.zip').replace(
+        b'Download the 1.1.0 plugin ZIP', b'Download the 1.2.1 plugin ZIP')
+    repo['AUDIT.md'] = ('''# Local proposed S1.2.1 candidate, 2026-10-28
 
-S1.2.1 incorporates reviewed project/reference maintenance, cumulative research,
-accepted synthesis and read-only reentry rules. It contains27 methods/35 modes,
-Setup0.1.8, Librarian0.2.2 and neutral Resume0.2.1. All93 canonical input bytes
-match the reviewed selection:29 changed runtime revisions and64 unchanged inputs.
-The31-input source delta also includes two changed packaging inputs. Current public
-S publication was authorized on2026-10-29 at05:41:49UTC and continues the existing
-Apache-2.0 S terms; legal/scope.json records exact sources and release adaptations.
-Prior approvals, owner README prose, LICENSE/NOTICE, tags and assets are preserved.
+Current exact scope/license/export approval is PENDING. This tree is a local review
+candidate; no public release or host operation has occurred. It incorporates
+issue232/PR233 from the exact source in legal/scope.json: Setup0.1.8,
+Librarian0.2.2, neutral/shared Resume0.2.1 and11 updated business methods.
+All27 methods/35 modes remain. The93 canonical inputs include29 changed revisions
+and64 unchanged inputs. The complete31-input delta includes the updated generator
+and selection; no GUI/MCP/server source or private App input is included.
+Prior grants, attribution and releases remain unchanged. Historical1.1.0 approval
+is retained under legal/history, separately from the current pending scope.
 
-Canonical selected source is recorded separately from reviewed packaging source
-23ee5920912ccf15fcfd2ca3477d11c41fc97f3a and merged main
-1b207ee2d34620b44728522fe83023567a3ceedb; the latter share tree
-a41d142b556d2be59ba4574326a1d29610bfd9c5. The public generator is a release
-adaptation of the exact retained candidate generator. All six reused tools and
-selection remain exact; canonical sources are not edited in this public export.
+Rebuild the proposed plugin with Python3 standard library only:
 
-Rebuild the current plugin and finite input ZIP without Git/network:
+    python3 -B rebuild/implementation/aligned-release/prepare.py --rebuild-from rebuild --public-candidate --output ../s-1.2.1-rebuilt
 
-    python3 -B rebuild/implementation/aligned-release/prepare.py --rebuild-from rebuild --public-release --output ../s-1.2.1-rebuilt
-
-Compare plugin ZIP, rebuild ZIP, distribution.json and selection.json against
-SKILLS-SHA256SUMS. Rebuilding the repository ZIP additionally requires the exact
-previous public tree atfff65b7e5debd215f52bc9228d07bdee535dd762 supplied with
---public-base. The103 finite rebuild inputs include93 canonical files, eight
-emitted generator inputs, the exact candidate generator and REBUILD.md.
-No App/GUI/MCP/server or private customer source is included. Source/package checks
-and publication establish no native execution, fresh-chat continuity, installation,
-update/recovery or customer acceptance; issue228 remains open.
+Compare its four S artifacts with SKILLS-SHA256SUMS. Rebuilding the repository
+asset additionally requires the exact prior public tree. Source/package checks
+establish no native execution, fresh-chat continuity, installation, recovery or
+customer acceptance. Those observations remain NOT_RUN under issue228.
 
 ---
 
-""").encode() + previous['AUDIT.md']
-    repo['CHANGELOG.md'] = ("""# 1.2.1 - 2026-10-29
+''').encode() + previous['AUDIT.md']
+    repo['CHANGELOG.md'] = ('''# Proposed1.2.1 - 2026-10-28
 
-- Apply existing project structure and maintain references to original sources.
-- Keep research sources/candidates separate from accepted synthesis.
-- Resume reads accepted work and uncertain maintenance state without resuming writes.
-- Retain27 methods/35 modes; Setup0.1.8, Librarian0.2.2, Resume0.2.1.
-- Continue existing Apache-2.0 S terms with current release authority and exact provenance.
-- Preserve previous releases and owner edits; installation/customer acceptance remain NOT_RUN.
+- Apply existing project structure and maintain references to originals.
+- Research retains sources/candidates separately from accepted synthesis.
+- Neutral Resume reads fresh accepted work and uncertain maintenance state.
+- Same27 methods/35 modes; Setup0.1.8, Librarian0.2.2, Resume0.2.1.
+- Exact current source/license/export approval PENDING; no publication or host PASS.
 
-""").encode() + previous['CHANGELOG.md']
-    repo['legal/README.md'] = ("""# Current S1.2.1 release scope
+''').encode() + previous['CHANGELOG.md']
+    repo['legal/README.md'] = ('''# Current candidate scope
 
-This release continues the existing operative Apache-2.0 S terms with public
-S1.2.1 delivery authorized on2026-10-29 at05:41:49UTC. scope.json and
-source-delta.json identify all93 canonical inputs,31 changed source revisions,
-reused tools and the exported generator adaptation. There are no new selected
-method paths or third-party source. The transformed public generator records its
-original exact source under rebuild/provenance; its change is release packaging
-and current metadata, not a method implementation.
-
-LICENSE and NOTICE stay byte-identical to1.1.0. Historical proposal wording in
-NOTICE and canonical mixed legal files under rebuild remains source evidence;
-this current record applies the operative S license without changing attribution.
+This local S1.2.1 candidate has no current owner release/export or new-license
+approval. scope.json and source-delta.json identify the exact proposed inputs.
+LICENSE and NOTICE retain the same bytes already distributed with1.1.0. Existing
+recipient grants remain in force. Their presence grants no new rights over the
+current changed inputs. Canonical mixed legal inputs in rebuild are evidence only.
 The exact prior1.1.0 scope/delta and earlier approval history remain byte-exact under
-history. No App/GUI/MCP/server rights, private identities, customer data, installation
-or customer acceptance follow from this public S release.
-""").encode()
+history. No App/GUI/MCP/server code, private identity or customer content is included.
+''').encode()
     repo.update({'plugin/' + p: d for p, d in plugin.items()})
     repo.update({'rebuild/' + p: d for p, d in rebuild.items()})
     repo['SKILLS-SHA256SUMS'] = outputs['SKILLS-SHA256SUMS']
-    scope = scope_request(selected, canonical, tools)
-    repo['legal/source-delta.json'] = encoded(dict(schema='consulting-studio/s-release-source-delta@1',
-        release_authority=release_authority(), components=scope['components'], exported_generator=scope['exported_generator'],
-        previous_public_base=PUBLIC_BASE, canonical_inputs=93, changed_runtime_inputs=29, unchanged_runtime_inputs=64,
-        generated_outputs='Exact source transformations, dependency graphs, manifests, prominent modification notices, current operative legal records and repository/rebuild metadata; no additional selected method source'))
-    repo['legal/scope.json'] = encoded(dict(schema='consulting-studio/s-release-scope@1',
-        release_authority=release_authority(), current_scope=scope, name=NAME, version=SKILLS_VERSION, license='Apache-2.0',
-        source_commit=SOURCE, source_tree=TREE, packaging_source=info['packaging_source'], selection_sha256=SELECTION_SHA256,
+    request = scope_request(selected, canonical, tools)
+    repo['legal/source-delta.json'] = encoded(dict(schema='consulting-studio/proposed-s-source-delta@1',
+        approval_request=request, components=request['components'], previous_public_base=PUBLIC_BASE,
+        canonical_inputs=93, changed_runtime_inputs=29, unchanged_runtime_inputs=64,
+        generated_outputs='Exact source transformations, dependency graphs, method manifests, prominent notices, legal proposal and repository/rebuild metadata; no additional selected canonical component'))
+    repo['legal/scope.json'] = encoded(dict(schema='consulting-studio/proposed-s-scope@1',
+        approval_request=request, name=NAME, version=SKILLS_VERSION, proposed_license='Apache-2.0',
+        source_commit=SOURCE, source_tree=TREE, selection_sha256=SELECTION_SHA256,
         canonical_components=[dict(path=p, sha256=sha(d)) for p, d in sorted(canonical.items())],
         rebuild_tools=[dict(path=p, sha256=sha(d)) for p, d in sorted(tools.items())],
         source_delta=dict(path='legal/source-delta.json', sha256=sha(repo['legal/source-delta.json'])),
-        legal=info['legal'], existing_grants='Preserved; existing S Apache terms continue; no App/GUI/MCP/server grant',
+        legal=info['legal'], existing_grants='Preserved; no current delta license activation',
         history={p: sha(d) for p, d in sorted(repo.items()) if p.startswith('legal/history/')}))
-    manifest = dict(schema='consulting-studio/s-release-repository@1', version=SKILLS_VERSION,
-        canonical_commit=SOURCE, canonical_tree=TREE, packaging_source=info['packaging_source'], public_base=PUBLIC_BASE,
-        release_authority=release_authority(), current_scope=scope, standing=PUBLIC_STANDING,
+    manifest = dict(schema='consulting-studio/proposed-s-repository@1', candidate_version=SKILLS_VERSION,
+        canonical_commit=SOURCE, canonical_tree=TREE, public_base=PUBLIC_BASE,
+        approval_request=request, standing=PUBLIC_STANDING,
         plugin_sha256=sha(outputs[NAME + '-' + SKILLS_VERSION + '-plugin.zip']),
         counts=dict(canonical_inputs=93, rebuild_inputs=len(rebuild), business_skills=27, modes=35, auxiliary_skills=3),
-        gates={k: 'NOT_RUN' for k in ('publication', 'installation', 'native_execution', 'S_DIST', 'update_recovery', 'customer_acceptance')},
+        gates={k: 'NOT_RUN' for k in ('publication', 'installation', 'native_execution', 'S_DIST', 'M_HOST', 'M_DIST', 'customer_acceptance')},
         files={p: dict(sha256=sha(d), bytes=len(d)) for p, d in sorted(repo.items()) if p != 'repository.json'})
     repo['repository.json'] = encoded(manifest)
+    require(set(previous) <= set(repo), 'Public file removal is outside this candidate')
+    ex.full_links({p: d for p, d in repo.items() if not p.startswith('rebuild/')})
     archive = pack.zip_bytes(repo)
-    require(pack.unpack(archive, repo) == repo, 'Public repository fidelity')
+    require(pack.unpack(archive, repo) == repo, 'Public repository proposal fidelity')
     outputs.update({NAME + '-' + SKILLS_VERSION + '-repository.zip': archive, 'repository.json': encoded(manifest)})
     return outputs
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--rebuild-from', type=Path, required=True)
-    parser.add_argument('--public-release', action='store_true', required=True)
-    parser.add_argument('--public-base', type=Path, help='Exact prior public snapshot for repository asset')
+    parser.add_argument('--rebuild-from', type=Path)
+    parser.add_argument('--app-source', type=Path, help='Private complete existing App export/cache; no backend freshness inferred')
+    parser.add_argument('--public-candidate', action='store_true', help='Proposed legal overlay; current exact approval remains PENDING')
+    parser.add_argument('--public-base', type=Path, help='Exact finite existing-public source/document snapshot for repository asset')
+    parser.add_argument('--app-candidate-skills', action='store_true', help='Use exact proposed S-candidate bytes in the separate private App candidate')
     parser.add_argument('--output', type=Path, required=True)
     args = parser.parse_args()
-    for origin in (args.rebuild_from, args.public_base):
+    require(args.rebuild_from is not None,
+            'Historical candidate CLI retired for new builds; use implementation/skill-presentation/prepare.py. '
+            'Only an explicit finite historical --rebuild-from replay is supported here.')
+    require(not (args.rebuild_from and args.app_source), 'S rebuild route excludes private App source')
+    require(not (args.public_candidate and args.app_source), 'Public S route excludes private App input')
+    require(args.public_candidate or args.public_base is None, '--public-base requires --public-candidate')
+    require(not args.app_candidate_skills or args.app_source and not args.public_candidate and args.public_base is None,
+            '--app-candidate-skills requires only the private App candidate route')
+    for origin in (args.rebuild_from, args.app_source, args.public_base):
         if origin:
             require(args.output.absolute() != origin.absolute() and origin.absolute() not in args.output.absolute().parents,
                     'Output must be outside source inputs')
     selected, canonical, tools = inputs(args.rebuild_from)
-    outputs = public_artifacts(selected, canonical, tools, args.public_base)
-    outputs['SHA256SUMS'] = checksums(outputs)
+    outputs = public_artifacts(selected, canonical, tools, args.public_base) if args.public_candidate or args.app_candidate_skills else artifacts(selected, canonical, tools)
+    if args.app_source:
+        # read_exact_tree rejects symlinks/nonregular entries before the bounded
+        # shared reader reads bytes. Cache is evidence, never a backend guard.
+        names = {p.relative_to(args.app_source).as_posix() for p in args.app_source.rglob('*') if not p.is_dir()}
+        require(len(names) <= pack.MAX_MEMBERS, 'App source file-count limit')
+        original = ex.read_exact_tree(args.app_source, names)
+        skills, _ = public_plugin(selected, canonical, tools) if args.app_candidate_skills else build(selected, canonical, tools)
+        shared_archive = NAME + '-' + SKILLS_VERSION + ('-plugin.zip' if args.app_candidate_skills else '-local-plugin.zip')
+        overlay, effective, receipt = app_candidate(original, skills, outputs[shared_archive])
+        for label, payload in [('update', overlay), ('complete-inspection', effective), ('prior-snapshot', original)]:
+            data = pack.zip_bytes(payload)
+            require(pack.unpack(data, payload) == payload, 'App archive fidelity')
+            outputs['app-' + APP_VERSION + '-' + label + '.zip'] = data
+        outputs['app-preservation.json'] = encoded(receipt)
+    if args.public_candidate and args.public_base:
+        published = (NAME + '-' + SKILLS_VERSION + '-plugin.zip',
+                     NAME + '-' + SKILLS_VERSION + '-repository.zip', 'repository.json')
+        outputs['SHA256SUMS'] = checksums({p: outputs[p] for p in published})
+    else:
+        outputs['SHA256SUMS'] = checksums(outputs)
     ex.write_outputs(args.output, outputs)
-    print(json.dumps(dict(output=str(args.output), skills_version=SKILLS_VERSION, publication='NOT_RUN', installation='NOT_RUN'), sort_keys=True))
+    print(json.dumps(dict(output=str(args.output), skills_version=SKILLS_VERSION, app_version=APP_VERSION if args.app_source else None,
+                         publication='NOT_RUN', installation='NOT_RUN'), sort_keys=True))
 
 
-if __name__ == '__main__': main()
+if __name__ == '__main__':
+    main()

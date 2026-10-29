@@ -1,5 +1,3 @@
-
-<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
 # Specialization requirements
 
 Use this map with the [specialization contract](output-contract.md).

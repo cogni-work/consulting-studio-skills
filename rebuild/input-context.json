@@ -1,0 +1,53 @@
+{
+  "baseline": "1b207ee2d34620b44728522fe83023567a3ceedb",
+  "public_baseline": "a3bf76f9b157c0a4c080258253f16f5a855db39a",
+  "schema": "consulting-studio/presentation-inputs@1",
+  "source_commit": "2f24ecb713f696ccbc3b2ae4aaf827b7ec9d33a0",
+  "source_tree": "df3934d9365e97541a3fcf27fc45a13ac1266caf",
+  "tools": {
+    "implementation/aligned-release/prepare.py": {
+      "bytes": 44314,
+      "sha256": "eb850232180cab0e1b93c9c864a8c81e1ecb602eb5fabc33fedd0483a64e9c2f"
+    },
+    "implementation/aligned-release/selection.json": {
+      "bytes": 151123,
+      "sha256": "804ab14e5d72bf435c42bcab4e15d8490eeadb56c2f54c4d883c74be213aeb65"
+    },
+    "implementation/business-skills/check_packages.py": {
+      "bytes": 8864,
+      "sha256": "34e029ad1cc6f2ae4efc7dcc940517d7b37fd8a931b7bc7d9de62eacc84818f6"
+    },
+    "implementation/business-skills/release.py": {
+      "bytes": 49203,
+      "sha256": "25b27ef1416b17164daaa2366f906b7ffdd818eb3631d37678f1442c7ec04e89"
+    },
+    "implementation/plugin-distribution/plugin.json": {
+      "bytes": 1271,
+      "sha256": "4a6d7c007663232cbb2ff7f63a3d1b200abd229afb9ed77873768c2d4004affb"
+    },
+    "implementation/plugin-distribution/release.py": {
+      "bytes": 17723,
+      "sha256": "d6b57e160bc386df4519d1cfcca6756fa3d0354d2ba876016466c913688c798a"
+    },
+    "implementation/plugin-setup/package_update.py": {
+      "bytes": 9590,
+      "sha256": "0e3c80d778e4c67508ca379badb3ca92f5703512830360c093fb08cc91976fd9"
+    },
+    "implementation/s-export/export.py": {
+      "bytes": 35910,
+      "sha256": "1649a8783ff4190a80a0fc04bf1e8e9098cdca9a07dc78058c5180189d413116"
+    },
+    "implementation/skill-presentation/README.md": {
+      "bytes": 7673,
+      "sha256": "68de3f188eb05731f0b9d37b1301b81f694c05a53da7950e73b017e7983f2b3a"
+    },
+    "implementation/skill-presentation/content.py": {
+      "bytes": 16632,
+      "sha256": "b842479878d1811925766433ad4c7ab1e83e94881d900702f79978ec970600d3"
+    },
+    "implementation/skill-presentation/prepare.py": {
+      "bytes": 14105,
+      "sha256": "d03a92ce115b6cdfa9339fdb7098deca3b136b956adeb7a54347697121d76ef9"
+    }
+  }
+}

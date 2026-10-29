@@ -1,16 +1,7 @@
-# Current S1.2.1 release scope
+# S1.2.2 release scope
 
-This release continues the existing operative Apache-2.0 S terms with public
-S1.2.1 delivery authorized on2026-10-29 at05:41:49UTC. scope.json and
-source-delta.json identify all93 canonical inputs,31 changed source revisions,
-reused tools and the exported generator adaptation. There are no new selected
-method paths or third-party source. The transformed public generator records its
-original exact source under rebuild/provenance; its change is release packaging
-and current metadata, not a method implementation.
+The product owner authorized publication of the exact tested S1.2.2 package on 2026-10-29 under the existing S Apache-2.0 terms. scope.json and source-delta.json identify that finite source, accepted archive and current release authority.
 
-LICENSE and NOTICE stay byte-identical to1.1.0. Historical proposal wording in
-NOTICE and canonical mixed legal files under rebuild remains source evidence;
-this current record applies the operative S license without changing attribution.
-The exact prior1.1.0 scope/delta and earlier approval history remain byte-exact under
-history. No App/GUI/MCP/server rights, private identities, customer data, installation
-or customer acceptance follow from this public S release.
+Root and plugin LICENSE/NOTICE remain byte-identical to v1.2.1. Historical proposal wording remains exact attribution evidence; existing operative S terms continue. All 54 per-skill legal records retain their original bytes outside skills/, under plugin/legal/skills/. No modified third-party-authored instruction source was identified. Current MODIFICATIONS and presentation records retain the exact source transformations.
+
+The installer is frozen at its tested SHA-256. Candidate/PENDING statements inside it describe preparation, not a reversal of the owner’s subsequent acceptance. See the current AUDIT and OWNER-DECISIONS records for the documented scope. Prior legal records remain in legal/history/, history/s-1.2.1/ and immutable release tags. No App/M software, customer material or private Git history is included.

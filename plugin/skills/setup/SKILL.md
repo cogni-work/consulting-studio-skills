@@ -5,8 +5,6 @@ metadata:
   version: 0.1.8
 ---
 
-<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
-
 # Set up Consulting Studio
 
 For **Installation prüfen** (also `$setup Installation prüfen`), go directly to

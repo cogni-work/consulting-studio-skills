@@ -1,4 +1,80 @@
-# Current S release 1.2.1, 2026-10-29
+# S release 1.2.2, 2026-10-29
+
+This release publishes the unchanged owner-tested S1.2.2 candidate as
+`consulting-studio-skills.zip`, SHA-256
+`b929d367b7c1a9e96a9eaffbc6fbc2815d75bd488e581416873816219ae09ded`.
+Candidate source commit: `2f24ecb713f696ccbc3b2ae4aaf827b7ec9d33a0`.
+The source pin is retained provenance, not a promise that private authoring history
+is publicly navigable. The release contains 27 consulting methods / 35 modes and
+Setup, Workspace Librarian and neutral Resume: 30 entries in total.
+
+All 30 technical and display names match. Setup remains included. Generated
+packaging commentary and nonfunctional origin breadcrumbs are removed throughout
+the instructions and nested references; substantive methods, functional resource
+links, human notes and required reads remain. Exact original legal notices and
+metadata are retained in their package homes outside the skills tree. Existing
+Apache-2.0 terms and attribution are preserved. Later S1.2.3 report-contract and
+work-location changes are outside this release.
+
+The candidate's exact installer and finite rebuild inputs are preserved. Build-time
+candidate statements such as publication not authorized or acceptance not run
+remain historical metadata in those bytes. The current owner decision and release
+record supply the subsequent publication authority and scoped acceptance without
+altering the tested artifact. Repository documentation improvements are separate
+from the installer.
+
+## Testing status and limitations
+
+**S1.2.2 is owner-tested and accepted for the documented scope.** On 2026-10-29,
+the owner successfully ran Setup and a bounded problem-framing workflow using
+S1.2.2 with Astra, including fresh reads of saved settings and required references.
+The owner subsequently accepted S as ready for use and approved this publication.
+
+Additional owner-reported workflows demonstrated reuse of an existing project,
+authorized saving to Pages followed by readback, and an ordinary stakeholder task
+from general chat that reused existing framing rather than creating a standalone
+document. The exact model and package version of those later runs were not
+separately confirmed; they are supporting observations, not an expanded exact
+S1.2.2/model test matrix. Private material and transcripts are excluded here.
+
+Recorded local validation of the candidate source passed 136 commands, with an
+independent source/artifact review and repeatable rebuild checks. These checks
+establish their source/package scope; they are distinct from the owner's host
+observations. No independent host test or certification is claimed.
+
+The documented tests do not cover the whole method/mode catalog, every model or
+client surface, colleague/team access, controlled update or recovery. Those remain
+unverified rather than failures of the successful scoped tests. New users can
+start with [the README example](README.md#try-it) and use
+[the qualification plan](INSTALL-TEST-PLAN.md) for further coverage suited to their
+work. The plugin supplies no new data permissions or connected tools.
+
+## Rebuild the exact S1.2.2 installer
+
+From this repository's root, write to a new output directory:
+
+```sh
+python3 -B rebuild/implementation/skill-presentation/prepare.py --rebuild-from rebuild --output ../s-1.2.2-rebuilt
+```
+
+Python standard library only; no Git, network, private history, App source or
+credentials are needed for the finite rebuild. Compare the rebuilt installer,
+rebuild archive, distribution and selection against the published checksums.
+Recreate the deterministic public repository archive separately:
+
+```sh
+python3 -B release/repository.py --output ../consulting-studio-skills-1.2.2-repository.zip
+```
+
+The output must not already exist and must be outside the repository root. This
+helper validates `repository.json` before packaging. The repository archive
+contains the public source and documentation; GitHub's automatically generated
+source archives are separate from this deterministic repository archive. Historical release rebuild instructions below apply only to
+their named release/tag.
+
+---
+
+# Historical S release 1.2.1, 2026-10-29
 
 S1.2.1 incorporates reviewed project/reference maintenance, cumulative research,
 accepted synthesis and read-only reentry rules. It contains27 methods/35 modes,
@@ -31,7 +107,7 @@ update/recovery or customer acceptance; issue228 remains open.
 
 ---
 
-# Current S release 1.1.0, 2026-10-28
+# Historical S release 1.1.0, 2026-10-28
 
 Setup0.1.7 adds Installation prüfen; the27 business methods and Librarian0.2.1
 retain their canonical sources. The owner approved the three changed Setup inputs
@@ -54,14 +130,14 @@ established by source/package checks or publication. Issue228 remains open.
 
 # Technical notes and release history
 
-## Testing status and limitations
+## Historical 0.1.0 test status
 
-The testing phase has started. The exact 0.1.0 package has not yet been tested
+The following describes 0.1.0 at its preparation checkpoint. The testing phase had started. The exact 0.1.0 package has not yet been tested
 through a fresh ChatGPT installation and ordinary use. Compatibility with Codex,
 Desktop and mobile is also unverified. Local documentation, archive and rebuild
 checks do not establish installation or native behavior.
 
-## Package and rebuild
+## Historical 0.1.0 package and rebuild
 
 `plugin/` contains the 27 methods and the separate Setup, Workspace Librarian and
 Resume entries, including their required local resources. `rebuild/` contains
