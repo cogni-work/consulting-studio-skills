@@ -18,9 +18,11 @@ recommendation, draft a proposal with clear scope and inputs, or shape findings
 for a board presentation. The aim is more time for understanding clients,
 exercising judgement and helping people make sound decisions.
 
-This free, open-source **skills-only plugin** includes **27 consulting methods**
-and three supporting entries: **Setup**, **Workspace Librarian** and **Resume**.
-It requires no Studio GUI, MCP server or Workspace Agent.
+Consulting Studio combines **9 consulting processes**, **27 reusable business
+skills** and **37 data types**. Together, they provide practical methods and a
+shared structure for clients, projects, knowledge and decisions, from client needs
+and proposals through delivery and learning. Learn more here:
+[cogni-work.ai](https://cogni-work.ai/).
 
 ## Who it is for
 
