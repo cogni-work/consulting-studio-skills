@@ -1,3 +1,36 @@
+# Current S release 1.2.1, 2026-10-29
+
+S1.2.1 incorporates reviewed project/reference maintenance, cumulative research,
+accepted synthesis and read-only reentry rules. It contains27 methods/35 modes,
+Setup0.1.8, Librarian0.2.2 and neutral Resume0.2.1. All93 canonical input bytes
+match the reviewed selection:29 changed runtime revisions and64 unchanged inputs.
+The31-input source delta also includes two changed packaging inputs. Current public
+S publication was authorized on2026-10-29 at05:41:49UTC and continues the existing
+Apache-2.0 S terms; legal/scope.json records exact sources and release adaptations.
+Prior approvals, owner README prose, LICENSE/NOTICE, tags and assets are preserved.
+
+Canonical selected source is recorded separately from reviewed packaging source
+23ee5920912ccf15fcfd2ca3477d11c41fc97f3a and merged main
+1b207ee2d34620b44728522fe83023567a3ceedb; the latter share tree
+a41d142b556d2be59ba4574326a1d29610bfd9c5. The public generator is a release
+adaptation of the exact retained candidate generator. All six reused tools and
+selection remain exact; canonical sources are not edited in this public export.
+
+Rebuild the current plugin and finite input ZIP without Git/network:
+
+    python3 -B rebuild/implementation/aligned-release/prepare.py --rebuild-from rebuild --public-release --output ../s-1.2.1-rebuilt
+
+Compare plugin ZIP, rebuild ZIP, distribution.json and selection.json against
+SKILLS-SHA256SUMS. Rebuilding the repository ZIP additionally requires the exact
+previous public tree atfff65b7e5debd215f52bc9228d07bdee535dd762 supplied with
+--public-base. The103 finite rebuild inputs include93 canonical files, eight
+emitted generator inputs, the exact candidate generator and REBUILD.md.
+No App/GUI/MCP/server or private customer source is included. Source/package checks
+and publication establish no native execution, fresh-chat continuity, installation,
+update/recovery or customer acceptance; issue228 remains open.
+
+---
+
 # Current S release 1.1.0, 2026-10-28
 
 Setup0.1.7 adds Installation prüfen; the27 business methods and Librarian0.2.1

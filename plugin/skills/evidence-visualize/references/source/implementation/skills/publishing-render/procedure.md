@@ -5,7 +5,7 @@ metadata:
   version: "0.1.8"
 ---
 
-<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
+<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
 # Produce the requested form from exact permitted content
 
 Read and apply the [common working instructions](../../working-character/instructions.md)

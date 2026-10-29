@@ -1,4 +1,12 @@
-# Consult-status output contract 0.1.0
+# Consult-status output contract 0.1.1
+
+Apply [project record maintenance](../../../workspace-bindings/contract.md#project-record-maintenance)
+for relevant project originals and meaningful changes. Carry the readable handoff's
+occasion, exact entity/revision/home/source references, actual save/readback state,
+known dependencies/uninspected coverage, proposed maintenance, owner decision and
+current authority/operation/guard or precise gap. Reuse existing sections/identities
+and navigation; this adds no mandatory sidecar or provider schema. Return proposals only
+within this read-only/draft scope; change no index, pointer or stale flag.
 
 Apply [Deliverable mode and home](../../../runtime/storage-lifecycle.md#deliverable-mode-and-home)
 early and carry its selected mode/home, exact version and actual state into the

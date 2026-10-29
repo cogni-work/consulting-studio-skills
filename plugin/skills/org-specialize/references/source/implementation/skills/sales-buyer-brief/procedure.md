@@ -2,10 +2,10 @@
 name: sales-buyer-brief
 description: Turn permitted consulting buyer notes, emails or tender material into an attributed buyer brief and useful next questions, preserving stakeholders, uncertainty, promises and human pursuit decisions.
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
-<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
+<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
 # Understand the buyer
 
 Read and apply the [common working instructions](../../working-character/instructions.md)
@@ -23,6 +23,13 @@ Read the [brief contract](references/brief-contract.md). For entity/method reads
 the [common binding contract](../../workspace-bindings/contract.md) and relevant
 roles in the [catalog](../../runtime/binding-catalog.json). Supplied
 material needs no full profile, research, formal scoping or mandatory skill chain.
+
+For a stakeholder or buyer-evidence handoff, apply [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance).
+Reuse contextual Party/Stakeholder identities and exact brief/source revisions;
+framing references them in `baseline.stakeholders` only within permitted use.
+Keep private Sales originals, unknown authority and dissent intact, without
+invented influence scores or a parallel project people list. Return relevant
+original/state/dependency and maintenance proposals within this draft-only scope.
 
 1. Identify the request, relationship owner, acting user, audience and purpose.
    Reuse the current instance's target choices. Inspect permitted notes and exact

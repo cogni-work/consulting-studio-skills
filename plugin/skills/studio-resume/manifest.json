@@ -3,6 +3,7 @@
     "implementation/skills/studio-resume/SKILL.md": "SKILL.md",
     "implementation/skills/studio-resume/references/resume-contract.md": "references/source/implementation/skills/studio-resume/references/resume-contract.md"
   },
+  "current_release_authority": "AUTHORIZED_PUBLIC_S_RELEASE",
   "dependency_edges": [
     {
       "classification": "bundled governing/resource read",
@@ -14,11 +15,11 @@
     }
   ],
   "display_name": "Resume",
-  "distribution_modification_notice": "Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained.",
-  "entry_version": "0.2.0",
+  "distribution_modification_notice": "Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained.",
+  "entry_version": "0.2.1",
   "files": {
-    "SKILL.md": "1b113326dc418a7af13c98896a92d43e24fa36d74e6de7a20c31f82c8b191f1a",
-    "references/source/implementation/skills/studio-resume/references/resume-contract.md": "2b41465792687ff28553a11c04b992ffd530d9beda46555f10fca6c43cd5d914"
+    "SKILL.md": "f5f04757574fcf0135630c2a39512f81ccd257e6ea9dd539926e4b8c86ee7fa9",
+    "references/source/implementation/skills/studio-resume/references/resume-contract.md": "cf67f9aa8abcf1cb59777377107a2d2bad7ac5869e6631a604511d99d2f03b26"
   },
   "gates": {
     "fresh_session_use": "NOT_RUN",
@@ -27,20 +28,21 @@
     "resource_readback": "NOT_RUN"
   },
   "generator_inputs": {
-    "implementation/aligned-release/prepare.py": "9aa9832afb534947fc69e4b2c438646741c488f4ba316991e4bf00fc5c133e51",
-    "implementation/aligned-release/selection.json": "321b4458231fc8afaa8b976c26e32f4704bd1bccefd8ef951dbad01d52230a86",
+    "implementation/aligned-release/prepare.py": "852c2683b2a30b3a47b03e70db4251113b9c2e1ecb87c066db10631254767a46",
+    "implementation/aligned-release/selection.json": "804ab14e5d72bf435c42bcab4e15d8490eeadb56c2f54c4d883c74be213aeb65",
     "implementation/business-skills/check_packages.py": "34e029ad1cc6f2ae4efc7dcc940517d7b37fd8a931b7bc7d9de62eacc84818f6",
     "implementation/business-skills/release.py": "25b27ef1416b17164daaa2366f906b7ffdd818eb3631d37678f1442c7ec04e89",
     "implementation/plugin-distribution/plugin.json": "4a6d7c007663232cbb2ff7f63a3d1b200abd229afb9ed77873768c2d4004affb",
     "implementation/plugin-distribution/release.py": "d6b57e160bc386df4519d1cfcca6756fa3d0354d2ba876016466c913688c798a",
     "implementation/plugin-setup/package_update.py": "0e3c80d778e4c67508ca379badb3ca92f5703512830360c093fb08cc91976fd9",
-    "implementation/s-export/export.py": "1649a8783ff4190a80a0fc04bf1e8e9098cdca9a07dc78058c5180189d413116"
+    "implementation/s-export/export.py": "1649a8783ff4190a80a0fc04bf1e8e9098cdca9a07dc78058c5180189d413116",
+    "provenance/aligned-release-candidate-1.2.1.py": "9c8f9de160a84490c9bcc20fd56642c68e70de59814b8a22d35fd5e62f7dbe3d"
   },
   "name": "studio-resume",
   "release_identity": {
     "license": "Apache-2.0",
     "name": "consulting-studio-skills",
-    "version": "1.1.0"
+    "version": "1.2.1"
   },
   "resources": [
     {
@@ -54,23 +56,23 @@
         }
       ],
       "canonical_path": "implementation/skills/studio-resume/SKILL.md",
-      "canonical_sha256": "8f56d56b916faa0bd9e5bb94296a35c263bcdb663843f96b98876585acc99581",
+      "canonical_sha256": "1f3a17b8ee40a808072f9843b3177a880ae3076af48d5c850bdfd5501dcab4b1",
       "emitted_path": "SKILL.md",
-      "emitted_sha256": "1b113326dc418a7af13c98896a92d43e24fa36d74e6de7a20c31f82c8b191f1a",
+      "emitted_sha256": "f5f04757574fcf0135630c2a39512f81ccd257e6ea9dd539926e4b8c86ee7fa9",
       "role": "open auxiliary entry or governing resource"
     },
     {
       "adaptations": [],
       "canonical_path": "implementation/skills/studio-resume/references/resume-contract.md",
-      "canonical_sha256": "2b41465792687ff28553a11c04b992ffd530d9beda46555f10fca6c43cd5d914",
+      "canonical_sha256": "cf67f9aa8abcf1cb59777377107a2d2bad7ac5869e6631a604511d99d2f03b26",
       "emitted_path": "references/source/implementation/skills/studio-resume/references/resume-contract.md",
-      "emitted_sha256": "2b41465792687ff28553a11c04b992ffd530d9beda46555f10fca6c43cd5d914",
+      "emitted_sha256": "cf67f9aa8abcf1cb59777377107a2d2bad7ac5869e6631a604511d99d2f03b26",
       "role": "open auxiliary entry or governing resource"
     }
   ],
   "schema": "consulting-studio/s-auxiliary-entry@1",
-  "shared_skills_release": "1.1.0",
-  "source_commit": "d673a8d1f2c22bbf07ef66bc29fe07e452526d19",
-  "source_tree": "14d0d32312eff656a1ff14e9beb2db4c9701c3a1",
-  "standing": "OWNER-APPROVED S1.1.0 RELEASE PREPARED; publication separately recorded; installation and acceptance NOT_RUN"
+  "shared_skills_release": "1.2.1",
+  "source_commit": "02441d561100b22144889ae448bc02e6b25a37a6",
+  "source_tree": "e1aa02f6ac3dc38a4cd76c10efdfad0026a61f21",
+  "standing": "PUBLIC S1.2.1 RELEASE PREPARED under existing Apache-2.0 terms; publication separately verified; installation and acceptance NOT_RUN"
 }

@@ -1,5 +1,5 @@
 {
-  "bundle_version": "1.1.0",
+  "bundle_version": "1.2.1",
   "canonical_to_emitted": {
     "LICENSE": "LICENSE",
     "NOTICE": "NOTICE",
@@ -91,11 +91,12 @@
   "core_adaptation_compatibility": {
     "adoption": "Current owner adoption required",
     "conflict": "Block affected use; preserve additions and issued work",
-    "core_commit": "d673a8d1f2c22bbf07ef66bc29fe07e452526d19",
-    "core_tree": "14d0d32312eff656a1ff14e9beb2db4c9701c3a1",
+    "core_commit": "02441d561100b22144889ae448bc02e6b25a37a6",
+    "core_tree": "e1aa02f6ac3dc38a4cd76c10efdfad0026a61f21",
     "customer_adaptations": "External exact adopted versions and scope required",
     "updates": "Compare versions, recheck affected work and obtain applicable adoption"
   },
+  "current_release_authority": "AUTHORIZED_PUBLIC_S_RELEASE",
   "dependency_edges": [
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
@@ -640,11 +641,29 @@
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
       "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-change/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
       "fragment": "",
       "location": "markdown",
       "locator": "../consult-framing/references/output-contract.md",
       "origin": "implementation/skills/consult-change/SKILL.md",
       "target": "implementation/skills/consult-framing/references/output-contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-change/references/output-contract.md",
+      "target": "implementation/workspace-bindings/contract.md"
     },
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
@@ -770,6 +789,24 @@
       "location": "markdown",
       "locator": "../../workspace-bindings/contract.md",
       "origin": "implementation/skills/consult-closure/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-closure/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-closure/references/output-contract.md",
       "target": "implementation/workspace-bindings/contract.md"
     },
     {
@@ -910,11 +947,29 @@
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
       "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-deliverable/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
       "fragment": "",
       "location": "markdown",
       "locator": "../evidence-visualize/SKILL.md",
       "origin": "implementation/skills/consult-deliverable/SKILL.md",
       "target": "implementation/skills/evidence-visualize/SKILL.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-deliverable/references/output-contract.md",
+      "target": "implementation/workspace-bindings/contract.md"
     },
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
@@ -1081,11 +1136,29 @@
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
       "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-framing/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
       "fragment": "",
       "location": "markdown",
       "locator": "../sales-pursuit-event/references/time-authority-model-0.1.15.md",
       "origin": "implementation/skills/consult-framing/SKILL.md",
       "target": "implementation/skills/sales-pursuit-event/references/time-authority-model-0.1.15.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-framing/references/output-contract.md",
+      "target": "implementation/workspace-bindings/contract.md"
     },
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
@@ -1225,11 +1298,29 @@
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
       "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-planning/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
       "fragment": "",
       "location": "markdown",
       "locator": "../consult-framing/references/output-contract.md",
       "origin": "implementation/skills/consult-planning/SKILL.md",
       "target": "implementation/skills/consult-framing/references/output-contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-planning/references/output-contract.md",
+      "target": "implementation/workspace-bindings/contract.md"
     },
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
@@ -1387,6 +1478,15 @@
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
       "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-results/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
       "fragment": "",
       "location": "markdown",
       "locator": "../evidence-research/references/output-contract.md",
@@ -1428,6 +1528,15 @@
       "locator": "../publishing-inspect/SKILL.md",
       "origin": "implementation/skills/consult-results/SKILL.md",
       "target": "implementation/skills/publishing-inspect/SKILL.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-results/references/output-contract.md",
+      "target": "implementation/workspace-bindings/contract.md"
     },
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
@@ -1571,6 +1680,24 @@
       "location": "markdown",
       "locator": "../../workspace-bindings/contract.md",
       "origin": "implementation/skills/consult-status/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-status/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-status/references/output-contract.md",
       "target": "implementation/workspace-bindings/contract.md"
     },
     {
@@ -1828,6 +1955,15 @@
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
       "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/evidence-ask/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
       "fragment": "deliverable-mode-and-home",
       "location": "markdown",
       "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
@@ -1869,6 +2005,15 @@
       "locator": "../../runtime/binding-catalog.json",
       "origin": "implementation/skills/evidence-check/SKILL.md",
       "target": "implementation/runtime/binding-catalog.json"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/evidence-check/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
     },
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
@@ -1918,6 +2063,15 @@
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
       "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/evidence-research/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
       "fragment": "deliverable-mode-and-home",
       "location": "markdown",
       "locator": "../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
@@ -1932,6 +2086,15 @@
       "locator": "../evidence-visualize/SKILL.md",
       "origin": "implementation/skills/evidence-research/SKILL.md",
       "target": "implementation/skills/evidence-visualize/SKILL.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/evidence-research/references/output-contract.md",
+      "target": "implementation/workspace-bindings/contract.md"
     },
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
@@ -3367,6 +3530,24 @@
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
       "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/sales-buyer-brief/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/sales-buyer-brief/references/brief-contract.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
       "fragment": "deliverable-mode-and-home",
       "location": "markdown",
       "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
@@ -4006,6 +4187,15 @@
     {
       "applies_to": "As required by the canonical read/context; no upstream invocation implied",
       "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/workspace-bindings/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "applies_to": "As required by the canonical read/context; no upstream invocation implied",
+      "classification": "bundled governing/resource read",
       "fragment": "",
       "location": "markdown",
       "locator": "references/record-format.md",
@@ -4175,95 +4365,95 @@
       "target": "implementation/runtime/storage-lifecycle.md"
     }
   ],
-  "distribution_modification_notice": "Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained.",
+  "distribution_modification_notice": "Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained.",
   "files": {
     "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
     "NOTICE": "4235c333ef37e7c6d8a352cda1ab9cd0880d4b5d21ba13892b32a81ee0ac94df",
-    "SKILL.md": "2e655fd78a7f24f371e32689843330dc2649c768d9f1118780c7582afba404cc",
+    "SKILL.md": "7437a7cfba83c9e59c81d028cd86c7304fd353da5f2b2da9e14045efc86f7b06",
     "references/governing.md": "ad74a13b4852d526e616dd322064893de6570e936d2e54afdfb1c898a2e92f66",
-    "references/source/implementation/runtime/binding-catalog.json": "65e65c56d42809f2157a85baa4ea8c3e1b5750866396806fb4efdbb9f708d6f2",
-    "references/source/implementation/runtime/entity-lineage.md": "69236ca7ed50b5ddc8e003cec8e25486da98ad0ee72135b83784c7c74c194b05",
-    "references/source/implementation/runtime/method-catalog.json": "bcbe324d2c99da3ce261942fcd6f037ed6f1da8f28499fbbf7a9e1b0c0226191",
-    "references/source/implementation/runtime/requirements.md": "0e8ebd26ca0f76e776e20e41d4fbe9e2533ed7ce4e8feacf9794b3d4e1bbad4e",
-    "references/source/implementation/runtime/storage-lifecycle.md": "4baf10aea26a8f4f8c322720e9133afae9f1f8c4cecb373cfb10c43f2b9c84ca",
-    "references/source/implementation/skills/consult-change/procedure.md": "d6b1c7be1030807f9773f3098b99f54f85c819b5aa3307bc835c11814e8ae651",
-    "references/source/implementation/skills/consult-change/references/output-contract.md": "2e601c427591e3c9a265f19d7074600d131c5c65ece8ebcc59b42e9c179a819a",
-    "references/source/implementation/skills/consult-change/references/source-map.md": "8f8ef7c9f4dacd8e1761836210316d18404eb2e42ba7e97478097e2f6e7a5fe3",
-    "references/source/implementation/skills/consult-closure/procedure.md": "9cf34077745690290f492469335d0d78935222e0f774216d5e556369c83782e4",
-    "references/source/implementation/skills/consult-closure/references/output-contract.md": "61f8c54d7b6e0fb2eb58e210ddb7f20d1fd776282c80774f1643188034ee424b",
-    "references/source/implementation/skills/consult-closure/references/source-map.md": "fe01665d954c29d830934e5d0378fe68ac3e9d75cd5058640bc089bb9b179596",
-    "references/source/implementation/skills/consult-deliverable/procedure.md": "f459e412ea82833c6579d72a6fdcbebe6f34cf9fa8da65208c4018d1b0c973d6",
-    "references/source/implementation/skills/consult-deliverable/references/output-contract.md": "d7cfefb69c71a6ac19e22a158c78a7a96aadf378a45496b6b84488e31df376a3",
-    "references/source/implementation/skills/consult-deliverable/references/source-map.md": "63ffa542dd433f042e4ba353136ade4e303909d3dc52d838d106ff72196cf1b9",
-    "references/source/implementation/skills/consult-framing/procedure.md": "721437e0c4986bfecf491f31587d30ad49bc8fb8a578ee1dc1e5b49f410d6edd",
-    "references/source/implementation/skills/consult-framing/references/output-contract.md": "375ecbfd1983feff938919fd585434320e54a8019c00dac958c423a540de161c",
-    "references/source/implementation/skills/consult-framing/references/source-map.md": "77f2489d4ce3d68866a26d1e18bbbd66184e620b2926a6c35319391bb254a0ac",
-    "references/source/implementation/skills/consult-planning/procedure.md": "8e64c19970408f7281f23c14b5f4c342edb7df6265fe25682c33cdb9b5350967",
-    "references/source/implementation/skills/consult-planning/references/output-contract.md": "71e85ed3fb71b5b736ffeb5127ad31c777b3876fbd79117c520b4c713233dde1",
-    "references/source/implementation/skills/consult-planning/references/source-map.md": "27f6705e45ee8ffc0daedd5c68cd5c5397944c1508d3f9f3bb772dd3397feca3",
-    "references/source/implementation/skills/consult-results/procedure.md": "df2eca2bf0eba047253e69ef5ba2c1376381e482ecb1336041396a68f5548b2a",
-    "references/source/implementation/skills/consult-results/references/output-contract.md": "7e30ecfdcbb6aea81ec9b72c29943e27df415eb2efeafb2a36bfd8ebd991b93f",
-    "references/source/implementation/skills/consult-results/references/source-map.md": "ba8075cfa0886c94b598025e2473373a2ca22ea3a9c197dad323f7c51e451ab5",
-    "references/source/implementation/skills/consult-status/procedure.md": "b08373eff77cfa1d787fe380fe8f217f4b7d8242910892b540ec1b3ce9216ca3",
-    "references/source/implementation/skills/consult-status/references/output-contract.md": "bc8c822552072c85db2a8a1d316c2c1885276a3cf627f1bad899c9cf99e6f9a9",
-    "references/source/implementation/skills/consult-status/references/source-map.md": "3c16c5461e0813fdd0c639dcd7e7b306e54014f103590ffe04273462064bd379",
+    "references/source/implementation/runtime/binding-catalog.json": "c94245dba63aa12fac8b1cd771654708b4cdfd988034982fc63880b93a295b64",
+    "references/source/implementation/runtime/entity-lineage.md": "adc66f48feb171c9eb864802a1f099cbf76f16c34737a5b126526767c2d57db3",
+    "references/source/implementation/runtime/method-catalog.json": "2cbaa1af375669eeff34c3063a3772c0ae25eff11768d70bf5e5ec114840cf61",
+    "references/source/implementation/runtime/requirements.md": "79d78531563c57d068df787a7b6538f47487054d5fc05d2a7e370812822823c5",
+    "references/source/implementation/runtime/storage-lifecycle.md": "e410818c41b5df145e1dbd703ce70f39e8fb2d11cdc3d71511ebcdbf87a3a3c6",
+    "references/source/implementation/skills/consult-change/procedure.md": "3a1e45512df7c0d1d60faa0728eb5bffb13f412a06bd292137806d64642bcf0d",
+    "references/source/implementation/skills/consult-change/references/output-contract.md": "9784bf2ca3b213ff51450f5576ed852eb0e0b2378aa7ff11f213acb9a47790fa",
+    "references/source/implementation/skills/consult-change/references/source-map.md": "1f68e05e5556a7d0193bd275f2015cb529942fd061f00a9052edfb3c5d44ef46",
+    "references/source/implementation/skills/consult-closure/procedure.md": "8f38daeeac1aea3a7235e1e7ba3c6ffab2e28d3065175709e6d1bc7409d328ea",
+    "references/source/implementation/skills/consult-closure/references/output-contract.md": "193939c0f7cb35e70ccc8606aba5fda8a8856727f3ce711eba8c895734767c05",
+    "references/source/implementation/skills/consult-closure/references/source-map.md": "4a23af084254f46684d8baa8937b393139f95db46b27f8467acb67e73a5e01b9",
+    "references/source/implementation/skills/consult-deliverable/procedure.md": "192c774b6db0f0824b05c1651815f57bdc4bd1abe7ccb3eede9914ac4a99659f",
+    "references/source/implementation/skills/consult-deliverable/references/output-contract.md": "8e0d9ab055d40c7ce501690a53cbe5840dd301ad26d4642ffcbcc3ce70078e43",
+    "references/source/implementation/skills/consult-deliverable/references/source-map.md": "90f679e18fe39c14a6facd4294f8a05570b51183b726f010e2114a1953bba27d",
+    "references/source/implementation/skills/consult-framing/procedure.md": "74854f4e9622deb9c304a68bb298bc5f6ef70b4066de9218273757bea9d08e5e",
+    "references/source/implementation/skills/consult-framing/references/output-contract.md": "0d247842701a60b39ba19823a3b0f1b4e4c70bf3f855aad282d80fe656941b5f",
+    "references/source/implementation/skills/consult-framing/references/source-map.md": "fb4789d1683599db02691ca2b98207c4b258f0677993b4f6aadfad018a79d3f4",
+    "references/source/implementation/skills/consult-planning/procedure.md": "f7532178f3813b961eb3628ab2fe91b3dcaf9320e16b2dc25f3c0f3a4e8928e3",
+    "references/source/implementation/skills/consult-planning/references/output-contract.md": "0d2bda658ab09e3ff85cfb17975d7100bae5d25c00239dd7beaff6dc6a4eb75b",
+    "references/source/implementation/skills/consult-planning/references/source-map.md": "d581e931c4a71b19bfcc68b45b41c0fbe994e9bc45e60745ad1c6820be94a203",
+    "references/source/implementation/skills/consult-results/procedure.md": "086b53ff367d82f5866d8ab538070425bd1111076023d4c1bdda81ecb4a97034",
+    "references/source/implementation/skills/consult-results/references/output-contract.md": "f3b222f4c811bd100a18e4a6b774417308f53c9220dd90735babe3afc628c091",
+    "references/source/implementation/skills/consult-results/references/source-map.md": "254bdb85290284098977dcea4ec972a52a4d858da5d7e14305805250dbf61bee",
+    "references/source/implementation/skills/consult-status/procedure.md": "f50163f60ed4e6bb2881c70bb6fa68723847a809c943f4b666a71f4a03fbbe3a",
+    "references/source/implementation/skills/consult-status/references/output-contract.md": "ba8b8728e452dd3fa8a16fddd4296907602c3d0690b0916f868821ff74a93c49",
+    "references/source/implementation/skills/consult-status/references/source-map.md": "c0677ca335123b3ddb24c770c2e288a7fbfeda7c7246b548f4c2d3e95ba1f604",
     "references/source/implementation/skills/design-language/procedure.md": "56e4ea163466a10a8914c7ab4928f72ef56f9d1eaef29e16875f2612af63970f",
     "references/source/implementation/skills/design-language/references/output-contract.md": "cbb9816523a907bc8568b5526bb3d594e4cb5fb1922fe1eda2f553721cdf597a",
-    "references/source/implementation/skills/design-language/references/source-map.md": "5e636bc123cbc8b6a5c39d37f147eb51154ddb98cef00c0ef7384854247b7c45",
-    "references/source/implementation/skills/evidence-ask/references/answer-contract.md": "1716e5867535fd02ec4d393049c703f5dfc6e3196d8e216416082dffacec98c3",
-    "references/source/implementation/skills/evidence-check/procedure.md": "b92078a0d34bd27e178ee17e5b36deed9d7794145d1215a33876f0e280a18832",
-    "references/source/implementation/skills/evidence-check/references/check-contract.md": "c45c2701be618ec6a33bdb9a5a0e4ef8fcf7cf7b7f4d1e2084a4b8a9b454ce88",
-    "references/source/implementation/skills/evidence-research/procedure.md": "cff0fd2beae55b3eee75fb4ab4a96c8a1bcc912a655e2fd33b2c172068fefcf6",
-    "references/source/implementation/skills/evidence-research/references/output-contract.md": "e15150c364c7bfcbd120db228ca78aa8de4231ddd8ab27a267f02b4232104944",
+    "references/source/implementation/skills/design-language/references/source-map.md": "ecf8e653d4cb88a4292cc0271e4c2c715052c091369d47d3dc30fe11cb3844f7",
+    "references/source/implementation/skills/evidence-ask/references/answer-contract.md": "96c663cb66b588401cb24d78ee06e6d2469aeff42aaa570dcf84fe09222276a7",
+    "references/source/implementation/skills/evidence-check/procedure.md": "342277cfdc97c6631c7fc209224c70b89712195e827a538f42a7d76e0f530480",
+    "references/source/implementation/skills/evidence-check/references/check-contract.md": "df3a90b10aa65e697983b0c3165a6947a7c1a86c4817772f35b46562cdeb6161",
+    "references/source/implementation/skills/evidence-research/procedure.md": "8b23b1cdee8e32fb5ffb72d9c8259b1cd456d29474e5b8e50fc06ffd65823cc3",
+    "references/source/implementation/skills/evidence-research/references/output-contract.md": "40bb6a8c3cc76b1756d2326b90ab17dd40cdc008f0c03659bf889d765e16cecf",
     "references/source/implementation/skills/evidence-visualize/procedure.md": "95613ade6fed86dbbc77402a28e4aef9bfded894aba1b4c57f8532a40f68e636",
     "references/source/implementation/skills/evidence-visualize/references/output-contract.md": "f80080e8d0b14c188adb313a7262e9313b46d647d9e63e5bd2cf0f8599b0098b",
-    "references/source/implementation/skills/evidence-visualize/references/source-map.md": "5aac58820927e229d212cbfa927765ce8018d9c64048d041a7e96298d83774e7",
+    "references/source/implementation/skills/evidence-visualize/references/source-map.md": "0a51c89a0e518dca8ba8f5caa58d6333f70a2a5a59714e2ae7da2e866afcd92e",
     "references/source/implementation/skills/my-improvements/procedure.md": "cd459115dc96dcbb0cdded2f865cef50126de2720015ee833ad256dde06430ab",
     "references/source/implementation/skills/my-improvements/references/output-contract.md": "e4871d9811573089fac278035ceacb9de5f74cb8aa57e4675d9320f12df90908",
     "references/source/implementation/skills/my-improvements/references/source-map.md": "03a6221a25def2fe7aa949d529f0baf5b794131ec78cc0ae1ba73b6bff320f98",
-    "references/source/implementation/skills/narrative-shape/procedure.md": "b693b8c906a65091c6ee0b1ca3e8fa3938a4b8121d505bf69dc8f4f75a624413",
+    "references/source/implementation/skills/narrative-shape/procedure.md": "739aa0489dfc55203c8b0bb746fa5df668c1b6e18a4006105e0522f354a5c506",
     "references/source/implementation/skills/narrative-shape/references/output-contract.md": "f31ada6269246325818ece329e832af2b1422a9192f0795ab90f6483369dc053",
-    "references/source/implementation/skills/offering-develop/procedure.md": "2982f22c4253ce311a251b088a2bfff0d92c277397e8e7926fcd3274a1ab57a0",
-    "references/source/implementation/skills/offering-develop/references/output-contract.md": "fb24a452486062ce84ad7ddd9e242daafa06c00743f6e9e38e12b7dab7fc298a",
-    "references/source/implementation/skills/offering-develop/references/source-map.md": "1aea1c5a84a1f3dbaa012079cb8d2d9fea78ee5c391bacd8949a2aec9917f1db",
-    "references/source/implementation/skills/offering-proof/procedure.md": "b2a7c82c1b7dad9d47c4622597e65121545ec75da96a06bf20d4b09351b66db9",
-    "references/source/implementation/skills/offering-proof/references/proof-contract.md": "f68f188ab8f057a201297c5c5341b8cca2288374e4c304c71ee867baf300e1e6",
+    "references/source/implementation/skills/offering-develop/procedure.md": "0807a3450a87ebba0d038714bc40ca50f39bfe29b7843a84bcae31aac04aa5b8",
+    "references/source/implementation/skills/offering-develop/references/output-contract.md": "940a4eb1bc542f0c31d686f74933a98fec61fc8f2ac01b5378abf90e4f7ffe63",
+    "references/source/implementation/skills/offering-develop/references/source-map.md": "2cf6e387a1c7e3d167e8ecde148e84193db3ae8d6b202bd4a9f62b3f25bf53d6",
+    "references/source/implementation/skills/offering-proof/procedure.md": "bd36b447b1f008510f2f5ffc3de508faa54a0d587762330ab03cc0927522a72b",
+    "references/source/implementation/skills/offering-proof/references/proof-contract.md": "115440b1f58f260717097745ed3e38d074f5af52951f1093751f0f15b210fd48",
     "references/source/implementation/skills/org-specialize/procedure.md": "06d6b42ac0ee001c6d6b36b1191bfd95b31269053244e08903c064d23ac7d148",
-    "references/source/implementation/skills/org-specialize/references/output-contract.md": "e7132161e0bec5a1c8eff3ba54e6e780b567e6a388e2c0843fb49325f7cdf02f",
-    "references/source/implementation/skills/org-specialize/references/source-map.md": "bd6462d3eeb04c2756809e0db232f3991303f6c10ae94a29a9f73337cfb9fb9a",
-    "references/source/implementation/skills/publishing-inspect/procedure.md": "fd20605951229f08e74db1c4059c2b0f3a5c3a6da55860791797a0846b46fc53",
-    "references/source/implementation/skills/publishing-inspect/references/output-contract.md": "4646206cefe2d0b8fff48d47cc2900aabf63b99ae8da9908a3c6f8eb68782e0b",
-    "references/source/implementation/skills/publishing-inspect/references/source-map.md": "4f313508d470fe20eedc29f7d7cab8af10e0646341f90f5c5eae44191350abe5",
-    "references/source/implementation/skills/publishing-render/procedure.md": "f71f6fd44a7a125cc94bd5b2fe709e877ae46bf2ea3e1ddc0353357adc996284",
-    "references/source/implementation/skills/publishing-render/references/output-contract.md": "5395055880d49aaba93ae837c17f4f95798264b9260392eb9ce1dc1bdf9a1fe3",
-    "references/source/implementation/skills/publishing-render/references/source-map.md": "ea86d1bd36c0866aa9a5845b6757a91bf616c4c97013ca0c16a4b28972b16d49",
-    "references/source/implementation/skills/review-challenge/procedure.md": "e4588fa1081e4c2ff11b36da938465cb08bad2b26b1600150cf8a41d967a7f01",
-    "references/source/implementation/skills/review-challenge/references/output-contract.md": "33be53ba3659d2604ce91ff32da10c6de1d79eaa6cc8848423b437d60caeaf11",
-    "references/source/implementation/skills/review-challenge/references/source-map.md": "35d2b549c9a363d997c6234a8ddad0bcdccef72cb019b1c56dd7c47ea4e08981",
-    "references/source/implementation/skills/sales-buyer-brief/procedure.md": "378517124786b7401c68a469049eb75065eab84b8857a03c01cbd6559e56e021",
-    "references/source/implementation/skills/sales-buyer-brief/references/brief-contract.md": "a135c7e477d3360af608e98bde05f482bd2f4e71b5078a08d8de6f81cd276ccd",
-    "references/source/implementation/skills/sales-followup/procedure.md": "75358e0483114c8e4012ddec79235b7a653e98d393e7acb0d812597646319f24",
-    "references/source/implementation/skills/sales-followup/references/followup-contract.md": "d9ddd94791d45fbf1f7d71a95c90d1c978f668232fcc8db8b1a720317af3ccbc",
+    "references/source/implementation/skills/org-specialize/references/output-contract.md": "c0a23cd5c3e4c6b4621f259fc3198d4a0cdd67e4938023a2d3eb4ff6a5f10237",
+    "references/source/implementation/skills/org-specialize/references/source-map.md": "dadbb66913b3985d92ce4fa266df1759914931049b201135cf566a214117d002",
+    "references/source/implementation/skills/publishing-inspect/procedure.md": "6a4ffe0bfc646e5b058fd67ca8f19bc8ae47fc2a1b06df983055957b8d976120",
+    "references/source/implementation/skills/publishing-inspect/references/output-contract.md": "84fd19c22fbebf9c003ff7bf7b8b99e802c1410c265a0a9ead0b527f6e92b6a8",
+    "references/source/implementation/skills/publishing-inspect/references/source-map.md": "2d17a0ed9bbe74fd7464f36d9dd056d44eb76689c186c992509b1c545dbef0fd",
+    "references/source/implementation/skills/publishing-render/procedure.md": "0e3b6f6c61b2f130c6535ddca2cdfff60df7248297920c3d409c3444256bb9be",
+    "references/source/implementation/skills/publishing-render/references/output-contract.md": "a930c3dfcc49dd823036a01d7bfab8e50149005f4ba590d6d852d4500041ede4",
+    "references/source/implementation/skills/publishing-render/references/source-map.md": "65f6795c744b6a72d7e5e3d17dca9f28e1cf40568d29a904a40fd70dfb113e88",
+    "references/source/implementation/skills/review-challenge/procedure.md": "37fece3563df85ec17e641eb8f67ede0b85e5b374900c10539c88eae3dae30b8",
+    "references/source/implementation/skills/review-challenge/references/output-contract.md": "f462fde13535b21a541d432cc3e3e3befca591d413d60eef77b9527aee43cc80",
+    "references/source/implementation/skills/review-challenge/references/source-map.md": "320c7b36b7d2b329f2e55694e682b39f68e303f14be419d071b8dfefe003b34f",
+    "references/source/implementation/skills/sales-buyer-brief/procedure.md": "336bf3f9eee12d13098bad15cc9b53c02435575b9d4f0f82a79ebc6a82b7ab5b",
+    "references/source/implementation/skills/sales-buyer-brief/references/brief-contract.md": "afb4ab2bb37f94233f6bb1384071caa1973c8e7ec84e940de83d62d8ae5c5d6c",
+    "references/source/implementation/skills/sales-followup/procedure.md": "601fb8d15efe976c0736fcf7979c79f41cbeba5991ff5a22ee1af49bbb3fadf0",
+    "references/source/implementation/skills/sales-followup/references/followup-contract.md": "946d8c373a2fd904533ffe11fb63103b44abae955ad6438bc1910169d22133a3",
     "references/source/implementation/skills/sales-monday-review/procedure.md": "f31f0a975ef1c723856227002a86aec80a44a0877b4c97b8fa7c99997a57a877",
-    "references/source/implementation/skills/sales-monday-review/references/source-map.md": "278a76c1c9ab1d7130abb76b2109c17dd76c4183e19b9cbf946717f01aeea682",
+    "references/source/implementation/skills/sales-monday-review/references/source-map.md": "9d14207dbaffdda8c92a2062b573f4554ea80c4295a2921016eeaad72598c0dc",
     "references/source/implementation/skills/sales-monday-review/references/view-contract.md": "1de1f5ce1998a1f87f90fa5db6fc0007921dfac13979ff37bc037bc1e12b81d2",
-    "references/source/implementation/skills/sales-proposal/procedure.md": "dc040bd56a14db9abd13d40653c2caa342cc43c0facda8d9ead144f3fe63e620",
-    "references/source/implementation/skills/sales-proposal/references/proposal-contract.md": "7a4b0c8bda833a9fb25f9fc84264d68fae2dc0454079d554f00804589dc36bbb",
-    "references/source/implementation/skills/sales-pursuit-event/procedure.md": "9ae129324bd0e45f1db33e105532e0208704e5c967c2ea4cc2a27ba476eb4953",
-    "references/source/implementation/skills/sales-pursuit-event/references/event-contract.md": "76d381bba1d365b1f8dc01c9310ef2c6b2bb702a2238b8d5abd8c50545eab61f",
-    "references/source/implementation/skills/sales-pursuit-event/references/supported-input-boundary-0.1.5.json": "e25ce5d53935a1dde9edcbb9f87bef7c96d3ef9c0925b171f73a2d4f83adc0bb",
-    "references/source/implementation/skills/sales-pursuit-event/references/supported-input-contract-0.1.5.md": "e48a26ca1754d2a190bb694017d57aa7ae3df23f9903a849030dadfde9d3b69a",
-    "references/source/implementation/skills/sales-pursuit-event/references/time-authority-model-0.1.15.md": "264d344056c6f65c1562b85aba6ce3d7611c958242b8cca598104040bc5757e6",
+    "references/source/implementation/skills/sales-proposal/procedure.md": "3785eaed76e6c19d3dd1ab606e4b95f5d8e191a28807ae4b4982634e2e9c34d8",
+    "references/source/implementation/skills/sales-proposal/references/proposal-contract.md": "051f457bb7e2449922f1ef89d8f8940428df352de01783083aaad62a8672cd02",
+    "references/source/implementation/skills/sales-pursuit-event/procedure.md": "cd5512fad921de27e1d6f9bbd748ab2b11ea85681c7bb0ed706f19c36a5ce7d0",
+    "references/source/implementation/skills/sales-pursuit-event/references/event-contract.md": "845f7af9f42a55cd69762f55b4a4f4e4411ce2f3dc75b9c4a215f8d1ce2c7858",
+    "references/source/implementation/skills/sales-pursuit-event/references/supported-input-boundary-0.1.5.json": "0dd06d5f80fb0f9d239c235b0c139963d174ccf95865af0fbb2a519c668da3e0",
+    "references/source/implementation/skills/sales-pursuit-event/references/supported-input-contract-0.1.5.md": "8b419f71eedc44fe2077c63ec6a216b4d6849c4b1d0001c9141502205cf2c58c",
+    "references/source/implementation/skills/sales-pursuit-event/references/time-authority-model-0.1.15.md": "dd6617da99da10e993e9e5efde33094a8b17d6061a4086684a2e901e2ab95aa3",
     "references/source/implementation/skills/structure-apply/procedure.md": "d1ec8b3ed42492f181bc4f330f0d6901fbf77a887d7d9025b48a7e1d3782bf27",
     "references/source/implementation/skills/structure-apply/references/output-contract.md": "daac9cf6ef3d6f43ad916f739084465a795b51b163900af87975fb4398ba3030",
     "references/source/implementation/skills/structure-problem/procedure.md": "791c72fe2c8f0baeb52334d2f77e8cebe5d0fd9d0e4c7a8a9ccef55367dedfc6",
     "references/source/implementation/skills/structure-problem/references/output-contract.md": "7a3d28a0a9f71f7d202324678e8c3ac28501e01c877c1819518d1dd481af97d1",
-    "references/source/implementation/skills/workspace-bindings/procedure.md": "ea6b0313f8fc342235921f7db4fd9efc76dbf3be4cdef379ca1297760831beac",
+    "references/source/implementation/skills/workspace-bindings/procedure.md": "ec23ef9d0beb46c3d040e7bec35ed1d1dbced2b2443142dcd98ebaac33275c4d",
     "references/source/implementation/skills/workspace-bindings/references/provider-routes.md": "04b19a461de3320d3671936fbd791b08f6b2502262b1da95bec3162a30a5b382",
     "references/source/implementation/skills/workspace-bindings/references/record-format.md": "672d7ca113b52456b82737d328e9ac8f8c6d07bcf992b0296430fba058f1b9ab",
-    "references/source/implementation/working-character/instructions.md": "318ae4f465e46f76fd04154a23cfb57cf8b12d29628988debd102eb845d2fd12",
-    "references/source/implementation/workspace-bindings/architecture.md": "671e8807138cb681e770efc4a890b86fa4d854dff2c1e3f7096a6e0711ac2272",
-    "references/source/implementation/workspace-bindings/contract.md": "d2c580501658a192f7ece7d625edd24a03f92056b95ee98a1b7f9e7ba65b36d9"
+    "references/source/implementation/working-character/instructions.md": "5cf39ff838af8ff2c6e25d582a3de512a316eb41751413e612e65322951f3718",
+    "references/source/implementation/workspace-bindings/architecture.md": "7f65228cd1d8fe9b7a38897a135b0dc7175deadd7217c298b6280e718e4b310b",
+    "references/source/implementation/workspace-bindings/contract.md": "cc845284bd2e93a37fa5edac177c8e1dd40ae7980e059029bc6e83714310f0ba"
   },
   "gates": {
     "all_standard_component_modes": "NOT_RUN",
@@ -4278,16 +4468,17 @@
     "workspace_availability": "NOT_RUN"
   },
   "generator_inputs": {
-    "implementation/aligned-release/prepare.py": "9aa9832afb534947fc69e4b2c438646741c488f4ba316991e4bf00fc5c133e51",
-    "implementation/aligned-release/selection.json": "321b4458231fc8afaa8b976c26e32f4704bd1bccefd8ef951dbad01d52230a86",
+    "implementation/aligned-release/prepare.py": "852c2683b2a30b3a47b03e70db4251113b9c2e1ecb87c066db10631254767a46",
+    "implementation/aligned-release/selection.json": "804ab14e5d72bf435c42bcab4e15d8490eeadb56c2f54c4d883c74be213aeb65",
     "implementation/business-skills/check_packages.py": "34e029ad1cc6f2ae4efc7dcc940517d7b37fd8a931b7bc7d9de62eacc84818f6",
     "implementation/business-skills/release.py": "25b27ef1416b17164daaa2366f906b7ffdd818eb3631d37678f1442c7ec04e89",
     "implementation/plugin-distribution/plugin.json": "4a6d7c007663232cbb2ff7f63a3d1b200abd229afb9ed77873768c2d4004affb",
     "implementation/plugin-distribution/release.py": "d6b57e160bc386df4519d1cfcca6756fa3d0354d2ba876016466c913688c798a",
     "implementation/plugin-setup/package_update.py": "0e3c80d778e4c67508ca379badb3ca92f5703512830360c093fb08cc91976fd9",
-    "implementation/s-export/export.py": "1649a8783ff4190a80a0fc04bf1e8e9098cdca9a07dc78058c5180189d413116"
+    "implementation/s-export/export.py": "1649a8783ff4190a80a0fc04bf1e8e9098cdca9a07dc78058c5180189d413116",
+    "provenance/aligned-release-candidate-1.2.1.py": "9c8f9de160a84490c9bcc20fd56642c68e70de59814b8a22d35fd5e62f7dbe3d"
   },
-  "method_version": "0.2.0",
+  "method_version": "0.2.1",
   "modes": [
     null
   ],
@@ -4295,7 +4486,7 @@
   "release_identity": {
     "license": "Apache-2.0",
     "name": "consulting-studio-skills",
-    "version": "1.1.0"
+    "version": "1.2.1"
   },
   "resources": [
     {
@@ -4348,7 +4539,7 @@
       "canonical_path": "implementation/runtime/binding-catalog.json",
       "canonical_sha256": "d49b54b2de35cdbfd7cebd1652605d1d6d3874901832879e2668cba718e63ddf",
       "emitted_path": "references/source/implementation/runtime/binding-catalog.json",
-      "emitted_sha256": "65e65c56d42809f2157a85baa4ea8c3e1b5750866396806fb4efdbb9f708d6f2",
+      "emitted_sha256": "c94245dba63aa12fac8b1cd771654708b4cdfd988034982fc63880b93a295b64",
       "role": "common instruction"
     },
     {
@@ -4378,7 +4569,7 @@
       "canonical_path": "implementation/runtime/entity-lineage.md",
       "canonical_sha256": "b28c8e7334832eb74a34f516cb10f589c822aca7debb11bd1c73be51970a5060",
       "emitted_path": "references/source/implementation/runtime/entity-lineage.md",
-      "emitted_sha256": "69236ca7ed50b5ddc8e003cec8e25486da98ad0ee72135b83784c7c74c194b05",
+      "emitted_sha256": "adc66f48feb171c9eb864802a1f099cbf76f16c34737a5b126526767c2d57db3",
       "role": "common instruction"
     },
     {
@@ -4574,9 +4765,9 @@
         }
       ],
       "canonical_path": "implementation/runtime/method-catalog.json",
-      "canonical_sha256": "ab091c43ff0808411017878411edac3bd51c02844b138c0861a8257097de97d3",
+      "canonical_sha256": "afb1943a7e455afd4a6443d2c7b5124a6c44f8e8c3ac7610556bbadeac5ff5b4",
       "emitted_path": "references/source/implementation/runtime/method-catalog.json",
-      "emitted_sha256": "bcbe324d2c99da3ce261942fcd6f037ed6f1da8f28499fbbf7a9e1b0c0226191",
+      "emitted_sha256": "2cbaa1af375669eeff34c3063a3772c0ae25eff11768d70bf5e5ec114840cf61",
       "role": "common instruction"
     },
     {
@@ -4641,7 +4832,7 @@
       "canonical_path": "implementation/runtime/requirements.md",
       "canonical_sha256": "ad4bdd895c553223337d4c0719b363df9c6a39c4e6ad01e601795c029c5e1094",
       "emitted_path": "references/source/implementation/runtime/requirements.md",
-      "emitted_sha256": "0e8ebd26ca0f76e776e20e41d4fbe9e2533ed7ce4e8feacf9794b3d4e1bbad4e",
+      "emitted_sha256": "79d78531563c57d068df787a7b6538f47487054d5fc05d2a7e370812822823c5",
       "role": "common instruction"
     },
     {
@@ -4734,7 +4925,7 @@
       "canonical_path": "implementation/runtime/storage-lifecycle.md",
       "canonical_sha256": "cf6a451cd2b50fea805a6e4f34549978865e795c36b7e631847756d03dd47dae",
       "emitted_path": "references/source/implementation/runtime/storage-lifecycle.md",
-      "emitted_sha256": "4baf10aea26a8f4f8c322720e9133afae9f1f8c4cecb373cfb10c43f2b9c84ca",
+      "emitted_sha256": "e410818c41b5df145e1dbd703ce70f39e8fb2d11cdc3d71511ebcdbf87a3a3c6",
       "role": "common instruction"
     },
     {
@@ -4785,18 +4976,32 @@
           "canonical_origin": "implementation/skills/consult-change/SKILL.md",
           "classification": "bundled governing/resource read",
           "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
+        },
+        {
+          "canonical_origin": "implementation/skills/consult-change/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
           "original": "../consult-framing/references/output-contract.md",
           "result": "../consult-framing/references/output-contract.md"
         }
       ],
       "canonical_path": "implementation/skills/consult-change/SKILL.md",
-      "canonical_sha256": "a81972481ed1ddfb62218481f5d34a7fcfabeaadfafc8d0bc6cb3645ee55e6f7",
+      "canonical_sha256": "7e3f7bd1e0042d51dfc44a22bdc60ecf3b299cb747489f7468c6317411e97fda",
       "emitted_path": "references/source/implementation/skills/consult-change/procedure.md",
-      "emitted_sha256": "d6b1c7be1030807f9773f3098b99f54f85c819b5aa3307bc835c11814e8ae651",
+      "emitted_sha256": "3a1e45512df7c0d1d60faa0728eb5bffb13f412a06bd292137806d64642bcf0d",
       "role": "common instruction"
     },
     {
       "adaptations": [
+        {
+          "canonical_origin": "implementation/skills/consult-change/references/output-contract.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../../workspace-bindings/contract.md#project-record-maintenance"
+        },
         {
           "canonical_origin": "implementation/skills/consult-change/references/output-contract.md",
           "classification": "bundled governing/resource read",
@@ -4813,9 +5018,9 @@
         }
       ],
       "canonical_path": "implementation/skills/consult-change/references/output-contract.md",
-      "canonical_sha256": "2e601c427591e3c9a265f19d7074600d131c5c65ece8ebcc59b42e9c179a819a",
+      "canonical_sha256": "9784bf2ca3b213ff51450f5576ed852eb0e0b2378aa7ff11f213acb9a47790fa",
       "emitted_path": "references/source/implementation/skills/consult-change/references/output-contract.md",
-      "emitted_sha256": "2e601c427591e3c9a265f19d7074600d131c5c65ece8ebcc59b42e9c179a819a",
+      "emitted_sha256": "9784bf2ca3b213ff51450f5576ed852eb0e0b2378aa7ff11f213acb9a47790fa",
       "role": "common instruction"
     },
     {
@@ -4866,7 +5071,7 @@
       "canonical_path": "implementation/skills/consult-change/references/source-map.md",
       "canonical_sha256": "4de913aa04f94d7b16505611fba56d07a8449a5255083f46c596f583e7f2b911",
       "emitted_path": "references/source/implementation/skills/consult-change/references/source-map.md",
-      "emitted_sha256": "8f8ef7c9f4dacd8e1761836210316d18404eb2e42ba7e97478097e2f6e7a5fe3",
+      "emitted_sha256": "1f68e05e5556a7d0193bd275f2015cb529942fd061f00a9052edfb3c5d44ef46",
       "role": "common instruction"
     },
     {
@@ -4912,16 +5117,30 @@
           "location": "markdown",
           "original": "../../workspace-bindings/contract.md",
           "result": "../../workspace-bindings/contract.md"
+        },
+        {
+          "canonical_origin": "implementation/skills/consult-closure/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
         }
       ],
       "canonical_path": "implementation/skills/consult-closure/SKILL.md",
-      "canonical_sha256": "09d35b45e3b3d16a2cf239b23449a8392d225dd6c835fdba99eeaaab537e76da",
+      "canonical_sha256": "2983867b86e2b90bde2afca5a6bf82dd61c12a5db7360ef7a9f76997a312ae2d",
       "emitted_path": "references/source/implementation/skills/consult-closure/procedure.md",
-      "emitted_sha256": "9cf34077745690290f492469335d0d78935222e0f774216d5e556369c83782e4",
+      "emitted_sha256": "8f38daeeac1aea3a7235e1e7ba3c6ffab2e28d3065175709e6d1bc7409d328ea",
       "role": "common instruction"
     },
     {
       "adaptations": [
+        {
+          "canonical_origin": "implementation/skills/consult-closure/references/output-contract.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../../workspace-bindings/contract.md#project-record-maintenance"
+        },
         {
           "canonical_origin": "implementation/skills/consult-closure/references/output-contract.md",
           "classification": "bundled governing/resource read",
@@ -4931,9 +5150,9 @@
         }
       ],
       "canonical_path": "implementation/skills/consult-closure/references/output-contract.md",
-      "canonical_sha256": "61f8c54d7b6e0fb2eb58e210ddb7f20d1fd776282c80774f1643188034ee424b",
+      "canonical_sha256": "193939c0f7cb35e70ccc8606aba5fda8a8856727f3ce711eba8c895734767c05",
       "emitted_path": "references/source/implementation/skills/consult-closure/references/output-contract.md",
-      "emitted_sha256": "61f8c54d7b6e0fb2eb58e210ddb7f20d1fd776282c80774f1643188034ee424b",
+      "emitted_sha256": "193939c0f7cb35e70ccc8606aba5fda8a8856727f3ce711eba8c895734767c05",
       "role": "common instruction"
     },
     {
@@ -4998,7 +5217,7 @@
       "canonical_path": "implementation/skills/consult-closure/references/source-map.md",
       "canonical_sha256": "2982efb6544b3ad87b8faeefc56c4b6f888c1520694727635d5429a9b2646c9c",
       "emitted_path": "references/source/implementation/skills/consult-closure/references/source-map.md",
-      "emitted_sha256": "fe01665d954c29d830934e5d0378fe68ac3e9d75cd5058640bc089bb9b179596",
+      "emitted_sha256": "4a23af084254f46684d8baa8937b393139f95db46b27f8467acb67e73a5e01b9",
       "role": "common instruction"
     },
     {
@@ -5049,18 +5268,32 @@
           "canonical_origin": "implementation/skills/consult-deliverable/SKILL.md",
           "classification": "bundled governing/resource read",
           "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
+        },
+        {
+          "canonical_origin": "implementation/skills/consult-deliverable/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
           "original": "../evidence-visualize/SKILL.md",
           "result": "../evidence-visualize/procedure.md"
         }
       ],
       "canonical_path": "implementation/skills/consult-deliverable/SKILL.md",
-      "canonical_sha256": "31031235cf6e55733256b27225ee5ff5f9bc55bfd790e28a9b3d03b2cf51f49b",
+      "canonical_sha256": "7226000f75dcb663c6368772ddd574df87f88606a5828abc4a73186690358b00",
       "emitted_path": "references/source/implementation/skills/consult-deliverable/procedure.md",
-      "emitted_sha256": "f459e412ea82833c6579d72a6fdcbebe6f34cf9fa8da65208c4018d1b0c973d6",
+      "emitted_sha256": "192c774b6db0f0824b05c1651815f57bdc4bd1abe7ccb3eede9914ac4a99659f",
       "role": "common instruction"
     },
     {
       "adaptations": [
+        {
+          "canonical_origin": "implementation/skills/consult-deliverable/references/output-contract.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../../workspace-bindings/contract.md#project-record-maintenance"
+        },
         {
           "canonical_origin": "implementation/skills/consult-deliverable/references/output-contract.md",
           "classification": "bundled governing/resource read",
@@ -5077,9 +5310,9 @@
         }
       ],
       "canonical_path": "implementation/skills/consult-deliverable/references/output-contract.md",
-      "canonical_sha256": "d7cfefb69c71a6ac19e22a158c78a7a96aadf378a45496b6b84488e31df376a3",
+      "canonical_sha256": "8e0d9ab055d40c7ce501690a53cbe5840dd301ad26d4642ffcbcc3ce70078e43",
       "emitted_path": "references/source/implementation/skills/consult-deliverable/references/output-contract.md",
-      "emitted_sha256": "d7cfefb69c71a6ac19e22a158c78a7a96aadf378a45496b6b84488e31df376a3",
+      "emitted_sha256": "8e0d9ab055d40c7ce501690a53cbe5840dd301ad26d4642ffcbcc3ce70078e43",
       "role": "common instruction"
     },
     {
@@ -5151,7 +5384,7 @@
       "canonical_path": "implementation/skills/consult-deliverable/references/source-map.md",
       "canonical_sha256": "5ad7f34716fe5050077b586b58b8324f5d6801dc7476779c8e98b04e23d614e4",
       "emitted_path": "references/source/implementation/skills/consult-deliverable/references/source-map.md",
-      "emitted_sha256": "63ffa542dd433f042e4ba353136ade4e303909d3dc52d838d106ff72196cf1b9",
+      "emitted_sha256": "90f679e18fe39c14a6facd4294f8a05570b51183b726f010e2114a1953bba27d",
       "role": "common instruction"
     },
     {
@@ -5209,18 +5442,32 @@
           "canonical_origin": "implementation/skills/consult-framing/SKILL.md",
           "classification": "bundled governing/resource read",
           "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
+        },
+        {
+          "canonical_origin": "implementation/skills/consult-framing/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
           "original": "../sales-pursuit-event/references/time-authority-model-0.1.15.md",
           "result": "../sales-pursuit-event/references/time-authority-model-0.1.15.md"
         }
       ],
       "canonical_path": "implementation/skills/consult-framing/SKILL.md",
-      "canonical_sha256": "734af75b9abb4376847b3d7df5085333ff1a7b97869f0f08b75ee335fcdf2ef5",
+      "canonical_sha256": "c41a5752a08a41964489edda7429cb621b425bc81bc6897cc5f548e4579f0740",
       "emitted_path": "references/source/implementation/skills/consult-framing/procedure.md",
-      "emitted_sha256": "721437e0c4986bfecf491f31587d30ad49bc8fb8a578ee1dc1e5b49f410d6edd",
+      "emitted_sha256": "74854f4e9622deb9c304a68bb298bc5f6ef70b4066de9218273757bea9d08e5e",
       "role": "common instruction"
     },
     {
       "adaptations": [
+        {
+          "canonical_origin": "implementation/skills/consult-framing/references/output-contract.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../../workspace-bindings/contract.md#project-record-maintenance"
+        },
         {
           "canonical_origin": "implementation/skills/consult-framing/references/output-contract.md",
           "classification": "bundled governing/resource read",
@@ -5237,9 +5484,9 @@
         }
       ],
       "canonical_path": "implementation/skills/consult-framing/references/output-contract.md",
-      "canonical_sha256": "375ecbfd1983feff938919fd585434320e54a8019c00dac958c423a540de161c",
+      "canonical_sha256": "0d247842701a60b39ba19823a3b0f1b4e4c70bf3f855aad282d80fe656941b5f",
       "emitted_path": "references/source/implementation/skills/consult-framing/references/output-contract.md",
-      "emitted_sha256": "375ecbfd1983feff938919fd585434320e54a8019c00dac958c423a540de161c",
+      "emitted_sha256": "0d247842701a60b39ba19823a3b0f1b4e4c70bf3f855aad282d80fe656941b5f",
       "role": "common instruction"
     },
     {
@@ -5304,7 +5551,7 @@
       "canonical_path": "implementation/skills/consult-framing/references/source-map.md",
       "canonical_sha256": "ae74986a328e50c16046bf7c793269d24b246270b65498ceeb33fb677405ca38",
       "emitted_path": "references/source/implementation/skills/consult-framing/references/source-map.md",
-      "emitted_sha256": "77f2489d4ce3d68866a26d1e18bbbd66184e620b2926a6c35319391bb254a0ac",
+      "emitted_sha256": "fb4789d1683599db02691ca2b98207c4b258f0677993b4f6aadfad018a79d3f4",
       "role": "common instruction"
     },
     {
@@ -5348,18 +5595,32 @@
           "canonical_origin": "implementation/skills/consult-planning/SKILL.md",
           "classification": "bundled governing/resource read",
           "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
+        },
+        {
+          "canonical_origin": "implementation/skills/consult-planning/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
           "original": "../consult-framing/references/output-contract.md",
           "result": "../consult-framing/references/output-contract.md"
         }
       ],
       "canonical_path": "implementation/skills/consult-planning/SKILL.md",
-      "canonical_sha256": "fcd9da52ddc398b722ad7da84b9c47aa3d4c297efe8944b4ea59b9e580f4c459",
+      "canonical_sha256": "4af31cef73dcfa14fa8cf050650195b4629643c6fc6ad4e94850a7b2adb378e0",
       "emitted_path": "references/source/implementation/skills/consult-planning/procedure.md",
-      "emitted_sha256": "8e64c19970408f7281f23c14b5f4c342edb7df6265fe25682c33cdb9b5350967",
+      "emitted_sha256": "f7532178f3813b961eb3628ab2fe91b3dcaf9320e16b2dc25f3c0f3a4e8928e3",
       "role": "common instruction"
     },
     {
       "adaptations": [
+        {
+          "canonical_origin": "implementation/skills/consult-planning/references/output-contract.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../../workspace-bindings/contract.md#project-record-maintenance"
+        },
         {
           "canonical_origin": "implementation/skills/consult-planning/references/output-contract.md",
           "classification": "bundled governing/resource read",
@@ -5376,9 +5637,9 @@
         }
       ],
       "canonical_path": "implementation/skills/consult-planning/references/output-contract.md",
-      "canonical_sha256": "71e85ed3fb71b5b736ffeb5127ad31c777b3876fbd79117c520b4c713233dde1",
+      "canonical_sha256": "0d2bda658ab09e3ff85cfb17975d7100bae5d25c00239dd7beaff6dc6a4eb75b",
       "emitted_path": "references/source/implementation/skills/consult-planning/references/output-contract.md",
-      "emitted_sha256": "71e85ed3fb71b5b736ffeb5127ad31c777b3876fbd79117c520b4c713233dde1",
+      "emitted_sha256": "0d2bda658ab09e3ff85cfb17975d7100bae5d25c00239dd7beaff6dc6a4eb75b",
       "role": "common instruction"
     },
     {
@@ -5436,7 +5697,7 @@
       "canonical_path": "implementation/skills/consult-planning/references/source-map.md",
       "canonical_sha256": "8d5f56f817e8907a886e30997d9011aff429b4f275e192b0760bded1d42292c4",
       "emitted_path": "references/source/implementation/skills/consult-planning/references/source-map.md",
-      "emitted_sha256": "27f6705e45ee8ffc0daedd5c68cd5c5397944c1508d3f9f3bb772dd3397feca3",
+      "emitted_sha256": "d581e931c4a71b19bfcc68b45b41c0fbe994e9bc45e60745ad1c6820be94a203",
       "role": "common instruction"
     },
     {
@@ -5501,6 +5762,13 @@
           "canonical_origin": "implementation/skills/consult-results/SKILL.md",
           "classification": "bundled governing/resource read",
           "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
+        },
+        {
+          "canonical_origin": "implementation/skills/consult-results/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
           "original": "../evidence-research/references/output-contract.md",
           "result": "../evidence-research/references/output-contract.md"
         },
@@ -5534,13 +5802,20 @@
         }
       ],
       "canonical_path": "implementation/skills/consult-results/SKILL.md",
-      "canonical_sha256": "734d29c3ae550d42d280952e27b4c5ee6d935f7db0738575be6508fb8f514820",
+      "canonical_sha256": "b68617b28ee64af57b7bae1f62d2c34a235ded670372dfe838a28c674fa8100d",
       "emitted_path": "references/source/implementation/skills/consult-results/procedure.md",
-      "emitted_sha256": "df2eca2bf0eba047253e69ef5ba2c1376381e482ecb1336041396a68f5548b2a",
+      "emitted_sha256": "086b53ff367d82f5866d8ab538070425bd1111076023d4c1bdda81ecb4a97034",
       "role": "common instruction"
     },
     {
       "adaptations": [
+        {
+          "canonical_origin": "implementation/skills/consult-results/references/output-contract.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../../workspace-bindings/contract.md#project-record-maintenance"
+        },
         {
           "canonical_origin": "implementation/skills/consult-results/references/output-contract.md",
           "classification": "bundled governing/resource read",
@@ -5557,9 +5832,9 @@
         }
       ],
       "canonical_path": "implementation/skills/consult-results/references/output-contract.md",
-      "canonical_sha256": "7e30ecfdcbb6aea81ec9b72c29943e27df415eb2efeafb2a36bfd8ebd991b93f",
+      "canonical_sha256": "f3b222f4c811bd100a18e4a6b774417308f53c9220dd90735babe3afc628c091",
       "emitted_path": "references/source/implementation/skills/consult-results/references/output-contract.md",
-      "emitted_sha256": "7e30ecfdcbb6aea81ec9b72c29943e27df415eb2efeafb2a36bfd8ebd991b93f",
+      "emitted_sha256": "f3b222f4c811bd100a18e4a6b774417308f53c9220dd90735babe3afc628c091",
       "role": "common instruction"
     },
     {
@@ -5624,7 +5899,7 @@
       "canonical_path": "implementation/skills/consult-results/references/source-map.md",
       "canonical_sha256": "5c4fde3b2c4afc3d28a5c7d5955aeb2a3f413ff321c37a61495103464229780b",
       "emitted_path": "references/source/implementation/skills/consult-results/references/source-map.md",
-      "emitted_sha256": "ba8075cfa0886c94b598025e2473373a2ca22ea3a9c197dad323f7c51e451ab5",
+      "emitted_sha256": "254bdb85290284098977dcea4ec972a52a4d858da5d7e14305805250dbf61bee",
       "role": "common instruction"
     },
     {
@@ -5670,16 +5945,30 @@
           "location": "markdown",
           "original": "../../workspace-bindings/contract.md",
           "result": "../../workspace-bindings/contract.md"
+        },
+        {
+          "canonical_origin": "implementation/skills/consult-status/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
         }
       ],
       "canonical_path": "implementation/skills/consult-status/SKILL.md",
-      "canonical_sha256": "b8107120f572e7221848991ebf65cad35d2aa9a2c6e96b3f90f23f5a996d494c",
+      "canonical_sha256": "176115830ea26af62ab9a3e29059135117817f4cd382bf74918eaa1534947287",
       "emitted_path": "references/source/implementation/skills/consult-status/procedure.md",
-      "emitted_sha256": "b08373eff77cfa1d787fe380fe8f217f4b7d8242910892b540ec1b3ce9216ca3",
+      "emitted_sha256": "f50163f60ed4e6bb2881c70bb6fa68723847a809c943f4b666a71f4a03fbbe3a",
       "role": "common instruction"
     },
     {
       "adaptations": [
+        {
+          "canonical_origin": "implementation/skills/consult-status/references/output-contract.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../../workspace-bindings/contract.md#project-record-maintenance"
+        },
         {
           "canonical_origin": "implementation/skills/consult-status/references/output-contract.md",
           "classification": "bundled governing/resource read",
@@ -5696,9 +5985,9 @@
         }
       ],
       "canonical_path": "implementation/skills/consult-status/references/output-contract.md",
-      "canonical_sha256": "bc8c822552072c85db2a8a1d316c2c1885276a3cf627f1bad899c9cf99e6f9a9",
+      "canonical_sha256": "ba8b8728e452dd3fa8a16fddd4296907602c3d0690b0916f868821ff74a93c49",
       "emitted_path": "references/source/implementation/skills/consult-status/references/output-contract.md",
-      "emitted_sha256": "bc8c822552072c85db2a8a1d316c2c1885276a3cf627f1bad899c9cf99e6f9a9",
+      "emitted_sha256": "ba8b8728e452dd3fa8a16fddd4296907602c3d0690b0916f868821ff74a93c49",
       "role": "common instruction"
     },
     {
@@ -5756,7 +6045,7 @@
       "canonical_path": "implementation/skills/consult-status/references/source-map.md",
       "canonical_sha256": "cbdda8e2b70b5968d0ce1bfc67bb783eeffea12769a09a1ea9bb74ae913f6d07",
       "emitted_path": "references/source/implementation/skills/consult-status/references/source-map.md",
-      "emitted_sha256": "3c16c5461e0813fdd0c639dcd7e7b306e54014f103590ffe04273462064bd379",
+      "emitted_sha256": "c0677ca335123b3ddb24c770c2e288a7fbfeda7c7246b548f4c2d3e95ba1f604",
       "role": "common instruction"
     },
     {
@@ -5888,7 +6177,7 @@
       "canonical_path": "implementation/skills/design-language/references/source-map.md",
       "canonical_sha256": "3797790c0afcc699459d2df7c85a773de3032f2f3af123176826783d912354f3",
       "emitted_path": "references/source/implementation/skills/design-language/references/source-map.md",
-      "emitted_sha256": "5e636bc123cbc8b6a5c39d37f147eb51154ddb98cef00c0ef7384854247b7c45",
+      "emitted_sha256": "ecf8e653d4cb88a4292cc0271e4c2c715052c091369d47d3dc30fe11cb3844f7",
       "role": "common instruction"
     },
     {
@@ -5920,12 +6209,19 @@
           "location": "markdown",
           "original": "references/answer-contract.md",
           "result": "references/source/implementation/skills/evidence-ask/references/answer-contract.md"
+        },
+        {
+          "canonical_origin": "implementation/skills/evidence-ask/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "references/source/implementation/workspace-bindings/contract.md#project-record-maintenance"
         }
       ],
       "canonical_path": "implementation/skills/evidence-ask/SKILL.md",
-      "canonical_sha256": "931b16a8635d2a891d122ba5539005b5a7cea2eb9bec1743efc5a2a8c9fc3fb6",
+      "canonical_sha256": "725292924a49e549bc95e17f64a6bf509b1a9a21cb495d148c8f43a07887d5c5",
       "emitted_path": "SKILL.md",
-      "emitted_sha256": "2e655fd78a7f24f371e32689843330dc2649c768d9f1118780c7582afba404cc",
+      "emitted_sha256": "7437a7cfba83c9e59c81d028cd86c7304fd353da5f2b2da9e14045efc86f7b06",
       "role": "method"
     },
     {
@@ -5939,9 +6235,9 @@
         }
       ],
       "canonical_path": "implementation/skills/evidence-ask/references/answer-contract.md",
-      "canonical_sha256": "1716e5867535fd02ec4d393049c703f5dfc6e3196d8e216416082dffacec98c3",
+      "canonical_sha256": "96c663cb66b588401cb24d78ee06e6d2469aeff42aaa570dcf84fe09222276a7",
       "emitted_path": "references/source/implementation/skills/evidence-ask/references/answer-contract.md",
-      "emitted_sha256": "1716e5867535fd02ec4d393049c703f5dfc6e3196d8e216416082dffacec98c3",
+      "emitted_sha256": "96c663cb66b588401cb24d78ee06e6d2469aeff42aaa570dcf84fe09222276a7",
       "role": "method"
     },
     {
@@ -5973,12 +6269,19 @@
           "location": "markdown",
           "original": "../../runtime/binding-catalog.json",
           "result": "../../runtime/binding-catalog.json"
+        },
+        {
+          "canonical_origin": "implementation/skills/evidence-check/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
         }
       ],
       "canonical_path": "implementation/skills/evidence-check/SKILL.md",
-      "canonical_sha256": "b92078a0d34bd27e178ee17e5b36deed9d7794145d1215a33876f0e280a18832",
+      "canonical_sha256": "342277cfdc97c6631c7fc209224c70b89712195e827a538f42a7d76e0f530480",
       "emitted_path": "references/source/implementation/skills/evidence-check/procedure.md",
-      "emitted_sha256": "b92078a0d34bd27e178ee17e5b36deed9d7794145d1215a33876f0e280a18832",
+      "emitted_sha256": "342277cfdc97c6631c7fc209224c70b89712195e827a538f42a7d76e0f530480",
       "role": "common instruction"
     },
     {
@@ -5992,9 +6295,9 @@
         }
       ],
       "canonical_path": "implementation/skills/evidence-check/references/check-contract.md",
-      "canonical_sha256": "c45c2701be618ec6a33bdb9a5a0e4ef8fcf7cf7b7f4d1e2084a4b8a9b454ce88",
+      "canonical_sha256": "df3a90b10aa65e697983b0c3165a6947a7c1a86c4817772f35b46562cdeb6161",
       "emitted_path": "references/source/implementation/skills/evidence-check/references/check-contract.md",
-      "emitted_sha256": "c45c2701be618ec6a33bdb9a5a0e4ef8fcf7cf7b7f4d1e2084a4b8a9b454ce88",
+      "emitted_sha256": "df3a90b10aa65e697983b0c3165a6947a7c1a86c4817772f35b46562cdeb6161",
       "role": "common instruction"
     },
     {
@@ -6031,6 +6334,13 @@
           "canonical_origin": "implementation/skills/evidence-research/SKILL.md",
           "classification": "bundled governing/resource read",
           "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
+        },
+        {
+          "canonical_origin": "implementation/skills/evidence-research/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
           "original": "../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
           "result": "../../runtime/storage-lifecycle.md#deliverable-mode-and-home"
         },
@@ -6043,13 +6353,20 @@
         }
       ],
       "canonical_path": "implementation/skills/evidence-research/SKILL.md",
-      "canonical_sha256": "95a683536f3193c4e1eb1c7a9b0f18843f53c109050670fb60a2da677af0c410",
+      "canonical_sha256": "ab3dfcc27efdec25e60a1e3b66a7c0d006602e6c0af91ed43aff2d6baa630ba0",
       "emitted_path": "references/source/implementation/skills/evidence-research/procedure.md",
-      "emitted_sha256": "cff0fd2beae55b3eee75fb4ab4a96c8a1bcc912a655e2fd33b2c172068fefcf6",
+      "emitted_sha256": "8b23b1cdee8e32fb5ffb72d9c8259b1cd456d29474e5b8e50fc06ffd65823cc3",
       "role": "common instruction"
     },
     {
       "adaptations": [
+        {
+          "canonical_origin": "implementation/skills/evidence-research/references/output-contract.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../../workspace-bindings/contract.md#project-record-maintenance"
+        },
         {
           "canonical_origin": "implementation/skills/evidence-research/references/output-contract.md",
           "classification": "bundled governing/resource read",
@@ -6066,9 +6383,9 @@
         }
       ],
       "canonical_path": "implementation/skills/evidence-research/references/output-contract.md",
-      "canonical_sha256": "e15150c364c7bfcbd120db228ca78aa8de4231ddd8ab27a267f02b4232104944",
+      "canonical_sha256": "40bb6a8c3cc76b1756d2326b90ab17dd40cdc008f0c03659bf889d765e16cecf",
       "emitted_path": "references/source/implementation/skills/evidence-research/references/output-contract.md",
-      "emitted_sha256": "e15150c364c7bfcbd120db228ca78aa8de4231ddd8ab27a267f02b4232104944",
+      "emitted_sha256": "40bb6a8c3cc76b1756d2326b90ab17dd40cdc008f0c03659bf889d765e16cecf",
       "role": "common instruction"
     },
     {
@@ -6221,7 +6538,7 @@
       "canonical_path": "implementation/skills/evidence-visualize/references/source-map.md",
       "canonical_sha256": "0195e183b9edf60a3605594f4ff8785a5caaa346aa4e091d47a6326e8deca083",
       "emitted_path": "references/source/implementation/skills/evidence-visualize/references/source-map.md",
-      "emitted_sha256": "5aac58820927e229d212cbfa927765ce8018d9c64048d041a7e96298d83774e7",
+      "emitted_sha256": "0a51c89a0e518dca8ba8f5caa58d6333f70a2a5a59714e2ae7da2e866afcd92e",
       "role": "common instruction"
     },
     {
@@ -6383,7 +6700,7 @@
       "canonical_path": "implementation/skills/narrative-shape/SKILL.md",
       "canonical_sha256": "b5ae7b937e9696d602129abe3552f6bef79fe93e15414a2ce1fd18db00ee0205",
       "emitted_path": "references/source/implementation/skills/narrative-shape/procedure.md",
-      "emitted_sha256": "b693b8c906a65091c6ee0b1ca3e8fa3938a4b8121d505bf69dc8f4f75a624413",
+      "emitted_sha256": "739aa0489dfc55203c8b0bb746fa5df668c1b6e18a4006105e0522f354a5c506",
       "role": "common instruction"
     },
     {
@@ -6457,7 +6774,7 @@
       "canonical_path": "implementation/skills/offering-develop/SKILL.md",
       "canonical_sha256": "ebb16b3ade6a25034bd9bcb6f321f1e4e887c782473925146c01277366384d61",
       "emitted_path": "references/source/implementation/skills/offering-develop/procedure.md",
-      "emitted_sha256": "2982f22c4253ce311a251b088a2bfff0d92c277397e8e7926fcd3274a1ab57a0",
+      "emitted_sha256": "0807a3450a87ebba0d038714bc40ca50f39bfe29b7843a84bcae31aac04aa5b8",
       "role": "common instruction"
     },
     {
@@ -6480,7 +6797,7 @@
       "canonical_path": "implementation/skills/offering-develop/references/output-contract.md",
       "canonical_sha256": "e4e779bb19dfd073c4462f733b9afec403fff81ce8356c09de344d53fc374d3d",
       "emitted_path": "references/source/implementation/skills/offering-develop/references/output-contract.md",
-      "emitted_sha256": "fb24a452486062ce84ad7ddd9e242daafa06c00743f6e9e38e12b7dab7fc298a",
+      "emitted_sha256": "940a4eb1bc542f0c31d686f74933a98fec61fc8f2ac01b5378abf90e4f7ffe63",
       "role": "common instruction"
     },
     {
@@ -6552,7 +6869,7 @@
       "canonical_path": "implementation/skills/offering-develop/references/source-map.md",
       "canonical_sha256": "c1a01476d1fd2154e8e7b5e596684e40ec4ece58b9e594e44834b11ab1142b2c",
       "emitted_path": "references/source/implementation/skills/offering-develop/references/source-map.md",
-      "emitted_sha256": "1aea1c5a84a1f3dbaa012079cb8d2d9fea78ee5c391bacd8949a2aec9917f1db",
+      "emitted_sha256": "2cf6e387a1c7e3d167e8ecde148e84193db3ae8d6b202bd4a9f62b3f25bf53d6",
       "role": "common instruction"
     },
     {
@@ -6596,7 +6913,7 @@
       "canonical_path": "implementation/skills/offering-proof/SKILL.md",
       "canonical_sha256": "3f33bb5c7ca8a2686d211cf43c07e64d9b7bccb5a899fdf0e2827bb5c3b6e64d",
       "emitted_path": "references/source/implementation/skills/offering-proof/procedure.md",
-      "emitted_sha256": "b2a7c82c1b7dad9d47c4622597e65121545ec75da96a06bf20d4b09351b66db9",
+      "emitted_sha256": "bd36b447b1f008510f2f5ffc3de508faa54a0d587762330ab03cc0927522a72b",
       "role": "common instruction"
     },
     {
@@ -6640,7 +6957,7 @@
       "canonical_path": "implementation/skills/offering-proof/references/proof-contract.md",
       "canonical_sha256": "e960e458a474309586b0170114e01390d5a5a4dd5bbb331a51dd70bd4508daa3",
       "emitted_path": "references/source/implementation/skills/offering-proof/references/proof-contract.md",
-      "emitted_sha256": "f68f188ab8f057a201297c5c5341b8cca2288374e4c304c71ee867baf300e1e6",
+      "emitted_sha256": "115440b1f58f260717097745ed3e38d074f5af52951f1093751f0f15b210fd48",
       "role": "common instruction"
     },
     {
@@ -6707,7 +7024,7 @@
       "canonical_path": "implementation/skills/org-specialize/references/output-contract.md",
       "canonical_sha256": "54355103d7ef03a1a04c76dfe84eed890a7dc7d6fb3ba7566a1ab3a29bb947b6",
       "emitted_path": "references/source/implementation/skills/org-specialize/references/output-contract.md",
-      "emitted_sha256": "e7132161e0bec5a1c8eff3ba54e6e780b567e6a388e2c0843fb49325f7cdf02f",
+      "emitted_sha256": "c0a23cd5c3e4c6b4621f259fc3198d4a0cdd67e4938023a2d3eb4ff6a5f10237",
       "role": "common instruction"
     },
     {
@@ -6772,7 +7089,7 @@
       "canonical_path": "implementation/skills/org-specialize/references/source-map.md",
       "canonical_sha256": "734cff170807d9186c4a1706da95cb82fda7cbb5a3596ed6702847e3e0617152",
       "emitted_path": "references/source/implementation/skills/org-specialize/references/source-map.md",
-      "emitted_sha256": "bd6462d3eeb04c2756809e0db232f3991303f6c10ae94a29a9f73337cfb9fb9a",
+      "emitted_sha256": "dadbb66913b3985d92ce4fa266df1759914931049b201135cf566a214117d002",
       "role": "common instruction"
     },
     {
@@ -6830,7 +7147,7 @@
       "canonical_path": "implementation/skills/publishing-inspect/SKILL.md",
       "canonical_sha256": "e5b6ccd631242c811338d261e31b7f56ee4a9f73b5b9336e95e5105a2ed44fac",
       "emitted_path": "references/source/implementation/skills/publishing-inspect/procedure.md",
-      "emitted_sha256": "fd20605951229f08e74db1c4059c2b0f3a5c3a6da55860791797a0846b46fc53",
+      "emitted_sha256": "6a4ffe0bfc646e5b058fd67ca8f19bc8ae47fc2a1b06df983055957b8d976120",
       "role": "common instruction"
     },
     {
@@ -6881,7 +7198,7 @@
       "canonical_path": "implementation/skills/publishing-inspect/references/output-contract.md",
       "canonical_sha256": "79fe379fbf294ed059e407a3ba7c5a3ef27682587d0dafd148510a64f0cf9056",
       "emitted_path": "references/source/implementation/skills/publishing-inspect/references/output-contract.md",
-      "emitted_sha256": "4646206cefe2d0b8fff48d47cc2900aabf63b99ae8da9908a3c6f8eb68782e0b",
+      "emitted_sha256": "84fd19c22fbebf9c003ff7bf7b8b99e802c1410c265a0a9ead0b527f6e92b6a8",
       "role": "common instruction"
     },
     {
@@ -6960,7 +7277,7 @@
       "canonical_path": "implementation/skills/publishing-inspect/references/source-map.md",
       "canonical_sha256": "4c2f8b51e45236c1656495e8a348bb7e058d08e5ef99a795fc22e7c747ef0f94",
       "emitted_path": "references/source/implementation/skills/publishing-inspect/references/source-map.md",
-      "emitted_sha256": "4f313508d470fe20eedc29f7d7cab8af10e0646341f90f5c5eae44191350abe5",
+      "emitted_sha256": "2d17a0ed9bbe74fd7464f36d9dd056d44eb76689c186c992509b1c545dbef0fd",
       "role": "common instruction"
     },
     {
@@ -7053,7 +7370,7 @@
       "canonical_path": "implementation/skills/publishing-render/SKILL.md",
       "canonical_sha256": "44ccd5a4f46bda3570e8fe89bcb3cbf25280d51512270eb0fafa6f341ef1b5ba",
       "emitted_path": "references/source/implementation/skills/publishing-render/procedure.md",
-      "emitted_sha256": "f71f6fd44a7a125cc94bd5b2fe709e877ae46bf2ea3e1ddc0353357adc996284",
+      "emitted_sha256": "0e3b6f6c61b2f130c6535ddca2cdfff60df7248297920c3d409c3444256bb9be",
       "role": "common instruction"
     },
     {
@@ -7118,7 +7435,7 @@
       "canonical_path": "implementation/skills/publishing-render/references/output-contract.md",
       "canonical_sha256": "7e068792558bfa8760d90f0b11ff0604a3a50c27fda2aaa7182383e42e3d544e",
       "emitted_path": "references/source/implementation/skills/publishing-render/references/output-contract.md",
-      "emitted_sha256": "5395055880d49aaba93ae837c17f4f95798264b9260392eb9ce1dc1bdf9a1fe3",
+      "emitted_sha256": "a930c3dfcc49dd823036a01d7bfab8e50149005f4ba590d6d852d4500041ede4",
       "role": "common instruction"
     },
     {
@@ -7232,7 +7549,7 @@
       "canonical_path": "implementation/skills/publishing-render/references/source-map.md",
       "canonical_sha256": "5b136276065f1080fc833c93f504c6e451ecf3e524536c54094a0e438aacfce0",
       "emitted_path": "references/source/implementation/skills/publishing-render/references/source-map.md",
-      "emitted_sha256": "ea86d1bd36c0866aa9a5845b6757a91bf616c4c97013ca0c16a4b28972b16d49",
+      "emitted_sha256": "65f6795c744b6a72d7e5e3d17dca9f28e1cf40568d29a904a40fd70dfb113e88",
       "role": "common instruction"
     },
     {
@@ -7276,7 +7593,7 @@
       "canonical_path": "implementation/skills/review-challenge/SKILL.md",
       "canonical_sha256": "f06404ca1634c6cc169accd004885e8f7256d41ff24a05c1a99ba2811eb0dc26",
       "emitted_path": "references/source/implementation/skills/review-challenge/procedure.md",
-      "emitted_sha256": "e4588fa1081e4c2ff11b36da938465cb08bad2b26b1600150cf8a41d967a7f01",
+      "emitted_sha256": "37fece3563df85ec17e641eb8f67ede0b85e5b374900c10539c88eae3dae30b8",
       "role": "common instruction"
     },
     {
@@ -7299,7 +7616,7 @@
       "canonical_path": "implementation/skills/review-challenge/references/output-contract.md",
       "canonical_sha256": "11092a495fabe7ebbf1be3883331dd200bc33d1bd8607fe81bbb85a4a25d80d9",
       "emitted_path": "references/source/implementation/skills/review-challenge/references/output-contract.md",
-      "emitted_sha256": "33be53ba3659d2604ce91ff32da10c6de1d79eaa6cc8848423b437d60caeaf11",
+      "emitted_sha256": "f462fde13535b21a541d432cc3e3e3befca591d413d60eef77b9527aee43cc80",
       "role": "common instruction"
     },
     {
@@ -7357,7 +7674,7 @@
       "canonical_path": "implementation/skills/review-challenge/references/source-map.md",
       "canonical_sha256": "05a7226f06b5e024dded2efdccb63f92af580ab59a262ca2786476f5f8c1b628",
       "emitted_path": "references/source/implementation/skills/review-challenge/references/source-map.md",
-      "emitted_sha256": "35d2b549c9a363d997c6234a8ddad0bcdccef72cb019b1c56dd7c47ea4e08981",
+      "emitted_sha256": "320c7b36b7d2b329f2e55694e682b39f68e303f14be419d071b8dfefe003b34f",
       "role": "common instruction"
     },
     {
@@ -7396,16 +7713,30 @@
           "location": "markdown",
           "original": "../../workspace-bindings/skill-contracts.json",
           "result": "../../runtime/binding-catalog.json"
+        },
+        {
+          "canonical_origin": "implementation/skills/sales-buyer-brief/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
         }
       ],
       "canonical_path": "implementation/skills/sales-buyer-brief/SKILL.md",
-      "canonical_sha256": "c1e73e6c4dda7f7a698f417ad466ab94ac6180f7fc3a4d3750b5b8054c2b9a98",
+      "canonical_sha256": "857a0f1854cdce102ee845b0d2a1c68245a6258e62616b34e0247de96aaa4572",
       "emitted_path": "references/source/implementation/skills/sales-buyer-brief/procedure.md",
-      "emitted_sha256": "378517124786b7401c68a469049eb75065eab84b8857a03c01cbd6559e56e021",
+      "emitted_sha256": "336bf3f9eee12d13098bad15cc9b53c02435575b9d4f0f82a79ebc6a82b7ab5b",
       "role": "common instruction"
     },
     {
       "adaptations": [
+        {
+          "canonical_origin": "implementation/skills/sales-buyer-brief/references/brief-contract.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../../workspace-bindings/contract.md#project-record-maintenance"
+        },
         {
           "canonical_origin": "implementation/skills/sales-buyer-brief/references/brief-contract.md",
           "classification": "bundled governing/resource read",
@@ -7443,9 +7774,9 @@
         }
       ],
       "canonical_path": "implementation/skills/sales-buyer-brief/references/brief-contract.md",
-      "canonical_sha256": "3be82af4b4890b3b4136e47a42fde01b193d48dda4a1a31306103e23bbbb3f0e",
+      "canonical_sha256": "64696e1c46af6a57f80326acb32ff684d1e3dd2aa85fe42f9cbe27a7d420698c",
       "emitted_path": "references/source/implementation/skills/sales-buyer-brief/references/brief-contract.md",
-      "emitted_sha256": "a135c7e477d3360af608e98bde05f482bd2f4e71b5078a08d8de6f81cd276ccd",
+      "emitted_sha256": "afb4ab2bb37f94233f6bb1384071caa1973c8e7ec84e940de83d62d8ae5c5d6c",
       "role": "common instruction"
     },
     {
@@ -7489,7 +7820,7 @@
       "canonical_path": "implementation/skills/sales-followup/SKILL.md",
       "canonical_sha256": "fff36490600833e0fe200e75df14406d8e7f9fc4acf91765a81f3c09ff60da1d",
       "emitted_path": "references/source/implementation/skills/sales-followup/procedure.md",
-      "emitted_sha256": "75358e0483114c8e4012ddec79235b7a653e98d393e7acb0d812597646319f24",
+      "emitted_sha256": "601fb8d15efe976c0736fcf7979c79f41cbeba5991ff5a22ee1af49bbb3fadf0",
       "role": "common instruction"
     },
     {
@@ -7540,7 +7871,7 @@
       "canonical_path": "implementation/skills/sales-followup/references/followup-contract.md",
       "canonical_sha256": "a075ce9702e62c9a13200cb0d372ae1b1f1a30be0d92e71e90bc607daa7525b9",
       "emitted_path": "references/source/implementation/skills/sales-followup/references/followup-contract.md",
-      "emitted_sha256": "d9ddd94791d45fbf1f7d71a95c90d1c978f668232fcc8db8b1a720317af3ccbc",
+      "emitted_sha256": "946d8c373a2fd904533ffe11fb63103b44abae955ad6438bc1910169d22133a3",
       "role": "common instruction"
     },
     {
@@ -7649,7 +7980,7 @@
       "canonical_path": "implementation/skills/sales-monday-review/references/source-map.md",
       "canonical_sha256": "b86804c087334bf5e4e5bbc26f77d8a53ce432cfbde3942594e9da9388256a7a",
       "emitted_path": "references/source/implementation/skills/sales-monday-review/references/source-map.md",
-      "emitted_sha256": "278a76c1c9ab1d7130abb76b2109c17dd76c4183e19b9cbf946717f01aeea682",
+      "emitted_sha256": "9d14207dbaffdda8c92a2062b573f4554ea80c4295a2921016eeaad72598c0dc",
       "role": "common instruction"
     },
     {
@@ -7723,7 +8054,7 @@
       "canonical_path": "implementation/skills/sales-proposal/SKILL.md",
       "canonical_sha256": "74cfbeeaf722b70d070b9eb296df98c2cd3a6721bcd45d03b7527671a415077d",
       "emitted_path": "references/source/implementation/skills/sales-proposal/procedure.md",
-      "emitted_sha256": "dc040bd56a14db9abd13d40653c2caa342cc43c0facda8d9ead144f3fe63e620",
+      "emitted_sha256": "3785eaed76e6c19d3dd1ab606e4b95f5d8e191a28807ae4b4982634e2e9c34d8",
       "role": "common instruction"
     },
     {
@@ -7767,7 +8098,7 @@
       "canonical_path": "implementation/skills/sales-proposal/references/proposal-contract.md",
       "canonical_sha256": "707d81a52405f528afeced3795dac3de21ac61333a7dfae4bb073623c909082f",
       "emitted_path": "references/source/implementation/skills/sales-proposal/references/proposal-contract.md",
-      "emitted_sha256": "7a4b0c8bda833a9fb25f9fc84264d68fae2dc0454079d554f00804589dc36bbb",
+      "emitted_sha256": "051f457bb7e2449922f1ef89d8f8940428df352de01783083aaad62a8672cd02",
       "role": "common instruction"
     },
     {
@@ -7825,7 +8156,7 @@
       "canonical_path": "implementation/skills/sales-pursuit-event/SKILL.md",
       "canonical_sha256": "b476c6d9fb7e4671668b48906aded431c51fdb04a24c3b744bfaeb946bbb1126",
       "emitted_path": "references/source/implementation/skills/sales-pursuit-event/procedure.md",
-      "emitted_sha256": "9ae129324bd0e45f1db33e105532e0208704e5c967c2ea4cc2a27ba476eb4953",
+      "emitted_sha256": "cd5512fad921de27e1d6f9bbd748ab2b11ea85681c7bb0ed706f19c36a5ce7d0",
       "role": "common instruction"
     },
     {
@@ -7869,7 +8200,7 @@
       "canonical_path": "implementation/skills/sales-pursuit-event/references/event-contract.md",
       "canonical_sha256": "2b3b9b1237f193d6be3cb53cc557056be71d5ba3147eac98cd8eb51aff067512",
       "emitted_path": "references/source/implementation/skills/sales-pursuit-event/references/event-contract.md",
-      "emitted_sha256": "76d381bba1d365b1f8dc01c9310ef2c6b2bb702a2238b8d5abd8c50545eab61f",
+      "emitted_sha256": "845f7af9f42a55cd69762f55b4a4f4e4411ce2f3dc75b9c4a215f8d1ce2c7858",
       "role": "common instruction"
     },
     {
@@ -7877,7 +8208,7 @@
       "canonical_path": "implementation/skills/sales-pursuit-event/references/narrow-pilot-boundary-0.1.5.json",
       "canonical_sha256": "c90760bada2b01c292ca8018ded098489cb13d35ec961fd1db97b35a9153005e",
       "emitted_path": "references/source/implementation/skills/sales-pursuit-event/references/supported-input-boundary-0.1.5.json",
-      "emitted_sha256": "e25ce5d53935a1dde9edcbb9f87bef7c96d3ef9c0925b171f73a2d4f83adc0bb",
+      "emitted_sha256": "0dd06d5f80fb0f9d239c235b0c139963d174ccf95865af0fbb2a519c668da3e0",
       "role": "common instruction"
     },
     {
@@ -7900,7 +8231,7 @@
       "canonical_path": "implementation/skills/sales-pursuit-event/references/narrow-pilot-contract-0.1.5.md",
       "canonical_sha256": "219b4971bf9f80d441fc64da4144035057ba03da2d25b24eea8dc59638fcc353",
       "emitted_path": "references/source/implementation/skills/sales-pursuit-event/references/supported-input-contract-0.1.5.md",
-      "emitted_sha256": "e48a26ca1754d2a190bb694017d57aa7ae3df23f9903a849030dadfde9d3b69a",
+      "emitted_sha256": "8b419f71eedc44fe2077c63ec6a216b4d6849c4b1d0001c9141502205cf2c58c",
       "role": "common instruction"
     },
     {
@@ -7930,7 +8261,7 @@
       "canonical_path": "implementation/skills/sales-pursuit-event/references/time-authority-model-0.1.15.md",
       "canonical_sha256": "4b001d7564ef41909e264d68a5ac0059d0f3fef31d6c99028d8d3019448ff86f",
       "emitted_path": "references/source/implementation/skills/sales-pursuit-event/references/time-authority-model-0.1.15.md",
-      "emitted_sha256": "264d344056c6f65c1562b85aba6ce3d7611c958242b8cca598104040bc5757e6",
+      "emitted_sha256": "dd6617da99da10e993e9e5efde33094a8b17d6061a4086684a2e901e2ab95aa3",
       "role": "common instruction"
     },
     {
@@ -8059,6 +8390,13 @@
           "canonical_origin": "implementation/skills/workspace-bindings/SKILL.md",
           "classification": "bundled governing/resource read",
           "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
+        },
+        {
+          "canonical_origin": "implementation/skills/workspace-bindings/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
           "original": "references/record-format.md",
           "result": "references/record-format.md"
         },
@@ -8071,9 +8409,9 @@
         }
       ],
       "canonical_path": "implementation/skills/workspace-bindings/SKILL.md",
-      "canonical_sha256": "8e0e0b7259ebdfcb6866925531c235ec076573be58e6e5de9724a4da6637c825",
+      "canonical_sha256": "b032b28b6c14b3c471885c9192830f290a7878150ded6a156e1b74e1b8a828ff",
       "emitted_path": "references/source/implementation/skills/workspace-bindings/procedure.md",
-      "emitted_sha256": "ea6b0313f8fc342235921f7db4fd9efc76dbf3be4cdef379ca1297760831beac",
+      "emitted_sha256": "ec23ef9d0beb46c3d040e7bec35ed1d1dbced2b2443142dcd98ebaac33275c4d",
       "role": "supporting procedure"
     },
     {
@@ -8134,7 +8472,7 @@
       "canonical_path": "implementation/working-character/instructions.md",
       "canonical_sha256": "3615768cb46db36a5bb362f77db7f8a67450f2cfb6f5508a094a569fb36df788",
       "emitted_path": "references/source/implementation/working-character/instructions.md",
-      "emitted_sha256": "318ae4f465e46f76fd04154a23cfb57cf8b12d29628988debd102eb845d2fd12",
+      "emitted_sha256": "5cf39ff838af8ff2c6e25d582a3de512a316eb41751413e612e65322951f3718",
       "role": "common instruction"
     },
     {
@@ -8192,7 +8530,7 @@
       "canonical_path": "implementation/workspace-bindings/architecture.md",
       "canonical_sha256": "0de6465aa39a4f07bdec2a37b49d090a9960daef67db872b493e5dd7d1adb413",
       "emitted_path": "references/source/implementation/workspace-bindings/architecture.md",
-      "emitted_sha256": "671e8807138cb681e770efc4a890b86fa4d854dff2c1e3f7096a6e0711ac2272",
+      "emitted_sha256": "7f65228cd1d8fe9b7a38897a135b0dc7175deadd7217c298b6280e718e4b310b",
       "role": "common instruction"
     },
     {
@@ -8234,9 +8572,9 @@
         }
       ],
       "canonical_path": "implementation/workspace-bindings/contract.md",
-      "canonical_sha256": "d4bb8aaaea4e3955834057fa65f80192e9f20861abb8a7606442ef7dfd2ee718",
+      "canonical_sha256": "a97abe2c1bd2f291cb34f1e3f1bcb691c578d5050ad1aadb20e8cac6e81075da",
       "emitted_path": "references/source/implementation/workspace-bindings/contract.md",
-      "emitted_sha256": "d2c580501658a192f7ece7d625edd24a03f92056b95ee98a1b7f9e7ba65b36d9",
+      "emitted_sha256": "cc845284bd2e93a37fa5edac177c8e1dd40ae7980e059029bc6e83714310f0ba",
       "role": "common instruction"
     }
   ],
@@ -8248,9 +8586,9 @@
     ]
   },
   "schema_version": 2,
-  "shared_skills_release": "1.1.0",
-  "source_commit": "d673a8d1f2c22bbf07ef66bc29fe07e452526d19",
+  "shared_skills_release": "1.2.1",
+  "source_commit": "02441d561100b22144889ae448bc02e6b25a37a6",
   "source_repository": "cogni-work/consulting-studio",
-  "source_tree": "14d0d32312eff656a1ff14e9beb2db4c9701c3a1",
-  "standing": "OWNER-APPROVED S1.1.0 RELEASE PREPARED; publication separately recorded; installation and acceptance NOT_RUN"
+  "source_tree": "e1aa02f6ac3dc38a4cd76c10efdfad0026a61f21",
+  "standing": "PUBLIC S1.2.1 RELEASE PREPARED under existing Apache-2.0 terms; publication separately verified; installation and acceptance NOT_RUN"
 }

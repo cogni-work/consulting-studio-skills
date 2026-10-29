@@ -2,7 +2,7 @@
 name: evidence-ask
 description: Answer consulting questions from permitted retained wiki knowledge, citing accepted source and synthesis revisions with their recency, disagreements and gaps. Use before repeating research already covered by retained evidence.
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 # Ask retained knowledge
 
@@ -16,6 +16,13 @@ and applicable roles in the [catalog](../../runtime/binding-catalog.json).
 Read the [answer contract](references/answer-contract.md). Missing retrieval capability
 or binding instructions block retained retrieval.
 A permitted supplied-material answer can identify its actual narrower coverage.
+
+Use [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance)
+to resolve the existing project/topic original and its single canonical accepted-
+synthesis reference. Cite that exact revision and known stale/contrary dependencies;
+newer drafts remain separate. Return uncovered questions and proposed maintenance
+with precise gaps only; this read-only ask changes no pointer, status or stale flag
+and starts no research or Librarian operation.
 
 1. Identify the question, acting user, current audience and purpose. Locate relevant
    permitted knowledge through personal discovery preferences, the applicable shared

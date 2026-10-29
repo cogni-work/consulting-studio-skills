@@ -53,6 +53,17 @@ Multiple equivalent candidates require resolution. Existing placeholder content 
 an additive content gap, not a reason to recreate the Page. Personal stays in its
 authorized private home; do not add it to a shared index or copy private inventory.
 
+Apply **Project record maintenance** in Setup's existing binding contract to the
+project-home row: connect only relevant framing/stakeholders, work/inputs,
+questions/sources/syntheses, risks/changes, results/decisions and closure originals.
+Identifiable sections are sufficient. Carry each original's actual revision,
+owner or unknown, proposed/agreed/unresolved state and maintenance occasion.
+For stakeholders reuse `baseline.stakeholders` and exact permitted contextual
+Party/Stakeholder originals; a missing sponsor confirmation stays unknown.
+Project/topic navigation uses stable originals and the existing catalog's one
+current accepted synthesis pointer. Do not add a second current-revision list or
+copy baseline/source content into the index.
+
 Use real returned original URLs only. Missing assignment/source/result/chat links
 stay explicitly missing with an owner/next action. Label a supplied chat URL as a
 manual reference with unverified binding; no full transcript copy, verified chat
@@ -113,6 +124,11 @@ route, then independently read its effective revision. Without a suitable index,
 apply the common bootstrap's start-index proposal or supported native discovery
 route; return a direct locator only when reliable discovery is unavailable.
 Home readback is not settings readback.
+
+If original content was saved but index maintenance failed or is uncertain,
+report those states separately. Reopen the exact original and current index,
+reconcile the prior operation, then propose only the missing authorized reference
+update with fresh guards. Do not repeat creation to repair discoverability.
 
 Report per part: proposed, known-created/edited but readback incomplete, actual
 readback confirmed, or blocked/uncertain. Retain actual operation/read receipts and

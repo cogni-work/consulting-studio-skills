@@ -2,10 +2,10 @@
 name: evidence-research
 description: Research a consulting question from permitted retained, supplied or newly inspected evidence, preserving exact sources, contradictions and gaps. Deliver the configured report and authorized retained output; keep wiki contribution acceptance separate.
 metadata:
-  version: "0.2.2"
+  version: "0.2.3"
 ---
 
-<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
+<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
 # Research defensible evidence
 
 Read and apply the [common working instructions](../../working-character/instructions.md)
@@ -17,6 +17,15 @@ discovery, retained retrieval or storage, also read the [common binding contract
 and applicable roles in the [catalog](../../runtime/binding-catalog.json).
 If binding instructions are unavailable, stop the operations that depend on them
 and continue independent permitted supplied-evidence work.
+
+Apply [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance)
+through the ordinary research workflow. On repeated research, freshly read the
+relevant accepted synthesis first and investigate only its identified gaps. Reuse
+source/version identities, preserving different interpretations. Return the
+producer-to-Librarian handoff for relevant authorized source/contribution/navigation
+work, keeping report delivery, candidate, exact curator decision and incorporation
+separate. One guarded existing catalog pointer identifies current accepted synthesis;
+project navigation reuses it. No background maintenance or automatic invocation follows.
 
 ## Delivery mode and configured research report
 

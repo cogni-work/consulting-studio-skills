@@ -1,4 +1,4 @@
-# Shared resume contract 0.2.0
+# Shared resume contract 0.2.1
 
 This is the single common rule source for the neutral entry and Studio App adapter.
 It governs orientation from permitted readable facts, not a second status store,
@@ -38,6 +38,28 @@ An explicitly requested historical view stays historical. Keep its exact version
 input/source basis and reading limits; newer work may be mentioned only as a separate
 observed fact. No silent promotion to latest, source refresh, history rewrite or
 adoption follows. A version identifier alone says nothing about review or acceptance.
+
+For ordinary project reentry without a supplied private locator, use Workspace
+Librarian's bounded generic `Consulting Studio Start Index` discovery, freshly
+read applicable Settings/bindings, then follow the selected project's index to
+its exact originals. Where location work is needed, use the existing **Project
+record maintenance** procedure through Workspace Librarian as a read-only consumer.
+A concrete readable original still needs no Setup or
+index. The private start index resolves configuration/scope; it is no project
+knowledge registry and its private metadata must not leak into project output.
+
+Read relevant stakeholder/baseline and topic originals, the existing catalog's
+current accepted synthesis reference and required exact source passages when
+orientation depends on them. Separate accepted knowledge from newer candidates,
+contrary evidence, reported corrections and incomplete dependency coverage.
+Missing/partial search, source access or revision reads leave that coverage open;
+a familiar topic name in another project authorizes no reuse or metadata disclosure.
+Do not infer source support solely from an accessible synthesis.
+
+A saved original with failed/pending index maintenance is present with a navigation
+gap, not missing work. Read the existing maintenance handoff and operation state;
+propose reconciliation or the still-open authorized step as the one next action.
+Resume itself repairs no index, updates no stale flag and grants no acceptance.
 
 ## Orient without promoting state
 

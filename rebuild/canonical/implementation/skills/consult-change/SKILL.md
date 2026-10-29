@@ -2,7 +2,7 @@
 name: consult-change
 description: Assess changed work against the exact promise, distinguish scope and cost decisions, and prepare an authorized baseline handoff or finite extend/stop decision.
 metadata:
-  version: 0.1.1
+  version: 0.1.2
 ---
 # Assess changed work and preserve the promise
 
@@ -18,6 +18,12 @@ Read the [output contract](references/output-contract.md), [operational requirem
 [binding contract](../../workspace-bindings/contract.md). Resolve entity-home for
 current records and method-settings only when needed. Assessment and preparation
 make no business decision or persisted baseline change.
+
+For an assessed/adopted change, apply [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance).
+Return exact prior/proposed/effective Baseline and change/decision references,
+known plan/result/stakeholder dependencies and the maintenance handoff. Reference
+maintenance cannot activate the change; preserve business decisions and actual
+save/readback states separately, with proposed rechecks and uninspected coverage.
 
 1. Resolve the ordinary request, exact engagement/current baseline, primary work
    authorization, assessment time, reader and current information-use basis. Reuse

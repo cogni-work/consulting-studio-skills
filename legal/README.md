@@ -1,9 +1,16 @@
-# Current release scope
+# Current S1.2.1 release scope
 
-The current1.1.0 overlay applies the complete Apache text and unchanged S NOTICE.
-The new owner adoption at2026-10-28 11:30UTC covers exactly the five canonical
-paths in scope.json. Existing grants and attribution remain preserved.
-The exact2026-10-27 approval evidence under history retains its original meaning;
-it is not rewritten into approval of new bytes. Canonical LICENSE/NOTICE in rebuild
-are exact historical evidence, not the operative public legal copies.
-No App/GUI/MCP/server software or private material is licensed or shipped here.
+This release continues the existing operative Apache-2.0 S terms with public
+S1.2.1 delivery authorized on2026-10-29 at05:41:49UTC. scope.json and
+source-delta.json identify all93 canonical inputs,31 changed source revisions,
+reused tools and the exported generator adaptation. There are no new selected
+method paths or third-party source. The transformed public generator records its
+original exact source under rebuild/provenance; its change is release packaging
+and current metadata, not a method implementation.
+
+LICENSE and NOTICE stay byte-identical to1.1.0. Historical proposal wording in
+NOTICE and canonical mixed legal files under rebuild remains source evidence;
+this current record applies the operative S license without changing attribution.
+The exact prior1.1.0 scope/delta and earlier approval history remain byte-exact under
+history. No App/GUI/MCP/server rights, private identities, customer data, installation
+or customer acceptance follow from this public S release.

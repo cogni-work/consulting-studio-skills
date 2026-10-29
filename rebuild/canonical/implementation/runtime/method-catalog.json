@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "1.3.1",
+  "version": "1.3.2",
   "input_rule": "Compatible supplied inputs satisfy a handoff without requiring another skill invocation. Before production, ask and wait for the current request's explicit narrative choice; yes requires narrative-shape before rendering. Read exact inputs and preserve entity/evidence lineage. For substantive report/presentation workflows explicitly apply evidence-visualize before production, validating reusable figures or recording a justified text/table-only outcome; integrate and inspect selected figures in every requested final format. Preserve the request-bound narrative answer, consultant direction and shared delivery mode/home.",
   "skills": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "name": "evidence-research",
-      "method_version": "0.2.2",
+      "method_version": "0.2.3",
       "modes": [
         null
       ],
@@ -44,7 +44,7 @@
     },
     {
       "name": "evidence-ask",
-      "method_version": "0.2.0",
+      "method_version": "0.2.1",
       "modes": [
         null
       ],
@@ -61,7 +61,7 @@
     },
     {
       "name": "sales-buyer-brief",
-      "method_version": "0.1.0",
+      "method_version": "0.1.1",
       "modes": [
         null
       ],
@@ -197,7 +197,7 @@
     },
     {
       "name": "consult-framing",
-      "method_version": "0.1.0",
+      "method_version": "0.1.1",
       "modes": [
         "sale-handover",
         "existing-framing",
@@ -237,7 +237,7 @@
     },
     {
       "name": "consult-planning",
-      "method_version": "0.1.1",
+      "method_version": "0.1.2",
       "modes": [
         null
       ],
@@ -278,7 +278,7 @@
     },
     {
       "name": "consult-results",
-      "method_version": "0.1.6",
+      "method_version": "0.1.7",
       "modes": [
         "evidence-synthesis",
         "chosen-method"
@@ -303,7 +303,7 @@
     },
     {
       "name": "consult-deliverable",
-      "method_version": "0.1.3",
+      "method_version": "0.1.4",
       "modes": [
         null
       ],
@@ -327,7 +327,7 @@
     },
     {
       "name": "consult-status",
-      "method_version": "0.1.0",
+      "method_version": "0.1.1",
       "modes": [
         null
       ],
@@ -344,7 +344,7 @@
     },
     {
       "name": "consult-change",
-      "method_version": "0.1.1",
+      "method_version": "0.1.2",
       "modes": [
         null
       ],
@@ -368,7 +368,7 @@
     },
     {
       "name": "consult-closure",
-      "method_version": "0.1.0",
+      "method_version": "0.1.1",
       "modes": [
         null
       ],
@@ -437,7 +437,7 @@
     },
     {
       "name": "evidence-check",
-      "method_version": "0.1.0",
+      "method_version": "0.1.1",
       "modes": [
         null
       ],

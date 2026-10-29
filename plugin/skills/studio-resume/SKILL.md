@@ -2,10 +2,10 @@
 name: studio-resume
 description: Resume or inspect specifically identified accessible saved work and its original evidence, with a brief account of what is present, what remains open and one next step. Read only; use actual host tools and preserve exact historical versions and uncertain saves.
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
-<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
+<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
 # Resume saved work
 
 Read the [shared resume contract](references/source/implementation/skills/studio-resume/references/resume-contract.md). Apply it to the

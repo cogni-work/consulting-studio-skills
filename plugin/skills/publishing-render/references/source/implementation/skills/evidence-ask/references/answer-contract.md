@@ -1,4 +1,4 @@
-# Retained answer contract 0.2.0
+# Retained answer contract 0.2.1
 
 Apply [Deliverable mode and home](../../../runtime/storage-lifecycle.md#deliverable-mode-and-home)
 early and carry its selected mode/home, exact version and actual state into the

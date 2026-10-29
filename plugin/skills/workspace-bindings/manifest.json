@@ -40,6 +40,7 @@
     "implementation/workspace-bindings/architecture.md": "references/source/implementation/workspace-bindings/architecture.md",
     "implementation/workspace-bindings/contract.md": "references/source/implementation/workspace-bindings/contract.md"
   },
+  "current_release_authority": "AUTHORIZED_PUBLIC_S_RELEASE",
   "dependency_edges": [
     {
       "classification": "bundled governing/resource read",
@@ -56,6 +57,14 @@
       "locator": "../../business-skills/installation-storage-lifecycle.md",
       "origin": "implementation/skills/workspace-bindings/SKILL.md",
       "target": "implementation/runtime/storage-lifecycle.md"
+    },
+    {
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/workspace-bindings/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
     },
     {
       "classification": "bundled governing/resource read",
@@ -587,6 +596,14 @@
     },
     {
       "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/evidence-ask/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "classification": "bundled governing/resource read",
       "fragment": "deliverable-mode-and-home",
       "location": "markdown",
       "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
@@ -624,6 +641,14 @@
       "locator": "../../runtime/binding-catalog.json",
       "origin": "implementation/skills/evidence-check/SKILL.md",
       "target": "implementation/runtime/binding-catalog.json"
+    },
+    {
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/evidence-check/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
     },
     {
       "classification": "bundled governing/resource read",
@@ -667,6 +692,14 @@
     },
     {
       "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/evidence-research/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "classification": "bundled governing/resource read",
       "fragment": "deliverable-mode-and-home",
       "location": "markdown",
       "locator": "../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
@@ -680,6 +713,14 @@
       "locator": "../evidence-visualize/SKILL.md",
       "origin": "implementation/skills/evidence-research/SKILL.md",
       "target": "implementation/skills/evidence-visualize/SKILL.md"
+    },
+    {
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/evidence-research/references/output-contract.md",
+      "target": "implementation/workspace-bindings/contract.md"
     },
     {
       "classification": "bundled governing/resource read",
@@ -1171,6 +1212,14 @@
     },
     {
       "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-deliverable/references/output-contract.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "classification": "bundled governing/resource read",
       "fragment": "deliverable-mode-and-home",
       "location": "markdown",
       "locator": "../../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
@@ -1419,6 +1468,14 @@
     },
     {
       "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-deliverable/SKILL.md",
+      "target": "implementation/workspace-bindings/contract.md"
+    },
+    {
+      "classification": "bundled governing/resource read",
       "fragment": "",
       "location": "markdown",
       "locator": "../evidence-visualize/SKILL.md",
@@ -1496,6 +1553,14 @@
       "locator": "../../../contracts/entity-lineage.md",
       "origin": "implementation/skills/consult-deliverable/references/source-map.md",
       "target": "implementation/runtime/entity-lineage.md"
+    },
+    {
+      "classification": "bundled governing/resource read",
+      "fragment": "project-record-maintenance",
+      "location": "markdown",
+      "locator": "../../../workspace-bindings/contract.md#project-record-maintenance",
+      "origin": "implementation/skills/consult-results/references/output-contract.md",
+      "target": "implementation/workspace-bindings/contract.md"
     },
     {
       "classification": "bundled governing/resource read",
@@ -1691,48 +1756,48 @@
     }
   ],
   "display_name": "Workspace Librarian",
-  "distribution_modification_notice": "Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained.",
-  "entry_version": "0.2.1",
+  "distribution_modification_notice": "Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained.",
+  "entry_version": "0.2.2",
   "files": {
-    "SKILL.md": "4abb2e17bb474c4e585a3db4ee85fade15fd28fd72c662364100f8105d32986a",
-    "references/source/implementation/runtime/binding-catalog.json": "5c4117c187509f337c08a987ba089ea259ab1cb58bf64e634370a83f7e7ac876",
-    "references/source/implementation/runtime/entity-lineage.md": "69236ca7ed50b5ddc8e003cec8e25486da98ad0ee72135b83784c7c74c194b05",
-    "references/source/implementation/runtime/requirements.md": "0e8ebd26ca0f76e776e20e41d4fbe9e2533ed7ce4e8feacf9794b3d4e1bbad4e",
-    "references/source/implementation/runtime/storage-lifecycle.md": "4baf10aea26a8f4f8c322720e9133afae9f1f8c4cecb373cfb10c43f2b9c84ca",
-    "references/source/implementation/skills/consult-deliverable/procedure.md": "f459e412ea82833c6579d72a6fdcbebe6f34cf9fa8da65208c4018d1b0c973d6",
-    "references/source/implementation/skills/consult-deliverable/references/output-contract.md": "d7cfefb69c71a6ac19e22a158c78a7a96aadf378a45496b6b84488e31df376a3",
-    "references/source/implementation/skills/consult-deliverable/references/source-map.md": "63ffa542dd433f042e4ba353136ade4e303909d3dc52d838d106ff72196cf1b9",
-    "references/source/implementation/skills/consult-results/references/output-contract.md": "7e30ecfdcbb6aea81ec9b72c29943e27df415eb2efeafb2a36bfd8ebd991b93f",
+    "SKILL.md": "d424af99a08209dca2410819ed9d91e820b14f10519f7a503b166367bef4a5a2",
+    "references/source/implementation/runtime/binding-catalog.json": "bf74b8eea03ef1452595011ef5b9bbf4df6a419227f9a56ee0cd3180e62cdc68",
+    "references/source/implementation/runtime/entity-lineage.md": "adc66f48feb171c9eb864802a1f099cbf76f16c34737a5b126526767c2d57db3",
+    "references/source/implementation/runtime/requirements.md": "79d78531563c57d068df787a7b6538f47487054d5fc05d2a7e370812822823c5",
+    "references/source/implementation/runtime/storage-lifecycle.md": "e410818c41b5df145e1dbd703ce70f39e8fb2d11cdc3d71511ebcdbf87a3a3c6",
+    "references/source/implementation/skills/consult-deliverable/procedure.md": "192c774b6db0f0824b05c1651815f57bdc4bd1abe7ccb3eede9914ac4a99659f",
+    "references/source/implementation/skills/consult-deliverable/references/output-contract.md": "8e0d9ab055d40c7ce501690a53cbe5840dd301ad26d4642ffcbcc3ce70078e43",
+    "references/source/implementation/skills/consult-deliverable/references/source-map.md": "90f679e18fe39c14a6facd4294f8a05570b51183b726f010e2114a1953bba27d",
+    "references/source/implementation/skills/consult-results/references/output-contract.md": "f3b222f4c811bd100a18e4a6b774417308f53c9220dd90735babe3afc628c091",
     "references/source/implementation/skills/design-language/procedure.md": "56e4ea163466a10a8914c7ab4928f72ef56f9d1eaef29e16875f2612af63970f",
     "references/source/implementation/skills/design-language/references/output-contract.md": "cbb9816523a907bc8568b5526bb3d594e4cb5fb1922fe1eda2f553721cdf597a",
-    "references/source/implementation/skills/design-language/references/source-map.md": "5e636bc123cbc8b6a5c39d37f147eb51154ddb98cef00c0ef7384854247b7c45",
-    "references/source/implementation/skills/evidence-ask/procedure.md": "931b16a8635d2a891d122ba5539005b5a7cea2eb9bec1743efc5a2a8c9fc3fb6",
-    "references/source/implementation/skills/evidence-ask/references/answer-contract.md": "1716e5867535fd02ec4d393049c703f5dfc6e3196d8e216416082dffacec98c3",
-    "references/source/implementation/skills/evidence-check/procedure.md": "b92078a0d34bd27e178ee17e5b36deed9d7794145d1215a33876f0e280a18832",
-    "references/source/implementation/skills/evidence-check/references/check-contract.md": "c45c2701be618ec6a33bdb9a5a0e4ef8fcf7cf7b7f4d1e2084a4b8a9b454ce88",
-    "references/source/implementation/skills/evidence-research/procedure.md": "cff0fd2beae55b3eee75fb4ab4a96c8a1bcc912a655e2fd33b2c172068fefcf6",
-    "references/source/implementation/skills/evidence-research/references/output-contract.md": "e15150c364c7bfcbd120db228ca78aa8de4231ddd8ab27a267f02b4232104944",
+    "references/source/implementation/skills/design-language/references/source-map.md": "ecf8e653d4cb88a4292cc0271e4c2c715052c091369d47d3dc30fe11cb3844f7",
+    "references/source/implementation/skills/evidence-ask/procedure.md": "725292924a49e549bc95e17f64a6bf509b1a9a21cb495d148c8f43a07887d5c5",
+    "references/source/implementation/skills/evidence-ask/references/answer-contract.md": "96c663cb66b588401cb24d78ee06e6d2469aeff42aaa570dcf84fe09222276a7",
+    "references/source/implementation/skills/evidence-check/procedure.md": "342277cfdc97c6631c7fc209224c70b89712195e827a538f42a7d76e0f530480",
+    "references/source/implementation/skills/evidence-check/references/check-contract.md": "df3a90b10aa65e697983b0c3165a6947a7c1a86c4817772f35b46562cdeb6161",
+    "references/source/implementation/skills/evidence-research/procedure.md": "8b23b1cdee8e32fb5ffb72d9c8259b1cd456d29474e5b8e50fc06ffd65823cc3",
+    "references/source/implementation/skills/evidence-research/references/output-contract.md": "40bb6a8c3cc76b1756d2326b90ab17dd40cdc008f0c03659bf889d765e16cecf",
     "references/source/implementation/skills/evidence-visualize/procedure.md": "95613ade6fed86dbbc77402a28e4aef9bfded894aba1b4c57f8532a40f68e636",
     "references/source/implementation/skills/evidence-visualize/references/output-contract.md": "f80080e8d0b14c188adb313a7262e9313b46d647d9e63e5bd2cf0f8599b0098b",
-    "references/source/implementation/skills/evidence-visualize/references/source-map.md": "5aac58820927e229d212cbfa927765ce8018d9c64048d041a7e96298d83774e7",
-    "references/source/implementation/skills/narrative-shape/procedure.md": "b693b8c906a65091c6ee0b1ca3e8fa3938a4b8121d505bf69dc8f4f75a624413",
+    "references/source/implementation/skills/evidence-visualize/references/source-map.md": "0a51c89a0e518dca8ba8f5caa58d6333f70a2a5a59714e2ae7da2e866afcd92e",
+    "references/source/implementation/skills/narrative-shape/procedure.md": "739aa0489dfc55203c8b0bb746fa5df668c1b6e18a4006105e0522f354a5c506",
     "references/source/implementation/skills/narrative-shape/references/output-contract.md": "f31ada6269246325818ece329e832af2b1422a9192f0795ab90f6483369dc053",
     "references/source/implementation/skills/org-specialize/procedure.md": "06d6b42ac0ee001c6d6b36b1191bfd95b31269053244e08903c064d23ac7d148",
-    "references/source/implementation/skills/org-specialize/references/output-contract.md": "e7132161e0bec5a1c8eff3ba54e6e780b567e6a388e2c0843fb49325f7cdf02f",
-    "references/source/implementation/skills/org-specialize/references/source-map.md": "bd6462d3eeb04c2756809e0db232f3991303f6c10ae94a29a9f73337cfb9fb9a",
-    "references/source/implementation/skills/publishing-inspect/procedure.md": "fd20605951229f08e74db1c4059c2b0f3a5c3a6da55860791797a0846b46fc53",
-    "references/source/implementation/skills/publishing-inspect/references/output-contract.md": "4646206cefe2d0b8fff48d47cc2900aabf63b99ae8da9908a3c6f8eb68782e0b",
-    "references/source/implementation/skills/publishing-inspect/references/source-map.md": "4f313508d470fe20eedc29f7d7cab8af10e0646341f90f5c5eae44191350abe5",
-    "references/source/implementation/skills/publishing-render/procedure.md": "f71f6fd44a7a125cc94bd5b2fe709e877ae46bf2ea3e1ddc0353357adc996284",
-    "references/source/implementation/skills/publishing-render/references/output-contract.md": "5395055880d49aaba93ae837c17f4f95798264b9260392eb9ce1dc1bdf9a1fe3",
-    "references/source/implementation/skills/publishing-render/references/source-map.md": "ea86d1bd36c0866aa9a5845b6757a91bf616c4c97013ca0c16a4b28972b16d49",
+    "references/source/implementation/skills/org-specialize/references/output-contract.md": "c0a23cd5c3e4c6b4621f259fc3198d4a0cdd67e4938023a2d3eb4ff6a5f10237",
+    "references/source/implementation/skills/org-specialize/references/source-map.md": "dadbb66913b3985d92ce4fa266df1759914931049b201135cf566a214117d002",
+    "references/source/implementation/skills/publishing-inspect/procedure.md": "6a4ffe0bfc646e5b058fd67ca8f19bc8ae47fc2a1b06df983055957b8d976120",
+    "references/source/implementation/skills/publishing-inspect/references/output-contract.md": "84fd19c22fbebf9c003ff7bf7b8b99e802c1410c265a0a9ead0b527f6e92b6a8",
+    "references/source/implementation/skills/publishing-inspect/references/source-map.md": "2d17a0ed9bbe74fd7464f36d9dd056d44eb76689c186c992509b1c545dbef0fd",
+    "references/source/implementation/skills/publishing-render/procedure.md": "0e3b6f6c61b2f130c6535ddca2cdfff60df7248297920c3d409c3444256bb9be",
+    "references/source/implementation/skills/publishing-render/references/output-contract.md": "a930c3dfcc49dd823036a01d7bfab8e50149005f4ba590d6d852d4500041ede4",
+    "references/source/implementation/skills/publishing-render/references/source-map.md": "65f6795c744b6a72d7e5e3d17dca9f28e1cf40568d29a904a40fd70dfb113e88",
     "references/source/implementation/skills/structure-apply/procedure.md": "d1ec8b3ed42492f181bc4f330f0d6901fbf77a887d7d9025b48a7e1d3782bf27",
     "references/source/implementation/skills/structure-apply/references/output-contract.md": "daac9cf6ef3d6f43ad916f739084465a795b51b163900af87975fb4398ba3030",
     "references/source/implementation/skills/workspace-bindings/references/provider-routes.md": "04b19a461de3320d3671936fbd791b08f6b2502262b1da95bec3162a30a5b382",
     "references/source/implementation/skills/workspace-bindings/references/record-format.md": "672d7ca113b52456b82737d328e9ac8f8c6d07bcf992b0296430fba058f1b9ab",
-    "references/source/implementation/working-character/instructions.md": "6b0a82348ee62e36977ec7285faea3168c8c867d9b3f1b0fa076002cb452062e",
-    "references/source/implementation/workspace-bindings/architecture.md": "671e8807138cb681e770efc4a890b86fa4d854dff2c1e3f7096a6e0711ac2272",
-    "references/source/implementation/workspace-bindings/contract.md": "d2c580501658a192f7ece7d625edd24a03f92056b95ee98a1b7f9e7ba65b36d9"
+    "references/source/implementation/working-character/instructions.md": "804b29e510a58dc91f2da1cc02c881834cf664531d226677e3d124e5e1b4ea1d",
+    "references/source/implementation/workspace-bindings/architecture.md": "7f65228cd1d8fe9b7a38897a135b0dc7175deadd7217c298b6280e718e4b310b",
+    "references/source/implementation/workspace-bindings/contract.md": "cc845284bd2e93a37fa5edac177c8e1dd40ae7980e059029bc6e83714310f0ba"
   },
   "gates": {
     "fresh_session_use": "NOT_RUN",
@@ -1741,20 +1806,21 @@
     "resource_readback": "NOT_RUN"
   },
   "generator_inputs": {
-    "implementation/aligned-release/prepare.py": "9aa9832afb534947fc69e4b2c438646741c488f4ba316991e4bf00fc5c133e51",
-    "implementation/aligned-release/selection.json": "321b4458231fc8afaa8b976c26e32f4704bd1bccefd8ef951dbad01d52230a86",
+    "implementation/aligned-release/prepare.py": "852c2683b2a30b3a47b03e70db4251113b9c2e1ecb87c066db10631254767a46",
+    "implementation/aligned-release/selection.json": "804ab14e5d72bf435c42bcab4e15d8490eeadb56c2f54c4d883c74be213aeb65",
     "implementation/business-skills/check_packages.py": "34e029ad1cc6f2ae4efc7dcc940517d7b37fd8a931b7bc7d9de62eacc84818f6",
     "implementation/business-skills/release.py": "25b27ef1416b17164daaa2366f906b7ffdd818eb3631d37678f1442c7ec04e89",
     "implementation/plugin-distribution/plugin.json": "4a6d7c007663232cbb2ff7f63a3d1b200abd229afb9ed77873768c2d4004affb",
     "implementation/plugin-distribution/release.py": "d6b57e160bc386df4519d1cfcca6756fa3d0354d2ba876016466c913688c798a",
     "implementation/plugin-setup/package_update.py": "0e3c80d778e4c67508ca379badb3ca92f5703512830360c093fb08cc91976fd9",
-    "implementation/s-export/export.py": "1649a8783ff4190a80a0fc04bf1e8e9098cdca9a07dc78058c5180189d413116"
+    "implementation/s-export/export.py": "1649a8783ff4190a80a0fc04bf1e8e9098cdca9a07dc78058c5180189d413116",
+    "provenance/aligned-release-candidate-1.2.1.py": "9c8f9de160a84490c9bcc20fd56642c68e70de59814b8a22d35fd5e62f7dbe3d"
   },
   "name": "workspace-bindings",
   "release_identity": {
     "license": "Apache-2.0",
     "name": "consulting-studio-skills",
-    "version": "1.1.0"
+    "version": "1.2.1"
   },
   "resources": [
     {
@@ -1791,7 +1857,7 @@
       "canonical_path": "implementation/runtime/binding-catalog.json",
       "canonical_sha256": "d49b54b2de35cdbfd7cebd1652605d1d6d3874901832879e2668cba718e63ddf",
       "emitted_path": "references/source/implementation/runtime/binding-catalog.json",
-      "emitted_sha256": "5c4117c187509f337c08a987ba089ea259ab1cb58bf64e634370a83f7e7ac876",
+      "emitted_sha256": "bf74b8eea03ef1452595011ef5b9bbf4df6a419227f9a56ee0cd3180e62cdc68",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -1821,7 +1887,7 @@
       "canonical_path": "implementation/runtime/entity-lineage.md",
       "canonical_sha256": "b28c8e7334832eb74a34f516cb10f589c822aca7debb11bd1c73be51970a5060",
       "emitted_path": "references/source/implementation/runtime/entity-lineage.md",
-      "emitted_sha256": "69236ca7ed50b5ddc8e003cec8e25486da98ad0ee72135b83784c7c74c194b05",
+      "emitted_sha256": "adc66f48feb171c9eb864802a1f099cbf76f16c34737a5b126526767c2d57db3",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -1886,7 +1952,7 @@
       "canonical_path": "implementation/runtime/requirements.md",
       "canonical_sha256": "ad4bdd895c553223337d4c0719b363df9c6a39c4e6ad01e601795c029c5e1094",
       "emitted_path": "references/source/implementation/runtime/requirements.md",
-      "emitted_sha256": "0e8ebd26ca0f76e776e20e41d4fbe9e2533ed7ce4e8feacf9794b3d4e1bbad4e",
+      "emitted_sha256": "79d78531563c57d068df787a7b6538f47487054d5fc05d2a7e370812822823c5",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -1979,7 +2045,7 @@
       "canonical_path": "implementation/runtime/storage-lifecycle.md",
       "canonical_sha256": "cf6a451cd2b50fea805a6e4f34549978865e795c36b7e631847756d03dd47dae",
       "emitted_path": "references/source/implementation/runtime/storage-lifecycle.md",
-      "emitted_sha256": "4baf10aea26a8f4f8c322720e9133afae9f1f8c4cecb373cfb10c43f2b9c84ca",
+      "emitted_sha256": "e410818c41b5df145e1dbd703ce70f39e8fb2d11cdc3d71511ebcdbf87a3a3c6",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2030,18 +2096,32 @@
           "canonical_origin": "implementation/skills/consult-deliverable/SKILL.md",
           "classification": "bundled governing/resource read",
           "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
+        },
+        {
+          "canonical_origin": "implementation/skills/consult-deliverable/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
           "original": "../evidence-visualize/SKILL.md",
           "result": "../evidence-visualize/procedure.md"
         }
       ],
       "canonical_path": "implementation/skills/consult-deliverable/SKILL.md",
-      "canonical_sha256": "31031235cf6e55733256b27225ee5ff5f9bc55bfd790e28a9b3d03b2cf51f49b",
+      "canonical_sha256": "7226000f75dcb663c6368772ddd574df87f88606a5828abc4a73186690358b00",
       "emitted_path": "references/source/implementation/skills/consult-deliverable/procedure.md",
-      "emitted_sha256": "f459e412ea82833c6579d72a6fdcbebe6f34cf9fa8da65208c4018d1b0c973d6",
+      "emitted_sha256": "192c774b6db0f0824b05c1651815f57bdc4bd1abe7ccb3eede9914ac4a99659f",
       "role": "open auxiliary entry or governing resource"
     },
     {
       "adaptations": [
+        {
+          "canonical_origin": "implementation/skills/consult-deliverable/references/output-contract.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../../workspace-bindings/contract.md#project-record-maintenance"
+        },
         {
           "canonical_origin": "implementation/skills/consult-deliverable/references/output-contract.md",
           "classification": "bundled governing/resource read",
@@ -2058,9 +2138,9 @@
         }
       ],
       "canonical_path": "implementation/skills/consult-deliverable/references/output-contract.md",
-      "canonical_sha256": "d7cfefb69c71a6ac19e22a158c78a7a96aadf378a45496b6b84488e31df376a3",
+      "canonical_sha256": "8e0d9ab055d40c7ce501690a53cbe5840dd301ad26d4642ffcbcc3ce70078e43",
       "emitted_path": "references/source/implementation/skills/consult-deliverable/references/output-contract.md",
-      "emitted_sha256": "d7cfefb69c71a6ac19e22a158c78a7a96aadf378a45496b6b84488e31df376a3",
+      "emitted_sha256": "8e0d9ab055d40c7ce501690a53cbe5840dd301ad26d4642ffcbcc3ce70078e43",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2132,11 +2212,18 @@
       "canonical_path": "implementation/skills/consult-deliverable/references/source-map.md",
       "canonical_sha256": "5ad7f34716fe5050077b586b58b8324f5d6801dc7476779c8e98b04e23d614e4",
       "emitted_path": "references/source/implementation/skills/consult-deliverable/references/source-map.md",
-      "emitted_sha256": "63ffa542dd433f042e4ba353136ade4e303909d3dc52d838d106ff72196cf1b9",
+      "emitted_sha256": "90f679e18fe39c14a6facd4294f8a05570b51183b726f010e2114a1953bba27d",
       "role": "open auxiliary entry or governing resource"
     },
     {
       "adaptations": [
+        {
+          "canonical_origin": "implementation/skills/consult-results/references/output-contract.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../../workspace-bindings/contract.md#project-record-maintenance"
+        },
         {
           "canonical_origin": "implementation/skills/consult-results/references/output-contract.md",
           "classification": "bundled governing/resource read",
@@ -2153,9 +2240,9 @@
         }
       ],
       "canonical_path": "implementation/skills/consult-results/references/output-contract.md",
-      "canonical_sha256": "7e30ecfdcbb6aea81ec9b72c29943e27df415eb2efeafb2a36bfd8ebd991b93f",
+      "canonical_sha256": "f3b222f4c811bd100a18e4a6b774417308f53c9220dd90735babe3afc628c091",
       "emitted_path": "references/source/implementation/skills/consult-results/references/output-contract.md",
-      "emitted_sha256": "7e30ecfdcbb6aea81ec9b72c29943e27df415eb2efeafb2a36bfd8ebd991b93f",
+      "emitted_sha256": "f3b222f4c811bd100a18e4a6b774417308f53c9220dd90735babe3afc628c091",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2287,7 +2374,7 @@
       "canonical_path": "implementation/skills/design-language/references/source-map.md",
       "canonical_sha256": "3797790c0afcc699459d2df7c85a773de3032f2f3af123176826783d912354f3",
       "emitted_path": "references/source/implementation/skills/design-language/references/source-map.md",
-      "emitted_sha256": "5e636bc123cbc8b6a5c39d37f147eb51154ddb98cef00c0ef7384854247b7c45",
+      "emitted_sha256": "ecf8e653d4cb88a4292cc0271e4c2c715052c091369d47d3dc30fe11cb3844f7",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2319,12 +2406,19 @@
           "location": "markdown",
           "original": "references/answer-contract.md",
           "result": "references/answer-contract.md"
+        },
+        {
+          "canonical_origin": "implementation/skills/evidence-ask/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
         }
       ],
       "canonical_path": "implementation/skills/evidence-ask/SKILL.md",
-      "canonical_sha256": "931b16a8635d2a891d122ba5539005b5a7cea2eb9bec1743efc5a2a8c9fc3fb6",
+      "canonical_sha256": "725292924a49e549bc95e17f64a6bf509b1a9a21cb495d148c8f43a07887d5c5",
       "emitted_path": "references/source/implementation/skills/evidence-ask/procedure.md",
-      "emitted_sha256": "931b16a8635d2a891d122ba5539005b5a7cea2eb9bec1743efc5a2a8c9fc3fb6",
+      "emitted_sha256": "725292924a49e549bc95e17f64a6bf509b1a9a21cb495d148c8f43a07887d5c5",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2338,9 +2432,9 @@
         }
       ],
       "canonical_path": "implementation/skills/evidence-ask/references/answer-contract.md",
-      "canonical_sha256": "1716e5867535fd02ec4d393049c703f5dfc6e3196d8e216416082dffacec98c3",
+      "canonical_sha256": "96c663cb66b588401cb24d78ee06e6d2469aeff42aaa570dcf84fe09222276a7",
       "emitted_path": "references/source/implementation/skills/evidence-ask/references/answer-contract.md",
-      "emitted_sha256": "1716e5867535fd02ec4d393049c703f5dfc6e3196d8e216416082dffacec98c3",
+      "emitted_sha256": "96c663cb66b588401cb24d78ee06e6d2469aeff42aaa570dcf84fe09222276a7",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2372,12 +2466,19 @@
           "location": "markdown",
           "original": "../../runtime/binding-catalog.json",
           "result": "../../runtime/binding-catalog.json"
+        },
+        {
+          "canonical_origin": "implementation/skills/evidence-check/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
         }
       ],
       "canonical_path": "implementation/skills/evidence-check/SKILL.md",
-      "canonical_sha256": "b92078a0d34bd27e178ee17e5b36deed9d7794145d1215a33876f0e280a18832",
+      "canonical_sha256": "342277cfdc97c6631c7fc209224c70b89712195e827a538f42a7d76e0f530480",
       "emitted_path": "references/source/implementation/skills/evidence-check/procedure.md",
-      "emitted_sha256": "b92078a0d34bd27e178ee17e5b36deed9d7794145d1215a33876f0e280a18832",
+      "emitted_sha256": "342277cfdc97c6631c7fc209224c70b89712195e827a538f42a7d76e0f530480",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2391,9 +2492,9 @@
         }
       ],
       "canonical_path": "implementation/skills/evidence-check/references/check-contract.md",
-      "canonical_sha256": "c45c2701be618ec6a33bdb9a5a0e4ef8fcf7cf7b7f4d1e2084a4b8a9b454ce88",
+      "canonical_sha256": "df3a90b10aa65e697983b0c3165a6947a7c1a86c4817772f35b46562cdeb6161",
       "emitted_path": "references/source/implementation/skills/evidence-check/references/check-contract.md",
-      "emitted_sha256": "c45c2701be618ec6a33bdb9a5a0e4ef8fcf7cf7b7f4d1e2084a4b8a9b454ce88",
+      "emitted_sha256": "df3a90b10aa65e697983b0c3165a6947a7c1a86c4817772f35b46562cdeb6161",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2430,6 +2531,13 @@
           "canonical_origin": "implementation/skills/evidence-research/SKILL.md",
           "classification": "bundled governing/resource read",
           "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../workspace-bindings/contract.md#project-record-maintenance"
+        },
+        {
+          "canonical_origin": "implementation/skills/evidence-research/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
           "original": "../../runtime/storage-lifecycle.md#deliverable-mode-and-home",
           "result": "../../runtime/storage-lifecycle.md#deliverable-mode-and-home"
         },
@@ -2442,13 +2550,20 @@
         }
       ],
       "canonical_path": "implementation/skills/evidence-research/SKILL.md",
-      "canonical_sha256": "95a683536f3193c4e1eb1c7a9b0f18843f53c109050670fb60a2da677af0c410",
+      "canonical_sha256": "ab3dfcc27efdec25e60a1e3b66a7c0d006602e6c0af91ed43aff2d6baa630ba0",
       "emitted_path": "references/source/implementation/skills/evidence-research/procedure.md",
-      "emitted_sha256": "cff0fd2beae55b3eee75fb4ab4a96c8a1bcc912a655e2fd33b2c172068fefcf6",
+      "emitted_sha256": "8b23b1cdee8e32fb5ffb72d9c8259b1cd456d29474e5b8e50fc06ffd65823cc3",
       "role": "open auxiliary entry or governing resource"
     },
     {
       "adaptations": [
+        {
+          "canonical_origin": "implementation/skills/evidence-research/references/output-contract.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
+          "original": "../../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "../../../workspace-bindings/contract.md#project-record-maintenance"
+        },
         {
           "canonical_origin": "implementation/skills/evidence-research/references/output-contract.md",
           "classification": "bundled governing/resource read",
@@ -2465,9 +2580,9 @@
         }
       ],
       "canonical_path": "implementation/skills/evidence-research/references/output-contract.md",
-      "canonical_sha256": "e15150c364c7bfcbd120db228ca78aa8de4231ddd8ab27a267f02b4232104944",
+      "canonical_sha256": "40bb6a8c3cc76b1756d2326b90ab17dd40cdc008f0c03659bf889d765e16cecf",
       "emitted_path": "references/source/implementation/skills/evidence-research/references/output-contract.md",
-      "emitted_sha256": "e15150c364c7bfcbd120db228ca78aa8de4231ddd8ab27a267f02b4232104944",
+      "emitted_sha256": "40bb6a8c3cc76b1756d2326b90ab17dd40cdc008f0c03659bf889d765e16cecf",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2620,7 +2735,7 @@
       "canonical_path": "implementation/skills/evidence-visualize/references/source-map.md",
       "canonical_sha256": "0195e183b9edf60a3605594f4ff8785a5caaa346aa4e091d47a6326e8deca083",
       "emitted_path": "references/source/implementation/skills/evidence-visualize/references/source-map.md",
-      "emitted_sha256": "5aac58820927e229d212cbfa927765ce8018d9c64048d041a7e96298d83774e7",
+      "emitted_sha256": "0a51c89a0e518dca8ba8f5caa58d6333f70a2a5a59714e2ae7da2e866afcd92e",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2678,7 +2793,7 @@
       "canonical_path": "implementation/skills/narrative-shape/SKILL.md",
       "canonical_sha256": "b5ae7b937e9696d602129abe3552f6bef79fe93e15414a2ce1fd18db00ee0205",
       "emitted_path": "references/source/implementation/skills/narrative-shape/procedure.md",
-      "emitted_sha256": "b693b8c906a65091c6ee0b1ca3e8fa3938a4b8121d505bf69dc8f4f75a624413",
+      "emitted_sha256": "739aa0489dfc55203c8b0bb746fa5df668c1b6e18a4006105e0522f354a5c506",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2768,7 +2883,7 @@
       "canonical_path": "implementation/skills/org-specialize/references/output-contract.md",
       "canonical_sha256": "54355103d7ef03a1a04c76dfe84eed890a7dc7d6fb3ba7566a1ab3a29bb947b6",
       "emitted_path": "references/source/implementation/skills/org-specialize/references/output-contract.md",
-      "emitted_sha256": "e7132161e0bec5a1c8eff3ba54e6e780b567e6a388e2c0843fb49325f7cdf02f",
+      "emitted_sha256": "c0a23cd5c3e4c6b4621f259fc3198d4a0cdd67e4938023a2d3eb4ff6a5f10237",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2833,7 +2948,7 @@
       "canonical_path": "implementation/skills/org-specialize/references/source-map.md",
       "canonical_sha256": "734cff170807d9186c4a1706da95cb82fda7cbb5a3596ed6702847e3e0617152",
       "emitted_path": "references/source/implementation/skills/org-specialize/references/source-map.md",
-      "emitted_sha256": "bd6462d3eeb04c2756809e0db232f3991303f6c10ae94a29a9f73337cfb9fb9a",
+      "emitted_sha256": "dadbb66913b3985d92ce4fa266df1759914931049b201135cf566a214117d002",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2891,7 +3006,7 @@
       "canonical_path": "implementation/skills/publishing-inspect/SKILL.md",
       "canonical_sha256": "e5b6ccd631242c811338d261e31b7f56ee4a9f73b5b9336e95e5105a2ed44fac",
       "emitted_path": "references/source/implementation/skills/publishing-inspect/procedure.md",
-      "emitted_sha256": "fd20605951229f08e74db1c4059c2b0f3a5c3a6da55860791797a0846b46fc53",
+      "emitted_sha256": "6a4ffe0bfc646e5b058fd67ca8f19bc8ae47fc2a1b06df983055957b8d976120",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -2942,7 +3057,7 @@
       "canonical_path": "implementation/skills/publishing-inspect/references/output-contract.md",
       "canonical_sha256": "79fe379fbf294ed059e407a3ba7c5a3ef27682587d0dafd148510a64f0cf9056",
       "emitted_path": "references/source/implementation/skills/publishing-inspect/references/output-contract.md",
-      "emitted_sha256": "4646206cefe2d0b8fff48d47cc2900aabf63b99ae8da9908a3c6f8eb68782e0b",
+      "emitted_sha256": "84fd19c22fbebf9c003ff7bf7b8b99e802c1410c265a0a9ead0b527f6e92b6a8",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -3021,7 +3136,7 @@
       "canonical_path": "implementation/skills/publishing-inspect/references/source-map.md",
       "canonical_sha256": "4c2f8b51e45236c1656495e8a348bb7e058d08e5ef99a795fc22e7c747ef0f94",
       "emitted_path": "references/source/implementation/skills/publishing-inspect/references/source-map.md",
-      "emitted_sha256": "4f313508d470fe20eedc29f7d7cab8af10e0646341f90f5c5eae44191350abe5",
+      "emitted_sha256": "2d17a0ed9bbe74fd7464f36d9dd056d44eb76689c186c992509b1c545dbef0fd",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -3114,7 +3229,7 @@
       "canonical_path": "implementation/skills/publishing-render/SKILL.md",
       "canonical_sha256": "44ccd5a4f46bda3570e8fe89bcb3cbf25280d51512270eb0fafa6f341ef1b5ba",
       "emitted_path": "references/source/implementation/skills/publishing-render/procedure.md",
-      "emitted_sha256": "f71f6fd44a7a125cc94bd5b2fe709e877ae46bf2ea3e1ddc0353357adc996284",
+      "emitted_sha256": "0e3b6f6c61b2f130c6535ddca2cdfff60df7248297920c3d409c3444256bb9be",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -3179,7 +3294,7 @@
       "canonical_path": "implementation/skills/publishing-render/references/output-contract.md",
       "canonical_sha256": "7e068792558bfa8760d90f0b11ff0604a3a50c27fda2aaa7182383e42e3d544e",
       "emitted_path": "references/source/implementation/skills/publishing-render/references/output-contract.md",
-      "emitted_sha256": "5395055880d49aaba93ae837c17f4f95798264b9260392eb9ce1dc1bdf9a1fe3",
+      "emitted_sha256": "a930c3dfcc49dd823036a01d7bfab8e50149005f4ba590d6d852d4500041ede4",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -3293,7 +3408,7 @@
       "canonical_path": "implementation/skills/publishing-render/references/source-map.md",
       "canonical_sha256": "5b136276065f1080fc833c93f504c6e451ecf3e524536c54094a0e438aacfce0",
       "emitted_path": "references/source/implementation/skills/publishing-render/references/source-map.md",
-      "emitted_sha256": "ea86d1bd36c0866aa9a5845b6757a91bf616c4c97013ca0c16a4b28972b16d49",
+      "emitted_sha256": "65f6795c744b6a72d7e5e3d17dca9f28e1cf40568d29a904a40fd70dfb113e88",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -3369,6 +3484,13 @@
           "canonical_origin": "implementation/skills/workspace-bindings/SKILL.md",
           "classification": "bundled governing/resource read",
           "location": "markdown",
+          "original": "../../workspace-bindings/contract.md#project-record-maintenance",
+          "result": "references/source/implementation/workspace-bindings/contract.md#project-record-maintenance"
+        },
+        {
+          "canonical_origin": "implementation/skills/workspace-bindings/SKILL.md",
+          "classification": "bundled governing/resource read",
+          "location": "markdown",
           "original": "references/record-format.md",
           "result": "references/source/implementation/skills/workspace-bindings/references/record-format.md"
         },
@@ -3381,9 +3503,9 @@
         }
       ],
       "canonical_path": "implementation/skills/workspace-bindings/SKILL.md",
-      "canonical_sha256": "8e0e0b7259ebdfcb6866925531c235ec076573be58e6e5de9724a4da6637c825",
+      "canonical_sha256": "b032b28b6c14b3c471885c9192830f290a7878150ded6a156e1b74e1b8a828ff",
       "emitted_path": "SKILL.md",
-      "emitted_sha256": "4abb2e17bb474c4e585a3db4ee85fade15fd28fd72c662364100f8105d32986a",
+      "emitted_sha256": "d424af99a08209dca2410819ed9d91e820b14f10519f7a503b166367bef4a5a2",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -3444,7 +3566,7 @@
       "canonical_path": "implementation/working-character/instructions.md",
       "canonical_sha256": "3615768cb46db36a5bb362f77db7f8a67450f2cfb6f5508a094a569fb36df788",
       "emitted_path": "references/source/implementation/working-character/instructions.md",
-      "emitted_sha256": "6b0a82348ee62e36977ec7285faea3168c8c867d9b3f1b0fa076002cb452062e",
+      "emitted_sha256": "804b29e510a58dc91f2da1cc02c881834cf664531d226677e3d124e5e1b4ea1d",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -3502,7 +3624,7 @@
       "canonical_path": "implementation/workspace-bindings/architecture.md",
       "canonical_sha256": "0de6465aa39a4f07bdec2a37b49d090a9960daef67db872b493e5dd7d1adb413",
       "emitted_path": "references/source/implementation/workspace-bindings/architecture.md",
-      "emitted_sha256": "671e8807138cb681e770efc4a890b86fa4d854dff2c1e3f7096a6e0711ac2272",
+      "emitted_sha256": "7f65228cd1d8fe9b7a38897a135b0dc7175deadd7217c298b6280e718e4b310b",
       "role": "open auxiliary entry or governing resource"
     },
     {
@@ -3544,15 +3666,15 @@
         }
       ],
       "canonical_path": "implementation/workspace-bindings/contract.md",
-      "canonical_sha256": "d4bb8aaaea4e3955834057fa65f80192e9f20861abb8a7606442ef7dfd2ee718",
+      "canonical_sha256": "a97abe2c1bd2f291cb34f1e3f1bcb691c578d5050ad1aadb20e8cac6e81075da",
       "emitted_path": "references/source/implementation/workspace-bindings/contract.md",
-      "emitted_sha256": "d2c580501658a192f7ece7d625edd24a03f92056b95ee98a1b7f9e7ba65b36d9",
+      "emitted_sha256": "cc845284bd2e93a37fa5edac177c8e1dd40ae7980e059029bc6e83714310f0ba",
       "role": "open auxiliary entry or governing resource"
     }
   ],
   "schema": "consulting-studio/s-auxiliary-entry@1",
-  "shared_skills_release": "1.1.0",
-  "source_commit": "d673a8d1f2c22bbf07ef66bc29fe07e452526d19",
-  "source_tree": "14d0d32312eff656a1ff14e9beb2db4c9701c3a1",
-  "standing": "OWNER-APPROVED S1.1.0 RELEASE PREPARED; publication separately recorded; installation and acceptance NOT_RUN"
+  "shared_skills_release": "1.2.1",
+  "source_commit": "02441d561100b22144889ae448bc02e6b25a37a6",
+  "source_tree": "e1aa02f6ac3dc38a4cd76c10efdfad0026a61f21",
+  "standing": "PUBLIC S1.2.1 RELEASE PREPARED under existing Apache-2.0 terms; publication separately verified; installation and acceptance NOT_RUN"
 }

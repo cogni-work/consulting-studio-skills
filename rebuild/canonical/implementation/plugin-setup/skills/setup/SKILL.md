@@ -2,7 +2,7 @@
 name: setup
 description: Set up Consulting Studio, or check an existing S installation when explicitly asked to run Installation prüfen. Agree scope, inspect actual readers/resources/settings and run one bounded synthetic workflow with an evidence-backed report; no App or MCP required for S.
 metadata:
-  version: 0.1.7
+  version: 0.1.8
 ---
 
 # Set up Consulting Studio
@@ -154,6 +154,32 @@ record or home, and no silent automatic adoption follows.
    configuration home, outside reusable methods. Missing apps/actions,
    connections or grants remain owned gaps; do not expand sharing, connect/install
    apps, handle credentials, send business messages, publish, delete or schedule.
+
+## Connect the selected project's existing records
+
+For project setup, apply **Project record maintenance** in the binding contract
+already linked above. Read the existing project home, baseline, partial plan and
+human notes before proposing content. Show only the relevant existing business
+records and the smallest missing sections/references: purpose, trigger, responsible
+skill, accountable owner or unknown, authoritative original/revision, actual state,
+project navigation and maintenance occasion. A small task needs no empty project
+tree. Reuse existing identities and central references; the project index navigates
+to originals rather than keeping another baseline or current-synthesis list.
+
+For example, inspect the existing contextual Party/Stakeholder references and
+`baseline.stakeholders`, with permitted exact Sales evidence. Propose a missing
+roles section only when needed; a table suffices. Unknown sponsor or decision
+authority remains unknown. Confirm consequential unresolved authority with its
+owner; a job title proves no delegation. Preserve private Sales evidence at its
+original and invent no people, influence scores or second stakeholder registry.
+
+Use the existing supported creation/reuse/index procedure for covered additions,
+with separate content, navigation and binding readback. A saved original with an
+unfinished index update stays saved with navigation open. Reconcile its exact
+identity and current index before resuming only the missing authorized step;
+never create the original again. Ordinary completion hands new/changed records
+to the existing maintenance procedure only when reference work is needed. This
+creates no background task, automatic skill call or substantive acceptance.
 
 ## Bootstrap and recover durable Settings
 

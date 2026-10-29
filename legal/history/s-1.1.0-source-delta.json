@@ -1,0 +1,51 @@
+{
+  "approval": {
+    "approved_at": "2026-10-28T11:30Z",
+    "excluded": "GUI/MCP/server/App code, private bindings/history, customer content and credentials",
+    "installation_and_acceptance": "NOT_AUTHORIZED_OR_ESTABLISHED_BY_THIS_RELEASE",
+    "open_paths": [
+      "implementation/plugin-setup/skills/setup/SKILL.md",
+      "implementation/plugin-setup/skills/setup/agents/openai.yaml",
+      "implementation/plugin-setup/skills/setup/references/optional-synthetic-example.md",
+      "implementation/aligned-release/prepare.py",
+      "implementation/aligned-release/selection.json"
+    ],
+    "private_app_update": "Separately coordinated; no plugin update operation in this generator",
+    "scope": "Three changed Setup sources and two new packaging source inputs under Apache-2.0; existing public sources and rights retained",
+    "source": "Product owner directly approved Skills1.1.0, separate App1.0.12 and the five identified open source paths",
+    "status": "APPROVED_RELEASE_SPECIFIC",
+    "time_precision": "minute"
+  },
+  "canonical_inputs": 93,
+  "components": [
+    {
+      "change": "changed canonical runtime source",
+      "path": "implementation/plugin-setup/skills/setup/SKILL.md",
+      "sha256": "9b1a4b7dd36224781e0240daf436f10cb720faf4f913d181cdbfb9a84f80b4ee"
+    },
+    {
+      "change": "changed canonical runtime source",
+      "path": "implementation/plugin-setup/skills/setup/agents/openai.yaml",
+      "sha256": "3eced2c23534247d7cc835152ae92290557442f6a4abe747a0781c5aeae1a69a"
+    },
+    {
+      "change": "changed canonical runtime source",
+      "path": "implementation/plugin-setup/skills/setup/references/optional-synthetic-example.md",
+      "sha256": "e5a560ee75cae89a2457ee1f385bbeb664456b8785db4d0ec4d376898ea180e7"
+    },
+    {
+      "change": "new packaging source input",
+      "path": "implementation/aligned-release/prepare.py",
+      "sha256": "9aa9832afb534947fc69e4b2c438646741c488f4ba316991e4bf00fc5c133e51"
+    },
+    {
+      "change": "new packaging source input",
+      "path": "implementation/aligned-release/selection.json",
+      "sha256": "321b4458231fc8afaa8b976c26e32f4704bd1bccefd8ef951dbad01d52230a86"
+    }
+  ],
+  "generated_outputs": "Legal copies, manifests, release metadata/notices and finite rebuild snapshot derive from these approved inputs; no additional canonical source component",
+  "previous_public_base": "033b83abf2a2a338687dd1b739465bca77e8d8b5",
+  "schema": "consulting-studio/s-release-source-delta@1",
+  "unchanged_runtime_inputs": 90
+}

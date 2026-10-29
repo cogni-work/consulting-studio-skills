@@ -1,3 +1,12 @@
+# 1.2.1 - 2026-10-29
+
+- Apply existing project structure and maintain references to original sources.
+- Keep research sources/candidates separate from accepted synthesis.
+- Resume reads accepted work and uncertain maintenance state without resuming writes.
+- Retain27 methods/35 modes; Setup0.1.8, Librarian0.2.2, Resume0.2.1.
+- Continue existing Apache-2.0 S terms with current release authority and exact provenance.
+- Preserve previous releases and owner edits; installation/customer acceptance remain NOT_RUN.
+
 # 1.1.0 - 2026-10-28
 
 - Setup0.1.7 exposes Installation prüfen for a bounded, evidence-backed session check.

@@ -1,4 +1,12 @@
-# Consult-planning output contract 0.1.1
+# Consult-planning output contract 0.1.2
+
+Apply [project record maintenance](../../../workspace-bindings/contract.md#project-record-maintenance)
+for relevant project originals and meaningful changes. Carry the readable handoff's
+occasion, exact entity/revision/home/source references, actual save/readback state,
+known dependencies/uninspected coverage, proposed maintenance, owner decision and
+current authority/operation/guard or precise gap. Reuse existing sections/identities
+and navigation; this adds no mandatory sidecar or provider schema. Report content
+preparation, business disposition and each storage/mapping effect separately.
 
 Apply [Deliverable mode and home](../../../runtime/storage-lifecycle.md#deliverable-mode-and-home)
 early and carry its selected mode/home, exact version and actual state into the

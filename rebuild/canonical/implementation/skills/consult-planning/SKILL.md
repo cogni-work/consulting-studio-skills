@@ -2,7 +2,7 @@
 name: consult-planning
 description: Turn exact agreed framing into a practical proposed work plan, with baseline-linked milestones, client inputs, owners or unknowns, dependencies, expected results and explicit authority limits.
 metadata:
-  version: 0.1.1
+  version: 0.1.2
 ---
 # Plan the authorized promise
 
@@ -17,6 +17,12 @@ Prepare a useful plan for the lead's review/adoption. Preparation changes no
 business commitment, assignment, current record or work authorization. Read the
 [output contract](references/output-contract.md), [operational requirements](references/source-map.md)
 and [binding contract](../../workspace-bindings/contract.md).
+
+Apply [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance)
+when planning or revising project work. Reuse the partial plan and exact Baseline,
+including its stakeholder original; do not retype/activate a competing baseline or
+create a parallel stakeholder list. Return changed item/input/RAID references and
+the maintenance handoff, with proposed versus adopted work and save/readback gaps.
 
 1. Resolve the request, reader, purpose and exact current Engagement/Baseline revision,
    authoritative home, applicable information-use basis and read coverage. Reuse

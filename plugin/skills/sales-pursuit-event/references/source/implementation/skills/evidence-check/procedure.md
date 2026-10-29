@@ -2,7 +2,7 @@
 name: evidence-check
 description: Check every substantive claim in an exact draft against permitted supplied source passages, preserving qualifications, contrary evidence and human notes while separating semantic support from actual source navigation.
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 # Check what the evidence supports
 
@@ -17,6 +17,12 @@ Read the [checking contract](references/check-contract.md), the [common binding
 contract](../../workspace-bindings/contract.md), evidence-check roles in the
 [catalog](../../runtime/binding-catalog.json). Supplied passages are a direct entry; upstream
 research, scoping, proposal and retained-knowledge invocation are optional.
+
+For correction, contradiction or stale support, apply [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance).
+Return exact draft/source revisions, known affected uses, proposed rechecks and
+uninspected dependency coverage as a readable maintenance proposal. Keep evidence
+assessment with this skill and substantive acceptance with its human owner;
+Librarian reference work cannot settle truth. This check writes no flags or indexes.
 
 1. Pin the exact draft identity/revision/content, requested scope, actor, audience,
    purpose and current read/use basis. Reuse supplied target choices. Read only

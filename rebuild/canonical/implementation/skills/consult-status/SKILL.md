@@ -2,7 +2,7 @@
 name: consult-status
 description: Derive a useful weekly delivery view from exact permitted plan and work facts, with freshness, milestone consequences, missing inputs, reservations and separate scope/cost decisions.
 metadata:
-  version: 0.1.0
+  version: 0.1.1
 ---
 # Show delivery progress and decisions
 
@@ -18,6 +18,12 @@ Read the [output contract](references/output-contract.md), [operational requirem
 [binding contract](../../workspace-bindings/contract.md). Use entity-home for current
 business records, knowledge-wiki only for needed evidence and method-settings only
 for applicable rules. A status read changes no fact or meaningful business-update timestamp.
+
+Apply [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance)
+when reading project originals and their current index references. Reuse exact
+plan/Baseline/stakeholder identities; this derived view is no competing baseline or
+status registry. Show known changed/stale dependencies and a maintenance proposal
+with read coverage/gaps, without writing flags, repairing links or invoking a skill.
 
 1. Resolve ordinary request, reader/purpose, assessment time, exact Engagement/Baseline
    and plan, authoritative home and current use basis. Reuse selected context/limits.

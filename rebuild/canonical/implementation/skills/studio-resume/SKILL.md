@@ -2,7 +2,7 @@
 name: studio-resume
 description: Resume or inspect specifically identified accessible saved work and its original evidence, with a brief account of what is present, what remains open and one next step. Read only; use actual host tools and preserve exact historical versions and uncertain saves.
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 # Resume saved work
 

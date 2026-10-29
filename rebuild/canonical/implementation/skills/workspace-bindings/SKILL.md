@@ -3,7 +3,7 @@ name: workspace-bindings
 description: Workspace Librarian — find and verify authoritative Personal or Shared homes for the acting user, context and purpose; reuse or prepare authorized missing homes; maintain references, ownership and lifecycle handoffs. Use when a home or mapping needs attention, including engagement setup, persisted destination reuse or closure.
 ---
 
-# Workspace Librarian 0.2.1
+# Workspace Librarian 0.2.2
 
 Find the
 authoritative home, reuse or prepare/provision a missing home, and maintain its
@@ -23,6 +23,14 @@ invocation. Apply this procedure through the supported current workflow when loc
 work is needed. `evidence-ask`/`evidence-research` own knowledge answers and research;
 `org-specialize` owns method/settings adoption. Resolving their homes performs none
 of those jobs or decisions.
+
+Apply [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance)
+when an active producer handoff or project occasion needs location/reference work.
+Inspect its exact originals, save/readback states, known dependencies, proposed
+effects, owner decisions and operation gaps. Reuse identities and add only missing/
+changed navigation under valid applicable task/standing authority. Research/Check
+retain evidence assessment and the appropriate human retains substantive acceptance;
+this procedure starts no background work or automatic skill invocation.
 
 ## Bootstrap and resume
 

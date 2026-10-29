@@ -2,10 +2,10 @@
 name: evidence-check
 description: Check every substantive claim in an exact draft against permitted supplied source passages, preserving qualifications, contrary evidence and human notes while separating semantic support from actual source navigation.
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
-<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
+<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
 
 Read [working instructions](references/governing.md) before applying this method.
 # Check what the evidence supports
@@ -21,6 +21,12 @@ Read the [checking contract](references/source/implementation/skills/evidence-ch
 contract](references/source/implementation/workspace-bindings/contract.md), evidence-check roles in the
 [catalog](references/source/implementation/runtime/binding-catalog.json). Supplied passages are a direct entry; upstream
 research, scoping, proposal and retained-knowledge invocation are optional.
+
+For correction, contradiction or stale support, apply [project record maintenance](references/source/implementation/workspace-bindings/contract.md#project-record-maintenance).
+Return exact draft/source revisions, known affected uses, proposed rechecks and
+uninspected dependency coverage as a readable maintenance proposal. Keep evidence
+assessment with this skill and substantive acceptance with its human owner;
+Librarian reference work cannot settle truth. This check writes no flags or indexes.
 
 1. Pin the exact draft identity/revision/content, requested scope, actor, audience,
    purpose and current read/use basis. Reuse supplied target choices. Read only

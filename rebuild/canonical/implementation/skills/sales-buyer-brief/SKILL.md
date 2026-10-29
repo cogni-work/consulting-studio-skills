@@ -2,7 +2,7 @@
 name: sales-buyer-brief
 description: Turn permitted consulting buyer notes, emails or tender material into an attributed buyer brief and useful next questions, preserving stakeholders, uncertainty, promises and human pursuit decisions.
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 # Understand the buyer
 
@@ -21,6 +21,13 @@ Read the [brief contract](references/brief-contract.md). For entity/method reads
 the [common binding contract](../../workspace-bindings/contract.md) and relevant
 roles in the [catalog](../../workspace-bindings/skill-contracts.json). Supplied
 material needs no full profile, research, formal scoping or mandatory skill chain.
+
+For a stakeholder or buyer-evidence handoff, apply [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance).
+Reuse contextual Party/Stakeholder identities and exact brief/source revisions;
+framing references them in `baseline.stakeholders` only within permitted use.
+Keep private Sales originals, unknown authority and dissent intact, without
+invented influence scores or a parallel project people list. Return relevant
+original/state/dependency and maintenance proposals within this draft-only scope.
 
 1. Identify the request, relationship owner, acting user, audience and purpose.
    Reuse the current instance's target choices. Inspect permitted notes and exact

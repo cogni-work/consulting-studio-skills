@@ -1,6 +1,14 @@
 
-<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
-# Buyer brief contract 0.1.0
+<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
+# Buyer brief contract 0.1.1
+
+Apply [project record maintenance](../../../workspace-bindings/contract.md#project-record-maintenance)
+for relevant project originals and meaningful changes. Carry the readable handoff's
+occasion, exact entity/revision/home/source references, actual save/readback state,
+known dependencies/uninspected coverage, proposed maintenance, owner decision and
+current authority/operation/guard or precise gap. Reuse existing sections/identities
+and navigation; this adds no mandatory sidecar or provider schema. Return proposals only
+within this read-only/draft scope; change no index, pointer or stale flag.
 
 Apply [Deliverable mode and home](../../../runtime/storage-lifecycle.md#deliverable-mode-and-home)
 early and carry its selected mode/home, exact version and actual state into the

@@ -1,4 +1,17 @@
-# Evidence research output contract 0.2.2
+# Evidence research output contract 0.2.3
+
+Apply [project record maintenance](../../../workspace-bindings/contract.md#project-record-maintenance)
+for relevant project originals and meaningful changes. Carry the readable handoff's
+occasion, exact entity/revision/home/source references, actual save/readback state,
+known dependencies/uninspected coverage, proposed maintenance, owner decision and
+current authority/operation/guard or precise gap. Reuse existing sections/identities
+and navigation; this adds no mandatory sidecar or provider schema. Report content
+preparation, business disposition and each storage/mapping effect separately.
+Second research reads accepted synthesis first and covers gaps only. Reuse
+source/version identity; distinguish report/source registration/candidate/exact curator
+disposition/incorporation. Update one guarded existing catalog current-synthesis
+reference only under covered authority, retaining history/dissent; project navigation
+reuses it.
 
 Apply [Deliverable mode and home](../../../runtime/storage-lifecycle.md#deliverable-mode-and-home)
 early and carry its selected mode/home, exact version and actual state into the

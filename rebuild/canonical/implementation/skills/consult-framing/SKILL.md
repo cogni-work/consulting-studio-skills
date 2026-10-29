@@ -2,7 +2,7 @@
 name: consult-framing
 description: Prepare or adopt exact engagement framing from an accepted promise, readable agreed framing, or bounded internal authority, preserving scope, criteria, ownership and unresolved limits.
 metadata:
-  version: 0.1.0
+  version: 0.1.1
 ---
 # Take over the promise and frame the work
 
@@ -24,6 +24,13 @@ and this method's entity-home/method-settings roles in the
 operation against the actual authorized home and available tools. Reuse current
 valid target choices, authority, answered questions and standing effort limits.
 No full firm setup is required.
+
+For project creation or revised framing, apply [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance).
+Inspect existing framing, partial plan and human notes first; propose only missing
+sections/references. Reuse contextual Party/Stakeholder and `baseline.stakeholders`,
+with exact permitted Sales references and unknown sponsor/authority kept unknown.
+Return the relevant originals/states and maintenance handoff; a table suffices and
+only consequential unresolved decisions need confirmation.
 
 1. Identify the ordinary request, purpose, intended readers, exact engagement and
    current home. Use the smallest sufficient readable input. Preserve original

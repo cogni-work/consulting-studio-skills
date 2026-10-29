@@ -2,7 +2,7 @@
 name: evidence-research
 description: Research a consulting question from permitted retained, supplied or newly inspected evidence, preserving exact sources, contradictions and gaps. Deliver the configured report and authorized retained output; keep wiki contribution acceptance separate.
 metadata:
-  version: "0.2.2"
+  version: "0.2.3"
 ---
 # Research defensible evidence
 
@@ -15,6 +15,15 @@ discovery, retained retrieval or storage, also read the [common binding contract
 and applicable roles in the [catalog](../../runtime/binding-catalog.json).
 If binding instructions are unavailable, stop the operations that depend on them
 and continue independent permitted supplied-evidence work.
+
+Apply [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance)
+through the ordinary research workflow. On repeated research, freshly read the
+relevant accepted synthesis first and investigate only its identified gaps. Reuse
+source/version identities, preserving different interpretations. Return the
+producer-to-Librarian handoff for relevant authorized source/contribution/navigation
+work, keeping report delivery, candidate, exact curator decision and incorporation
+separate. One guarded existing catalog pointer identifies current accepted synthesis;
+project navigation reuses it. No background maintenance or automatic invocation follows.
 
 ## Delivery mode and configured research report
 

@@ -2,10 +2,10 @@
 name: consult-results
 description: Turn permitted evidence and analysis into a versioned answer, supported/refuted/open findings and proposed actions, retaining contrary evidence, limits and exact lineage.
 metadata:
-  version: 0.1.6
+  version: 0.1.7
 ---
 
-<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
+<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
 # Answer the question with defensible results
 
 Read and apply the [common working instructions](../../working-character/instructions.md)
@@ -41,6 +41,12 @@ Reconcile uncertain writes by identity/version/content before retrying. Without 
 list or readback route an uncertain earlier write stays unreconciled and is not retried. An unreadable template reference blocks production in that
 template, not inline Result preparation; use the configured sections and say so.
 Synthetic-only Setup grants no real-client material or retention authority.
+
+For a new or revised Result, apply [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance).
+Classify it against the existing project original and reuse exact Source/version
+identities while retaining a different interpretation. Return the maintenance
+handoff with actual saved/readback state, known affected uses, proposed index/recheck
+effects and precise gaps; preparing or saving a Result accepts no wiki contribution.
 
 1. Resolve the ordinary request, question, reader/purpose and exact permitted inputs.
    Reuse explicit current context and standing effort limits. Direct supplied research

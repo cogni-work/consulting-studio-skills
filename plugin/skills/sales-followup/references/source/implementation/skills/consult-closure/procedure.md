@@ -2,10 +2,10 @@
 name: consult-closure
 description: Prepare closure or cancellation with exact acceptance evidence and remaining obligations; assess later outcomes only from permitted comparable measures.
 metadata:
-  version: 0.1.0
+  version: 0.1.1
 ---
 
-<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
+<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
 # Finish work with the promise and obligations clear
 
 Read and apply the [common working instructions](../../working-character/instructions.md)
@@ -21,6 +21,12 @@ Prepare closure, cancellation or a requested later-outcome assessment. Read the
 [binding contract](../../workspace-bindings/contract.md). Resolve entity-home for
 business records and knowledge-wiki only for necessary evidence. Preparing the
 note does not close work, operate storage or record client acceptance.
+
+Apply [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance)
+for closure, cancellation, handover or later outcome. Return the existing closure
+original, exact business event/acceptance/obligation/exit references, successor or
+unknown and a maintenance handoff for covered reference/lifecycle effects. This
+neither operates storage nor permits firm learning; preserve outstanding obligations.
 
 1. Resolve the ordinary request, engagement, exact current promise/authority,
    accepting party/procedure, assessment time, audience and information-use basis.

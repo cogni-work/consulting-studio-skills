@@ -2,10 +2,10 @@
 name: evidence-ask
 description: Answer consulting questions from permitted retained wiki knowledge, citing accepted source and synthesis revisions with their recency, disagreements and gaps. Use before repeating research already covered by retained evidence.
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
-<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
+<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
 
 Read [working instructions](references/governing.md) before applying this method.
 # Ask retained knowledge
@@ -20,6 +20,13 @@ and applicable roles in the [catalog](references/source/implementation/runtime/b
 Read the [answer contract](references/source/implementation/skills/evidence-ask/references/answer-contract.md). Missing retrieval capability
 or binding instructions block retained retrieval.
 A permitted supplied-material answer can identify its actual narrower coverage.
+
+Use [project record maintenance](references/source/implementation/workspace-bindings/contract.md#project-record-maintenance)
+to resolve the existing project/topic original and its single canonical accepted-
+synthesis reference. Cite that exact revision and known stale/contrary dependencies;
+newer drafts remain separate. Return uncovered questions and proposed maintenance
+with precise gaps only; this read-only ask changes no pointer, status or stale flag
+and starts no research or Librarian operation.
 
 1. Identify the question, acting user, current audience and purpose. Locate relevant
    permitted knowledge through personal discovery preferences, the applicable shared

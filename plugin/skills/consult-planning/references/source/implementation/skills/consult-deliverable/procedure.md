@@ -2,10 +2,10 @@
 name: consult-deliverable
 description: Prepare a versioned usable answer against an agreed promise, retaining exact results, criterion gaps, audience qualifications and separate artifact, review, release and acceptance states.
 metadata:
-  version: 0.1.3
+  version: 0.1.4
 ---
 
-<!-- Consulting Studio packaging modification, 2026-10-28: local resource locators and explicit governing reads; canonical source and emitted hashes in distribution.json. Owner-approved S1.1.0 Apache/NOTICE overlay; existing recipient grants retained. -->
+<!-- Consulting Studio packaging modification, 2026-10-29: local resource locators and explicit governing reads; exact canonical and emitted hashes retained in distribution.json. S1.2.1 public release continues the existing Apache-2.0 S terms; recipient grants retained. -->
 # Make the answer usable against the promise
 
 Read and apply the [common working instructions](../../working-character/instructions.md)
@@ -20,6 +20,12 @@ Read the [output contract](references/output-contract.md), [operational requirem
 [binding contract](../../workspace-bindings/contract.md). Use entity-home for the
 prepared Deliverable and exact Result/Baseline; use knowledge-wiki and method-settings
 only when needed. Keep preparation, actual storage, review, release and acceptance distinct.
+
+Apply [project record maintenance](../../workspace-bindings/contract.md#project-record-maintenance)
+for a new/revised Deliverable or evidenced review/release/acceptance. Reuse the
+project original and exact Result/Baseline/Artifact identities. Return a maintenance
+handoff with independently evidenced dispositions, actual save/readback, affected
+uses and proposed reference/recheck effects; navigation creates no acceptance.
 
 1. Resolve the ordinary request, agreed question/promise and exact baseline, scope,
    exclusions, criteria, dates and accepting party. Reuse current choices and limits.

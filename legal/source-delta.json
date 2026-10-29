@@ -1,51 +1,238 @@
 {
-  "approval": {
-    "approved_at": "2026-10-28T11:30Z",
-    "excluded": "GUI/MCP/server/App code, private bindings/history, customer content and credentials",
-    "installation_and_acceptance": "NOT_AUTHORIZED_OR_ESTABLISHED_BY_THIS_RELEASE",
-    "open_paths": [
-      "implementation/plugin-setup/skills/setup/SKILL.md",
-      "implementation/plugin-setup/skills/setup/agents/openai.yaml",
-      "implementation/plugin-setup/skills/setup/references/optional-synthetic-example.md",
-      "implementation/aligned-release/prepare.py",
-      "implementation/aligned-release/selection.json"
-    ],
-    "private_app_update": "Separately coordinated; no plugin update operation in this generator",
-    "scope": "Three changed Setup sources and two new packaging source inputs under Apache-2.0; existing public sources and rights retained",
-    "source": "Product owner directly approved Skills1.1.0, separate App1.0.12 and the five identified open source paths",
-    "status": "APPROVED_RELEASE_SPECIFIC",
-    "time_precision": "minute"
-  },
   "canonical_inputs": 93,
+  "changed_runtime_inputs": 29,
   "components": [
     {
-      "change": "changed canonical runtime source",
+      "bytes": 35202,
+      "change": "changed canonical runtime input",
       "path": "implementation/plugin-setup/skills/setup/SKILL.md",
-      "sha256": "9b1a4b7dd36224781e0240daf436f10cb720faf4f913d181cdbfb9a84f80b4ee"
+      "previous_sha256": "9b1a4b7dd36224781e0240daf436f10cb720faf4f913d181cdbfb9a84f80b4ee",
+      "sha256": "5df028a1b26269b7cd2d0b6772c0e991e746028ee9173f332f0cc36f791d4933"
     },
     {
-      "change": "changed canonical runtime source",
-      "path": "implementation/plugin-setup/skills/setup/agents/openai.yaml",
-      "sha256": "3eced2c23534247d7cc835152ae92290557442f6a4abe747a0781c5aeae1a69a"
+      "bytes": 10350,
+      "change": "changed canonical runtime input",
+      "path": "implementation/plugin-setup/skills/setup/references/pages-setup.md",
+      "previous_sha256": "01c0934af1cf438c0b70efbe6520f1bf3bd4ed3cbd51f4aa0a280f74672dfe84",
+      "sha256": "e46af7006b6c5ffdc54d64040db96505f9866a979ca7cfef2c862e1f4c380a1e"
     },
     {
-      "change": "changed canonical runtime source",
-      "path": "implementation/plugin-setup/skills/setup/references/optional-synthetic-example.md",
-      "sha256": "e5a560ee75cae89a2457ee1f385bbeb664456b8785db4d0ec4d376898ea180e7"
+      "bytes": 14415,
+      "change": "changed canonical runtime input",
+      "path": "implementation/runtime/method-catalog.json",
+      "previous_sha256": "ab091c43ff0808411017878411edac3bd51c02844b138c0861a8257097de97d3",
+      "sha256": "afb1943a7e455afd4a6443d2c7b5124a6c44f8e8c3ac7610556bbadeac5ff5b4"
     },
     {
-      "change": "new packaging source input",
+      "bytes": 6584,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-change/SKILL.md",
+      "previous_sha256": "a81972481ed1ddfb62218481f5d34a7fcfabeaadfafc8d0bc6cb3645ee55e6f7",
+      "sha256": "7e3f7bd1e0042d51dfc44a22bdc60ecf3b299cb747489f7468c6317411e97fda"
+    },
+    {
+      "bytes": 6682,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-change/references/output-contract.md",
+      "previous_sha256": "2e601c427591e3c9a265f19d7074600d131c5c65ece8ebcc59b42e9c179a819a",
+      "sha256": "9784bf2ca3b213ff51450f5576ed852eb0e0b2378aa7ff11f213acb9a47790fa"
+    },
+    {
+      "bytes": 6004,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-closure/SKILL.md",
+      "previous_sha256": "09d35b45e3b3d16a2cf239b23449a8392d225dd6c835fdba99eeaaab537e76da",
+      "sha256": "2983867b86e2b90bde2afca5a6bf82dd61c12a5db7360ef7a9f76997a312ae2d"
+    },
+    {
+      "bytes": 6521,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-closure/references/output-contract.md",
+      "previous_sha256": "61f8c54d7b6e0fb2eb58e210ddb7f20d1fd776282c80774f1643188034ee424b",
+      "sha256": "193939c0f7cb35e70ccc8606aba5fda8a8856727f3ce711eba8c895734767c05"
+    },
+    {
+      "bytes": 8361,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-deliverable/SKILL.md",
+      "previous_sha256": "31031235cf6e55733256b27225ee5ff5f9bc55bfd790e28a9b3d03b2cf51f49b",
+      "sha256": "7226000f75dcb663c6368772ddd574df87f88606a5828abc4a73186690358b00"
+    },
+    {
+      "bytes": 10048,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-deliverable/references/output-contract.md",
+      "previous_sha256": "d7cfefb69c71a6ac19e22a158c78a7a96aadf378a45496b6b84488e31df376a3",
+      "sha256": "8e0d9ab055d40c7ce501690a53cbe5840dd301ad26d4642ffcbcc3ce70078e43"
+    },
+    {
+      "bytes": 7860,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-framing/SKILL.md",
+      "previous_sha256": "734af75b9abb4376847b3d7df5085333ff1a7b97869f0f08b75ee335fcdf2ef5",
+      "sha256": "c41a5752a08a41964489edda7429cb621b425bc81bc6897cc5f548e4579f0740"
+    },
+    {
+      "bytes": 7330,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-framing/references/output-contract.md",
+      "previous_sha256": "375ecbfd1983feff938919fd585434320e54a8019c00dac958c423a540de161c",
+      "sha256": "0d247842701a60b39ba19823a3b0f1b4e4c70bf3f855aad282d80fe656941b5f"
+    },
+    {
+      "bytes": 6278,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-planning/SKILL.md",
+      "previous_sha256": "fcd9da52ddc398b722ad7da84b9c47aa3d4c297efe8944b4ea59b9e580f4c459",
+      "sha256": "4af31cef73dcfa14fa8cf050650195b4629643c6fc6ad4e94850a7b2adb378e0"
+    },
+    {
+      "bytes": 6006,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-planning/references/output-contract.md",
+      "previous_sha256": "71e85ed3fb71b5b736ffeb5127ad31c777b3876fbd79117c520b4c713233dde1",
+      "sha256": "0d2bda658ab09e3ff85cfb17975d7100bae5d25c00239dd7beaff6dc6a4eb75b"
+    },
+    {
+      "bytes": 11040,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-results/SKILL.md",
+      "previous_sha256": "734d29c3ae550d42d280952e27b4c5ee6d935f7db0738575be6508fb8f514820",
+      "sha256": "b68617b28ee64af57b7bae1f62d2c34a235ded670372dfe838a28c674fa8100d"
+    },
+    {
+      "bytes": 11877,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-results/references/output-contract.md",
+      "previous_sha256": "7e30ecfdcbb6aea81ec9b72c29943e27df415eb2efeafb2a36bfd8ebd991b93f",
+      "sha256": "f3b222f4c811bd100a18e4a6b774417308f53c9220dd90735babe3afc628c091"
+    },
+    {
+      "bytes": 5088,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-status/SKILL.md",
+      "previous_sha256": "b8107120f572e7221848991ebf65cad35d2aa9a2c6e96b3f90f23f5a996d494c",
+      "sha256": "176115830ea26af62ab9a3e29059135117817f4cd382bf74918eaa1534947287"
+    },
+    {
+      "bytes": 4749,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/consult-status/references/output-contract.md",
+      "previous_sha256": "bc8c822552072c85db2a8a1d316c2c1885276a3cf627f1bad899c9cf99e6f9a9",
+      "sha256": "ba8b8728e452dd3fa8a16fddd4296907602c3d0690b0916f868821ff74a93c49"
+    },
+    {
+      "bytes": 4526,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/evidence-ask/SKILL.md",
+      "previous_sha256": "931b16a8635d2a891d122ba5539005b5a7cea2eb9bec1743efc5a2a8c9fc3fb6",
+      "sha256": "725292924a49e549bc95e17f64a6bf509b1a9a21cb495d148c8f43a07887d5c5"
+    },
+    {
+      "bytes": 3773,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/evidence-ask/references/answer-contract.md",
+      "previous_sha256": "1716e5867535fd02ec4d393049c703f5dfc6e3196d8e216416082dffacec98c3",
+      "sha256": "96c663cb66b588401cb24d78ee06e6d2469aeff42aaa570dcf84fe09222276a7"
+    },
+    {
+      "bytes": 4520,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/evidence-check/SKILL.md",
+      "previous_sha256": "b92078a0d34bd27e178ee17e5b36deed9d7794145d1215a33876f0e280a18832",
+      "sha256": "342277cfdc97c6631c7fc209224c70b89712195e827a538f42a7d76e0f530480"
+    },
+    {
+      "bytes": 3972,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/evidence-check/references/check-contract.md",
+      "previous_sha256": "c45c2701be618ec6a33bdb9a5a0e4ef8fcf7cf7b7f4d1e2084a4b8a9b454ce88",
+      "sha256": "df3a90b10aa65e697983b0c3165a6947a7c1a86c4817772f35b46562cdeb6161"
+    },
+    {
+      "bytes": 9304,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/evidence-research/SKILL.md",
+      "previous_sha256": "95a683536f3193c4e1eb1c7a9b0f18843f53c109050670fb60a2da677af0c410",
+      "sha256": "ab3dfcc27efdec25e60a1e3b66a7c0d006602e6c0af91ed43aff2d6baa630ba0"
+    },
+    {
+      "bytes": 8820,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/evidence-research/references/output-contract.md",
+      "previous_sha256": "e15150c364c7bfcbd120db228ca78aa8de4231ddd8ab27a267f02b4232104944",
+      "sha256": "40bb6a8c3cc76b1756d2326b90ab17dd40cdc008f0c03659bf889d765e16cecf"
+    },
+    {
+      "bytes": 5290,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/sales-buyer-brief/SKILL.md",
+      "previous_sha256": "c1e73e6c4dda7f7a698f417ad466ab94ac6180f7fc3a4d3750b5b8054c2b9a98",
+      "sha256": "857a0f1854cdce102ee845b0d2a1c68245a6258e62616b34e0247de96aaa4572"
+    },
+    {
+      "bytes": 8101,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/sales-buyer-brief/references/brief-contract.md",
+      "previous_sha256": "3be82af4b4890b3b4136e47a42fde01b193d48dda4a1a31306103e23bbbb3f0e",
+      "sha256": "64696e1c46af6a57f80326acb32ff684d1e3dd2aa85fe42f9cbe27a7d420698c"
+    },
+    {
+      "bytes": 2591,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/studio-resume/SKILL.md",
+      "previous_sha256": "8f56d56b916faa0bd9e5bb94296a35c263bcdb663843f96b98876585acc99581",
+      "sha256": "1f3a17b8ee40a808072f9843b3177a880ae3076af48d5c850bdfd5501dcab4b1"
+    },
+    {
+      "bytes": 7114,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/studio-resume/references/resume-contract.md",
+      "previous_sha256": "2b41465792687ff28553a11c04b992ffd530d9beda46555f10fca6c43cd5d914",
+      "sha256": "cf67f9aa8abcf1cb59777377107a2d2bad7ac5869e6631a604511d99d2f03b26"
+    },
+    {
+      "bytes": 15002,
+      "change": "changed canonical runtime input",
+      "path": "implementation/skills/workspace-bindings/SKILL.md",
+      "previous_sha256": "8e0e0b7259ebdfcb6866925531c235ec076573be58e6e5de9724a4da6637c825",
+      "sha256": "b032b28b6c14b3c471885c9192830f290a7878150ded6a156e1b74e1b8a828ff"
+    },
+    {
+      "bytes": 19798,
+      "change": "changed canonical runtime input",
+      "path": "implementation/workspace-bindings/contract.md",
+      "previous_sha256": "d4bb8aaaea4e3955834057fa65f80192e9f20861abb8a7606442ef7dfd2ee718",
+      "sha256": "a97abe2c1bd2f291cb34f1e3f1bcb691c578d5050ad1aadb20e8cac6e81075da"
+    },
+    {
+      "change": "changed canonical packaging input; exact source retained at provenance/aligned-release-candidate-1.2.1.py",
       "path": "implementation/aligned-release/prepare.py",
-      "sha256": "9aa9832afb534947fc69e4b2c438646741c488f4ba316991e4bf00fc5c133e51"
+      "sha256": "9c8f9de160a84490c9bcc20fd56642c68e70de59814b8a22d35fd5e62f7dbe3d"
     },
     {
-      "change": "new packaging source input",
+      "change": "changed packaging selection",
       "path": "implementation/aligned-release/selection.json",
-      "sha256": "321b4458231fc8afaa8b976c26e32f4704bd1bccefd8ef951dbad01d52230a86"
+      "sha256": "804ab14e5d72bf435c42bcab4e15d8490eeadb56c2f54c4d883c74be213aeb65"
     }
   ],
-  "generated_outputs": "Legal copies, manifests, release metadata/notices and finite rebuild snapshot derive from these approved inputs; no additional canonical source component",
-  "previous_public_base": "033b83abf2a2a338687dd1b739465bca77e8d8b5",
+  "exported_generator": {
+    "adaptations": "Release authority/legal/manifest/provenance/docs and S-only release CLI; canonical method selection and assembly preserved",
+    "canonical_source_sha256": "9c8f9de160a84490c9bcc20fd56642c68e70de59814b8a22d35fd5e62f7dbe3d",
+    "emitted_sha256": "852c2683b2a30b3a47b03e70db4251113b9c2e1ecb87c066db10631254767a46",
+    "path": "implementation/aligned-release/prepare.py",
+    "retained_source": "provenance/aligned-release-candidate-1.2.1.py"
+  },
+  "generated_outputs": "Exact source transformations, dependency graphs, manifests, prominent modification notices, current operative legal records and repository/rebuild metadata; no additional selected method source",
+  "previous_public_base": "fff65b7e5debd215f52bc9228d07bdee535dd762",
+  "release_authority": {
+    "authorized_at": "2026-10-29T05:41:49Z",
+    "excluded": "App/GUI/MCP/server rights or delivery; private identities/history; customer data; installation and customer acceptance",
+    "existing_grants": "Preserved; previous release-specific approvals retain their original scope",
+    "scope": "Public S1.2.1 source, tag and release assets in cogni-work/consulting-studio-skills under its existing Apache-2.0 S terms",
+    "source": "Product owner directly authorized proceeding with public S1.2.1 delivery",
+    "status": "AUTHORIZED_PUBLIC_S_RELEASE"
+  },
   "schema": "consulting-studio/s-release-source-delta@1",
-  "unchanged_runtime_inputs": 90
+  "unchanged_runtime_inputs": 64
 }
