@@ -151,9 +151,27 @@ when redistributing. The license's warranty and liability terms apply.
 For package structure, source attribution, reproducible builds and release history,
 see the [technical notes](AUDIT.md).
 
-## Need a GUI, managed setup or custom adaptations?
+## Open S methods and controlled M workflows
 
-The free package includes the consulting methods and their resources for direct
-use. If you want a project interface, guided installation and training, or
-adaptations for your firm, [visit cogni-work.ai](https://www.cogni-work.ai/)
-to discuss the scope and prerequisites.
+Free S is useful on its own: open consulting methods, complete required resources
+and provider-neutral handoffs for direct use with your available, authorized tools.
+Source fidelity, visible limitations and basic correctness are requirements for
+both S and M. Necessary resources and known critical corrections are not withheld
+to encourage a paid upgrade.
+
+M's intended added value is to connect those same methods through controlled
+workflow execution, maintained project models, inspectable check evidence,
+a project interface, integration and scoped care. The included capabilities and
+their availability must be agreed and demonstrated for the selected workflow and
+environment. Guided installation and training support that use; firm-specific
+adaptations are separately scoped as L.
+
+The public S1.2.2 package does not contain the separately developed executable
+validator, project-model adapters or workbook. A private test candidate or a
+successful local check is not a public release, a native ChatGPT delivery gate or
+proof of an integrated M workflow. See [known limits](KNOWN-LIMITS.md).
+
+Existing Apache-2.0 rights remain unchanged. Rights and terms for any separately
+delivered commercial components require their own review and agreement.
+[Visit cogni-work.ai](https://www.cogni-work.ai/) to discuss the scope,
+prerequisites and currently available support.

@@ -15,6 +15,14 @@ See [the audit record](AUDIT.md#testing-status-and-limitations).
   GUI, MCP server, Worker app or method execution engine, and requires no
   Workspace Agent. External research, storage, rendering and inspection need
   actual supported tools, access and authority in the selected environment.
+- S1.2.2 includes neither the separately developed executable validator nor the
+  project-model adapters or workbook. Private test candidates and their guidance
+  do not update this public release. A local check receipt does not establish
+  native ChatGPT output blocking or a connected M workflow.
+- Controlled execution, maintained central models, check evidence, integration
+  and scoped care describe M's intended added value. An actual delivery needs its
+  own agreed scope and observed capabilities; it does not replace S's complete
+  resources, basic correctness requirements or honest unverified states.
 - A plugin download grants no data access. Installation eligibility, plugin
   availability and each connected app's permissions remain host/workspace specific.
   No general ChatGPT/Codex/Desktop/mobile compatibility or automatic update claim

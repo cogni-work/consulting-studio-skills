@@ -72,6 +72,11 @@ contains the public source and documentation; GitHub's automatically generated
 source archives are separate from this deterministic repository archive. Historical release rebuild instructions below apply only to
 their named release/tag.
 
+For the exact repository archive published with S1.2.2, use the `v1.2.2` tag.
+The main branch may contain later description updates and their refreshed source
+inventory. Those documentation changes do not update the published installer,
+release assets or their recorded checksums.
+
 ---
 
 # Historical S release 1.2.1, 2026-10-29
