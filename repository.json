@@ -10,8 +10,8 @@
   },
   "files": {
     "AUDIT.md": {
-      "bytes": 13649,
-      "sha256": "c3cf1eb82e51ecefd49392fcc78c86dc91d19369f87a841242d2a636ab188ef4"
+      "bytes": 13931,
+      "sha256": "7e0c450c58d5bb458b5bd9639067848ebb899b3d516ed2e7daff8070aca4f6ec"
     },
     "CHANGELOG.md": {
       "bytes": 4343,
@@ -22,8 +22,8 @@
       "sha256": "6b78b87b1357e70979fffff81ed1300173eb8cae2700c5294b8b3d23a9111ea9"
     },
     "KNOWN-LIMITS.md": {
-      "bytes": 2634,
-      "sha256": "c3a63a5f493e831a56e35922f18096f7ba47374a41de99655ac77d4fa8fccd2d"
+      "bytes": 3246,
+      "sha256": "e7bf56a6b3f0aca3002b19f3accea51dad6ef018fc3a5c68ad0dd9a9721778c6"
     },
     "LICENSE": {
       "bytes": 11357,
@@ -38,8 +38,8 @@
       "sha256": "588e44c6fd50e8f5981b6784e285fff9e782879ba95803cf9fe9b55153c59ec1"
     },
     "README.md": {
-      "bytes": 8708,
-      "sha256": "eded2f1cd2517d7de033d354ba520895b2e9d080e51575a753ce95317c46dbbf"
+      "bytes": 9925,
+      "sha256": "65a0541008583fd4720349113007ceaa1fecaaad1b4d22da7149f3d43c29dcd9"
     },
     "SECURITY.md": {
       "bytes": 1153,
