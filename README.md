@@ -159,8 +159,11 @@ Source fidelity, visible limitations and basic correctness are requirements for
 both S and M. Necessary resources and known critical corrections are not withheld
 to encourage a paid upgrade.
 
-M's intended added value is to connect those same methods through controlled
-workflow execution, maintained project models, inspectable check evidence,
+M includes everything in S, plus programmatic checks for more reliable execution
+and centrally maintained Excel calculations. Maintain assumptions centrally,
+trace calculations and check results before reuse.
+
+These capabilities support controlled workflows with inspectable check evidence,
 a project interface, integration and scoped care. The included capabilities and
 their availability must be agreed and demonstrated for the selected workflow and
 environment. Guided installation and training support that use; firm-specific
